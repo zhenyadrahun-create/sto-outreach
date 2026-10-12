@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("Europe/Kyiv")
 UA = "sto-outreach/1.0 (personal lead tool)"
-OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
+OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter", "https://overpass.private.coffee/api/interpreter"]
 MOBILE = {"039","050","063","066","067","068","073","091","092","093","094","095","096","097","098","099"}
 TOKEN, CHAT = os.environ.get("BOT_TOKEN"), os.environ.get("CHAT_ID")
 MARK = "/* ===== далі код чіпати не потрібно ===== */"
@@ -45,12 +45,15 @@ def refill(cfg, st):
         try:
             g = http("https://nominatim.openstreetmap.org/search?format=json&limit=1&q=" + urllib.parse.quote(c["name"] + ", Україна"))[0]
             lat, lon = g["lat"], g["lon"]; time.sleep(1.5)
-            q = (f'[out:json][timeout:60];(nwr["shop"="car_repair"](around:{c["radius"]},{lat},{lon});'
+            q = (f'[out:json][timeout:25];(nwr["shop"="car_repair"](around:{c["radius"]},{lat},{lon});'
                  f'nwr["amenity"="car_repair"](around:{c["radius"]},{lat},{lon}););out center tags;')
             els = None
-            for ep in OVERPASS:
-                try: els = http(ep, urllib.parse.urlencode({"data": q}).encode(), 120)["elements"]; break
-                except Exception as e: print("overpass fail", ep, e)
+            for attempt in range(2):
+                for ep in OVERPASS:
+                    try: els = http(ep, urllib.parse.urlencode({"data": q}).encode(), 60)["elements"]; break
+                    except Exception as e: print("overpass fail", ep, e)
+                if els is not None: break
+                time.sleep(8)
             if els is None: st["fetched"].remove(c["name"]); break
         except Exception as e:
             print("city fail", c["name"], e); continue
