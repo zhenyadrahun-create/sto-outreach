@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Пошук СТО (OpenStreetMap) -> сайти -> нагадування у Telegram у випадкові години. Нічого не шле клієнтам сам."""
-import json, os, re, random, html, time, urllib.request, urllib.parse
+import json, os, re, random, html, time, urllib.request, urllib.parse, urllib.error
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -24,7 +24,9 @@ def tg(method, payload):
         print("[DRY]", method, json.dumps(payload, ensure_ascii=False)[:600]); return
     req = urllib.request.Request(f"https://api.telegram.org/bot{TOKEN}/{method}",
         json.dumps(payload).encode(), {"Content-Type": "application/json"})
-    urllib.request.urlopen(req, timeout=30).read()
+    try: urllib.request.urlopen(req, timeout=30).read()
+    except urllib.error.HTTPError as e:
+        print("TELEGRAM ERROR", e.code, e.read().decode("utf-8", "ignore")); raise
 
 def norm(p):
     for part in re.split(r"[;,/]", p or ""):
@@ -87,11 +89,16 @@ def compose(cfg, l, url):
 def notify(cfg, l, url):
     text = compose(cfg, l, url)
     e = html.escape
-    tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "disable_web_page_preview": True,
-        "text": f"⏰ Час написати: <b>{e(l['name'])}</b>\n📞 {fmt_phone(l['phone'])}\n{e(l['address'] or l['city'])}\n\nТекст нижче (натисни, щоб скопіювати), потім відкрий чат:",
-        "reply_markup": {"inline_keyboard": [
-            [{"text": "💬 WhatsApp з текстом", "url": f"https://wa.me/{l['phone']}?text=" + urllib.parse.quote(text)}],
-            [{"text": "✈️ Telegram", "url": f"https://t.me/+{l['phone']}"}, {"text": "🌐 Сайт", "url": url}]]}})
+    wa = f"https://wa.me/{l['phone']}"
+    wal = wa + "?text=" + urllib.parse.quote(text)
+    if len(wal) > 1500: wal = wa          # Telegram не приймає занадто довгі посилання у кнопках
+    head = f"⏰ Час написати: <b>{e(l['name'])}</b>\n📞 {fmt_phone(l['phone'])}\n{e(l['address'] or l['city'])}\n\nТекст нижче (натисни, щоб скопіювати), потім відкрий чат:"
+    try:
+        tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "disable_web_page_preview": True, "text": head,
+            "reply_markup": {"inline_keyboard": [[{"text": "💬 WhatsApp", "url": wal}], [{"text": "🌐 Сайт", "url": url}]]}})
+    except Exception:
+        tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "disable_web_page_preview": True,
+            "text": head + f"\n\nWhatsApp: {wa}\nСайт: {url}"})
     tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "text": f"<code>{e(text)}</code>"})
 
 def times(n, w0, w1, gap=20):
