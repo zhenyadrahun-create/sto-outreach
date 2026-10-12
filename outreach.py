@@ -38,33 +38,43 @@ def norm(p):
 def refill(cfg, st):
     need = cfg["per_day"] * 3
     known = {l["phone"] for l in st["leads"].values()}
-    while sum(1 for l in st["leads"].values() if l["status"] == "new") < need:
-        todo = [c for c in cfg["cities"] if c["name"] not in st["fetched"]]
+    st["report"] = []; failed = []
+    while sum(1 for l in st["leads"].values() if l["status"] == "new") < need and len(failed) < 2:
+        todo = [c for c in cfg["cities"] if c["name"] not in st["fetched"] and c["name"] not in failed]
         if not todo: break
-        c = todo[0]; st["fetched"].append(c["name"])
+        c = todo[0]; els = None
         try:
             g = http("https://nominatim.openstreetmap.org/search?format=json&limit=1&q=" + urllib.parse.quote(c["name"] + ", Україна"))[0]
             lat, lon = g["lat"], g["lon"]; time.sleep(1.5)
             q = (f'[out:json][timeout:25];(nwr["shop"="car_repair"](around:{c["radius"]},{lat},{lon});'
                  f'nwr["amenity"="car_repair"](around:{c["radius"]},{lat},{lon}););out center tags;')
-            els = None
             for attempt in range(2):
                 for ep in OVERPASS:
-                    try: els = http(ep, urllib.parse.urlencode({"data": q}).encode(), 60)["elements"]; break
+                    try: els = http(ep, urllib.parse.urlencode({"data": q}).encode(), 45)["elements"]; break
                     except Exception as e: print("overpass fail", ep, e)
                 if els is not None: break
                 time.sleep(8)
-            if els is None: st["fetched"].remove(c["name"]); break
         except Exception as e:
-            print("city fail", c["name"], e); continue
+            print("city fail", c["name"], e)
+        if els is None:
+            failed.append(c["name"]); st["report"].append(f'{c["name"]}: сервер OpenStreetMap не відповів'); continue
+        st["fetched"].append(c["name"])
+        n_ph = n_mob = n_add = 0
         for e in els:
-            t = e.get("tags", {}); name = t.get("name"); ph = norm(t.get("phone") or t.get("contact:phone"))
-            if not name or not ph or ph in known: continue
+            t = e.get("tags", {}); name = t.get("name")
+            raw = t.get("phone") or t.get("contact:phone")
+            if raw: n_ph += 1
+            ph = norm(raw)
+            if not name or not ph: continue
+            n_mob += 1
+            if ph in known: continue
             if cfg.get("only_without_site", True) and (t.get("website") or t.get("contact:website") or t.get("url")): continue
             addr = ", ".join(x for x in [t.get("addr:street"), t.get("addr:housenumber")] if x)
-            lid = e["type"][0] + str(e["id"]); known.add(ph)
+            lid = e["type"][0] + str(e["id"]); known.add(ph); n_add += 1
             st["leads"][lid] = {"name": name, "phone": ph, "address": addr,
                 "city": t.get("addr:city") or c["name"], "status": "new"}
+        st["report"].append(f'{c["name"]}: знайдено СТО {len(els)}, з телефоном {n_ph}, з мобільним {n_mob}, додано {n_add}')
+    print("\n".join(st["report"]))
 
 def fmt_phone(n): return f"+{n[:3]} {n[3:5]} {n[5:8]} {n[8:10]} {n[10:]}"
 
@@ -120,7 +130,7 @@ def main():
         new = [k for k, l in st["leads"].items() if l["status"] == "new"]
         if new:
             k = new[0]; l = st["leads"][k]; notify(cfg, l, make_site(cfg, k, l)); l["status"] = "sent"
-        else: tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів не знайшов. Додай міста в config.json."})
+        else: tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів не знайшов.\n" + "\n".join(st.get("report", []))})
         jsave("state.json", st); return
     if now.weekday() not in cfg["days"]: return
     w0, w1 = cfg["window"][0] * 60, cfg["window"][1] * 60
@@ -131,7 +141,7 @@ def main():
         refill(cfg, st)
         new = [k for k, l in st["leads"].items() if l["status"] == "new"][:n]
         if not new:
-            tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів немає. Додай міста в config.json."}); return
+            tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів немає.\n" + "\n".join(st.get("report", []))}); jsave("state.json", st); return
         ts = times(len(new), start, w1)
         plan = {"date": now.date().isoformat(), "items": []}
         for k, t in zip(new, ts):
