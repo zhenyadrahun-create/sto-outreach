@@ -26,7 +26,7 @@
    "phone": "380679327975",
    "address": "вулиця Миколи Амосова, 4",
    "city": "Київ",
-   "status": "new"
+   "status": "sent"
   },
   "n5882323989": {
    "name": "AVTS",
@@ -181,6 +181,78 @@
    "address": "Воскресенський проспект, 19-Д",
    "city": "Київ",
    "status": "new"
+  },
+  "c380966234040": {
+   "name": "ENCAR",
+   "phone": "380966234040",
+   "mobile": true,
+   "address": "вул. Центральна, 40",
+   "city": "Київ",
+   "status": "new"
+  },
+  "c380735315410": {
+   "name": "СТО Буча",
+   "phone": "380735315410",
+   "mobile": true,
+   "address": "вул. Шевченка, 25",
+   "city": "Буча",
+   "status": "new"
+  },
+  "c380672445333": {
+   "name": "Autovim",
+   "phone": "380672445333",
+   "mobile": true,
+   "address": "",
+   "city": "",
+   "status": "new"
+  },
+  "c380933644274": {
+   "name": "СТО Містер Оіл",
+   "phone": "380933644274",
+   "mobile": true,
+   "address": "смт Чабани, Одеське шосе, 3, 08162",
+   "city": "Київська область",
+   "status": "new"
+  },
+  "c380677920252": {
+   "name": "Gorislav",
+   "phone": "380677920252",
+   "mobile": true,
+   "address": "",
+   "city": "",
+   "status": "new"
+  },
+  "c380933753376": {
+   "name": "СТО 24",
+   "phone": "380933753376",
+   "mobile": true,
+   "address": "",
+   "city": "",
+   "status": "new"
+  },
+  "c380987760948": {
+   "name": "Avtoservis STO",
+   "phone": "380987760948",
+   "mobile": true,
+   "address": "вул. Пластова, 9",
+   "city": "Львів",
+   "status": "new"
+  },
+  "c380672404300": {
+   "name": "СТО Автопартнер",
+   "phone": "380672404300",
+   "mobile": true,
+   "address": "",
+   "city": "",
+   "status": "new"
+  },
+  "c380980383888": {
+   "name": "KARTEL",
+   "phone": "380980383888",
+   "mobile": true,
+   "address": "",
+   "city": "Львів",
+   "status": "new"
   }
  },
  "fetched": [
@@ -211,7 +283,5 @@
    }
   ]
  },
- "report": [
-  "Київ: знайдено СТО 446, з телефоном 84, з мобільним 55, додано 26"
- ]
+ "report": []
 }
