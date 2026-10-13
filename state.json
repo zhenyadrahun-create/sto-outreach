@@ -1,13 +1,217 @@
 {
- "leads": {},
+ "leads": {
+  "n4210183589": {
+   "name": "Альфа-сервіс",
+   "phone": "380672495870",
+   "address": "",
+   "city": "Київ",
+   "status": "planned"
+  },
+  "n4322147793": {
+   "name": "СТО",
+   "phone": "380930730926",
+   "address": "вулиця Максима Берлинського, 9",
+   "city": "Київ",
+   "status": "planned"
+  },
+  "n4714987040": {
+   "name": "Тюнинг-центр West Coast Jr",
+   "phone": "380634325458",
+   "address": "Згурівська вулиця, 13",
+   "city": "Київ",
+   "status": "planned"
+  },
+  "n5276251721": {
+   "name": "Автомастер",
+   "phone": "380679327975",
+   "address": "вулиця Миколи Амосова, 4",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n5882323989": {
+   "name": "AVTS",
+   "phone": "380969229999",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n6942965035": {
+   "name": "Wow! service",
+   "phone": "380974506047",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n8297606717": {
+   "name": "ГОГІ",
+   "phone": "380633246243",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n8825717024": {
+   "name": "Автосервіс",
+   "phone": "380683692929",
+   "address": "Лисогірська вулиця, 8",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n9191041621": {
+   "name": "Хонда-Сервіс",
+   "phone": "380983193283",
+   "address": "вулиця Ревуцького, 1-А",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n9204613707": {
+   "name": "Еліт авто",
+   "phone": "380991090079",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n10655085357": {
+   "name": "СТО Точка Ремонту",
+   "phone": "380731234748",
+   "address": "Набережно-Лугова вулиця, 4",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n10994935233": {
+   "name": "AutoPlatform",
+   "phone": "380994401313",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n11073079773": {
+   "name": "MB Master",
+   "phone": "380972992995",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n11073093571": {
+   "name": "Гепард",
+   "phone": "380975549977",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n11128981214": {
+   "name": "Tuning Baza",
+   "phone": "380508498995",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n11133426862": {
+   "name": "AndrCars",
+   "phone": "380678001500",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n11208792895": {
+   "name": "Angar",
+   "phone": "380504409221",
+   "address": "Каунаська вулиця, 13",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n11221313831": {
+   "name": "Vik Motors",
+   "phone": "380503104973",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n11269446831": {
+   "name": "Тут сервіс",
+   "phone": "380631630555",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n11294522606": {
+   "name": "С. Т. О. Спартанців",
+   "phone": "380961877877",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n11309796068": {
+   "name": "Kibis Service",
+   "phone": "380730477701",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n11945322553": {
+   "name": "Автоскло",
+   "phone": "380506451892",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "n11945377421": {
+   "name": "MultiHub Service",
+   "phone": "380932772979",
+   "address": "",
+   "city": "Київ",
+   "status": "new"
+  },
+  "w150594793": {
+   "name": "Гранд Інструмент",
+   "phone": "380501339814",
+   "address": "проспект Валерія Лобановського, 196-Б",
+   "city": "Київ",
+   "status": "new"
+  },
+  "w162961169": {
+   "name": "Xado",
+   "phone": "380503000777",
+   "address": "вулиця Щусєва, 29/5",
+   "city": "Київ",
+   "status": "new"
+  },
+  "w229465589": {
+   "name": "ASDAUTOPRO",
+   "phone": "380737678242",
+   "address": "Воскресенський проспект, 19-Д",
+   "city": "Київ",
+   "status": "new"
+  }
+ },
  "fetched": [
   "Буча",
-  "Ірпінь"
+  "Ірпінь",
+  "Київ"
  ],
- "plan": null,
+ "plan": {
+  "date": "2026-10-13",
+  "items": [
+   {
+    "id": "n4210183589",
+    "at": 1019,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n4210183589/",
+    "sent": false
+   },
+   {
+    "id": "n4322147793",
+    "at": 1047,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n4322147793/",
+    "sent": false
+   },
+   {
+    "id": "n4714987040",
+    "at": 1073,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n4714987040/",
+    "sent": false
+   }
+  ]
+ },
  "report": [
-  "Буча: знайдено СТО 32, з телефоном 2, з мобільним 2, додано 0",
-  "Ірпінь: знайдено СТО 33, з телефоном 2, з мобільним 2, додано 0",
-  "Київ: сервер OpenStreetMap не відповів"
+  "Київ: знайдено СТО 446, з телефоном 84, з мобільним 55, додано 26"
  ]
 }
