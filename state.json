@@ -5,21 +5,21 @@
    "phone": "380672495870",
    "address": "",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n4322147793": {
    "name": "СТО",
    "phone": "380930730926",
    "address": "вулиця Максима Берлинського, 9",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n4714987040": {
    "name": "Тюнинг-центр West Coast Jr",
    "phone": "380634325458",
    "address": "Згурівська вулиця, 13",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n5276251721": {
    "name": "Автомастер",
@@ -195,19 +195,19 @@
     "id": "n4210183589",
     "at": 1019,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n4210183589/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "n4322147793",
     "at": 1047,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n4322147793/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "n4714987040",
     "at": 1073,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n4714987040/",
-    "sent": false
+    "sent": true
    }
   ]
  },
