@@ -33,70 +33,70 @@
    "phone": "380969229999",
    "address": "",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n6942965035": {
    "name": "Wow! service",
    "phone": "380974506047",
    "address": "",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n8297606717": {
    "name": "ГОГІ",
    "phone": "380633246243",
    "address": "",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n8825717024": {
    "name": "Автосервіс",
    "phone": "380683692929",
    "address": "Лисогірська вулиця, 8",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n9191041621": {
    "name": "Хонда-Сервіс",
    "phone": "380983193283",
    "address": "вулиця Ревуцького, 1-А",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n9204613707": {
    "name": "Еліт авто",
    "phone": "380991090079",
    "address": "",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n10655085357": {
    "name": "СТО Точка Ремонту",
    "phone": "380731234748",
    "address": "Набережно-Лугова вулиця, 4",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n10994935233": {
    "name": "AutoPlatform",
    "phone": "380994401313",
    "address": "",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n11073079773": {
    "name": "MB Master",
    "phone": "380972992995",
    "address": "",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n11073093571": {
    "name": "Гепард",
    "phone": "380975549977",
    "address": "",
    "city": "Київ",
-   "status": "planned"
+   "status": "sent"
   },
   "n11128981214": {
    "name": "Tuning Baza",
@@ -267,61 +267,61 @@
     "id": "n5882323989",
     "at": 879,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n5882323989/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "n6942965035",
     "at": 897,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n6942965035/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "n8297606717",
     "at": 916,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n8297606717/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "n8825717024",
     "at": 940,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n8825717024/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "n9191041621",
     "at": 955,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n9191041621/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "n9204613707",
     "at": 980,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n9204613707/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "n10655085357",
     "at": 999,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n10655085357/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "n10994935233",
     "at": 1023,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n10994935233/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "n11073079773",
     "at": 1042,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n11073079773/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "n11073093571",
     "at": 1061,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n11073093571/",
-    "sent": false
+    "sent": true
    }
   ]
  },
