@@ -173,7 +173,7 @@
    "phone": "380503000777",
    "address": "вулиця Щусєва, 29/5",
    "city": "Київ",
-   "status": "new"
+   "status": "sent"
   },
   "w229465589": {
    "name": "ASDAUTOPRO",
@@ -252,6 +252,86 @@
    "mobile": true,
    "address": "",
    "city": "Львів",
+   "status": "new"
+  },
+  "c380985207484": {
+   "name": "СТО Олімпійський",
+   "phone": "380985207484",
+   "mobile": true,
+   "address": "вул. Олімпійська, 14",
+   "city": "Харків",
+   "status": "new"
+  },
+  "c380673986671": {
+   "name": "СТО Панорама",
+   "phone": "380673986671",
+   "mobile": true,
+   "address": "вул. Шевченка, 317Б",
+   "city": "Харків",
+   "status": "new"
+  },
+  "c380503436218": {
+   "name": "СТО Автохаус",
+   "phone": "380503436218",
+   "mobile": true,
+   "address": "просп. Науки, 40/3",
+   "city": "Харків",
+   "status": "new"
+  },
+  "c380635712222": {
+   "name": "SL Service",
+   "phone": "380635712222",
+   "mobile": true,
+   "address": "вул. Шота Руставелі, 33",
+   "city": "Харків",
+   "status": "new"
+  },
+  "c380505050024": {
+   "name": "СТО Харків",
+   "phone": "380505050024",
+   "mobile": true,
+   "address": "вул. Європейська",
+   "city": "Харків",
+   "status": "new"
+  },
+  "c380985765656": {
+   "name": "СТО AutoExpert",
+   "phone": "380985765656",
+   "mobile": true,
+   "address": "Аерокосмічний просп., 183а",
+   "city": "Харків",
+   "status": "new"
+  },
+  "c380666860550": {
+   "name": "PS Auto Plus",
+   "phone": "380666860550",
+   "mobile": true,
+   "address": "вул. Морозова, 1а",
+   "city": "Харків",
+   "status": "new"
+  },
+  "c380968112802": {
+   "name": "СТО Сокол",
+   "phone": "380968112802",
+   "mobile": true,
+   "address": "вул. Шевченка, 226а",
+   "city": "Харків",
+   "status": "new"
+  },
+  "c380733453434": {
+   "name": "Elcars",
+   "phone": "380733453434",
+   "mobile": true,
+   "address": "вул. Шатилова Дача, 4",
+   "city": "Харків",
+   "status": "new"
+  },
+  "c380681014499": {
+   "name": "Arven Auto",
+   "phone": "380681014499",
+   "mobile": true,
+   "address": "Дизайнерський пров., 18",
+   "city": "Харків",
    "status": "new"
   }
  },
