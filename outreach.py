@@ -42,19 +42,35 @@ def norm_any(p):
     else: return None
     return n, n[2:5] in MOBILE
 
+GENERIC_GREET = ["Привіт!", "Добрий день!", "Вітаю!"]
+GENERIC_TPL = [
+    "{greeting} Я {me}, роблю сайти й автоматизацію під бізнес: заявки, форми, боти, щоб менше часу йшло на рутину й переписки. Можу зібрати сайт під {name}, щоб усе працювало саме. Приклади робіт: {portfolio}\nЯкщо цікаво, напишіть, що потрібно, і я підкажу, як це зробити і за який термін."]
+
 def import_csv(st):
     try: lines = open("leads.csv", encoding="utf-8-sig").read().splitlines()
     except FileNotFoundError: return
-    known = {l["phone"] for l in st["leads"].values()}
+    known = {l.get("phone") for l in st["leads"].values()} | {l.get("tg") for l in st["leads"].values()}
     for ln in lines:
         ln = ln.strip()
         if not ln or ln.startswith("#"): continue
         p = [x.strip() for x in re.split(r"\t|;", ln)]
-        r_ = norm_any(p[1]) if len(p) > 1 else None
+        if len(p) < 2: continue
+        typ = p[4].lower() if len(p) > 4 else ""
+        generic = typ in ("business", "бізнес", "бизнес", "generic", "інше", "другое")
+        addr = p[2] if len(p) > 2 else ""; city = p[3] if len(p) > 3 else ""
+        c = p[1]
+        if c.startswith("@") or "t.me/" in c:
+            u = re.sub(r"^.*t\.me/|^@|[/?].*$", "", c).strip()
+            if not u or u in known: continue
+            known.add(u)
+            st["leads"]["t" + u.lower()] = {"name": p[0], "phone": "", "tg": u, "mobile": False, "type": "generic",
+                "address": addr, "city": city, "status": "new"}
+            continue
+        r_ = norm_any(c)
         if not r_ or r_[0] in known: continue
         known.add(r_[0])
-        st["leads"]["c" + r_[0]] = {"name": p[0], "phone": r_[0], "mobile": r_[1],
-            "address": p[2] if len(p) > 2 else "", "city": p[3] if len(p) > 3 else "", "status": "new"}
+        st["leads"]["c" + r_[0]] = {"name": p[0], "phone": r_[0], "mobile": r_[1], "type": "generic" if generic else "sto",
+            "address": addr, "city": city, "status": "new"}
 
 def gpost(key, body):
     req = urllib.request.Request("https://places.googleapis.com/v1/places:searchText", json.dumps(body).encode(),
@@ -66,7 +82,7 @@ def google_fill(cfg, st):
     key = os.environ.get("GOOGLE_API_KEY")
     if not key or not cfg.get("google_queries"): return
     need = cfg["per_day"] * 3
-    known = {l["phone"] for l in st["leads"].values()}
+    known = {l.get("phone") for l in st["leads"].values()}
     done = st.setdefault("g_done", []); calls = 0; maxc = cfg.get("google_max_calls_per_run", 6)
     for item in cfg["google_queries"]:
         q, city = item["q"], item.get("city", "")
@@ -112,7 +128,7 @@ def gather(cfg, st):
 
 def refill(cfg, st):
     need = cfg["per_day"] * 3
-    known = {l["phone"] for l in st["leads"].values()}
+    known = {l.get("phone") for l in st["leads"].values()}
     failed = []
     while sum(1 for l in st["leads"].values() if l["status"] == "new") < need and len(failed) < 2:
         todo = [c for c in cfg["cities"] if c["name"] not in st["fetched"] and c["name"] not in failed]
@@ -172,25 +188,41 @@ def make_site(cfg, lid, l):
     return f'{cfg["pages_base"].rstrip("/")}/sites/{slug}/'
 
 def compose(cfg, l, url):
-    return random.choice(cfg["templates"]).format(greeting=random.choice(cfg["greetings"]), name=l["name"],
-        url=url, me=cfg["my_name"], portfolio=cfg["portfolio"])
+    if l.get("type") == "generic":
+        tpl = random.choice(cfg.get("templates_generic") or GENERIC_TPL)
+        g = random.choice(cfg.get("greetings_generic") or GENERIC_GREET)
+    else:
+        tpl = random.choice(cfg["templates"]); g = random.choice(cfg["greetings"])
+    return tpl.format(greeting=g, name=l["name"], url=url or "", me=cfg["my_name"], portfolio=cfg["portfolio"])
+
+def site_for(cfg, k, l):
+    return None if l.get("type") == "generic" else make_site(cfg, k, l)
 
 def notify(cfg, l, url):
     text = compose(cfg, l, url)
     e = html.escape
-    wa = f"https://wa.me/{l['phone']}"
-    wal = wa + "?text=" + urllib.parse.quote(text)
-    if len(wal) > 1500: wal = wa          # Telegram не приймає занадто довгі посилання у кнопках
-    mob = l.get("mobile", True)
-    head = (f"⏰ Час написати: <b>{e(l['name'])}</b>\n📞 {fmt_phone(l['phone'])}" + ("" if mob else " (стаціонарний, краще зателефонувати)")
-            + f"\n{e(l['address'] or l['city'])}\n\nТекст нижче (натисни, щоб скопіювати)" + (", потім відкрий чат:" if mob else ":"))
-    kb = ([[{"text": "💬 WhatsApp", "url": wal}]] if mob else []) + [[{"text": "🌐 Сайт", "url": url}]]
+    phone = l.get("phone", ""); u = l.get("tg"); mob = l.get("mobile", True) and bool(phone)
+    kb = []; links = []
+    if mob:
+        wa = f"https://wa.me/{phone}"; wal = wa + "?text=" + urllib.parse.quote(text)
+        if len(wal) > 1500: wal = wa
+        kb.append({"text": "💬 WhatsApp", "url": wal}); links.append(f"WhatsApp: {wa}")
+        kb.append({"text": "✈️ Telegram", "url": f"https://t.me/+{phone}"}); links.append(f"Telegram: https://t.me/+{phone}")
+    if u:
+        kb.append({"text": "✈️ Telegram", "url": f"https://t.me/{u}"}); links.append(f"Telegram: https://t.me/{u}")
+    if url:
+        kb.append({"text": "🌐 Сайт", "url": url}); links.append(f"Сайт: {url}")
+    who = (f"📞 {fmt_phone(phone)}" + ("" if mob else " (стаціонарний, краще зателефонувати)")) if phone else f"✈️ @{u}"
+    where = e(l.get("address") or l.get("city") or "")
+    head = (f"⏰ Час написати: <b>{e(l['name'])}</b>\n{who}\n" + (where + "\n" if where else "") + "\nТекст нижче (натисни, щоб скопіювати)"
+            + (", потім відкрий чат:" if (mob or u) else ":"))
+    rows = [kb[i:i + 2] for i in range(0, len(kb), 2)]
     try:
         tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "disable_web_page_preview": True, "text": head,
-            "reply_markup": {"inline_keyboard": kb}})
+            "reply_markup": {"inline_keyboard": rows}})
     except Exception:
         tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "disable_web_page_preview": True,
-            "text": head + (f"\n\nWhatsApp: {wa}" if mob else "") + f"\nСайт: {url}"})
+            "text": head + "\n\n" + "\n".join(links)})
     tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "text": f"<code>{e(text)}</code>"})
 
 def times(n, w0, w1, gap=20):
@@ -208,7 +240,7 @@ def main():
         gather(cfg, st)
         new = [k for k, l in st["leads"].items() if l["status"] == "new"]
         if new:
-            k = new[0]; l = st["leads"][k]; notify(cfg, l, make_site(cfg, k, l)); l["status"] = "sent"
+            k = new[0]; l = st["leads"][k]; notify(cfg, l, site_for(cfg, k, l)); l["status"] = "sent"
         else: tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів немає. Додай рядки у файл leads.csv: назва; телефон; адреса; місто.\n" + "\n".join(st.get("report", []))})
         jsave("state.json", st); return
     if now.weekday() not in cfg["days"]: return
@@ -225,7 +257,7 @@ def main():
         plan = {"date": now.date().isoformat(), "items": []}
         for k, t in zip(new, ts):
             l = st["leads"][k]; l["status"] = "planned"
-            plan["items"].append({"id": k, "at": t, "url": make_site(cfg, k, l), "sent": False})
+            plan["items"].append({"id": k, "at": t, "url": site_for(cfg, k, l), "sent": False})
         st["plan"] = plan
         tg("sendMessage", {"chat_id": CHAT, "text": "📋 План на сьогодні: " + ", ".join(f"{t//60}:{t%60:02d}" for t in ts)})
     for it in plan["items"]:
