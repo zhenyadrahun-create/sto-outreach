@@ -180,7 +180,7 @@
    "phone": "380737678242",
    "address": "Воскресенський проспект, 19-Д",
    "city": "Київ",
-   "status": "new"
+   "status": "planned"
   },
   "c380966234040": {
    "name": "ENCAR",
@@ -188,7 +188,7 @@
    "mobile": true,
    "address": "вул. Центральна, 40",
    "city": "Київ",
-   "status": "new"
+   "status": "planned"
   },
   "c380735315410": {
    "name": "СТО Буча",
@@ -196,7 +196,7 @@
    "mobile": true,
    "address": "вул. Шевченка, 25",
    "city": "Буча",
-   "status": "new"
+   "status": "planned"
   },
   "c380672445333": {
    "name": "Autovim",
@@ -204,7 +204,7 @@
    "mobile": true,
    "address": "",
    "city": "",
-   "status": "new"
+   "status": "planned"
   },
   "c380933644274": {
    "name": "СТО Містер Оіл",
@@ -212,7 +212,7 @@
    "mobile": true,
    "address": "смт Чабани, Одеське шосе, 3, 08162",
    "city": "Київська область",
-   "status": "new"
+   "status": "planned"
   },
   "c380677920252": {
    "name": "Gorislav",
@@ -220,7 +220,7 @@
    "mobile": true,
    "address": "",
    "city": "",
-   "status": "new"
+   "status": "planned"
   },
   "c380933753376": {
    "name": "СТО 24",
@@ -228,7 +228,7 @@
    "mobile": true,
    "address": "",
    "city": "",
-   "status": "new"
+   "status": "planned"
   },
   "c380987760948": {
    "name": "Avtoservis STO",
@@ -236,7 +236,7 @@
    "mobile": true,
    "address": "вул. Пластова, 9",
    "city": "Львів",
-   "status": "new"
+   "status": "planned"
   },
   "c380672404300": {
    "name": "СТО Автопартнер",
@@ -244,7 +244,7 @@
    "mobile": true,
    "address": "",
    "city": "",
-   "status": "new"
+   "status": "planned"
   },
   "c380980383888": {
    "name": "KARTEL",
@@ -252,7 +252,7 @@
    "mobile": true,
    "address": "",
    "city": "Львів",
-   "status": "new"
+   "status": "planned"
   },
   "c380985207484": {
    "name": "СТО Олімпійський",
@@ -341,67 +341,67 @@
   "Київ"
  ],
  "plan": {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "items": [
    {
-    "id": "n11128981214",
-    "at": 855,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n11128981214/",
-    "sent": true
+    "id": "w229465589",
+    "at": 850,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-w229465589/",
+    "sent": false
    },
    {
-    "id": "n11133426862",
-    "at": 881,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n11133426862/",
-    "sent": true
+    "id": "c380966234040",
+    "at": 874,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380966234040/",
+    "sent": false
    },
    {
-    "id": "n11208792895",
-    "at": 900,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n11208792895/",
-    "sent": true
+    "id": "c380735315410",
+    "at": 894,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380735315410/",
+    "sent": false
    },
    {
-    "id": "n11221313831",
-    "at": 924,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n11221313831/",
-    "sent": true
+    "id": "c380672445333",
+    "at": 928,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672445333/",
+    "sent": false
    },
    {
-    "id": "n11269446831",
+    "id": "c380933644274",
     "at": 941,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n11269446831/",
-    "sent": true
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380933644274/",
+    "sent": false
    },
    {
-    "id": "n11294522606",
-    "at": 966,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n11294522606/",
-    "sent": true
+    "id": "c380677920252",
+    "at": 963,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677920252/",
+    "sent": false
    },
    {
-    "id": "n11309796068",
-    "at": 986,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n11309796068/",
-    "sent": true
+    "id": "c380933753376",
+    "at": 987,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380933753376/",
+    "sent": false
    },
    {
-    "id": "n11945322553",
-    "at": 1010,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n11945322553/",
-    "sent": true
+    "id": "c380987760948",
+    "at": 1011,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380987760948/",
+    "sent": false
    },
    {
-    "id": "n11945377421",
-    "at": 1033,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-n11945377421/",
-    "sent": true
+    "id": "c380672404300",
+    "at": 1038,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672404300/",
+    "sent": false
    },
    {
-    "id": "w150594793",
-    "at": 1056,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-w150594793/",
-    "sent": true
+    "id": "c380980383888",
+    "at": 1059,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380980383888/",
+    "sent": false
    }
   ]
  },
