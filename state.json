@@ -260,7 +260,7 @@
    "mobile": true,
    "address": "вул. Олімпійська, 14",
    "city": "Харків",
-   "status": "new"
+   "status": "sent"
   },
   "c380673986671": {
    "name": "СТО Панорама",
@@ -332,6 +332,78 @@
    "mobile": true,
    "address": "Дизайнерський пров., 18",
    "city": "Харків",
+   "status": "new"
+  },
+  "c380732195631": {
+   "name": "СТО Land Rover",
+   "phone": "380732195631",
+   "mobile": true,
+   "type": "sto",
+   "address": "вул. Одарія, 2",
+   "city": "Одеса",
+   "status": "new"
+  },
+  "c380989105379": {
+   "name": "СТО 24/7",
+   "phone": "380989105379",
+   "mobile": true,
+   "type": "sto",
+   "address": "вул. Отамана Головатого, 54",
+   "city": "Одеса",
+   "status": "new"
+  },
+  "c380962503440": {
+   "name": "СТО 999",
+   "phone": "380962503440",
+   "mobile": true,
+   "type": "sto",
+   "address": "вул. Юхима Геллера, 25",
+   "city": "Одеса",
+   "status": "new"
+  },
+  "c380509990100": {
+   "name": "СТО SHARK",
+   "phone": "380509990100",
+   "mobile": true,
+   "type": "sto",
+   "address": "вул. Мечникова, 124",
+   "city": "Одеса",
+   "status": "new"
+  },
+  "c380503363381": {
+   "name": "СТО Авалон",
+   "phone": "380503363381",
+   "mobile": true,
+   "type": "sto",
+   "address": "вул. Дальницька, 45",
+   "city": "Одеса",
+   "status": "new"
+  },
+  "c380949969577": {
+   "name": "Шиномонтаж Паскаль",
+   "phone": "380949969577",
+   "mobile": true,
+   "type": "generic",
+   "address": "Люстдорфська дорога, 17-19",
+   "city": "Одеса",
+   "status": "new"
+  },
+  "c380508823246": {
+   "name": "Автосервіс IMPERIAL",
+   "phone": "380508823246",
+   "mobile": true,
+   "type": "sto",
+   "address": "вул. Проценка, 23/2",
+   "city": "Одеса",
+   "status": "new"
+  },
+  "c380679641833": {
+   "name": "СТО Титан-Сервіс",
+   "phone": "380679641833",
+   "mobile": true,
+   "type": "sto",
+   "address": "Люстдорфська дорога, 94/1",
+   "city": "Одеса",
    "status": "new"
   }
  },
