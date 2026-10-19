@@ -268,7 +268,7 @@
    "mobile": true,
    "address": "вул. Шевченка, 317Б",
    "city": "Харків",
-   "status": "planned"
+   "status": "sent"
   },
   "c380503436218": {
    "name": "СТО Автохаус",
@@ -276,7 +276,7 @@
    "mobile": true,
    "address": "просп. Науки, 40/3",
    "city": "Харків",
-   "status": "planned"
+   "status": "sent"
   },
   "c380635712222": {
    "name": "SL Service",
@@ -284,7 +284,7 @@
    "mobile": true,
    "address": "вул. Шота Руставелі, 33",
    "city": "Харків",
-   "status": "planned"
+   "status": "sent"
   },
   "c380505050024": {
    "name": "СТО Харків",
@@ -292,7 +292,7 @@
    "mobile": true,
    "address": "вул. Європейська",
    "city": "Харків",
-   "status": "planned"
+   "status": "sent"
   },
   "c380985765656": {
    "name": "СТО AutoExpert",
@@ -300,7 +300,7 @@
    "mobile": true,
    "address": "Аерокосмічний просп., 183а",
    "city": "Харків",
-   "status": "planned"
+   "status": "sent"
   },
   "c380666860550": {
    "name": "PS Auto Plus",
@@ -308,7 +308,7 @@
    "mobile": true,
    "address": "вул. Морозова, 1а",
    "city": "Харків",
-   "status": "planned"
+   "status": "sent"
   },
   "c380968112802": {
    "name": "СТО Сокол",
@@ -473,37 +473,37 @@
     "id": "c380673986671",
     "at": 953,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673986671/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380503436218",
     "at": 974,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503436218/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380635712222",
     "at": 988,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380635712222/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380505050024",
     "at": 1017,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505050024/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380985765656",
     "at": 1034,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380985765656/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380666860550",
     "at": 1061,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380666860550/",
-    "sent": false
+    "sent": true
    }
   ]
  },
