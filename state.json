@@ -316,7 +316,7 @@
    "mobile": true,
    "address": "вул. Шевченка, 226а",
    "city": "Харків",
-   "status": "new"
+   "status": "sent"
   },
   "c380733453434": {
    "name": "Elcars",
@@ -404,6 +404,60 @@
    "type": "sto",
    "address": "Люстдорфська дорога, 94/1",
    "city": "Одеса",
+   "status": "new"
+  },
+  "c380973750020": {
+   "name": "СТО Звенигородка",
+   "phone": "380973750020",
+   "mobile": true,
+   "type": "sto",
+   "address": "",
+   "city": "Звенигородка",
+   "status": "new"
+  },
+  "c380672247247": {
+   "name": "Комплексне СТО",
+   "phone": "380672247247",
+   "mobile": true,
+   "type": "sto",
+   "address": "вул. Богдана Хмельницького, 29",
+   "city": "Звенигородка",
+   "status": "new"
+  },
+  "c380963648890": {
+   "name": "СТО Автомагазин",
+   "phone": "380963648890",
+   "mobile": true,
+   "type": "sto",
+   "address": "с. Костянтинівка, вул. Насонова, 1а",
+   "city": "Сміла",
+   "status": "new"
+  },
+  "c380675066086": {
+   "name": "VSESVITAUTO",
+   "phone": "380675066086",
+   "mobile": true,
+   "type": "sto",
+   "address": "вул. Богдана Хмельницького, 13а",
+   "city": "Звенигородка",
+   "status": "new"
+  },
+  "c380982541317": {
+   "name": "Гарант Авто",
+   "phone": "380982541317",
+   "mobile": true,
+   "type": "sto",
+   "address": "вул. Шмідта, 18",
+   "city": "Звенигородка",
+   "status": "new"
+  },
+  "c380981003139": {
+   "name": "Autokiller",
+   "phone": "380981003139",
+   "mobile": true,
+   "type": "generic",
+   "address": "вул. Незалежності, 41",
+   "city": "Костянтинівка",
    "status": "new"
   }
  },
