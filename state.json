@@ -324,7 +324,7 @@
    "mobile": true,
    "address": "вул. Шатилова Дача, 4",
    "city": "Харків",
-   "status": "planned"
+   "status": "sent"
   },
   "c380681014499": {
    "name": "Arven Auto",
@@ -332,7 +332,7 @@
    "mobile": true,
    "address": "Дизайнерський пров., 18",
    "city": "Харків",
-   "status": "planned"
+   "status": "sent"
   },
   "c380732195631": {
    "name": "СТО Land Rover",
@@ -341,7 +341,7 @@
    "type": "sto",
    "address": "вул. Одарія, 2",
    "city": "Одеса",
-   "status": "planned"
+   "status": "sent"
   },
   "c380989105379": {
    "name": "СТО 24/7",
@@ -350,7 +350,7 @@
    "type": "sto",
    "address": "вул. Отамана Головатого, 54",
    "city": "Одеса",
-   "status": "planned"
+   "status": "sent"
   },
   "c380962503440": {
    "name": "СТО 999",
@@ -359,7 +359,7 @@
    "type": "sto",
    "address": "вул. Юхима Геллера, 25",
    "city": "Одеса",
-   "status": "planned"
+   "status": "sent"
   },
   "c380509990100": {
    "name": "СТО SHARK",
@@ -368,7 +368,7 @@
    "type": "sto",
    "address": "вул. Мечникова, 124",
    "city": "Одеса",
-   "status": "planned"
+   "status": "sent"
   },
   "c380503363381": {
    "name": "СТО Авалон",
@@ -377,7 +377,7 @@
    "type": "sto",
    "address": "вул. Дальницька, 45",
    "city": "Одеса",
-   "status": "planned"
+   "status": "sent"
   },
   "c380949969577": {
    "name": "Шиномонтаж Паскаль",
@@ -386,7 +386,7 @@
    "type": "generic",
    "address": "Люстдорфська дорога, 17-19",
    "city": "Одеса",
-   "status": "planned"
+   "status": "sent"
   },
   "c380508823246": {
    "name": "Автосервіс IMPERIAL",
@@ -395,7 +395,7 @@
    "type": "sto",
    "address": "вул. Проценка, 23/2",
    "city": "Одеса",
-   "status": "planned"
+   "status": "sent"
   },
   "c380679641833": {
    "name": "СТО Титан-Сервіс",
@@ -404,7 +404,7 @@
    "type": "sto",
    "address": "Люстдорфська дорога, 94/1",
    "city": "Одеса",
-   "status": "planned"
+   "status": "sent"
   },
   "c380973750020": {
    "name": "СТО Звенигородка",
@@ -473,61 +473,61 @@
     "id": "c380733453434",
     "at": 864,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733453434/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380681014499",
     "at": 886,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681014499/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380732195631",
     "at": 904,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380732195631/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380989105379",
     "at": 924,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989105379/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380962503440",
     "at": 954,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380962503440/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380509990100",
     "at": 973,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509990100/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380503363381",
     "at": 998,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503363381/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380949969577",
     "at": 1011,
     "url": null,
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380508823246",
     "at": 1042,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380508823246/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380679641833",
     "at": 1062,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380679641833/",
-    "sent": false
+    "sent": true
    }
   ]
  },
