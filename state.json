@@ -413,7 +413,7 @@
    "type": "sto",
    "address": "",
    "city": "Звенигородка",
-   "status": "planned"
+   "status": "sent"
   },
   "c380672247247": {
    "name": "Комплексне СТО",
@@ -422,7 +422,7 @@
    "type": "sto",
    "address": "вул. Богдана Хмельницького, 29",
    "city": "Звенигородка",
-   "status": "planned"
+   "status": "sent"
   },
   "c380963648890": {
    "name": "СТО Автомагазин",
@@ -431,7 +431,7 @@
    "type": "sto",
    "address": "с. Костянтинівка, вул. Насонова, 1а",
    "city": "Сміла",
-   "status": "planned"
+   "status": "sent"
   },
   "c380675066086": {
    "name": "VSESVITAUTO",
@@ -440,7 +440,7 @@
    "type": "sto",
    "address": "вул. Богдана Хмельницького, 13а",
    "city": "Звенигородка",
-   "status": "planned"
+   "status": "sent"
   },
   "c380982541317": {
    "name": "Гарант Авто",
@@ -449,7 +449,7 @@
    "type": "sto",
    "address": "вул. Шмідта, 18",
    "city": "Звенигородка",
-   "status": "planned"
+   "status": "sent"
   },
   "c380981003139": {
    "name": "Autokiller",
@@ -458,7 +458,7 @@
    "type": "generic",
    "address": "вул. Незалежності, 41",
    "city": "Костянтинівка",
-   "status": "planned"
+   "status": "sent"
   }
  },
  "fetched": [
@@ -473,37 +473,37 @@
     "id": "c380973750020",
     "at": 891,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973750020/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380672247247",
     "at": 913,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672247247/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380963648890",
     "at": 945,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380963648890/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380675066086",
     "at": 973,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675066086/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380982541317",
     "at": 1027,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982541317/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "c380981003139",
     "at": 1078,
     "url": null,
-    "sent": false
+    "sent": true
    }
   ]
  },
