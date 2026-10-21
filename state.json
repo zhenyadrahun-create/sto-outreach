@@ -459,6 +459,71 @@
    "address": "вул. Незалежності, 41",
    "city": "Костянтинівка",
    "status": "sent"
+  },
+  "m380506388368": {
+   "name": "Тов Вк Фкк Лев",
+   "phone": "380506388368",
+   "mobile": true,
+   "type": "sto",
+   "address": "Вулиця Семена Скляренка, 13, Оболонський, Київ, Київ",
+   "city": "Київ",
+   "status": "sent",
+   "has_url": false,
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380506388368/"
+  },
+  "m380665388338": {
+   "name": "Тов Вкфкк Лев",
+   "phone": "380665388338",
+   "mobile": true,
+   "type": "sto",
+   "address": "Вулиця Семена Скляренка, 13, Оболонський, Київ, Київ",
+   "city": "Київ",
+   "status": "new",
+   "has_url": false,
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380665388338/"
+  },
+  "m380931702770": {
+   "name": "ТОВ БОГДАН-АВТО ПОДІЛ",
+   "phone": "380931702770",
+   "mobile": true,
+   "type": "sto",
+   "address": "Вулиця Новокостянтинівська, 3, Подільський, Київ, Київ",
+   "city": "Київ",
+   "status": "new",
+   "has_url": false,
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380931702770/"
+  },
+  "m380935727881": {
+   "name": "Укравто На Столичному",
+   "phone": "380935727881",
+   "mobile": true,
+   "type": "sto",
+   "address": "Столичне шосе, 90, Голосіївський, Київ, Київ",
+   "city": "Київ",
+   "status": "new",
+   "has_url": false,
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380935727881/"
+  },
+  "m380661050241": {
+   "name": "Арт Детейлінг",
+   "phone": "380661050241",
+   "mobile": true,
+   "type": "sto",
+   "address": "Вулиця Ігоря Брановицького, Печерський, Київ, Київ",
+   "city": "Київ",
+   "status": "new",
+   "has_url": true,
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380661050241/"
+  },
+  "m380979002101": {
+   "name": "Барбершоп фірм",
+   "phone": "380979002101",
+   "mobile": true,
+   "type": "generic",
+   "address": "Михайлівський провулок, 9Б, Шевченківський, Київ, Київ",
+   "city": "Київ",
+   "status": "new",
+   "has_url": false
   }
  },
  "fetched": [
@@ -466,46 +531,35 @@
   "Ірпінь",
   "Київ"
  ],
- "plan": {
-  "date": "2026-10-21",
-  "items": [
-   {
-    "id": "c380973750020",
-    "at": 891,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973750020/",
-    "sent": true
-   },
-   {
-    "id": "c380672247247",
-    "at": 913,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672247247/",
-    "sent": true
-   },
-   {
-    "id": "c380963648890",
-    "at": 945,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380963648890/",
-    "sent": true
-   },
-   {
-    "id": "c380675066086",
-    "at": 973,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675066086/",
-    "sent": true
-   },
-   {
-    "id": "c380982541317",
-    "at": 1027,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982541317/",
-    "sent": true
-   },
-   {
-    "id": "c380981003139",
-    "at": 1078,
-    "url": null,
-    "sent": true
-   }
-  ]
- },
- "report": []
+ "plan": null,
+ "report": [
+  "TomTom «автосервіс», Київ: знайдено 3, з мобільним 0, додано 0",
+  "TomTom «СТО», Київ: знайдено 74, з мобільним 4, додано 4",
+  "TomTom «шиномонтаж», Київ: знайдено 1, з мобільним 0, додано 0",
+  "TomTom «детейлінг», Київ: знайдено 2, з мобільним 1, додано 1",
+  "TomTom «манікюр», Київ: знайдено 3, з мобільним 0, додано 0",
+  "TomTom «барбершоп», Київ: знайдено 3, з мобільним 1, додано 1",
+  "TomTom «автосервіс», Харків: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «СТО», Харків: знайдено 0, з мобільним 0, додано 0"
+ ],
+ "tt_done": [
+  "Київ|автосервіс",
+  "Київ|СТО",
+  "Київ|шиномонтаж",
+  "Київ|детейлінг",
+  "Київ|манікюр",
+  "Київ|барбершоп",
+  "Харків|автосервіс",
+  "Харків|СТО"
+ ],
+ "tt_geo": {
+  "Київ": {
+   "lat": 50.4497495,
+   "lon": 30.5237178
+  },
+  "Харків": {
+   "lat": 50.1749218,
+   "lon": 35.5142265
+  }
+ }
 }
