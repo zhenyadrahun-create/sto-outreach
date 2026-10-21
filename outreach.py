@@ -72,6 +72,12 @@ def import_csv(st):
         st["leads"]["c" + r_[0]] = {"name": p[0], "phone": r_[0], "mobile": r_[1], "type": "generic" if generic else "sto",
             "address": addr, "city": city, "status": "new"}
 
+def secret(name):
+    v = os.environ.get(name)
+    if v: return v
+    try: return json.loads(os.environ.get("SECRETS_JSON") or "{}").get(name)
+    except Exception: return None
+
 def gpost(key, body):
     req = urllib.request.Request("https://places.googleapis.com/v1/places:searchText", json.dumps(body).encode(),
         {"Content-Type": "application/json", "X-Goog-Api-Key": key,
@@ -79,7 +85,7 @@ def gpost(key, body):
     return json.load(urllib.request.urlopen(req, timeout=40))
 
 def google_fill(cfg, st):
-    key = os.environ.get("GOOGLE_API_KEY")
+    key = secret("GOOGLE_API_KEY")
     if not key or not cfg.get("google_queries"): return
     need = cfg["per_day"] * 3
     known = {l.get("phone") for l in st["leads"].values()}
@@ -120,10 +126,51 @@ def google_fill(cfg, st):
         done.append(q); st["report"].append(f"Google «{q}»: знайдено {tot}, з телефоном {ph}, додано {add}")
     print("\n".join(st["report"]))
 
+def tt_get(url):
+    return json.load(urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=40))
+
+def tomtom_fill(cfg, st):
+    key = secret("TOMTOM_API_KEY"); tc = cfg.get("tomtom")
+    if not key or not tc: return
+    need = cfg["per_day"] * 3
+    known = {l.get("phone") for l in st["leads"].values()}
+    done = st.setdefault("tt_done", []); geo = st.setdefault("tt_geo", {}); calls = 0; maxc = tc.get("max_calls_per_run", 10)
+    for city in tc["cities"]:
+        for qi in tc["queries"]:
+            tag = f'{city}|{qi["q"]}'
+            if tag in done: continue
+            if calls >= maxc or sum(1 for l in st["leads"].values() if l["status"] == "new") >= need: return
+            try:
+                if city not in geo:
+                    g = tt_get(f'https://api.tomtom.com/search/2/geocode/{urllib.parse.quote(city + ", Україна")}.json?key={key}&limit=1&countrySet=UA&language=uk-UA')
+                    geo[city] = g["results"][0]["position"]; calls += 1
+                p = geo[city]
+                d = tt_get(f'https://api.tomtom.com/search/2/poiSearch/{urllib.parse.quote(qi["q"])}.json?key={key}&lat={p["lat"]}&lon={p["lon"]}'
+                           f'&radius={tc.get("radius", 15000)}&limit=100&countrySet=UA&language=uk-UA&idxSet=POI')
+                calls += 1
+            except urllib.error.HTTPError as e:
+                st["report"].append(f"TomTom: помилка {e.code}. {e.read().decode('utf-8', 'ignore')[:120]}"); print("TOMTOM ERROR", e.code); return
+            except Exception as e:
+                st["report"].append("TomTom: немає відповіді"); print("TOMTOM FAIL", e); return
+            tot = mob = 0; batch = []
+            for x in d.get("results", []):
+                tot += 1; poi = x.get("poi", {}); name = poi.get("name"); r_ = norm_any(poi.get("phone"))
+                if not name or not r_ or not r_[1]: continue
+                mob += 1
+                if r_[0] in known: continue
+                if tc.get("only_without_site") and poi.get("url"): continue
+                known.add(r_[0]); a = x.get("address", {})
+                batch.append((bool(poi.get("url")), "m" + r_[0], {"name": name, "phone": r_[0], "mobile": True, "type": qi.get("type", "sto"),
+                    "address": a.get("freeformAddress", ""), "city": a.get("municipality") or city, "status": "new", "has_url": bool(poi.get("url"))}))
+            for _, lid, lead in sorted(batch, key=lambda b: b[0]): st["leads"][lid] = lead
+            done.append(tag); st["report"].append(f'TomTom «{qi["q"]}», {city}: знайдено {tot}, з мобільним {mob}, додано {len(batch)}')
+    print("\n".join(st["report"]))
+
 def gather(cfg, st):
     st["report"] = []
     import_csv(st)
     google_fill(cfg, st)
+    tomtom_fill(cfg, st)
     if cfg.get("use_osm", False): refill(cfg, st)
 
 def refill(cfg, st):
@@ -196,7 +243,14 @@ def compose(cfg, l, url):
     return tpl.format(greeting=g, name=l["name"], url=url or "", me=cfg["my_name"], portfolio=cfg["portfolio"])
 
 def site_for(cfg, k, l):
-    return None if l.get("type") == "generic" else make_site(cfg, k, l)
+    if l.get("type") == "generic": return None
+    if not l.get("site"): l["site"] = make_site(cfg, k, l)
+    return l["site"]
+
+def ensure_sites(cfg, st):
+    for k, l in st["leads"].items():
+        if l.get("status") in ("new", "planned") and l.get("type") != "generic" and not l.get("site"):
+            site_for(cfg, k, l)
 
 def notify(cfg, l, url):
     text = compose(cfg, l, url)
@@ -232,37 +286,44 @@ def times(n, w0, w1, gap=20):
     step = (w1 - w0) // n
     return [w0 + i * step + random.randint(0, step // 2) for i in range(n)]
 
+def hhmm(t): return f"{t//60}:{t%60:02d}"
+
 def main():
     cfg = jload("config.json", {}); assert "ТВІЙ" not in cfg["pages_base"], "Впиши pages_base у config.json"
     st = jload("state.json", {"leads": {}, "fetched": [], "plan": None})
-    now = datetime.now(TZ); nm = now.hour * 60 + now.minute
-    if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":      # ручний тест: одразу один контакт
-        gather(cfg, st)
-        new = [k for k, l in st["leads"].items() if l["status"] == "new"]
+    now = datetime.now(TZ); nm = now.hour * 60 + now.minute; today = now.date().isoformat()
+    plan = st.get("plan")
+    if plan and plan["date"] != today:                      # учорашні неспіймані контакти повертаємо в чергу
+        for it in plan["items"]:
+            l = st["leads"].get(it["id"])
+            if not it["sent"] and l and l["status"] == "planned": l["status"] = "new"
+        plan = st["plan"] = None
+    gather(cfg, st); ensure_sites(cfg, st)
+    new = [k for k, l in st["leads"].items() if l["status"] == "new"]
+    if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":      # ручний запуск: одразу один контакт
+        if st.get("report"): tg("sendMessage", {"chat_id": CHAT, "text": "🔎 Пошук: " + "\n".join(st["report"]) + f"\nУ черзі нових: {len(new)}"})
         if new:
             k = new[0]; l = st["leads"][k]; notify(cfg, l, site_for(cfg, k, l)); l["status"] = "sent"
-        else: tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів немає. Додай рядки у файл leads.csv: назва; телефон; адреса; місто.\n" + "\n".join(st.get("report", []))})
+        else: tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів немає. Додай рядки у файл leads.csv.\n" + "\n".join(st.get("report", []))})
         jsave("state.json", st); return
-    if now.weekday() not in cfg["days"]: return
+    if now.weekday() not in cfg["days"]: jsave("state.json", st); return
     w0, w1 = cfg["window"][0] * 60, cfg["window"][1] * 60
-    plan = st.get("plan")
-    if not plan or plan["date"] != now.date().isoformat():
-        start = max(w0, nm + 10); n = min(cfg["per_day"], (w1 - start) // 20)
-        if n <= 0: jsave("state.json", st); return
-        gather(cfg, st)
-        new = [k for k, l in st["leads"].items() if l["status"] == "new"][:n]
-        if not new:
-            tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів немає. Додай рядки у файл leads.csv: назва; телефон; адреса; місто.\n" + "\n".join(st.get("report", []))}); jsave("state.json", st); return
-        ts = times(len(new), start, w1)
-        plan = {"date": now.date().isoformat(), "items": []}
+    if plan is None: plan = st["plan"] = {"date": today, "items": []}
+    room = cfg["per_day"] - len(plan["items"]); start = max(w0, nm + 5)
+    n = min(room, len(new), max((w1 - start) // 10, 0))
+    if n > 0:                                               # складаємо або докладаємо план у вільні слоти сьогодні
+        ts = times(n, start, w1, gap=10)
         for k, t in zip(new, ts):
             l = st["leads"][k]; l["status"] = "planned"
             plan["items"].append({"id": k, "at": t, "url": site_for(cfg, k, l), "sent": False})
-        st["plan"] = plan
-        tg("sendMessage", {"chat_id": CHAT, "text": "📋 План на сьогодні: " + ", ".join(f"{t//60}:{t%60:02d}" for t in ts)})
+        left = len(new) - n
+        tg("sendMessage", {"chat_id": CHAT, "text": ("📋 План на сьогодні" if len(plan["items"]) == n else "➕ Додано в план") + f": {n} шт. ({', '.join(hhmm(t) for t in ts)}). У черзі ще: {left}."})
+    elif not plan["items"] and not new and st.get("warned") != today:
+        st["warned"] = today
+        tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів немає. Додай рядки у файл leads.csv.\n" + "\n".join(st.get("report", []))})
     for it in plan["items"]:
         if not it["sent"] and it["at"] <= nm:
-            l = st["leads"][it["id"]]; notify(cfg, l, it["url"]); it["sent"] = True; l["status"] = "sent"
+            l = st["leads"][it["id"]]; notify(cfg, l, it.get("url") or site_for(cfg, it["id"], l)); it["sent"] = True; l["status"] = "sent"
     jsave("state.json", st)
 
 if __name__ == "__main__": main()
