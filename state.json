@@ -413,7 +413,7 @@
    "type": "sto",
    "address": "",
    "city": "Звенигородка",
-   "status": "new"
+   "status": "planned"
   },
   "c380672247247": {
    "name": "Комплексне СТО",
@@ -422,7 +422,7 @@
    "type": "sto",
    "address": "вул. Богдана Хмельницького, 29",
    "city": "Звенигородка",
-   "status": "new"
+   "status": "planned"
   },
   "c380963648890": {
    "name": "СТО Автомагазин",
@@ -431,7 +431,7 @@
    "type": "sto",
    "address": "с. Костянтинівка, вул. Насонова, 1а",
    "city": "Сміла",
-   "status": "new"
+   "status": "planned"
   },
   "c380675066086": {
    "name": "VSESVITAUTO",
@@ -440,7 +440,7 @@
    "type": "sto",
    "address": "вул. Богдана Хмельницького, 13а",
    "city": "Звенигородка",
-   "status": "new"
+   "status": "planned"
   },
   "c380982541317": {
    "name": "Гарант Авто",
@@ -449,7 +449,7 @@
    "type": "sto",
    "address": "вул. Шмідта, 18",
    "city": "Звенигородка",
-   "status": "new"
+   "status": "planned"
   },
   "c380981003139": {
    "name": "Autokiller",
@@ -458,7 +458,7 @@
    "type": "generic",
    "address": "вул. Незалежності, 41",
    "city": "Костянтинівка",
-   "status": "new"
+   "status": "planned"
   }
  },
  "fetched": [
@@ -467,67 +467,43 @@
   "Київ"
  ],
  "plan": {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "items": [
    {
-    "id": "c380733453434",
-    "at": 864,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733453434/",
-    "sent": true
+    "id": "c380973750020",
+    "at": 891,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973750020/",
+    "sent": false
    },
    {
-    "id": "c380681014499",
-    "at": 886,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681014499/",
-    "sent": true
+    "id": "c380672247247",
+    "at": 913,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672247247/",
+    "sent": false
    },
    {
-    "id": "c380732195631",
-    "at": 904,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380732195631/",
-    "sent": true
+    "id": "c380963648890",
+    "at": 945,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380963648890/",
+    "sent": false
    },
    {
-    "id": "c380989105379",
-    "at": 924,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989105379/",
-    "sent": true
-   },
-   {
-    "id": "c380962503440",
-    "at": 954,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380962503440/",
-    "sent": true
-   },
-   {
-    "id": "c380509990100",
+    "id": "c380675066086",
     "at": 973,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509990100/",
-    "sent": true
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675066086/",
+    "sent": false
    },
    {
-    "id": "c380503363381",
-    "at": 998,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503363381/",
-    "sent": true
+    "id": "c380982541317",
+    "at": 1027,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982541317/",
+    "sent": false
    },
    {
-    "id": "c380949969577",
-    "at": 1011,
+    "id": "c380981003139",
+    "at": 1078,
     "url": null,
-    "sent": true
-   },
-   {
-    "id": "c380508823246",
-    "at": 1042,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380508823246/",
-    "sent": true
-   },
-   {
-    "id": "c380679641833",
-    "at": 1062,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380679641833/",
-    "sent": true
+    "sent": false
    }
   ]
  },
