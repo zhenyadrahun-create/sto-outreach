@@ -478,7 +478,7 @@
    "type": "sto",
    "address": "Вулиця Семена Скляренка, 13, Оболонський, Київ, Київ",
    "city": "Київ",
-   "status": "planned",
+   "status": "sent",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380665388338/"
   },
@@ -489,7 +489,7 @@
    "type": "sto",
    "address": "Вулиця Новокостянтинівська, 3, Подільський, Київ, Київ",
    "city": "Київ",
-   "status": "planned",
+   "status": "sent",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380931702770/"
   },
@@ -500,7 +500,7 @@
    "type": "sto",
    "address": "Столичне шосе, 90, Голосіївський, Київ, Київ",
    "city": "Київ",
-   "status": "planned",
+   "status": "sent",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380935727881/"
   },
@@ -511,7 +511,7 @@
    "type": "sto",
    "address": "Вулиця Ігоря Брановицького, Печерський, Київ, Київ",
    "city": "Київ",
-   "status": "planned",
+   "status": "sent",
    "has_url": true,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380661050241/"
   },
@@ -522,8 +522,30 @@
    "type": "generic",
    "address": "Михайлівський провулок, 9Б, Шевченківський, Київ, Київ",
    "city": "Київ",
-   "status": "planned",
+   "status": "sent",
    "has_url": false
+  },
+  "m380675508394": {
+   "name": "Odesa-Autotekhnika",
+   "phone": "380675508394",
+   "mobile": true,
+   "type": "sto",
+   "address": "Вулиця Штильова, 307-Б, Суворовський, Одеська міська громада, Одеська область",
+   "city": "Одеська міська громада",
+   "status": "new",
+   "has_url": false,
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380675508394/"
+  },
+  "m380672424200": {
+   "name": "Auto Lider Zakhid",
+   "phone": "380672424200",
+   "mobile": true,
+   "type": "sto",
+   "address": "Вулиця В’ячеслава Липинського, 36, Шевченківський, Львівська міська громада, Львівська область",
+   "city": "Львівська міська громада",
+   "status": "new",
+   "has_url": false,
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380672424200/"
   }
  },
  "fetched": [
@@ -538,41 +560,44 @@
     "id": "m380665388338",
     "at": 868,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380665388338/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "m380931702770",
     "at": 880,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380931702770/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "m380935727881",
     "at": 943,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380935727881/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "m380661050241",
     "at": 955,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380661050241/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "m380979002101",
     "at": 1070,
     "url": null,
-    "sent": false
+    "sent": true
    }
   ]
  },
  "report": [
-  "TomTom «шиномонтаж», Харків: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «детейлінг», Харків: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «манікюр», Харків: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «барбершоп», Харків: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «автосервіс», Одеса: знайдено 1, з мобільним 0, додано 0",
-  "TomTom: помилка 429. {\"detailedError\":{\"code\":\"TooManyRequests\",\"message\":\"You have exceeded the permitted rate limit\"}}"
+  "TomTom «СТО», Одеса: знайдено 23, з мобільним 1, додано 1",
+  "TomTom «шиномонтаж», Одеса: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «детейлінг», Одеса: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «манікюр», Одеса: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «барбершоп», Одеса: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «автосервіс», Львів: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «СТО», Львів: знайдено 14, з мобільним 1, додано 1",
+  "TomTom «шиномонтаж», Львів: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «детейлінг», Львів: знайдено 0, з мобільним 0, додано 0"
  ],
  "tt_done": [
   "Київ|автосервіс",
@@ -587,7 +612,16 @@
   "Харків|детейлінг",
   "Харків|манікюр",
   "Харків|барбершоп",
-  "Одеса|автосервіс"
+  "Одеса|автосервіс",
+  "Одеса|СТО",
+  "Одеса|шиномонтаж",
+  "Одеса|детейлінг",
+  "Одеса|манікюр",
+  "Одеса|барбершоп",
+  "Львів|автосервіс",
+  "Львів|СТО",
+  "Львів|шиномонтаж",
+  "Львів|детейлінг"
  ],
  "tt_geo": {
   "Київ": {
@@ -601,6 +635,10 @@
   "Одеса": {
    "lat": 46.464187,
    "lon": 30.640097
+  },
+  "Львів": {
+   "lat": 49.784741,
+   "lon": 24.048913
   }
  }
 }
