@@ -478,7 +478,7 @@
    "type": "sto",
    "address": "Вулиця Семена Скляренка, 13, Оболонський, Київ, Київ",
    "city": "Київ",
-   "status": "new",
+   "status": "planned",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380665388338/"
   },
@@ -489,7 +489,7 @@
    "type": "sto",
    "address": "Вулиця Новокостянтинівська, 3, Подільський, Київ, Київ",
    "city": "Київ",
-   "status": "new",
+   "status": "planned",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380931702770/"
   },
@@ -500,7 +500,7 @@
    "type": "sto",
    "address": "Столичне шосе, 90, Голосіївський, Київ, Київ",
    "city": "Київ",
-   "status": "new",
+   "status": "planned",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380935727881/"
   },
@@ -511,7 +511,7 @@
    "type": "sto",
    "address": "Вулиця Ігоря Брановицького, Печерський, Київ, Київ",
    "city": "Київ",
-   "status": "new",
+   "status": "planned",
    "has_url": true,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380661050241/"
   },
@@ -522,7 +522,7 @@
    "type": "generic",
    "address": "Михайлівський провулок, 9Б, Шевченківський, Київ, Київ",
    "city": "Київ",
-   "status": "new",
+   "status": "planned",
    "has_url": false
   }
  },
@@ -531,16 +531,48 @@
   "Ірпінь",
   "Київ"
  ],
- "plan": null,
+ "plan": {
+  "date": "2026-10-22",
+  "items": [
+   {
+    "id": "m380665388338",
+    "at": 868,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380665388338/",
+    "sent": false
+   },
+   {
+    "id": "m380931702770",
+    "at": 880,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380931702770/",
+    "sent": false
+   },
+   {
+    "id": "m380935727881",
+    "at": 943,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380935727881/",
+    "sent": false
+   },
+   {
+    "id": "m380661050241",
+    "at": 955,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380661050241/",
+    "sent": false
+   },
+   {
+    "id": "m380979002101",
+    "at": 1070,
+    "url": null,
+    "sent": false
+   }
+  ]
+ },
  "report": [
-  "TomTom «автосервіс», Київ: знайдено 3, з мобільним 0, додано 0",
-  "TomTom «СТО», Київ: знайдено 74, з мобільним 4, додано 4",
-  "TomTom «шиномонтаж», Київ: знайдено 1, з мобільним 0, додано 0",
-  "TomTom «детейлінг», Київ: знайдено 2, з мобільним 1, додано 1",
-  "TomTom «манікюр», Київ: знайдено 3, з мобільним 0, додано 0",
-  "TomTom «барбершоп», Київ: знайдено 3, з мобільним 1, додано 1",
-  "TomTom «автосервіс», Харків: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «СТО», Харків: знайдено 0, з мобільним 0, додано 0"
+  "TomTom «шиномонтаж», Харків: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «детейлінг», Харків: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «манікюр», Харків: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «барбершоп», Харків: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «автосервіс», Одеса: знайдено 1, з мобільним 0, додано 0",
+  "TomTom: помилка 429. {\"detailedError\":{\"code\":\"TooManyRequests\",\"message\":\"You have exceeded the permitted rate limit\"}}"
  ],
  "tt_done": [
   "Київ|автосервіс",
@@ -550,7 +582,12 @@
   "Київ|манікюр",
   "Київ|барбершоп",
   "Харків|автосервіс",
-  "Харків|СТО"
+  "Харків|СТО",
+  "Харків|шиномонтаж",
+  "Харків|детейлінг",
+  "Харків|манікюр",
+  "Харків|барбершоп",
+  "Одеса|автосервіс"
  ],
  "tt_geo": {
   "Київ": {
@@ -560,6 +597,10 @@
   "Харків": {
    "lat": 50.1749218,
    "lon": 35.5142265
+  },
+  "Одеса": {
+   "lat": 46.464187,
+   "lon": 30.640097
   }
  }
 }
