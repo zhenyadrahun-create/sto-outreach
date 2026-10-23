@@ -859,6 +859,126 @@
    "city": "Львів",
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689887211/"
+  },
+  "c380990172471": {
+   "name": "СТО Быстрый Ремонт Автомобилей",
+   "phone": "380990172471",
+   "mobile": true,
+   "type": "sto",
+   "address": "Televiziina St, 3",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380990172471/"
+  },
+  "c380567946469": {
+   "name": "Sto 00-24",
+   "phone": "380567946469",
+   "mobile": false,
+   "type": "sto",
+   "address": "Kniazia Yaroslava Mudroho St, 59",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380567946469/"
+  },
+  "c380677262202": {
+   "name": "СТО Автомотив на Перемозі",
+   "phone": "380677262202",
+   "mobile": true,
+   "type": "sto",
+   "address": "Mandrykivska St, 54",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677262202/"
+  },
+  "c380973779945": {
+   "name": "Sto Ekspres-Tsentr",
+   "phone": "380973779945",
+   "mobile": true,
+   "type": "sto",
+   "address": "3 Shturmovoi Bryhady St, 9",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973779945/"
+  },
+  "c380975627271": {
+   "name": "СТО Da-Car",
+   "phone": "380975627271",
+   "mobile": true,
+   "type": "sto",
+   "address": "Mykoly Rudenka St, 29A",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380975627271/"
+  },
+  "c380733373131": {
+   "name": "СТО ДНІПРО",
+   "phone": "380733373131",
+   "mobile": true,
+   "type": "sto",
+   "address": "Krutohirnyi Descent, 14",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733373131/"
+  },
+  "c380681616969": {
+   "name": "МОСТ autoservice",
+   "phone": "380681616969",
+   "mobile": true,
+   "type": "sto",
+   "address": "Sholom-Aleikhema St, 3",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681616969/"
+  },
+  "c380976041946": {
+   "name": "Shynomontazh (Khmelnytskoho)",
+   "phone": "380976041946",
+   "mobile": true,
+   "type": "sto",
+   "address": "Bogdan Khmelnitsky Ave, 31D",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976041946/"
+  },
+  "c380689061574": {
+   "name": "Shynomontazh (Naberezhna Peremohy)",
+   "phone": "380689061574",
+   "mobile": true,
+   "type": "sto",
+   "address": "Naberezhna Peremohy St, 10",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689061574/"
+  },
+  "c380934839499": {
+   "name": "Шиномонтаж Евгений",
+   "phone": "380934839499",
+   "mobile": true,
+   "type": "sto",
+   "address": "Donetske Hwy, 15",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934839499/"
+  },
+  "c380677758827": {
+   "name": "Vibrostend Diahnostyka Khodovoyi",
+   "phone": "380677758827",
+   "mobile": true,
+   "type": "sto",
+   "address": "Filosofska St, 38",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677758827/"
+  },
+  "c380672004362": {
+   "name": "Avtomotiv Service Slobozhanskyi",
+   "phone": "380672004362",
+   "mobile": true,
+   "type": "sto",
+   "address": "Slobozhanskyi Ave, 29a",
+   "city": "Дніпро",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672004362/"
   }
  },
  "fetched": [
