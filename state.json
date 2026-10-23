@@ -532,7 +532,7 @@
    "type": "sto",
    "address": "Вулиця Штильова, 307-Б, Суворовський, Одеська міська громада, Одеська область",
    "city": "Одеська міська громада",
-   "status": "planned",
+   "status": "sent",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380675508394/"
   },
@@ -543,7 +543,7 @@
    "type": "sto",
    "address": "Вулиця В’ячеслава Липинського, 36, Шевченківський, Львівська міська громада, Львівська область",
    "city": "Львівська міська громада",
-   "status": "planned",
+   "status": "sent",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380672424200/"
   },
@@ -554,7 +554,7 @@
    "type": "sto",
    "address": "Запорізьке шосе, 27б, Соборний, Дніпровська міська громада, Дніпропетровська область",
    "city": "Дніпровська міська громада",
-   "status": "planned",
+   "status": "sent",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380677580038/"
   },
@@ -565,7 +565,7 @@
    "type": "sto",
    "address": "Вулиця Івана Езау, 1, Чечелівський, Дніпровська міська громада, Дніпропетровська область",
    "city": "Дніпровська міська громада",
-   "status": "planned",
+   "status": "sent",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380676408103/"
   },
@@ -576,7 +576,7 @@
    "type": "sto",
    "address": "Проспект Юрія Гагаріна, 47, Соборний, Дніпровська міська громада, Дніпропетровська область",
    "city": "Дніпровська міська громада",
-   "status": "planned",
+   "status": "sent",
    "has_url": true,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380673000099/"
   }
@@ -593,40 +593,42 @@
     "id": "m380675508394",
     "at": 863,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380675508394/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "m380672424200",
     "at": 1009,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380672424200/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "m380677580038",
     "at": 1040,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380677580038/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "m380676408103",
     "at": 1050,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380676408103/",
-    "sent": false
+    "sent": true
    },
    {
     "id": "m380673000099",
     "at": 1067,
     "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380673000099/",
-    "sent": false
+    "sent": true
    }
   ]
  },
  "report": [
-  "TomTom «манікюр», Львів: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «барбершоп», Львів: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «автосервіс», Дніпро: знайдено 1, з мобільним 0, додано 0",
-  "TomTom «СТО», Дніпро: знайдено 20, з мобільним 3, додано 3",
-  "TomTom «шиномонтаж», Дніпро: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «детейлінг», Дніпро: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «манікюр», Дніпро: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «барбершоп», Дніпро: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «автосервіс», Черкаси: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «СТО», Черкаси: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «шиномонтаж», Черкаси: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «детейлінг», Черкаси: знайдено 0, з мобільним 0, додано 0",
   "TomTom: помилка 429. {\"detailedError\":{\"code\":\"TooManyRequests\",\"message\":\"You have exceeded the permitted rate limit\"}}"
  ],
  "tt_done": [
@@ -656,7 +658,14 @@
   "Львів|барбершоп",
   "Дніпро|автосервіс",
   "Дніпро|СТО",
-  "Дніпро|шиномонтаж"
+  "Дніпро|шиномонтаж",
+  "Дніпро|детейлінг",
+  "Дніпро|манікюр",
+  "Дніпро|барбершоп",
+  "Черкаси|автосервіс",
+  "Черкаси|СТО",
+  "Черкаси|шиномонтаж",
+  "Черкаси|детейлінг"
  ],
  "tt_geo": {
   "Київ": {
@@ -678,6 +687,10 @@
   "Дніпро": {
    "lat": 48.449408,
    "lon": 35.143592
+  },
+  "Черкаси": {
+   "lat": 49.5817685,
+   "lon": 23.9050915
   }
  }
 }
