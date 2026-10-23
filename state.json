@@ -532,7 +532,7 @@
    "type": "sto",
    "address": "Вулиця Штильова, 307-Б, Суворовський, Одеська міська громада, Одеська область",
    "city": "Одеська міська громада",
-   "status": "new",
+   "status": "planned",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380675508394/"
   },
@@ -543,9 +543,42 @@
    "type": "sto",
    "address": "Вулиця В’ячеслава Липинського, 36, Шевченківський, Львівська міська громада, Львівська область",
    "city": "Львівська міська громада",
-   "status": "new",
+   "status": "planned",
    "has_url": false,
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380672424200/"
+  },
+  "m380677580038": {
+   "name": "Тов Сінгл Авто",
+   "phone": "380677580038",
+   "mobile": true,
+   "type": "sto",
+   "address": "Запорізьке шосе, 27б, Соборний, Дніпровська міська громада, Дніпропетровська область",
+   "city": "Дніпровська міська громада",
+   "status": "planned",
+   "has_url": false,
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380677580038/"
+  },
+  "m380676408103": {
+   "name": "Aelita",
+   "phone": "380676408103",
+   "mobile": true,
+   "type": "sto",
+   "address": "Вулиця Івана Езау, 1, Чечелівський, Дніпровська міська громада, Дніпропетровська область",
+   "city": "Дніпровська міська громада",
+   "status": "planned",
+   "has_url": false,
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380676408103/"
+  },
+  "m380673000099": {
+   "name": "Skandik Motors",
+   "phone": "380673000099",
+   "mobile": true,
+   "type": "sto",
+   "address": "Проспект Юрія Гагаріна, 47, Соборний, Дніпровська міська громада, Дніпропетровська область",
+   "city": "Дніпровська міська громада",
+   "status": "planned",
+   "has_url": true,
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380673000099/"
   }
  },
  "fetched": [
@@ -554,50 +587,47 @@
   "Київ"
  ],
  "plan": {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "items": [
    {
-    "id": "m380665388338",
-    "at": 868,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380665388338/",
-    "sent": true
+    "id": "m380675508394",
+    "at": 863,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380675508394/",
+    "sent": false
    },
    {
-    "id": "m380931702770",
-    "at": 880,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380931702770/",
-    "sent": true
+    "id": "m380672424200",
+    "at": 1009,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380672424200/",
+    "sent": false
    },
    {
-    "id": "m380935727881",
-    "at": 943,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380935727881/",
-    "sent": true
+    "id": "m380677580038",
+    "at": 1040,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380677580038/",
+    "sent": false
    },
    {
-    "id": "m380661050241",
-    "at": 955,
-    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380661050241/",
-    "sent": true
+    "id": "m380676408103",
+    "at": 1050,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380676408103/",
+    "sent": false
    },
    {
-    "id": "m380979002101",
-    "at": 1070,
-    "url": null,
-    "sent": true
+    "id": "m380673000099",
+    "at": 1067,
+    "url": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-m380673000099/",
+    "sent": false
    }
   ]
  },
  "report": [
-  "TomTom «СТО», Одеса: знайдено 23, з мобільним 1, додано 1",
-  "TomTom «шиномонтаж», Одеса: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «детейлінг», Одеса: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «манікюр», Одеса: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «барбершоп», Одеса: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «автосервіс», Львів: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «СТО», Львів: знайдено 14, з мобільним 1, додано 1",
-  "TomTom «шиномонтаж», Львів: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «детейлінг», Львів: знайдено 0, з мобільним 0, додано 0"
+  "TomTom «манікюр», Львів: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «барбершоп», Львів: знайдено 0, з мобільним 0, додано 0",
+  "TomTom «автосервіс», Дніпро: знайдено 1, з мобільним 0, додано 0",
+  "TomTom «СТО», Дніпро: знайдено 20, з мобільним 3, додано 3",
+  "TomTom «шиномонтаж», Дніпро: знайдено 0, з мобільним 0, додано 0",
+  "TomTom: помилка 429. {\"detailedError\":{\"code\":\"TooManyRequests\",\"message\":\"You have exceeded the permitted rate limit\"}}"
  ],
  "tt_done": [
   "Київ|автосервіс",
@@ -621,7 +651,12 @@
   "Львів|автосервіс",
   "Львів|СТО",
   "Львів|шиномонтаж",
-  "Львів|детейлінг"
+  "Львів|детейлінг",
+  "Львів|манікюр",
+  "Львів|барбершоп",
+  "Дніпро|автосервіс",
+  "Дніпро|СТО",
+  "Дніпро|шиномонтаж"
  ],
  "tt_geo": {
   "Київ": {
@@ -639,6 +674,10 @@
   "Львів": {
    "lat": 49.784741,
    "lon": 24.048913
+  },
+  "Дніпро": {
+   "lat": 48.449408,
+   "lon": 35.143592
   }
  }
 }
