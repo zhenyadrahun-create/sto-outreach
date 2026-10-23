@@ -291,39 +291,20 @@ def hhmm(t): return f"{t//60}:{t%60:02d}"
 def main():
     cfg = jload("config.json", {}); assert "ТВІЙ" not in cfg["pages_base"], "Впиши pages_base у config.json"
     st = jload("state.json", {"leads": {}, "fetched": [], "plan": None})
-    now = datetime.now(TZ); nm = now.hour * 60 + now.minute; today = now.date().isoformat()
-    plan = st.get("plan")
-    if plan and plan["date"] != today:                      # учорашні неспіймані контакти повертаємо в чергу
-        for it in plan["items"]:
-            l = st["leads"].get(it["id"])
-            if not it["sent"] and l and l["status"] == "planned": l["status"] = "new"
-        plan = st["plan"] = None
+    st["plan"] = None
+    for l in st["leads"].values():                          # старі "заплановані" повертаємо в чергу
+        if l.get("status") == "planned": l["status"] = "new"
     gather(cfg, st); ensure_sites(cfg, st)
     new = [k for k, l in st["leads"].items() if l["status"] == "new"]
-    if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":      # ручний запуск: одразу один контакт
-        if st.get("report"): tg("sendMessage", {"chat_id": CHAT, "text": "🔎 Пошук: " + "\n".join(st["report"]) + f"\nУ черзі нових: {len(new)}"})
-        if new:
-            k = new[0]; l = st["leads"][k]; notify(cfg, l, site_for(cfg, k, l)); l["status"] = "sent"
-        else: tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів немає. Додай рядки у файл leads.csv.\n" + "\n".join(st.get("report", []))})
+    if not new:
+        if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+            tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів немає. Додай рядки у файл leads.csv.\n" + "\n".join(st.get("report", []))})
         jsave("state.json", st); return
-    if now.weekday() not in cfg["days"]: jsave("state.json", st); return
-    w0, w1 = cfg["window"][0] * 60, cfg["window"][1] * 60
-    if plan is None: plan = st["plan"] = {"date": today, "items": []}
-    room = cfg["per_day"] - len(plan["items"]); start = max(w0, nm + 5)
-    n = min(room, len(new), max((w1 - start) // 10, 0))
-    if n > 0:                                               # складаємо або докладаємо план у вільні слоти сьогодні
-        ts = times(n, start, w1, gap=10)
-        for k, t in zip(new, ts):
-            l = st["leads"][k]; l["status"] = "planned"
-            plan["items"].append({"id": k, "at": t, "url": site_for(cfg, k, l), "sent": False})
-        left = len(new) - n
-        tg("sendMessage", {"chat_id": CHAT, "text": ("📋 План на сьогодні" if len(plan["items"]) == n else "➕ Додано в план") + f": {n} шт. ({', '.join(hhmm(t) for t in ts)}). У черзі ще: {left}."})
-    elif not plan["items"] and not new and st.get("warned") != today:
-        st["warned"] = today
-        tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів немає. Додай рядки у файл leads.csv.\n" + "\n".join(st.get("report", []))})
-    for it in plan["items"]:
-        if not it["sent"] and it["at"] <= nm:
-            l = st["leads"][it["id"]]; notify(cfg, l, it.get("url") or site_for(cfg, it["id"], l)); it["sent"] = True; l["status"] = "sent"
+    tg("sendMessage", {"chat_id": CHAT, "text": f"📋 Нових контактів: {len(new)}. Надсилаю все одразу."})
+    for k in new:                                           # без розкладу: усе одразу
+        l = st["leads"][k]
+        notify(cfg, l, site_for(cfg, k, l)); l["status"] = "sent"
+        time.sleep(1)
     jsave("state.json", st)
 
 if __name__ == "__main__": main()
