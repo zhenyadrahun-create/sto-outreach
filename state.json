@@ -749,6 +749,116 @@
    "city": "Суми",
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380504909162/"
+  },
+  "c380914819004": {
+   "name": "Автопарк Сервіс",
+   "phone": "380914819004",
+   "mobile": true,
+   "type": "sto",
+   "address": "Kiltseva Rd, 60",
+   "city": "Львів",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380914819004/"
+  },
+  "c380978722020": {
+   "name": "Avtoservis Lviv, Remont Dvyhuniv, Akpp, Avtoelektryk",
+   "phone": "380978722020",
+   "mobile": true,
+   "type": "sto",
+   "address": "Zelena St, 20",
+   "city": "Львів",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978722020/"
+  },
+  "c380664626108": {
+   "name": "Шиномонтаж 24/7 Центр Львова",
+   "phone": "380664626108",
+   "mobile": true,
+   "type": "sto",
+   "address": "Ploshcha 700-Richchya Lvova, 2",
+   "city": "Львів",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664626108/"
+  },
+  "c380673380798": {
+   "name": "СТО Львів Автомотив",
+   "phone": "380673380798",
+   "mobile": true,
+   "type": "sto",
+   "address": "Khlibna St, 4",
+   "city": "Львів",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673380798/"
+  },
+  "c380967630998": {
+   "name": "Сто CarСТО Lviv",
+   "phone": "380967630998",
+   "mobile": true,
+   "type": "sto",
+   "address": "Dzherelna St, 11",
+   "city": "Львів",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380967630998/"
+  },
+  "c380983439540": {
+   "name": "LEV Шиномонтаж Центр Львів",
+   "phone": "380983439540",
+   "mobile": true,
+   "type": "sto",
+   "address": "Chornovola Ave, 45a",
+   "city": "Львів",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983439540/"
+  },
+  "c380976774040": {
+   "name": "Mobilnyy Shynomontazh Tsilodobovo",
+   "phone": "380976774040",
+   "mobile": true,
+   "type": "sto",
+   "address": "Riashivska St",
+   "city": "Львів",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976774040/"
+  },
+  "c380771120112": {
+   "name": "ШИНОМОНТАЖ ЦІЛОДОБОВО",
+   "phone": "380771120112",
+   "mobile": false,
+   "type": "sto",
+   "address": "Horodotska St, 116",
+   "city": "Львів",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380771120112/"
+  },
+  "c380961454746": {
+   "name": "Avtoservis, Komp'yuterna Diahnostyka",
+   "phone": "380961454746",
+   "mobile": true,
+   "type": "sto",
+   "address": "Shevchenka St, 134a",
+   "city": "Львів",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961454746/"
+  },
+  "c380662761053": {
+   "name": "Komp'yuterna Diahnostyka Avto Lviv",
+   "phone": "380662761053",
+   "mobile": true,
+   "type": "sto",
+   "address": "Profesora Kovalyka St, 1",
+   "city": "Львів",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380662761053/"
+  },
+  "c380689887211": {
+   "name": "APS Діагностика ходової, вібростенд",
+   "phone": "380689887211",
+   "mobile": true,
+   "type": "sto",
+   "address": "Pid Holoskom St, 6",
+   "city": "Львів",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689887211/"
   }
  },
  "fetched": [
@@ -757,10 +867,7 @@
   "Київ"
  ],
  "plan": null,
- "report": [
-  "TomTom «манікюр», Черкаси: знайдено 0, з мобільним 0, додано 0",
-  "TomTom «барбершоп», Черкаси: знайдено 0, з мобільним 0, додано 0"
- ],
+ "report": [],
  "tt_done": [
   "Київ|автосервіс",
   "Київ|СТО",
