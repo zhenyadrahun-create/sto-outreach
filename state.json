@@ -979,6 +979,146 @@
    "city": "Дніпро",
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672004362/"
+  },
+  "c380931662000": {
+   "name": "СТО Атаман",
+   "phone": "380931662000",
+   "mobile": true,
+   "type": "sto",
+   "address": "Otamana Holovatoho St, 98",
+   "city": "Одеса",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380931662000/"
+  },
+  "c380933550380": {
+   "name": "CAR SERVICE Одеса",
+   "phone": "380933550380",
+   "mobile": true,
+   "type": "sto",
+   "address": "Prymorska St, 32",
+   "city": "Одеса",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380933550380/"
+  },
+  "c380958780726": {
+   "name": "Mobilshyna",
+   "phone": "380958780726",
+   "mobile": true,
+   "type": "sto",
+   "address": "Shota Rustaveli St",
+   "city": "Одеса",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380958780726/"
+  },
+  "c380982894929": {
+   "name": "Tire-shop Driving",
+   "phone": "380982894929",
+   "mobile": true,
+   "type": "sto",
+   "address": "Kyivske Hwy, 1/5",
+   "city": "Одеса",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982894929/"
+  },
+  "c380487709238": {
+   "name": "Shynomontazh (Nizhynska)",
+   "phone": "380487709238",
+   "mobile": false,
+   "type": "sto",
+   "address": "Nizhynska St, 11",
+   "city": "Одеса",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380487709238/"
+  },
+  "c380980307373": {
+   "name": "HUB Service СТО повного циклу",
+   "phone": "380980307373",
+   "mobile": true,
+   "type": "sto",
+   "address": "Khreshchatyk St, 7/11",
+   "city": "Київ",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380980307373/"
+  },
+  "c380965087819": {
+   "name": "AutoTech Service СТО на Печерську",
+   "phone": "380965087819",
+   "mobile": true,
+   "type": "sto",
+   "address": "Henerala Kulchytskoho St, 17a",
+   "city": "Київ",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965087819/"
+  },
+  "c380665781003": {
+   "name": "СТО Київ Промислова",
+   "phone": "380665781003",
+   "mobile": true,
+   "type": "sto",
+   "address": "Promyslova St, 1",
+   "city": "Київ",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380665781003/"
+  },
+  "c380443387519": {
+   "name": "Oiler Pechersk",
+   "phone": "380443387519",
+   "mobile": false,
+   "type": "sto",
+   "address": "Ioanna Pavla II St, 3",
+   "city": "Київ",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380443387519/"
+  },
+  "c380935733353": {
+   "name": "Виїзний шиномонтаж Київ",
+   "phone": "380935733353",
+   "mobile": true,
+   "type": "sto",
+   "address": "Lesi Ukrainky St, 5",
+   "city": "Київ",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380935733353/"
+  },
+  "c380772224343": {
+   "name": "LackyCar шиномонтаж",
+   "phone": "380772224343",
+   "mobile": false,
+   "type": "sto",
+   "address": "Naberezhno-Khreshchatytska St, 4",
+   "city": "Київ",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380772224343/"
+  },
+  "c380672160178": {
+   "name": "Шиномонтаж Тіп-Топ Сервіс",
+   "phone": "380672160178",
+   "mobile": true,
+   "type": "sto",
+   "address": "Elektrykiv St, 23v",
+   "city": "Київ",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672160178/"
+  },
+  "c380507415064": {
+   "name": "Шиномонтаж 24/7 Набережно-Печерська",
+   "phone": "380507415064",
+   "mobile": true,
+   "type": "sto",
+   "address": "Naberezhno-Pecherska Rd, 2",
+   "city": "Київ",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380507415064/"
+  },
+  "c380503428342": {
+   "name": "Myyka Sto Shynomontazh",
+   "phone": "380503428342",
+   "mobile": true,
+   "type": "sto",
+   "address": "Borysa Hrinchenka St",
+   "city": "Київ",
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503428342/"
   }
  },
  "fetched": [
