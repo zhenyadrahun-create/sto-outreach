@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>СТО</title>
+<meta name="description" content="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef1f4;--ink:#11151a;--mut:#5b6671;--card:#fff;--acc:#ff4b1f;--line:#dbe0e6;--r:16px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font:400 16px/1.55 Onest,system-ui,sans-serif;background:var(--bg);color:var(--ink);padding-bottom:76px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,.logo{font-family:Unbounded,Onest,system-ui,sans-serif;font-weight:700;letter-spacing:-.02em}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.ic{width:1.2em;height:1.2em;flex:none}
+.top{position:sticky;top:0;z-index:20;background:rgba(238,241,244,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.hd{display:flex;justify-content:space-between;align-items:center;gap:12px;height:62px}
+.logo{font-size:18px;text-decoration:none}.logo i{font-style:normal;color:var(--acc)}
+.nav{display:none}
+.nav a{text-decoration:none;font-weight:500;font-size:15px;color:var(--mut);transition:color .2s}
+.nav a:hover{color:var(--acc)}
+.nav.open{display:flex;flex-direction:column;gap:4px;position:absolute;top:62px;left:0;right:0;background:var(--card);padding:10px 20px 16px;box-shadow:0 20px 30px -20px rgba(0,0,0,.3)}
+.nav.open a{padding:10px 0;font-size:17px;color:var(--ink);border-bottom:1px solid var(--line)}
+.hr{display:flex;align-items:center;gap:14px;font-size:13px;font-weight:500}
+.tel{font-weight:600;text-decoration:none;display:none;align-items:center;gap:6px;font-size:15px}
+.burger{background:none;border:0;cursor:pointer;color:var(--ink);padding:6px}.burger .ic{width:26px;height:26px}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#98a2ad;margin-right:7px}
+.dot.on{background:#1fb35a;animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(31,179,90,.5)}100%{box-shadow:0 0 0 10px rgba(31,179,90,0)}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;cursor:pointer;font:600 16px Onest,sans-serif;background:var(--acc);color:#fff;padding:14px 22px;border-radius:12px;text-decoration:none;transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px -8px var(--acc)}
+.btn:after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.35) 50%,transparent 60%);transform:translateX(-100%)}
+.btn:hover:after{transform:translateX(100%);transition:transform .7s}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+.btn.ghost:hover{box-shadow:none;background:var(--ink);color:#fff}
+.btn[disabled]{opacity:.45;pointer-events:none}
+.hero{display:grid;gap:28px;padding:28px 0 56px}
+.hero h1{font-size:clamp(30px,6.4vw,54px);line-height:1.08;max-width:15em}
+.hero h1 span{display:inline-block;opacity:0;transform:translateY(24px);animation:up .7s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes up{to{opacity:1;transform:none}}
+.lead{color:var(--mut);max-width:30em;margin:18px 0 22px;font-size:18px}
+.facts{display:flex;flex-wrap:wrap;gap:8px}
+.facts li{list-style:none;display:flex;align-items:center;gap:7px;background:var(--card);border:1px solid var(--line);padding:7px 14px;border-radius:99px;font-size:14px;font-weight:500}
+.facts .ic{color:var(--acc)}
+.tirewrap{position:relative;width:200px;margin:30px 0 0 8px}
+.tire{display:block;width:100%;animation:spin 4s linear infinite;filter:drop-shadow(0 10px 14px rgba(0,0,0,.28))}
+.tirewrap:after{content:"";position:absolute;left:8%;right:8%;bottom:-14px;height:14px;border-radius:50%;background:radial-gradient(rgba(0,0,0,.28),transparent 70%)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.form{background:var(--card);border-radius:22px;padding:24px;box-shadow:0 24px 60px -30px rgba(17,21,26,.35)}
+.form h2{font-size:20px;margin-bottom:4px}
+.sub{color:var(--mut);font-size:14px}
+label.l{display:block;font-size:13px;font-weight:600;margin:12px 0 5px}
+input:not([type=checkbox]),select,textarea{width:100%;font:400 16px Onest,sans-serif;padding:13px 14px;border:1.5px solid var(--line);border-radius:12px;background:#fafbfc;color:var(--ink);transition:border-color .2s,box-shadow .2s}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--acc);box-shadow:0 0 0 4px color-mix(in srgb,var(--acc) 18%,transparent)}
+textarea{resize:vertical;min-height:70px}
+.agree{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--mut);margin-top:14px}
+.agree input{width:20px;height:20px;margin-top:2px;accent-color:var(--acc);flex:none}
+.agree a{color:var(--ink);font-weight:600;cursor:pointer}
+.form .btn{width:100%;margin-top:16px}
+.hp{position:absolute;left:-9999px}
+.err{color:#c4210a;font-size:14px;margin-top:10px}
+.ok{text-align:center;padding:26px 6px}
+.ok svg{width:64px;height:64px;margin-bottom:12px}
+.ok circle,.ok path{fill:none;stroke:var(--acc);stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:200;stroke-dashoffset:200;animation:draw .8s .1s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.marq{overflow:hidden;border-block:1px solid var(--line);background:var(--card);padding:14px 0;white-space:nowrap}
+.marq div{display:inline-flex;gap:44px;animation:mq 35s linear infinite;padding-right:44px;font-family:Unbounded,sans-serif;font-weight:500;color:#9aa5b0}
+@keyframes mq{to{transform:translateX(-50%)}}
+section{padding:56px 0}
+h2.t{font-size:clamp(24px,4.5vw,34px);margin-bottom:10px}
+.sec-sub{color:var(--mut);max-width:34em;margin-bottom:24px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--line);background:var(--card);font:500 15px Onest,sans-serif;padding:11px 16px;border-radius:99px;cursor:pointer;transition:.2s}
+.chip .ic{color:var(--acc)}
+.chip:hover{border-color:var(--acc);transform:translateY(-2px)}
+.list{background:var(--card);border-radius:var(--r);overflow:hidden}
+.row{display:flex;gap:14px;align-items:center;padding:16px 20px;border-bottom:1px solid var(--line);cursor:pointer;transition:background .2s}
+.row:last-child{border:0}
+.row:hover,.row.sel{background:#f7f9fb}
+.row input{width:22px;height:22px;accent-color:var(--acc);flex:none}
+.rt{flex:1}.rt b{display:block;font-weight:600}.rt small{color:var(--mut)}
+.pr{font-weight:600;white-space:nowrap}
+.ico{width:44px;height:44px;border-radius:12px;background:color-mix(in srgb,var(--acc) 13%,#fff);color:var(--acc);display:grid;place-items:center;flex:none;transition:transform .3s}
+.ico .ic{width:22px;height:22px}
+.row:hover .ico{transform:rotate(-8deg) scale(1.08)}
+.calc{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:14px;margin-top:14px;background:var(--ink);color:#fff;border-radius:var(--r);padding:18px 20px}
+.calc small{color:#aab3bc;display:block}.calc b{font:700 22px Unbounded,sans-serif}
+.dark{background:var(--ink);color:#fff}
+.dark .sec-sub{color:#aab3bc}
+.grid{display:grid;gap:14px}
+.step{border:1px solid #2b333b;border-radius:var(--r);padding:22px}
+.step .ico{background:var(--acc);color:#fff;border-radius:50%;margin-bottom:14px;position:relative}
+.step .ico:after{content:attr(data-n);position:absolute;top:-6px;right:-6px;width:20px;height:20px;border-radius:50%;background:#fff;color:var(--ink);font:700 11px/20px Onest;text-align:center}
+.step h3{font-size:17px;margin-bottom:4px}.step p{color:#aab3bc;font-size:15px}
+.card{background:var(--card);border-radius:var(--r);padding:22px;transition:transform .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 18px 34px -22px rgba(17,21,26,.4)}
+.card h3{font-size:16px}.card p{color:var(--mut);font-size:15px}
+.lamp{display:flex;gap:12px;align-items:center;margin-bottom:8px}
+.lamp .ico{width:40px;height:40px}
+.rev{color:var(--ink)}.rev .stars{display:flex;gap:2px;color:#f5a623;margin-bottom:8px}
+.rev .by{display:flex;gap:10px;align-items:center;margin-top:14px;font-size:14px}
+.rev .av{width:38px;height:38px;border-radius:50%;background:#e7ebef;color:var(--mut);display:grid;place-items:center}
+.rev small{color:var(--mut);display:block}
+details{background:var(--card);border-radius:var(--r);padding:0 20px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:18px 0;font-weight:600;display:flex;justify-content:space-between;gap:12px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font-size:24px;color:var(--acc);transition:transform .25s}
+details[open] summary:after{transform:rotate(45deg)}
+details p{color:var(--mut);padding-bottom:18px}
+.contacts{display:grid;gap:18px}
+.ci{display:flex;gap:14px;align-items:center}
+.ci small{color:var(--mut);display:block}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+footer{padding:28px 0 40px;color:var(--mut);font-size:14px}
+footer a{cursor:pointer;text-decoration:underline}
+.bar{position:fixed;left:0;right:0;bottom:0;display:flex;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(238,241,244,.92);backdrop-filter:blur(10px);border-top:1px solid var(--line);z-index:5}
+.bar .btn{flex:1;padding:13px 10px}
+dialog{border:0;border-radius:20px;max-width:640px;width:calc(100% - 32px);max-height:85vh;padding:26px;color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(17,21,26,.55);backdrop-filter:blur(3px)}
+dialog h2{font-size:20px;margin-bottom:12px}dialog h3{font:600 15px Onest,sans-serif;margin:16px 0 4px}dialog p,dialog li{font-size:14px;color:var(--mut)}dialog ul{padding-left:20px}
+dialog .btn{margin-top:18px}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}
+.rv.in{opacity:1;transform:none}
+@media(min-width:860px){
+.nav,.nav.open{display:flex;flex-direction:row;gap:24px;position:static;padding:0;background:none;box-shadow:none}
+.nav.open a{padding:0;font-size:15px;color:var(--mut);border:0}
+.burger{display:none}.tel{display:flex}
+.hero{grid-template-columns:1.1fr .9fr;align-items:center;padding-top:44px}
+.tirewrap{width:300px;margin-top:36px}
+.steps,.contacts{grid-template-columns:repeat(3,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(2,1fr)}
+.bar{display:none}body{padding-bottom:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.hero h1 span,.rv{opacity:1;transform:none}.ok circle,.ok path{stroke-dashoffset:0}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap hd">
+ <a class="logo" href="#top" id="logo"></a>
+ <nav class="nav" id="nav"></nav>
+ <div class="hr"><span id="st"></span><a class="tel" id="tel1"></a><button class="burger" id="bg" aria-label="Меню"></button></div>
+</div></header>
+
+<div class="wrap">
+ <main id="top" class="hero">
+  <div>
+   <h1 id="h1"></h1>
+   <p class="lead" id="lead"></p>
+   <ul class="facts" id="facts"></ul>
+   <div class="tirewrap" aria-hidden="true">
+    <svg class="tire" viewBox="0 0 200 200">
+     <defs>
+      <radialGradient id="rm" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#f6f8fa"/><stop offset=".55" stop-color="#b3bbc4"/><stop offset="1" stop-color="#6b747e"/></radialGradient>
+      <path id="tp" d="M100 100m-82 0a82 82 0 1 1 164 0a82 82 0 1 1-164 0"/>
+     </defs>
+     <circle cx="100" cy="100" r="98" fill="#0d0f12"/>
+     <circle cx="100" cy="100" r="94" fill="none" stroke="#23282e" stroke-width="8" stroke-dasharray="9 5"/>
+     <circle cx="100" cy="100" r="88" fill="#171a1e"/>
+     <circle cx="100" cy="100" r="86" fill="none" stroke="#252a30" stroke-width="1.5"/>
+     <text font-size="7" font-family="Onest,sans-serif" font-weight="600" letter-spacing="1.6" fill="#7d8791"><textPath href="#tp">225/45 R17 · RADIAL · TUBELESS · 94W ·</textPath></text>
+     <circle cx="100" cy="100" r="68" fill="url(#rm)"/>
+     <circle cx="100" cy="100" r="62" fill="#14171b"/>
+     <g fill="url(#rm)"><path id="sp" d="M93 96L90 42Q100 36 110 42L107 96Z"/><use href="#sp" transform="rotate(72 100 100)"/><use href="#sp" transform="rotate(144 100 100)"/><use href="#sp" transform="rotate(216 100 100)"/><use href="#sp" transform="rotate(288 100 100)"/></g>
+     <circle cx="100" cy="100" r="17" fill="url(#rm)"/>
+     <g fill="#59616a"><circle cx="100" cy="91" r="2.4"/><circle cx="108.6" cy="97.2" r="2.4"/><circle cx="105.3" cy="107.3" r="2.4"/><circle cx="94.7" cy="107.3" r="2.4"/><circle cx="91.4" cy="97.2" r="2.4"/></g>
+    </svg>
+   </div>
+  </div>
+  <div class="form" id="book">
+   <form id="f" novalidate>
+    <h2>Записатися на ремонт</h2>
+    <p class="sub">Передзвонимо та узгодимо деталі й зручний час</p>
+    <label class="l" for="cname">Ім'я</label><input id="cname" autocomplete="name" placeholder="Як до вас звертатися">
+    <label class="l" for="cphone">Телефон *</label><input id="cphone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+380 __ ___ __ __">
+    <label class="l" for="cservice">Що потрібно зробити</label><select id="cservice"></select>
+    <label class="l" for="ccar">Марка й модель авто</label><input id="ccar" placeholder="Наприклад, Skoda Octavia 2014">
+    <label class="l" for="cnote">Що сталося</label><textarea id="cnote" placeholder="Стукіт, не заводиться, загорілась лампа Check Engine…"></textarea>
+    <input class="hp" id="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label class="agree"><input type="checkbox" id="agree"><span>Погоджуюсь на обробку персональних даних згідно з <a class="ppl">Політикою конфіденційності</a></span></label>
+    <button class="btn" id="send" type="submit">Надіслати заявку</button>
+    <div class="err" id="err" role="alert"></div>
+   </form>
+   <div class="ok" id="ok" hidden>
+    <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="28"/><path d="M20 33l8 8 16-17"/></svg>
+    <h2>Заявку надіслано</h2>
+    <p class="sub" id="okmsg" style="margin-top:6px">Ми зв'яжемося з вами найближчим часом.</p>
+   </div>
+  </div>
+ </main>
+</div>
+
+<div class="marq"><div id="brands"></div></div>
+
+<section><div class="wrap">
+ <h2 class="t rv">Що сталося з авто?</h2>
+ <p class="sec-sub rv">Не знаєте, як назвати проблему? Натисніть на схоже, і ми підставимо її в заявку.</p>
+ <div class="chips rv" id="chips"></div>
+</div></section>
+
+<section id="services" style="padding-top:0"><div class="wrap">
+ <h2 class="t rv">Послуги та ціни</h2>
+ <p class="sec-sub rv">Позначте, що потрібно, і побачите орієнтовну вартість. Остаточну ціну узгоджуємо після огляду.</p>
+ <div class="list rv" id="svc"></div>
+ <div class="calc rv"><div><small>Орієнтовно</small><b id="sum">оберіть послуги</b></div><button class="btn" id="addb" type="button" disabled>Додати до заявки</button></div>
+</div></section>
+
+<section class="dark" id="how"><div class="wrap">
+ <h2 class="t rv">Як це працює</h2>
+ <p class="sec-sub rv">Від заявки до готового авто, без довгого очікування на лінії.</p>
+ <div class="grid steps" id="steps"></div>
+</div></section>
+
+<section><div class="wrap">
+ <h2 class="t rv">Що означає лампочка на панелі</h2>
+ <p class="sec-sub rv">Коротка підказка: чи можна їхати далі, чи краще зупинитися.</p>
+ <div class="grid g4" id="lamps"></div>
+</div></section>
+
+<section class="dark" id="reviews"><div class="wrap">
+ <h2 class="t rv">Відгуки клієнтів</h2>
+ <div class="grid g3" id="revs" style="margin-top:20px"></div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+ <h2 class="t rv">Часті запитання</h2>
+ <div id="faqs" style="margin-top:20px"></div>
+</div></section>
+
+<section id="contacts" style="padding-top:0"><div class="wrap">
+ <h2 class="t rv">Як нас знайти</h2>
+ <div class="contacts rv card" style="margin-top:20px" id="ct"></div>
+ <div class="cta rv" id="cta"></div>
+</div></section>
+
+<footer><div class="wrap" id="foot"></div></footer>
+<div class="bar"><a class="btn ghost" id="tel2"></a><a class="btn" href="#book">Записатися</a></div>
+<dialog id="pp"><div id="ppc"></div><button class="btn" id="ppx" type="button">Зрозуміло</button></dialog>
+
+<script>
+/* ===== НАЛАШТУВАННЯ: змінюйте лише цей блок ===== */
+const C={
+ name:"СТО Буча",
+ owner:"",                            // назва ФОП/ТОВ для політики (якщо порожньо, береться назва СТО)
+ email:"buchasto@gmail.com",
+ city:"Буча",
+ address:"вул. Шевченка, 25",
+ phone:"+380 73 531 54 10",
+ whatsapp:"",              // лише цифри, з кодом країни
+ telegram:"",                  // нік без @
+ open:{days:[1,2,3,4,5,6],appt:[],from:9,to:19,text:"Пн–Сб 9:00–19:00"},
+ accent:"#f24848", viber:true,
+ currency:"₴",
+ mode:"viber",                      // "viber" | "whatsapp" | "telegram" | "endpoint"
+ endpoint:"",                          // для "endpoint", напр. посилання Formspree
+ heroTitle:"Ремонт авто без черг і довгих дзвінків",
+ heroText:"Залиште заявку за 20 секунд. Ми передзвонимо й узгодимо вартість та зручний час.",
+ facts:["Запис онлайн 24/7","Відповідаємо в месенджерах","Без очікування на лінії"],
+ brands:["Motul Garage","KYB"],
+ symptoms:[["Не працює електрика","Автоелектрик"],["Горить лампа на панелі","Автоелектрик"],["Не заводиться","Ремонт стартера / генератора"],["Розряджається акумулятор","Ремонт стартера / генератора"],["Тьмяне світло фар","Регулювання світла фар"]],
+ services:[   /* [назва, опис, ціна від, іконка] */
+  ["Автоелектрик","Діагностика та ремонт електрообладнання авто",400,"bolt"],
+  ["Регулювання світла фар","Налаштування світла на стенді",150,"bulb"],
+  ["Ремонт стартера / генератора","Діагностика, ремонт, заміна деталей",300,"engine"]
+ ],
+ steps:[
+  ["Залишаєте заявку","Ім'я, телефон і що сталося. Це 20 секунд.","edit"],
+  ["Ми передзвонюємо","Уточнюємо деталі та узгоджуємо вартість.","phone"],
+  ["Приїжджаєте у зручний час","Виконуємо роботи й віддаємо авто.","car"]
+ ],
+ lamps:[
+  ["#e5251d","Тиск оливи","Негайно зупиніться та заглушіть двигун. Їхати далі не можна.","oil"],
+  ["#e5251d","Перегрів двигуна","Зупиніться, дайте остигнути, не відкривайте кришку одразу.","thermo"],
+  ["#f5a623","Check Engine","Можна доїхати до сервісу, але не відкладайте діагностику.","engine"],
+  ["#f5a623","Акумулятор або генератор","Авто може заглохнути. Вимкніть зайве й їдьте до сервісу.","battery"]
+ ],
+ reviews:[
+  ["Надічка Хамайко","","Чудовий сервіс. Ціни адекватні як за роботу, так і за запчастини, наявність деталей на місці."],
+  ["Ігор Падерін","","Завжди там обслуговуюся з тим, що боюся робити своїми руками. Жодного разу не підвели. Рекомендую!"]
+ ],
+ faq:[
+  ["Скільки коштує діагностика?","Орієнтовна ціна вказана вище. Точну вартість назвемо після огляду."],
+  ["Чи є гарантія на роботи?","Умови гарантії уточнюйте в майстра під час запису."],
+  ["Як швидко ви передзвоните?","У робочий час, найближчим часом після заявки. Якщо заявка прийшла в неділю, передзвонимо в перший робочий день."],
+  ["Чи можна привезти свої запчастини?","Так, уточніть це під час запису."],
+  ["Як дізнатися ціну заздалегідь?","Оберіть послуги в калькуляторі або залиште заявку, і ми узгодимо вартість."]
+ ]
+};
+Object.assign(C,{"name": "СТО Развилка", "owner": "", "email": "", "city": "Миколаїв", "address": "Malko-Tyrnivska St, 81", "phone": "+380 66 339 56 52", "whatsapp": "380663395652", "telegram": "", "viber": true, "open": null, "accent": "#f24848", "mode": "viber", "reviews": [], "brands": ["Toyota", "Volkswagen", "Skoda", "Renault", "Hyundai", "Kia", "Ford", "BMW", "Mercedes", "Nissan", "Opel", "Mazda"], "symptoms": [["Стукіт у підвісці", "Ремонт підвіски"], ["Не заводиться", "Діагностика"], ["Скрип гальм", "Гальмівна система"], ["Горить Check Engine", "Діагностика"], ["Пора міняти олію", "Заміна оливи та фільтрів"]], "services": [["Діагностика", "Комп'ютерна та ходової частини", null, "search"], ["Заміна оливи та фільтрів", "Олива, масляний і повітряний фільтри", null, "oil"], ["Ремонт підвіски", "Важелі, стійки, сайлентблоки", null, "susp"], ["Гальмівна система", "Колодки, диски, прокачування", null, "brake"], ["Шиномонтаж", "Зняття, балансування, встановлення", null, "tire"]], "faq": [["Скільки коштує ремонт?", "Назвемо вартість після огляду або діагностики, до початку робіт."], ["Як записатися?", "Залиште заявку на сайті або зателефонуйте нам."], ["Чи можна привезти свої запчастини?", "Так, уточніть це під час запису."]]});
+/* ===== далі код чіпати не потрібно ===== */
+const IC={wrench:"M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z",search:"M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4",oil:"M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z",susp:"M12 3v3M8 8l8 2-8 2 8 2-8 2 8 2M12 20v1",brake:"M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM12 5v1M12 18v1M5 12h1M18 12h1",tire:"M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM12 3v2M12 19v2M3 12h2M19 12h2",phone:"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z",pin:"M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11zM12 7.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z",clock:"M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 7v5l3 2",chat:"M4 5h16v11H9l-5 4z",edit:"M5 4h10l4 4v12H5zM9 12h6M9 16h6",car:"M4 16v-4l2-5h12l2 5v4M4 16h16M4 16v2h3v-2M17 16v2h3v-2M7 12h10",user:"M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM4 21a8 8 0 0 1 16 0",thermo:"M10 4a2 2 0 0 1 4 0v10a4 4 0 1 1-4 0zM12 9v8",engine:"M6 8h9v2h3v3h2v4h-2v2H8l-2-2v-3H4v-3h2zM9 8V6h4",battery:"M3 8h15v8H3zM18 11h2v2h-2zM6 12h4M8 10v4",bulb:"M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z",bolt:"M13 3L5 14h6l-1 7 8-11h-6z",star:"M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z",check:"M5 12l5 5 9-10",menu:"M4 7h16M4 12h16M4 17h16",x:"M6 6l12 12M18 6L6 18"};
+const ic=(n,s="")=>`<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" ${s}><path d="${IC[n]||IC.wrench}"/></svg>`;
+const $=id=>document.getElementById(id),dig=s=>s.replace(/\D/g,""),fmt=n=>n.toLocaleString("uk-UA");
+document.documentElement.style.setProperty("--acc",C.accent);
+document.title=C.name+" — СТО"+(C.city?", "+C.city:"");
+document.querySelector('meta[name=description]').content="СТО "+C.name+(C.city?", "+C.city:"")+": ремонт авто, діагностика, шиномонтаж. Онлайн-заявка за 20 секунд.";
+$("logo").innerHTML=C.name.slice(0,-1)+"<i>"+C.name.slice(-1)+"</i>";
+$("nav").innerHTML=[["Послуги","services"],["Як це працює","how"],["Відгуки","reviews"],["Питання","faq"],["Контакти","contacts"]].map(n=>`<a href="#${n[1]}">${n[0]}</a>`).join("");
+$("bg").innerHTML=ic("menu");
+$("bg").onclick=()=>{const o=$("nav").classList.toggle("open");$("bg").innerHTML=ic(o?"x":"menu")};
+$("nav").onclick=e=>{if(e.target.tagName==="A"){$("nav").classList.remove("open");$("bg").innerHTML=ic("menu")}};
+$("tel1").href=$("tel2").href="tel:+"+dig(C.phone);
+$("tel1").innerHTML=ic("phone")+C.phone;$("tel2").innerHTML=ic("phone")+"Подзвонити";
+const n0=new Date(),h0=n0.getHours()+n0.getMinutes()/60,isOpen=C.open&&C.open.days.includes(n0.getDay())&&h0>=C.open.from&&h0<C.open.to;
+if(C.open)$("st").innerHTML=`<i class="dot${isOpen?" on":""}"></i>${isOpen?"Зараз відчинено":(C.open.appt||[]).includes(n0.getDay())?"За попереднім записом":"Зараз зачинено"}`;
+$("h1").innerHTML=C.heroTitle.split(" ").map((w,i)=>`<span style="animation-delay:${.08*i}s">${w}</span>`).join(" ");
+$("lead").textContent=C.heroText;
+$("facts").innerHTML=C.facts.map(f=>`<li>${ic("check")}${f}</li>`).join("");
+$("brands").innerHTML=(B=>[...B,...B])([...C.brands,...C.brands,...C.brands,...C.brands]).map(b=>`<span>${b}</span>`).join("");
+$("cservice").innerHTML=C.services.map(s=>`<option>${s[0]}</option>`).join("")+"<option>Інше</option>";
+$("chips").innerHTML=C.symptoms.map((s,i)=>{const sv=C.services.find(x=>x[0]===s[1]);return `<button class="chip" type="button" data-i="${i}">${ic(sv?sv[3]:"wrench")}${s[0]}</button>`}).join("");
+$("svc").innerHTML=C.services.map((s,i)=>`<label class="row"><input type="checkbox" data-i="${i}"><span class="ico">${ic(s[3])}</span><div class="rt"><b>${s[0]}</b><small>${s[1]}</small></div><div class="pr">${s[2]?"від "+fmt(s[2])+" "+C.currency:"ціна за запитом"}</div></label>`).join("");
+$("steps").innerHTML=C.steps.map((s,i)=>`<div class="step rv"><div class="ico" data-n="${i+1}">${ic(s[2])}</div><h3>${s[0]}</h3><p>${s[1]}</p></div>`).join("");
+$("lamps").innerHTML=C.lamps.map(l=>`<div class="card rv"><div class="lamp"><span class="ico" style="color:${l[0]};background:color-mix(in srgb,${l[0]} 14%,#fff)">${ic(l[3])}</span><h3>${l[1]}</h3></div><p>${l[2]}</p></div>`).join("");
+$("revs").innerHTML=C.reviews.map(r=>`<div class="card rv rev"><div class="stars">${ic("star",'fill="currentColor"').repeat(5)}</div><p>${r[2]}</p><div class="by"><span class="av">${ic("user")}</span><div><b>${r[0]}</b><small>${r[1]}</small></div></div></div>`).join("");
+$("faqs").innerHTML=C.faq.map(q=>`<details class="rv"><summary>${q[0]}</summary><p>${q[1]}</p></details>`).join("");
+$("ct").innerHTML=[["pin","Адреса",[C.city,C.address].filter(Boolean).join(", ")],...(C.open?[["clock","Години роботи",C.open.text]]:[]),["phone","Телефон",C.phone]].map(c=>`<div class="ci"><span class="ico">${ic(c[0])}</span><div><small>${c[1]}</small><b>${c[2]}</b></div></div>`).join("");
+$("cta").innerHTML=`<a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/${encodeURIComponent(C.city+", "+C.address)}">${ic("pin")}Відкрити на карті</a>${C.viber?`<a class="btn ghost" href="viber://chat?number=%2B${dig(C.phone)}">${ic("chat")}Viber</a>`:""}${C.whatsapp?`<a class="btn ghost" target="_blank" rel="noopener" href="https://wa.me/${C.whatsapp}">${ic("chat")}WhatsApp</a>`:""}${C.telegram?`<a class="btn ghost" target="_blank" rel="noopener" href="https://t.me/${C.telegram}">${ic("chat")}Telegram</a>`:""}`;
+$("foot").innerHTML=`© ${new Date().getFullYear()} ${C.name}, ${C.city}. <a class="ppl">Політика конфіденційності</a>`;
+$("ppc").innerHTML=`<h2>Політика конфіденційності</h2><p>Ця політика пояснює, як ${C.owner||C.name} («${C.name}») обробляє персональні дані, які ви залишаєте на цьому сайті.</p>
+<h3>Які дані ми збираємо</h3><ul><li>ім'я, номер телефону;</li><li>марка й модель авто та опис проблеми, якщо ви їх вказали.</li></ul>
+<h3>Навіщо ми їх використовуємо</h3><p>Лише щоб зв'язатися з вами, відповісти на заявку, узгодити час і вартість ремонту. Ми не продаємо дані й не використовуємо їх для спаму.</p>
+<h3>Підстава обробки</h3><p>Ваша згода, яку ви надаєте, ставлячи позначку у формі заявки.</p>
+<h3>Як передаються дані</h3><p>Заявка надсилається власнику сервісу через месенджер (WhatsApp або Telegram) або сервіс обробки форм. Ці сервіси мають власні політики конфіденційності. Сайт не веде власної бази даних заявок.</p>
+<h3>Скільки зберігаємо</h3><p>Тільки доки це потрібно для обслуговування заявки та виконання робіт, якщо інше не вимагає закон.</p>
+<h3>Ваші права</h3><p>Ви можете запитати, які дані ми маємо, виправити або видалити їх і в будь-який момент відкликати згоду. Зверніться до нас: ${C.email||C.phone}.</p>
+<h3>Файли cookie</h3><p>Сайт не використовує cookie для відстеження. Шрифти завантажуються з Google Fonts.</p>
+<h3>Контакти</h3><p>${[C.owner||C.name,C.city,C.address,C.email,C.phone].filter(Boolean).join(", ")}.</p>`;
+document.querySelectorAll(".ppl").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();$("pp").showModal()}));
+$("ppx").onclick=()=>$("pp").close();
+$("pp").addEventListener("click",e=>{if(e.target===$("pp"))$("pp").close()});
+
+const f=$("f"),err=$("err"),btn=$("send"),picked=new Set();
+function calc(){let s=0,u=0;picked.forEach(i=>{const p=C.services[i][2];p?s+=p:u++});$("sum").textContent=!picked.size?"оберіть послуги":s?"від "+fmt(s)+" "+C.currency+(u?" + за запитом":""):"ціну назвемо після огляду";$("addb").disabled=!picked.size}
+$("svc").addEventListener("change",e=>{const i=+e.target.dataset.i;e.target.checked?picked.add(i):picked.delete(i);e.target.closest(".row").classList.toggle("sel",e.target.checked);calc()});
+$("addb").onclick=()=>{const l=[...picked].map(i=>C.services[i][0]);$("cservice").value=l[0];$("cnote").value="Обрано: "+l.join(", ")+". "+$("sum").textContent+".\n"+$("cnote").value;$("book").scrollIntoView({behavior:"smooth",block:"center"})};
+$("chips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;const s=C.symptoms[b.dataset.i];$("cservice").value=s[1];$("cnote").value=s[0]+".\n"+$("cnote").value.replace(s[0]+".\n","");$("book").scrollIntoView({behavior:"smooth",block:"center"})});
+
+f.addEventListener("submit",async e=>{
+ e.preventDefault();err.textContent="";
+ if($("website").value)return;
+ const d={name:$("cname").value.trim(),phone:$("cphone").value.trim(),service:$("cservice").value,car:$("ccar").value.trim(),note:$("cnote").value.trim()};
+ if(dig(d.phone).length<9){err.textContent="Вкажіть телефон повністю, наприклад +380 50 123 45 67";$("cphone").focus();return}
+ if(!$("agree").checked){err.textContent="Потрібна згода на обробку персональних даних";return}
+ const text=`Заявка з сайту ${C.name}\nІм'я: ${d.name||"-"}\nТелефон: ${d.phone}\nПослуга: ${d.service}\nАвто: ${d.car||"-"}\nКоментар: ${d.note||"-"}`;
+ btn.disabled=true;
+ try{
+  if(C.mode==="endpoint"){
+   const r=await fetch(C.endpoint,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify({...d,message:text})});
+   if(!r.ok)throw 0;
+  }else if(C.mode==="viber"){navigator.clipboard&&navigator.clipboard.writeText(text).catch(()=>{});$("okmsg").textContent="Текст заявки скопійовано. Вставте його в чат Viber і надішліть.";location.href="viber://chat?number=%2B"+dig(C.phone)}else window.open(C.mode==="telegram"?`https://t.me/${C.telegram}?text=${encodeURIComponent(text)}`:`https://wa.me/${C.whatsapp}?text=${encodeURIComponent(text)}`,"_blank");
+  f.hidden=true;$("ok").hidden=false;
+ }catch(_){err.textContent="Не вдалося надіслати. Зателефонуйте нам: "+C.phone;btn.disabled=false}
+});
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}}),{threshold:.15});
+document.querySelectorAll(".rv").forEach(n=>io.observe(n));
+</script>
+</body>
+</html>
