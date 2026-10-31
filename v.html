@@ -1,0 +1,5 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Viber</title>
+<body style="font-family:sans-serif;padding:24px"><p>Відкриваю Viber…</p>
+<p><a id="a" href="#" style="font-size:22px">Відкрити Viber</a></p><p id="n" style="font-family:monospace;font-size:18px"></p>
+<script>var n=(new URLSearchParams(location.search).get("n")||"").replace(/\D/g,""),u="viber://chat?number=%2B"+n;
+document.getElementById("a").href=u;document.getElementById("n").textContent="+"+n;location.href=u;</script></body>

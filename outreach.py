@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Пошук СТО (OpenStreetMap) -> сайти -> нагадування у Telegram у випадкові години. Нічого не шле клієнтам сам."""
+"""Контакти з leads.csv -> нагадування у Telegram (по кілька на день) + повтор через 2 дні. Нічого не шле клієнтам сам."""
 import json, os, re, random, html, time, urllib.request, urllib.parse, urllib.error
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -252,25 +252,48 @@ def ensure_sites(cfg, st):
         if l.get("status") in ("new", "planned") and l.get("type") != "generic" and not l.get("site"):
             site_for(cfg, k, l)
 
-def notify(cfg, l, url):
-    text = compose(cfg, l, url)
+DAY = 86400
+
+def texts(cfg):
+    T = cfg.get("texts") or {}
+    return T.get(cfg.get("lang", "uk")) or T.get("uk")
+
+def build_text(cfg, st, l, kind, url):
+    T = texts(cfg)
+    if kind == "first" and l.get("type") == "generic" or not T:
+        return compose(cfg, l, url)
+    lst = T[kind]; n = st.get("n_" + kind, 0)
+    return lst[(n // 5) % len(lst)].format(name=l["name"], url=url or "", me=cfg["my_name"],
+        portfolio=cfg["portfolio"], price=cfg.get("price", "1500"))
+
+TITLES = {"first": "⏰ Час написати", "follow": "🔔 Нагадування (минуло 2 дні)", "final": "🔚 Останнє повідомлення"}
+DONE_BTN = {"first": "✅ Написав", "follow": "✅ Нагадав", "final": "✅ Надіслав"}
+CODE = {"first": "s", "follow": "f", "final": "z"}
+
+def notify(cfg, st, k, l, kind, url):
+    text = build_text(cfg, st, l, kind, url)
     e = html.escape
     phone = l.get("phone", ""); u = l.get("tg"); mob = l.get("mobile", True) and bool(phone)
+    base = cfg["pages_base"].rstrip("/")
     kb = []; links = []
     if mob:
         wa = f"https://wa.me/{phone}"; wal = wa + "?text=" + urllib.parse.quote(text)
         if len(wal) > 1500: wal = wa
         kb.append({"text": "💬 WhatsApp", "url": wal}); links.append(f"WhatsApp: {wa}")
+        vb = f"{base}/v.html?n={phone}"
+        kb.append({"text": "💜 Viber", "url": vb}); links.append(f"Viber: {vb}")
         kb.append({"text": "✈️ Telegram", "url": f"https://t.me/+{phone}"}); links.append(f"Telegram: https://t.me/+{phone}")
     if u:
         kb.append({"text": "✈️ Telegram", "url": f"https://t.me/{u}"}); links.append(f"Telegram: https://t.me/{u}")
     if url:
-        kb.append({"text": "🌐 Сайт", "url": url}); links.append(f"Сайт: {url}")
+        kb.append({"text": "🌐 Демо (для скріншота)", "url": url}); links.append(f"Демо: {url}")
     who = (f"📞 {fmt_phone(phone)}" + ("" if mob else " (стаціонарний, краще зателефонувати)")) if phone else f"✈️ @{u}"
     where = e(l.get("address") or l.get("city") or "")
-    head = (f"⏰ Час написати: <b>{e(l['name'])}</b>\n{who}\n" + (where + "\n" if where else "") + "\nТекст нижче (натисни, щоб скопіювати)"
-            + (", потім відкрий чат:" if (mob or u) else ":"))
+    head = (f"{TITLES[kind]}: <b>{e(l['name'])}</b>\n{who}\n" + (where + "\n" if where else "")
+            + "\nТекст нижче (натисни, щоб скопіювати). Вставляй у месенджер, а потім тисни «" + DONE_BTN[kind].split(" ", 1)[1] + "».")
     rows = [kb[i:i + 2] for i in range(0, len(kb), 2)]
+    rows.append([{"text": DONE_BTN[kind], "callback_data": f"{CODE[kind]}:{k}"}])
+    rows.append([{"text": "💬 Відповів", "callback_data": f"r:{k}"}, {"text": "🚫 Не цікаво", "callback_data": f"x:{k}"}])
     try:
         tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "disable_web_page_preview": True, "text": head,
             "reply_markup": {"inline_keyboard": rows}})
@@ -279,32 +302,86 @@ def notify(cfg, l, url):
             "text": head + "\n\n" + "\n".join(links)})
     tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "text": f"<code>{e(text)}</code>"})
 
-def times(n, w0, w1, gap=20):
-    for _ in range(300):
-        ts = sorted(random.sample(range(w0, w1), n))
-        if all(b - a >= gap for a, b in zip(ts, ts[1:])): return ts
-    step = (w1 - w0) // n
-    return [w0 + i * step + random.randint(0, step // 2) for i in range(n)]
+def kit_message(cfg):
+    T = texts(cfg)
+    if not T or not T.get("kit"): return None
+    e = html.escape
+    parts = ["💬 <b>Він відповів. Готові відповіді:</b>"]
+    for title, body in T["kit"]:
+        body = body.format(name="(назва)", price=cfg.get("price", "1500"), portfolio=cfg["portfolio"], me=cfg["my_name"], url="")
+        parts.append(f"\n<b>{e(title)}</b>\n<code>{e(body)}</code>")
+    return "\n".join(parts)[:4000]
 
-def hhmm(t): return f"{t//60}:{t%60:02d}"
+def handle_updates(cfg, st):
+    if not TOKEN: return
+    try: r = http(f"https://api.telegram.org/bot{TOKEN}/getUpdates?offset={st.get('upd', 0)}&timeout=0&allowed_updates=%5B%22callback_query%22%5D", timeout=30)
+    except Exception as ex:
+        print("getUpdates:", ex); return
+    now = time.time()
+    for u in r.get("result", []):
+        st["upd"] = u["update_id"] + 1
+        cq = u.get("callback_query")
+        if not cq or str(cq["from"]["id"]) != str(CHAT): continue
+        act, _, k = (cq.get("data") or "").partition(":")
+        l = st["leads"].get(k)
+        note = "Записано"
+        if l and act in ("s", "f", "z", "r", "x"):
+            fld = {"s": "t1", "f": "t2", "z": "t3", "r": "replied", "x": "declined"}[act]
+            l[fld] = now
+        msg = cq.get("message") or {}
+        rows = [r_ for r_ in (msg.get("reply_markup") or {}).get("inline_keyboard", []) if all("url" in b for b in r_)]
+        if act == "s": rows.append([{"text": "💬 Відповів", "callback_data": f"r:{k}"}, {"text": "🚫 Не цікаво", "callback_data": f"x:{k}"}]); note = "Нагадаю через 2 дні"
+        elif act in ("f", "z"): rows.append([{"text": "💬 Відповів", "callback_data": f"r:{k}"}, {"text": "🚫 Не цікаво", "callback_data": f"x:{k}"}])
+        elif act == "r":
+            rows.append([{"text": "💬 Відповів ✔", "callback_data": "n:"}])
+            km = kit_message(cfg)
+            if km:
+                try: tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "text": km})
+                except Exception as ex: print("kit", ex)
+        elif act == "x": rows.append([{"text": "🚫 Закрито", "callback_data": "n:"}])
+        else: rows = None
+        try: tg("answerCallbackQuery", {"callback_query_id": cq["id"], "text": note})
+        except Exception: pass
+        if rows is not None and msg.get("message_id"):
+            try: tg("editMessageReplyMarkup", {"chat_id": CHAT, "message_id": msg["message_id"], "reply_markup": {"inline_keyboard": rows}})
+            except Exception: pass
+
+def due_kind(l, now):
+    if l.get("replied") or l.get("declined") or l.get("t3"): return None
+    if l.get("t2"): return "final" if (now - l["t2"] >= 3 * DAY and not l.get("rz")) else None
+    if l.get("t1"): return "follow" if (now - l["t1"] >= 2 * DAY and not l.get("rf")) else None
+    return None
+
+def stats(st):
+    L = list(st["leads"].values())
+    c = lambda f: sum(1 for l in L if l.get(f))
+    return (f"📊 Усього: {len(L)}\nНових у черзі: {sum(1 for l in L if l['status'] == 'new')}\n"
+            f"Написав: {c('t1')}\nНагадав: {c('t2')}\nВідповіли: {c('replied')}\nНе цікаво: {c('declined')}")
 
 def main():
     cfg = jload("config.json", {}); assert "ТВІЙ" not in cfg["pages_base"], "Впиши pages_base у config.json"
-    st = jload("state.json", {"leads": {}, "fetched": [], "plan": None})
-    st["plan"] = None
-    for l in st["leads"].values():                          # старі "заплановані" повертаємо в чергу
+    st = jload("state.json", {"leads": {}, "fetched": []})
+    st.pop("plan", None)
+    for l in st["leads"].values():
         if l.get("status") == "planned": l["status"] = "new"
+    handle_updates(cfg, st)
     gather(cfg, st); ensure_sites(cfg, st)
-    new = [k for k, l in st["leads"].items() if l["status"] == "new"]
-    if not new:
-        if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
-            tg("sendMessage", {"chat_id": CHAT, "text": "Нових контактів немає. Додай рядки у файл leads.csv.\n" + "\n".join(st.get("report", []))})
-        jsave("state.json", st); return
-    tg("sendMessage", {"chat_id": CHAT, "text": f"📋 Нових контактів: {len(new)}. Надсилаю все одразу."})
-    for k in new:                                           # без розкладу: усе одразу
+    now = time.time(); today = datetime.now(TZ).strftime("%Y-%m-%d")
+    if st.get("day") != today: st["day"] = today; st["today"] = 0
+    cap, per_run = cfg.get("per_day", 25), cfg.get("per_run", 1)
+    todo = [(k, due_kind(l, now)) for k, l in st["leads"].items() if due_kind(l, now)]
+    todo += [(k, "first") for k, l in st["leads"].items() if l["status"] == "new"]
+    sent = 0
+    for k, kind in todo:
+        if st["today"] >= cap or sent >= per_run: break
         l = st["leads"][k]
-        notify(cfg, l, site_for(cfg, k, l)); l["status"] = "sent"
-        time.sleep(1)
+        notify(cfg, st, k, l, kind, l.get("site") or site_for(cfg, k, l))
+        st["n_" + kind] = st.get("n_" + kind, 0) + 1
+        if kind == "first": l["status"] = "sent"; l["notified"] = now
+        else: l["rf" if kind == "follow" else "rz"] = now
+        st["today"] += 1; sent += 1; time.sleep(1)
+    if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+        tg("sendMessage", {"chat_id": CHAT, "text": stats(st) + "\n" + "\n".join(st.get("report", []))})
     jsave("state.json", st)
 
 if __name__ == "__main__": main()
