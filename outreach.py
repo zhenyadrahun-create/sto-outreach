@@ -285,6 +285,8 @@ def notify(cfg, st, k, l, kind, url):
         kb.append({"text": "✈️ Telegram", "url": f"https://t.me/+{phone}"}); links.append(f"Telegram: https://t.me/+{phone}")
     if u:
         kb.append({"text": "✈️ Telegram", "url": f"https://t.me/{u}"}); links.append(f"Telegram: https://t.me/{u}")
+    q = urllib.parse.quote(f"{l['name']} {l.get('city','')} сайт")
+    kb.append({"text": "🔍 Є сайт? Перевірити", "url": f"https://www.google.com/search?q={q}"})
     if url:
         kb.append({"text": "🌐 Демо (для скріншота)", "url": url}); links.append(f"Демо: {url}")
     who = (f"📞 {fmt_phone(phone)}" + ("" if mob else " (стаціонарний, краще зателефонувати)")) if phone else f"✈️ @{u}"
