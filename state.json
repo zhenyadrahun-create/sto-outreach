@@ -29,8 +29,9 @@
    "type": "sto",
    "address": "Liniina St, 22",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380996779175/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380996779175/",
+   "notified": 1793631245.5698767
   },
   "c380509165927": {
    "name": "Сумы | Сто автор (Avtokvartal)",
@@ -1958,6 +1959,6 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-02",
- "today": 1,
- "n_first": 2
+ "today": 2,
+ "n_first": 3
 }
