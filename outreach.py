@@ -370,19 +370,32 @@ def main():
     gather(cfg, st); ensure_sites(cfg, st)
     now = time.time(); today = datetime.now(TZ).strftime("%Y-%m-%d")
     if st.get("day") != today: st["day"] = today; st["today"] = 0
-    cap, per_run = cfg.get("per_day", 25), cfg.get("per_run", 1)
+    cap = cfg.get("per_day", 25)
+    manual = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch" and os.environ.get("SOURCE", "manual") != "cron"
+    if not manual and now - st.get("last_send", 0) < 600:        # запуски приходять з двох джерел, не частіше ніж раз на 10 хв
+        jsave("state.json", st); return
+    gap = max(1, int((now - st.get("last_send", 0)) // 900))      # якщо запуски GitHub запізнилися, надолужуємо (до 5 за раз)
+    per_run = min(max(cfg.get("per_run", 1), gap), 5)
     todo = [(k, due_kind(l, now)) for k, l in st["leads"].items() if due_kind(l, now)]
     todo += [(k, "first") for k, l in st["leads"].items() if l["status"] == "new"]
     sent = 0
-    for k, kind in todo:
-        if st["today"] >= cap or sent >= per_run: break
-        l = st["leads"][k]
-        notify(cfg, st, k, l, kind, l.get("site") or site_for(cfg, k, l))
-        st["n_" + kind] = st.get("n_" + kind, 0) + 1
-        if kind == "first": l["status"] = "sent"; l["notified"] = now
-        else: l["rf" if kind == "follow" else "rz"] = now
-        st["today"] += 1; sent += 1; time.sleep(1)
-    if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+    try:
+        for k, kind in todo:
+            if st["today"] >= cap or sent >= per_run: break
+            l = st["leads"][k]
+            try:
+                notify(cfg, st, k, l, kind, l.get("site") or site_for(cfg, k, l))
+            except Exception as ex:                                # проблемний контакт не блокує чергу
+                print("ERROR lead", k, ex)
+                if kind == "first": l["status"] = "error"; l["err"] = str(ex)[:200]
+                continue
+            st["n_" + kind] = st.get("n_" + kind, 0) + 1
+            if kind == "first": l["status"] = "sent"; l["notified"] = now
+            else: l["rf" if kind == "follow" else "rz"] = now
+            st["today"] += 1; sent += 1; st["last_send"] = now; time.sleep(1)
+    finally:
+        jsave("state.json", st)
+    if manual:
         tg("sendMessage", {"chat_id": CHAT, "text": stats(st) + "\n" + "\n".join(st.get("report", []))})
     jsave("state.json", st)
 

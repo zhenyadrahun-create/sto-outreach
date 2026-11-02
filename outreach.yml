@@ -4,8 +4,12 @@ on:
     paths:
       - leads.csv
   schedule:
-    - cron: "*/15 6-15 * * 1-5"
+    - cron: "7,22,37,52 6-15 * * 1-5"
   workflow_dispatch:
+    inputs:
+      source:
+        description: "manual or cron"
+        default: "manual"
 permissions:
   contents: write
 concurrency:
@@ -20,6 +24,7 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
+          SOURCE: ${{ github.event.inputs.source }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           SECRETS_JSON: ${{ toJSON(secrets) }}
         run: python3 outreach.py
