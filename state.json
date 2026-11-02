@@ -18,8 +18,9 @@
    "type": "sto",
    "address": "Pryvokzalna St, 4/5",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380754506570/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380754506570/",
+   "notified": 1793629180.2131836
   },
   "c380996779175": {
    "name": "Sto Planeta Avto Sumy",
@@ -1956,7 +1957,7 @@
  "report": [],
  "tt_done": [],
  "tt_geo": {},
- "day": "2026-10-31",
+ "day": "2026-11-02",
  "today": 1,
- "n_first": 1
+ "n_first": 2
 }
