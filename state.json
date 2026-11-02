@@ -51,8 +51,9 @@
    "type": "sto",
    "address": "Serhiia Tabaly St, 5",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509081137/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509081137/",
+   "notified": 1793649762.1756663
   },
   "c380665643511": {
    "name": "sto.avto.sumy СТО",
@@ -61,8 +62,9 @@
    "type": "sto",
    "address": "Yuriia Vietrova St, 20",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380665643511/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380665643511/",
+   "notified": 1793649762.1756663
   },
   "c380505971831": {
    "name": "СТО Автомеханика СУМЫ",
@@ -71,8 +73,9 @@
    "type": "sto",
    "address": "Herasima Kondratieva St, 160",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505971831/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505971831/",
+   "notified": 1793649762.1756663
   },
   "c380503073139": {
    "name": "Sto",
@@ -81,8 +84,9 @@
    "type": "sto",
    "address": "Hromadyanskyi Ln, 8",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503073139/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503073139/",
+   "notified": 1793649762.1756663
   },
   "c380951517454": {
    "name": "ТОВ СТО Авто Суми",
@@ -91,8 +95,9 @@
    "type": "sto",
    "address": "Yuriia Vietrova St, 24",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380951517454/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380951517454/",
+   "notified": 1793649762.1756663
   },
   "c380990896186": {
    "name": "Kolisnyy Servis",
@@ -1960,6 +1965,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-02",
- "today": 3,
- "n_first": 4
+ "today": 8,
+ "n_first": 9,
+ "last_send": 1793649762.1756663
 }
