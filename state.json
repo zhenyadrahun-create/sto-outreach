@@ -40,8 +40,9 @@
    "type": "sto",
    "address": "Hromadyanskyi Ln, 1",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509165927/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509165927/",
+   "notified": 1793631392.8432074
   },
   "c380509081137": {
    "name": "Maksservis",
@@ -1959,6 +1960,6 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-02",
- "today": 2,
- "n_first": 3
+ "today": 3,
+ "n_first": 4
 }
