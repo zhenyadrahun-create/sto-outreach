@@ -106,8 +106,9 @@
    "type": "sto",
    "address": "Chernihivska St, 5",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380990896186/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380990896186/",
+   "notified": 1793691351.4024763
   },
   "c380660994285": {
    "name": "BAZZ База Шин",
@@ -116,8 +117,9 @@
    "type": "sto",
    "address": "Romenska St, 77",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660994285/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660994285/",
+   "notified": 1793691351.4024763
   },
   "c380958460516": {
    "name": "Шиномонтаж Шиколо 1 UA",
@@ -126,8 +128,9 @@
    "type": "sto",
    "address": "Romenska St, 114",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380958460516/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380958460516/",
+   "notified": 1793691351.4024763
   },
   "c380662734179": {
    "name": "Shynomontazh Na Krut",
@@ -136,8 +139,9 @@
    "type": "sto",
    "address": "Heroiv Krut St",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380662734179/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380662734179/",
+   "notified": 1793691351.4024763
   },
   "c380664004804": {
    "name": "Garo Ukraine",
@@ -146,8 +150,9 @@
    "type": "sto",
    "address": "Bilopilskyi Shlyakh St, 19",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664004804/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664004804/",
+   "notified": 1793691351.4024763
   },
   "c380954585052": {
    "name": "Комп'ютерна діагностика VAG",
@@ -1964,8 +1969,8 @@
  "report": [],
  "tt_done": [],
  "tt_geo": {},
- "day": "2026-11-02",
- "today": 8,
- "n_first": 9,
- "last_send": 1793649762.1756663
+ "day": "2026-11-03",
+ "today": 5,
+ "n_first": 14,
+ "last_send": 1793691351.4024763
 }
