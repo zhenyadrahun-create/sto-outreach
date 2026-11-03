@@ -348,8 +348,9 @@
    "type": "sto",
    "address": "Kniazia Yaroslava Mudroho St, 59",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380567946469/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380567946469/",
+   "notified": 1793708145.8829627
   },
   "c380677262202": {
    "name": "СТО Автомотив на Перемозі",
@@ -1987,7 +1988,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 22,
- "n_first": 31,
- "last_send": 1793707281.4003456
+ "today": 23,
+ "n_first": 32,
+ "last_send": 1793708145.8829627
 }
