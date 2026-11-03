@@ -194,8 +194,9 @@
    "type": "sto",
    "address": "Nahirna St, 4a",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380987760948/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380987760948/",
+   "notified": 1793695544.447686
   },
   "c380914819004": {
    "name": "Автопарк Сервіс",
@@ -1973,7 +1974,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 8,
- "n_first": 17,
- "last_send": 1793694665.6911297
+ "today": 9,
+ "n_first": 18,
+ "last_send": 1793695544.447686
 }
