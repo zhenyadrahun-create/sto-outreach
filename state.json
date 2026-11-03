@@ -359,8 +359,9 @@
    "type": "sto",
    "address": "Mandrykivska St, 54",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677262202/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677262202/",
+   "notified": 1793709069.6552196
   },
   "c380973779945": {
    "name": "Sto Ekspres-Tsentr",
@@ -1988,7 +1989,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 23,
- "n_first": 32,
- "last_send": 1793708145.8829627
+ "today": 24,
+ "n_first": 33,
+ "last_send": 1793709069.6552196
 }
