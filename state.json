@@ -293,8 +293,9 @@
    "type": "sto",
    "address": "Horodotska St, 116",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380771120112/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380771120112/",
+   "notified": 1793703680.119065
   },
   "c380961454746": {
    "name": "Avtoservis, Komp'yuterna Diahnostyka",
@@ -1982,7 +1983,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 17,
- "n_first": 26,
- "last_send": 1793702743.9865034
+ "today": 18,
+ "n_first": 27,
+ "last_send": 1793703680.119065
 }
