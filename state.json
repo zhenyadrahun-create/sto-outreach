@@ -183,8 +183,9 @@
    "type": "sto",
    "address": "Romenska St, 96",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380504909162/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380504909162/",
+   "notified": 1793694665.6911297
   },
   "c380987760948": {
    "name": "Avtoservis Nahirna 4A",
@@ -1972,7 +1973,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 7,
- "n_first": 16,
- "last_send": 1793693749.6520166
+ "today": 8,
+ "n_first": 17,
+ "last_send": 1793694665.6911297
 }
