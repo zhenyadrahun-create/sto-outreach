@@ -370,8 +370,9 @@
    "type": "sto",
    "address": "3 Shturmovoi Bryhady St, 9",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973779945/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973779945/",
+   "notified": 1793709944.6764927
   },
   "c380975627271": {
    "name": "СТО Da-Car",
@@ -1989,7 +1990,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 24,
- "n_first": 33,
- "last_send": 1793709069.6552196
+ "today": 25,
+ "n_first": 34,
+ "last_send": 1793709944.6764927
 }
