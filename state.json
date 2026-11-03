@@ -227,8 +227,9 @@
    "type": "sto",
    "address": "Ploshcha 700-Richchya Lvova, 2",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664626108/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664626108/",
+   "notified": 1793698269.191123
   },
   "c380673380798": {
    "name": "СТО Львів Автомотив",
@@ -1976,7 +1977,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 11,
- "n_first": 20,
- "last_send": 1793697347.7368946
+ "today": 12,
+ "n_first": 21,
+ "last_send": 1793698269.191123
 }
