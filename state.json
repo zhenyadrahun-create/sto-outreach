@@ -315,8 +315,9 @@
    "type": "sto",
    "address": "Profesora Kovalyka St, 1",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380662761053/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380662761053/",
+   "notified": 1793705468.339215
   },
   "c380689887211": {
    "name": "APS Діагностика ходової, вібростенд",
@@ -1984,7 +1985,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 19,
- "n_first": 28,
- "last_send": 1793704544.4316835
+ "today": 20,
+ "n_first": 29,
+ "last_send": 1793705468.339215
 }
