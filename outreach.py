@@ -367,6 +367,8 @@ def main():
     for l in st["leads"].values():
         if l.get("status") == "planned": l["status"] = "new"
     handle_updates(cfg, st)
+    if os.environ.get("SOURCE") == "poll":                      # швидка перевірка: лише обробити натиснуті кнопки
+        jsave("state.json", st); return
     gather(cfg, st); ensure_sites(cfg, st)
     now = time.time(); today = datetime.now(TZ).strftime("%Y-%m-%d")
     if st.get("day") != today: st["day"] = today; st["today"] = 0
