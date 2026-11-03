@@ -249,8 +249,9 @@
    "type": "sto",
    "address": "Lychakivska St, 150",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380933753376/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380933753376/",
+   "notified": 1793700074.882245
   },
   "c380967630998": {
    "name": "Сто CarСТО Lviv",
@@ -1978,7 +1979,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 13,
- "n_first": 22,
- "last_send": 1793699145.1916666
+ "today": 14,
+ "n_first": 23,
+ "last_send": 1793700074.882245
 }
