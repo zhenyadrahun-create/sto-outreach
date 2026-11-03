@@ -172,8 +172,9 @@
    "type": "sto",
    "address": "Yanky Kupaly St, 13",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955537460/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955537460/",
+   "notified": 1793693749.6520166
   },
   "c380504909162": {
    "name": "DN Service",
@@ -1971,7 +1972,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 6,
- "n_first": 15,
- "last_send": 1793692879.8749747
+ "today": 7,
+ "n_first": 16,
+ "last_send": 1793693749.6520166
 }
