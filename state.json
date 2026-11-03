@@ -205,8 +205,9 @@
    "type": "sto",
    "address": "Kiltseva Rd, 60",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380914819004/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380914819004/",
+   "notified": 1793696478.246897
   },
   "c380978722020": {
    "name": "Avtoservis Lviv, Remont Dvyhuniv, Akpp, Avtoelektryk",
@@ -1974,7 +1975,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 9,
- "n_first": 18,
- "last_send": 1793695544.447686
+ "today": 10,
+ "n_first": 19,
+ "last_send": 1793696478.246897
 }
