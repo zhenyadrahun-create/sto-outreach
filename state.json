@@ -238,8 +238,9 @@
    "type": "sto",
    "address": "Khlibna St, 4",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673380798/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673380798/",
+   "notified": 1793699145.1916666
   },
   "c380933753376": {
    "name": "СТО24 Lviv",
@@ -1977,7 +1978,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 12,
- "n_first": 21,
- "last_send": 1793698269.191123
+ "today": 13,
+ "n_first": 22,
+ "last_send": 1793699145.1916666
 }
