@@ -326,8 +326,9 @@
    "type": "sto",
    "address": "Pid Holoskom St, 6",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689887211/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689887211/",
+   "notified": 1793706343.8930771
   },
   "c380990172471": {
    "name": "СТО Быстрый Ремонт Автомобилей",
@@ -1985,7 +1986,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 20,
- "n_first": 29,
- "last_send": 1793705468.339215
+ "today": 21,
+ "n_first": 30,
+ "last_send": 1793706343.8930771
 }
