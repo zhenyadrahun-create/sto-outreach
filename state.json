@@ -260,8 +260,9 @@
    "type": "sto",
    "address": "Dzherelna St, 11",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380967630998/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380967630998/",
+   "notified": 1793700942.4341514
   },
   "c380983439540": {
    "name": "LEV Шиномонтаж Центр Львів",
@@ -1979,7 +1980,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 14,
- "n_first": 23,
- "last_send": 1793700074.882245
+ "today": 15,
+ "n_first": 24,
+ "last_send": 1793700942.4341514
 }
