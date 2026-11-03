@@ -304,8 +304,9 @@
    "type": "sto",
    "address": "Shevchenka St, 134a",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961454746/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961454746/",
+   "notified": 1793704544.4316835
   },
   "c380662761053": {
    "name": "Komp'yuterna Diahnostyka Avto Lviv",
@@ -1983,7 +1984,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 18,
- "n_first": 27,
- "last_send": 1793703680.119065
+ "today": 19,
+ "n_first": 28,
+ "last_send": 1793704544.4316835
 }
