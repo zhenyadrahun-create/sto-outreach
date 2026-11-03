@@ -271,8 +271,9 @@
    "type": "sto",
    "address": "Chornovola Ave, 45a",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983439540/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983439540/",
+   "notified": 1793701864.9467175
   },
   "c380976774040": {
    "name": "Mobilnyy Shynomontazh Tsilodobovo",
@@ -1980,7 +1981,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 15,
- "n_first": 24,
- "last_send": 1793700942.4341514
+ "today": 16,
+ "n_first": 25,
+ "last_send": 1793701864.9467175
 }
