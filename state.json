@@ -216,8 +216,9 @@
    "type": "sto",
    "address": "Zelena St, 20",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978722020/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978722020/",
+   "notified": 1793697347.7368946
   },
   "c380664626108": {
    "name": "Шиномонтаж 24/7 Центр Львова",
@@ -1975,7 +1976,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 10,
- "n_first": 19,
- "last_send": 1793696478.246897
+ "today": 11,
+ "n_first": 20,
+ "last_send": 1793697347.7368946
 }
