@@ -161,8 +161,9 @@
    "type": "sto",
    "address": "Heroiv Krut St",
    "city": "Суми",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380954585052/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380954585052/",
+   "notified": 1793692879.8749747
   },
   "c380955537460": {
    "name": "СТО MILLION",
@@ -1970,7 +1971,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-03",
- "today": 5,
- "n_first": 14,
- "last_send": 1793691351.4024763
+ "today": 6,
+ "n_first": 15,
+ "last_send": 1793692879.8749747
 }
