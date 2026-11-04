@@ -492,8 +492,9 @@
    "type": "sto",
    "address": "Prymorska St, 32",
    "city": "Одеса",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380933550380/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380933550380/",
+   "notified": 1793777463.6056328
   },
   "c380989105379": {
    "name": "СТО 24 (Otamana Holovatoho)",
@@ -2001,8 +2002,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 10,
- "n_first": 44,
- "last_send": 1793776544.3867755,
+ "today": 11,
+ "n_first": 45,
+ "last_send": 1793777463.6056328,
  "upd": 823717486
 }
