@@ -469,8 +469,9 @@
    "type": "sto",
    "address": "Otamana Holovatoho St, 98",
    "city": "Одеса",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380931662000/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380931662000/",
+   "notified": 1793775678.055884
   },
   "c380679641833": {
    "name": "Sto Tytan-Servys",
@@ -1998,7 +1999,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 8,
- "n_first": 42,
- "last_send": 1793774747.085202
+ "today": 9,
+ "n_first": 43,
+ "last_send": 1793775678.055884
 }
