@@ -503,8 +503,9 @@
    "type": "sto",
    "address": "Otamana Holovatoho St, 54",
    "city": "Одеса",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989105379/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989105379/",
+   "notified": 1793778343.0850625
   },
   "c380958780726": {
    "name": "Mobilshyna",
@@ -2002,8 +2003,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 11,
- "n_first": 45,
- "last_send": 1793777463.6056328,
+ "today": 12,
+ "n_first": 46,
+ "last_send": 1793778343.0850625,
  "upd": 823717486
 }
