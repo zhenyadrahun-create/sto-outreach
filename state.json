@@ -514,8 +514,9 @@
    "type": "sto",
    "address": "Shota Rustaveli St",
    "city": "Одеса",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380958780726/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380958780726/",
+   "notified": 1793779280.7029784
   },
   "c380982894929": {
    "name": "Tire-shop Driving",
@@ -2003,8 +2004,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 12,
- "n_first": 46,
- "last_send": 1793778343.0850625,
+ "today": 13,
+ "n_first": 47,
+ "last_send": 1793779280.7029784,
  "upd": 823717486
 }
