@@ -381,8 +381,9 @@
    "type": "sto",
    "address": "Mykoly Rudenka St, 29A",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380975627271/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380975627271/",
+   "notified": 1793772083.62299
   },
   "c380733373131": {
    "name": "СТО ДНІПРО",
@@ -391,8 +392,9 @@
    "type": "sto",
    "address": "Krutohirnyi Descent, 14",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733373131/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733373131/",
+   "notified": 1793772083.62299
   },
   "c380681616969": {
    "name": "МОСТ autoservice",
@@ -401,8 +403,9 @@
    "type": "sto",
    "address": "Sholom-Aleikhema St, 3",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681616969/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681616969/",
+   "notified": 1793772083.62299
   },
   "c380976041946": {
    "name": "Shynomontazh (Khmelnytskoho)",
@@ -411,8 +414,9 @@
    "type": "sto",
    "address": "Bogdan Khmelnitsky Ave, 31D",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976041946/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976041946/",
+   "notified": 1793772083.62299
   },
   "c380689061574": {
    "name": "Shynomontazh (Naberezhna Peremohy)",
@@ -421,8 +425,9 @@
    "type": "sto",
    "address": "Naberezhna Peremohy St, 10",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689061574/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689061574/",
+   "notified": 1793772083.62299
   },
   "c380934839499": {
    "name": "Шиномонтаж Евгений",
@@ -1989,8 +1994,8 @@
  "report": [],
  "tt_done": [],
  "tt_geo": {},
- "day": "2026-11-03",
- "today": 25,
- "n_first": 34,
- "last_send": 1793709944.6764927
+ "day": "2026-11-04",
+ "today": 5,
+ "n_first": 39,
+ "last_send": 1793772083.62299
 }
