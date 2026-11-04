@@ -458,8 +458,9 @@
    "type": "sto",
    "address": "Slobozhanskyi Ave, 29a",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672004362/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672004362/",
+   "notified": 1793774747.085202
   },
   "c380931662000": {
    "name": "СТО Атаман",
@@ -1997,7 +1998,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 7,
- "n_first": 41,
- "last_send": 1793773861.7681901
+ "today": 8,
+ "n_first": 42,
+ "last_send": 1793774747.085202
 }
