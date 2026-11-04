@@ -481,8 +481,9 @@
    "type": "sto",
    "address": "Balkivska St, 2a",
    "city": "Одеса",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380679641833/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380679641833/",
+   "notified": 1793776544.3867755
   },
   "c380933550380": {
    "name": "CAR SERVICE Одеса",
@@ -2000,8 +2001,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 9,
- "n_first": 43,
- "last_send": 1793775678.055884,
+ "today": 10,
+ "n_first": 44,
+ "last_send": 1793776544.3867755,
  "upd": 823717486
 }
