@@ -591,8 +591,9 @@
    "type": "sto",
    "address": "Lesi Ukrainky St, 5",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380935733353/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380935733353/",
+   "notified": 1793785550.153593
   },
   "c380772224343": {
    "name": "LackyCar шиномонтаж",
@@ -2010,8 +2011,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 19,
- "n_first": 53,
- "last_send": 1793784668.361758,
+ "today": 20,
+ "n_first": 54,
+ "last_send": 1793785550.153593,
  "upd": 823717486
 }
