@@ -558,8 +558,9 @@
    "type": "sto",
    "address": "Henerala Kulchytskoho St, 17a",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965087819/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965087819/",
+   "notified": 1793782881.9656816
   },
   "c380665781003": {
    "name": "СТО Київ Промислова",
@@ -2007,8 +2008,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 16,
- "n_first": 50,
- "last_send": 1793781942.2670262,
+ "today": 17,
+ "n_first": 51,
+ "last_send": 1793782881.9656816,
  "upd": 823717486
 }
