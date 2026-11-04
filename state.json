@@ -646,8 +646,9 @@
    "type": "sto",
    "address": "Hromadianska St, 19",
    "city": "Харків",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505155014/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505155014/",
+   "notified": 1793792744.2002783
   },
   "c380664933303": {
    "name": "СТО ATS АвтоТехСервіс",
@@ -2015,8 +2016,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 24,
- "n_first": 58,
- "last_send": 1793791865.461237,
+ "today": 25,
+ "n_first": 59,
+ "last_send": 1793792744.2002783,
  "upd": 823717486
 }
