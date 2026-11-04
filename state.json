@@ -525,8 +525,9 @@
    "type": "sto",
    "address": "Kyivske Hwy, 1/5",
    "city": "Одеса",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982894929/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982894929/",
+   "notified": 1793780142.2906282
   },
   "c380487709238": {
    "name": "Shynomontazh (Nizhynska)",
@@ -2004,8 +2005,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 13,
- "n_first": 47,
- "last_send": 1793779280.7029784,
+ "today": 14,
+ "n_first": 48,
+ "last_send": 1793780142.2906282,
  "upd": 823717486
 }
