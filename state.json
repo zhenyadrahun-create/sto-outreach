@@ -447,8 +447,9 @@
    "type": "sto",
    "address": "Filosofska St, 38",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677758827/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677758827/",
+   "notified": 1793773861.7681901
   },
   "c380672004362": {
    "name": "Avtomotiv Service Slobozhanskyi",
@@ -1996,7 +1997,7 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 6,
- "n_first": 40,
- "last_send": 1793772945.858587
+ "today": 7,
+ "n_first": 41,
+ "last_send": 1793773861.7681901
 }
