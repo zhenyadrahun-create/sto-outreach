@@ -613,8 +613,9 @@
    "type": "sto",
    "address": "Elektrykiv St, 23v",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672160178/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672160178/",
+   "notified": 1793789147.1666393
   },
   "c380507415064": {
    "name": "Шиномонтаж 24/7 Набережно-Печерська",
@@ -2012,8 +2013,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 21,
- "n_first": 55,
- "last_send": 1793787347.2578013,
+ "today": 22,
+ "n_first": 56,
+ "last_send": 1793789147.1666393,
  "upd": 823717486
 }
