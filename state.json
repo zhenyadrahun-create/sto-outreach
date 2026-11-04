@@ -602,8 +602,9 @@
    "type": "sto",
    "address": "Naberezhno-Khreshchatytska St, 4",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380772224343/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380772224343/",
+   "notified": 1793787347.2578013
   },
   "c380672160178": {
    "name": "Шиномонтаж Тіп-Топ Сервіс",
@@ -2011,8 +2012,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 20,
- "n_first": 54,
- "last_send": 1793785550.153593,
+ "today": 21,
+ "n_first": 55,
+ "last_send": 1793787347.2578013,
  "upd": 823717486
 }
