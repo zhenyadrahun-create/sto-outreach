@@ -547,8 +547,9 @@
    "type": "sto",
    "address": "Khreshchatyk St, 7/11",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380980307373/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380980307373/",
+   "notified": 1793781942.2670262
   },
   "c380965087819": {
    "name": "AutoTech Service СТО на Печерську",
@@ -2006,8 +2007,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-04",
- "today": 15,
- "n_first": 49,
- "last_send": 1793781065.8097136,
+ "today": 16,
+ "n_first": 50,
+ "last_send": 1793781942.2670262,
  "upd": 823717486
 }
