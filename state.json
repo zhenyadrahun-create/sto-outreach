@@ -295,7 +295,8 @@
    "city": "Львів",
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380771120112/",
-   "notified": 1793703680.119065
+   "notified": 1793703680.119065,
+   "declined": 1793776097.5848324
   },
   "c380961454746": {
    "name": "Avtoservis, Komp'yuterna Diahnostyka",
@@ -2001,5 +2002,6 @@
  "day": "2026-11-04",
  "today": 9,
  "n_first": 43,
- "last_send": 1793775678.055884
+ "last_send": 1793775678.055884,
+ "upd": 823717486
 }
