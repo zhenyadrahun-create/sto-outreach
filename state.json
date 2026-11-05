@@ -877,8 +877,9 @@
    "type": "sto",
    "address": "Akademika Yangelia St, 4",
    "city": "Вінниця",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380688175393/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380688175393/",
+   "notified": 1793872880.9784563
   },
   "c380985968363": {
    "name": "СТО АвтоВік",
@@ -2036,8 +2037,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 20,
- "n_first": 79,
- "last_send": 1793871945.4039102,
+ "today": 21,
+ "n_first": 80,
+ "last_send": 1793872880.9784563,
  "upd": 823717486
 }
