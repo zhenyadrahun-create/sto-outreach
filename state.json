@@ -756,8 +756,9 @@
    "type": "sto",
    "address": "Shkilna St, 4",
    "city": "Запоріжжя",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676799696/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676799696/",
+   "notified": 1793862944.9157434
   },
   "c380500101021": {
    "name": "FIX CAR SERVISE",
@@ -2025,8 +2026,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 9,
- "n_first": 68,
- "last_send": 1793862083.322991,
+ "today": 10,
+ "n_first": 69,
+ "last_send": 1793862944.9157434,
  "upd": 823717486
 }
