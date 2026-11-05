@@ -822,8 +822,9 @@
    "type": "sto",
    "address": "Honty St, 26",
    "city": "Вінниця",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380631010500/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380631010500/",
+   "notified": 1793868345.9375641
   },
   "c380988810588": {
    "name": "СТО SERVICE 88",
@@ -2031,8 +2032,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 15,
- "n_first": 74,
- "last_send": 1793867466.1025317,
+ "today": 16,
+ "n_first": 75,
+ "last_send": 1793868345.9375641,
  "upd": 823717486
 }
