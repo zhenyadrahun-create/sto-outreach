@@ -723,8 +723,9 @@
    "type": "sto",
    "address": "Huliaipilska St, 7",
    "city": "Запоріжжя",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677998311/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677998311/",
+   "notified": 1793860283.4456906
   },
   "c380661767916": {
    "name": "СТО Седан",
@@ -2022,8 +2023,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 6,
- "n_first": 65,
- "last_send": 1793859344.6559608,
+ "today": 7,
+ "n_first": 66,
+ "last_send": 1793860283.4456906,
  "upd": 823717486
 }
