@@ -910,8 +910,9 @@
    "type": "sto",
    "address": "Oleg Antonov St, 17",
    "city": "Вінниця",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380637185730/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380637185730/",
+   "notified": 1793875545.713322
   },
   "c380739804386": {
    "name": "MersoFord СТО",
@@ -2039,8 +2040,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 23,
- "n_first": 82,
- "last_send": 1793874666.9786997,
+ "today": 24,
+ "n_first": 83,
+ "last_send": 1793875545.713322,
  "upd": 823717486
 }
