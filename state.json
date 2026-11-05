@@ -844,8 +844,9 @@
    "type": "sto",
    "address": "Yevhena Konovaltsia St, 91",
    "city": "Вінниця",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674302088/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674302088/",
+   "notified": 1793870145.5915043
   },
   "c380993320022": {
    "name": "СТО G CAR Service",
@@ -2033,8 +2034,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 17,
- "n_first": 76,
- "last_send": 1793869284.851333,
+ "today": 18,
+ "n_first": 77,
+ "last_send": 1793870145.5915043,
  "upd": 823717486
 }
