@@ -734,8 +734,9 @@
    "type": "sto",
    "address": "Sjedova St, 18",
    "city": "Запоріжжя",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380661767916/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380661767916/",
+   "notified": 1793861147.3144336
   },
   "c380980380434": {
    "name": "Sto na Bulvari Shevchenko",
@@ -2023,8 +2024,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 7,
- "n_first": 66,
- "last_send": 1793860283.4456906,
+ "today": 8,
+ "n_first": 67,
+ "last_send": 1793861147.3144336,
  "upd": 823717486
 }
