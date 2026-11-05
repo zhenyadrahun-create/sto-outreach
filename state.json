@@ -800,8 +800,9 @@
    "type": "sto",
    "address": "Pivdenne Hwy, 54b",
    "city": "Запоріжжя",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677344841/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677344841/",
+   "notified": 1793866545.3761444
   },
   "c380983335835": {
    "name": "Шиномонтаж (Murashka)",
@@ -2029,8 +2030,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 13,
- "n_first": 72,
- "last_send": 1793865690.3635612,
+ "today": 14,
+ "n_first": 73,
+ "last_send": 1793866545.3761444,
  "upd": 823717486
 }
