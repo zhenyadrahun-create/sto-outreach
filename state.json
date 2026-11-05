@@ -767,8 +767,9 @@
    "type": "sto",
    "address": "Zavodska St, 23",
    "city": "Запоріжжя",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380500101021/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380500101021/",
+   "notified": 1793863863.7848585
   },
   "c380990927635": {
    "name": "СТО Форсаж",
@@ -2026,8 +2027,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 10,
- "n_first": 69,
- "last_send": 1793862944.9157434,
+ "today": 11,
+ "n_first": 70,
+ "last_send": 1793863863.7848585,
  "upd": 823717486
 }
