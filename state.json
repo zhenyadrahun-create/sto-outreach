@@ -923,7 +923,8 @@
    "city": "Полтава",
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380739804386/",
-   "notified": 1793876483.818296
+   "notified": 1793876483.818296,
+   "replied": 1793886633.5919194
   },
   "c380980006908": {
    "name": "СТО FixCar Автосервіс",
@@ -2044,5 +2045,5 @@
  "today": 25,
  "n_first": 84,
  "last_send": 1793876483.818296,
- "upd": 823717486
+ "upd": 823717487
 }
