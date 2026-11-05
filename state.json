@@ -778,8 +778,9 @@
    "type": "sto",
    "address": "Peredova St, 31",
    "city": "Запоріжжя",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380990927635/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380990927635/",
+   "notified": 1793864745.0907905
   },
   "c380996373237": {
    "name": "Roadside GARAGE",
@@ -2027,8 +2028,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 11,
- "n_first": 70,
- "last_send": 1793863863.7848585,
+ "today": 12,
+ "n_first": 71,
+ "last_send": 1793864745.0907905,
  "upd": 823717486
 }
