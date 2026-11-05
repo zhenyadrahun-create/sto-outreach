@@ -811,8 +811,9 @@
    "type": "sto",
    "address": "Oleksandra Murashka St, 69",
    "city": "Запоріжжя",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983335835/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983335835/",
+   "notified": 1793867466.1025317
   },
   "c380631010500": {
    "name": "СТО тут і зараз автосервіс",
@@ -2030,8 +2031,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 14,
- "n_first": 73,
- "last_send": 1793866545.3761444,
+ "today": 15,
+ "n_first": 74,
+ "last_send": 1793867466.1025317,
  "upd": 823717486
 }
