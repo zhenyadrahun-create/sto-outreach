@@ -899,8 +899,9 @@
    "type": "sto",
    "address": "Kostiantyna Vasylenka St, 14A",
    "city": "Вінниця",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969125050/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969125050/",
+   "notified": 1793874666.9786997
   },
   "c380637185730": {
    "name": "Шиномонтаж PitStop",
@@ -2038,8 +2039,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 22,
- "n_first": 81,
- "last_send": 1793873744.6706405,
+ "today": 23,
+ "n_first": 82,
+ "last_send": 1793874666.9786997,
  "upd": 823717486
 }
