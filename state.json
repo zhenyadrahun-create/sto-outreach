@@ -855,8 +855,9 @@
    "type": "sto",
    "address": "Batozka St, 12",
    "city": "Вінниця",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380993320022/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380993320022/",
+   "notified": 1793871068.8331325
   },
   "c380986070188": {
    "name": "Avtoservis (Mahistratska 78)",
@@ -2034,8 +2035,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 18,
- "n_first": 77,
- "last_send": 1793870145.5915043,
+ "today": 19,
+ "n_first": 78,
+ "last_send": 1793871068.8331325,
  "upd": 823717486
 }
