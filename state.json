@@ -789,8 +789,9 @@
    "type": "sto",
    "address": "Promyslova St",
    "city": "Запоріжжя",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380996373237/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380996373237/",
+   "notified": 1793865690.3635612
   },
   "c380677344841": {
    "name": "Shynomontazh 0-24",
@@ -2028,8 +2029,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 12,
- "n_first": 71,
- "last_send": 1793864745.0907905,
+ "today": 13,
+ "n_first": 72,
+ "last_send": 1793865690.3635612,
  "upd": 823717486
 }
