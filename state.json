@@ -866,8 +866,9 @@
    "type": "sto",
    "address": "Mahistratska St, 78",
    "city": "Вінниця",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986070188/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986070188/",
+   "notified": 1793871945.4039102
   },
   "c380688175393": {
    "name": "СТО D&S Transit",
@@ -2035,8 +2036,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 19,
- "n_first": 78,
- "last_send": 1793871068.8331325,
+ "today": 20,
+ "n_first": 79,
+ "last_send": 1793871945.4039102,
  "upd": 823717486
 }
