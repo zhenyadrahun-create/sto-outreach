@@ -888,8 +888,9 @@
    "type": "sto",
    "address": "Yevhena Konovaltsia St, 81a",
    "city": "Вінниця",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380985968363/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380985968363/",
+   "notified": 1793873744.6706405
   },
   "c380969125050": {
    "name": "Vector",
@@ -2037,8 +2038,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 21,
- "n_first": 80,
- "last_send": 1793872880.9784563,
+ "today": 22,
+ "n_first": 81,
+ "last_send": 1793873744.6706405,
  "upd": 823717486
 }
