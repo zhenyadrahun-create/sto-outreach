@@ -745,8 +745,9 @@
    "type": "sto",
    "address": "Nezalezhnoi Ukrainy St, 56",
    "city": "Запоріжжя",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380980380434/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380980380434/",
+   "notified": 1793862083.322991
   },
   "c380676799696": {
    "name": "Бош Авто Сервіс Авто Лайф",
@@ -2024,8 +2025,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-05",
- "today": 8,
- "n_first": 67,
- "last_send": 1793861147.3144336,
+ "today": 9,
+ "n_first": 68,
+ "last_send": 1793862083.322991,
  "upd": 823717486
 }
