@@ -657,8 +657,9 @@
    "type": "sto",
    "address": "Klochkivska St, 174",
    "city": "Харків",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664933303/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664933303/",
+   "notified": 1793858482.2429612
   },
   "c380968613113": {
    "name": "СТО Техносервіс",
@@ -667,8 +668,9 @@
    "type": "sto",
    "address": "Pletnivskyi Ln, 10A",
    "city": "Харків",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380968613113/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380968613113/",
+   "notified": 1793858482.2429612
   },
   "c380932527209": {
    "name": "СТО Харьков Автосервис",
@@ -677,8 +679,9 @@
    "type": "sto",
    "address": "Naberezhnyi Ln, 6",
    "city": "Харків",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380932527209/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380932527209/",
+   "notified": 1793858482.2429612
   },
   "c380733453434": {
    "name": "Elcars СТО",
@@ -687,8 +690,9 @@
    "type": "sto",
    "address": "Shatylova Dacha St, 4",
    "city": "Харків",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733453434/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733453434/",
+   "notified": 1793858482.2429612
   },
   "c380973581997": {
    "name": "Sto U Oleha",
@@ -697,8 +701,9 @@
    "type": "sto",
    "address": "Chornovola St",
    "city": "Харків",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973581997/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973581997/",
+   "notified": 1793858482.2429612
   },
   "c380731273454": {
    "name": "Tire Express",
@@ -2015,9 +2020,9 @@
  "report": [],
  "tt_done": [],
  "tt_geo": {},
- "day": "2026-11-04",
- "today": 25,
- "n_first": 59,
- "last_send": 1793792744.2002783,
+ "day": "2026-11-05",
+ "today": 5,
+ "n_first": 64,
+ "last_send": 1793858482.2429612,
  "upd": 823717486
 }
