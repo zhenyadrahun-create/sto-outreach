@@ -1010,8 +1010,9 @@
    "type": "sto",
    "address": "Oleksandra Dovzhenka St, 25",
    "city": "Івано-Франківськ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380662618344/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380662618344/",
+   "notified": 1793947548.6250715
   },
   "c380504337040": {
    "name": "Serhenyuk Service",
@@ -2049,8 +2050,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 7,
- "n_first": 91,
- "last_send": 1793946664.064372,
+ "today": 8,
+ "n_first": 92,
+ "last_send": 1793947548.6250715,
  "upd": 823717487
 }
