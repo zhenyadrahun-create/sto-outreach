@@ -1186,8 +1186,9 @@
    "type": "sto",
    "address": "Chkalova St, 44A",
    "city": "Кривий Ріг",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380991304629/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380991304629/",
+   "notified": 1793961948.6080055
   },
   "c380981024114": {
    "name": "Шиномонтаж 95",
@@ -2065,8 +2066,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 23,
- "n_first": 107,
- "last_send": 1793961067.3795483,
+ "today": 24,
+ "n_first": 108,
+ "last_send": 1793961948.6080055,
  "upd": 823717487
 }
