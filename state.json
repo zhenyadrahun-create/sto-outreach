@@ -999,8 +999,9 @@
    "type": "sto",
    "address": "Makukhy St, 41a",
    "city": "Івано-Франківськ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660777896/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660777896/",
+   "notified": 1793946664.064372
   },
   "c380662618344": {
    "name": "АВТОСЕРВІС PRO CAR SERVICE",
@@ -2048,8 +2049,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 6,
- "n_first": 90,
- "last_send": 1793945745.121623,
+ "today": 7,
+ "n_first": 91,
+ "last_send": 1793946664.064372,
  "upd": 823717487
 }
