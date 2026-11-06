@@ -1076,8 +1076,9 @@
    "type": "sto",
    "address": "Rebeta St, 3v",
    "city": "Івано-Франківськ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380632201008/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380632201008/",
+   "notified": 1793952947.2519631
   },
   "c380685007743": {
    "name": "Shynomontazh (Ivano-Frankivsk)",
@@ -2055,8 +2056,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 13,
- "n_first": 97,
- "last_send": 1793952080.65322,
+ "today": 14,
+ "n_first": 98,
+ "last_send": 1793952947.2519631,
  "upd": 823717487
 }
