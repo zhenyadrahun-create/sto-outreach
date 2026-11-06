@@ -1120,8 +1120,9 @@
    "type": "sto",
    "address": "Heroiv ATO St, 13",
    "city": "Кривий Ріг",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979363454/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979363454/",
+   "notified": 1793956547.7174468
   },
   "c380983730702": {
    "name": "Sto Bravis Kr",
@@ -2059,8 +2060,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 17,
- "n_first": 101,
- "last_send": 1793955682.164293,
+ "today": 18,
+ "n_first": 102,
+ "last_send": 1793956547.7174468,
  "upd": 823717487
 }
