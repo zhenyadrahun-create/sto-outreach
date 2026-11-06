@@ -933,8 +933,9 @@
    "type": "sto",
    "address": "Harazhna St, 9a",
    "city": "Полтава",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380980006908/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380980006908/",
+   "notified": 1793944885.5130816
   },
   "c380667037373": {
    "name": "TS Service Poltava",
@@ -943,8 +944,9 @@
    "type": "sto",
    "address": "Heroiv-Chornobyltsiv St, 33",
    "city": "Полтава",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667037373/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667037373/",
+   "notified": 1793944885.5130816
   },
   "c380668341319": {
    "name": "SS_Group",
@@ -953,8 +955,9 @@
    "type": "sto",
    "address": "Pivdenna St",
    "city": "Полтава",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380668341319/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380668341319/",
+   "notified": 1793944885.5130816
   },
   "c380993992111": {
    "name": "ШИНОМОНТАЖ 24/7 (Автобазівська)",
@@ -963,8 +966,9 @@
    "type": "sto",
    "address": "Avtobazivska St, 2/9",
    "city": "Полтава",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380993992111/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380993992111/",
+   "notified": 1793944885.5130816
   },
   "c380669329575": {
    "name": "Шиномонтаж КАГАМЛИКА 37",
@@ -973,8 +977,9 @@
    "type": "sto",
    "address": "Volodymyra Viazuna St, 37",
    "city": "Полтава",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380669329575/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380669329575/",
+   "notified": 1793944885.5130816
   },
   "c380998182414": {
    "name": "Shynomontazh (Heroiv-Pozhezhnykiv)",
@@ -2041,9 +2046,9 @@
  "report": [],
  "tt_done": [],
  "tt_geo": {},
- "day": "2026-11-05",
- "today": 25,
- "n_first": 84,
- "last_send": 1793876483.818296,
+ "day": "2026-11-06",
+ "today": 5,
+ "n_first": 89,
+ "last_send": 1793944885.5130816,
  "upd": 823717487
 }
