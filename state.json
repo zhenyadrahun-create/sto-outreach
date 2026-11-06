@@ -1175,8 +1175,9 @@
    "type": "sto",
    "address": "Vernadskoho St, 69",
    "city": "Кривий Ріг",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380992683609/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380992683609/",
+   "notified": 1793961067.3795483
   },
   "c380991304629": {
    "name": "СТО (Chkalova)",
@@ -2064,8 +2065,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 22,
- "n_first": 106,
- "last_send": 1793960147.3568354,
+ "today": 23,
+ "n_first": 107,
+ "last_send": 1793961067.3795483,
  "upd": 823717487
 }
