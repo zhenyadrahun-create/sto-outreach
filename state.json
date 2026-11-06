@@ -1065,8 +1065,9 @@
    "type": "sto",
    "address": "Khryplynska St, 5",
    "city": "Івано-Франківськ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976117713/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976117713/",
+   "notified": 1793952080.65322
   },
   "c380632201008": {
    "name": "Виїзний шиномонтаж 24/7 Івано-Франківськ",
@@ -2054,8 +2055,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 12,
- "n_first": 96,
- "last_send": 1793951144.471152,
+ "today": 13,
+ "n_first": 97,
+ "last_send": 1793952080.65322,
  "upd": 823717487
 }
