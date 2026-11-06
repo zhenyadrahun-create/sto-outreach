@@ -1098,8 +1098,9 @@
    "type": "sto",
    "address": "Hnata Khotkevycha St, 2",
    "city": "Івано-Франківськ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955924964/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955924964/",
+   "notified": 1793954747.3019607
   },
   "c380996310959": {
    "name": "Shynomontazh (Halytska)",
@@ -2057,8 +2058,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 15,
- "n_first": 99,
- "last_send": 1793953866.3550947,
+ "today": 16,
+ "n_first": 100,
+ "last_send": 1793954747.3019607,
  "upd": 823717487
 }
