@@ -1153,8 +1153,9 @@
    "type": "sto",
    "address": "Prorizna St, 89",
    "city": "Кривий Ріг",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380933331110/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380933331110/",
+   "notified": 1793959281.8538387
   },
   "c380972651709": {
    "name": "СТО Gazel",
@@ -2062,8 +2063,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 20,
- "n_first": 104,
- "last_send": 1793958346.9966445,
+ "today": 21,
+ "n_first": 105,
+ "last_send": 1793959281.8538387,
  "upd": 823717487
 }
