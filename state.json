@@ -1197,8 +1197,9 @@
    "type": "sto",
    "address": "Metalurhiv Ave, 42v",
    "city": "Кривий Ріг",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380981024114/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380981024114/",
+   "notified": 1793962885.7585413
   },
   "c380988693646": {
    "name": "TIR шиномонтаж",
@@ -2066,8 +2067,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 24,
- "n_first": 108,
- "last_send": 1793961948.6080055,
+ "today": 25,
+ "n_first": 109,
+ "last_send": 1793962885.7585413,
  "upd": 823717487
 }
