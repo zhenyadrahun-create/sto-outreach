@@ -1131,8 +1131,9 @@
    "type": "sto",
    "address": "Heroiv ATO St, 13",
    "city": "Кривий Ріг",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983730702/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983730702/",
+   "notified": 1793957465.6379404
   },
   "c380982177855": {
    "name": "Avtokontynent",
@@ -2060,8 +2061,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 18,
- "n_first": 102,
- "last_send": 1793956547.7174468,
+ "today": 19,
+ "n_first": 103,
+ "last_send": 1793957465.6379404,
  "upd": 823717487
 }
