@@ -988,8 +988,9 @@
    "type": "sto",
    "address": "Heroes-Firefighters St",
    "city": "Полтава",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380998182414/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380998182414/",
+   "notified": 1793945745.121623
   },
   "c380660777896": {
    "name": "СТО Sap Car",
@@ -2047,8 +2048,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 5,
- "n_first": 89,
- "last_send": 1793944885.5130816,
+ "today": 6,
+ "n_first": 90,
+ "last_send": 1793945745.121623,
  "upd": 823717487
 }
