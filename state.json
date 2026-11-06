@@ -1021,8 +1021,9 @@
    "type": "sto",
    "address": "Krykhivetska St, 2V",
    "city": "Івано-Франківськ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380504337040/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380504337040/",
+   "notified": 1793948482.2001302
   },
   "c380671301447": {
    "name": "СТО Автомотив Івано-Франківськ",
@@ -2050,8 +2051,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 8,
- "n_first": 92,
- "last_send": 1793947548.6250715,
+ "today": 9,
+ "n_first": 93,
+ "last_send": 1793948482.2001302,
  "upd": 823717487
 }
