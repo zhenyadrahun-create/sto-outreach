@@ -1164,8 +1164,9 @@
    "type": "sto",
    "address": "Yaroslava Mudroho St, 7V",
    "city": "Кривий Ріг",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972651709/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972651709/",
+   "notified": 1793960147.3568354
   },
   "c380992683609": {
    "name": "СТО-Автотип",
@@ -2063,8 +2064,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-06",
- "today": 21,
- "n_first": 105,
- "last_send": 1793959281.8538387,
+ "today": 22,
+ "n_first": 106,
+ "last_send": 1793960147.3568354,
  "upd": 823717487
 }
