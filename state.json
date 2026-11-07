@@ -1208,8 +1208,10 @@
    "type": "sto",
    "address": "",
    "city": "Кривий Ріг",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988693646/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988693646/",
+   "notified": 1794038952.0461864,
+   "t1": 1794038952.0461864
   },
   "c380970173555": {
    "name": "Шиномонтаж СТО (Dzhambula)",
@@ -1218,8 +1220,10 @@
    "type": "sto",
    "address": "Dzhambula St",
    "city": "Кривий Ріг",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970173555/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970173555/",
+   "notified": 1794038952.0461864,
+   "t1": 1794038952.0461864
   },
   "c380960290294": {
    "name": "Truck Force вантажний шиномонтаж",
@@ -1228,8 +1232,10 @@
    "type": "sto",
    "address": "Litke St",
    "city": "Кривий Ріг",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380960290294/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380960290294/",
+   "notified": 1794038952.0461864,
+   "t1": 1794038952.0461864
   },
   "c380660780511": {
    "name": "Автосервіс Комфорт",
@@ -1238,8 +1244,10 @@
    "type": "sto",
    "address": "Kovalska St, 223",
    "city": "Миколаїв",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660780511/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660780511/",
+   "notified": 1794038952.0461864,
+   "t1": 1794038952.0461864
   },
   "c380663395652": {
    "name": "СТО Развилка",
@@ -1248,8 +1256,10 @@
    "type": "sto",
    "address": "Malko-Tyrnivska St, 81",
    "city": "Миколаїв",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380663395652/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380663395652/",
+   "notified": 1794038952.0461864,
+   "t1": 1794038952.0461864
   },
   "c380937032929": {
    "name": "100 Dorih",
@@ -1258,8 +1268,10 @@
    "type": "sto",
    "address": "Zakhysnykiv Mykolaieva St, 41/4",
    "city": "Миколаїв",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380937032929/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380937032929/",
+   "notified": 1794038952.0461864,
+   "t1": 1794038952.0461864
   },
   "c380675110021": {
    "name": "Tekh-Art",
@@ -1268,8 +1280,10 @@
    "type": "sto",
    "address": "Ihoria Bedzaia St, 105",
    "city": "Миколаїв",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675110021/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675110021/",
+   "notified": 1794038952.0461864,
+   "t1": 1794038952.0461864
   },
   "c380939950277": {
    "name": "АП-СЕРВІС (AP-Service)",
@@ -1278,8 +1292,10 @@
    "type": "sto",
    "address": "Troitska St, 244",
    "city": "Миколаїв",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380939950277/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380939950277/",
+   "notified": 1794038952.0461864,
+   "t1": 1794038952.0461864
   },
   "c380957148188": {
    "name": "СТО АВТОритет Сервіс",
@@ -2060,15 +2076,1185 @@
    "city": "Луцьк",
    "status": "new",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380666030442/"
+  },
+  "c380996082829": {
+   "name": "СТО Е58, 25",
+   "phone": "380996082829",
+   "mobile": true,
+   "type": "sto",
+   "address": "Е58, 25",
+   "city": "Мукачево",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380996082829/"
+  },
+  "c380979015725": {
+   "name": "Sto Lyuks Servis Remont Avto Shynomontazh Avtoservis Mukachevo",
+   "phone": "380979015725",
+   "mobile": true,
+   "type": "sto",
+   "address": "Sorocha St, 194",
+   "city": "Мукачево",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979015725/"
+  },
+  "c380950230123": {
+   "name": "Sto23",
+   "phone": "380950230123",
+   "mobile": true,
+   "type": "sto",
+   "address": "Bohomol'tsya St, 19а",
+   "city": "Ужгород",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380950230123/"
+  },
+  "c380992238990": {
+   "name": "СТО QUALITY SERVICE & SHOP",
+   "phone": "380992238990",
+   "mobile": true,
+   "type": "sto",
+   "address": "Kapushanska St, 141",
+   "city": "Ужгород",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380992238990/"
+  },
+  "c380990764630": {
+   "name": "Sto Pp Olenchuk T.m.",
+   "phone": "380990764630",
+   "mobile": true,
+   "type": "sto",
+   "address": "Bazilovycha St, 3а",
+   "city": "Ужгород",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380990764630/"
+  },
+  "c380505279900": {
+   "name": "СТО \"МЕХАНІК\"",
+   "phone": "380505279900",
+   "mobile": true,
+   "type": "sto",
+   "address": "Kapushanska St, 106а",
+   "city": "Ужгород",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505279900/"
+  },
+  "c380960620282": {
+   "name": "Автосервис",
+   "phone": "380960620282",
+   "mobile": true,
+   "type": "sto",
+   "address": "Denysa Sichynskoho St, 64-68",
+   "city": "Коломия",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380960620282/"
+  },
+  "c380977242500": {
+   "name": "Avto Star class,Автомагазин, Автосервіс, Вулканізація, Розвал-сходження",
+   "phone": "380977242500",
+   "mobile": true,
+   "type": "sto",
+   "address": "вулиця Йосипа Сліпого, 4, Коломия",
+   "city": "Коломия",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977242500/"
+  },
+  "c380986172510": {
+   "name": "Harazhservis",
+   "phone": "380986172510",
+   "mobile": true,
+   "type": "sto",
+   "address": "Ivan Maidanskyi St, 8",
+   "city": "Коломия",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986172510/"
+  },
+  "c380506320281": {
+   "name": "СТО Oleksa Dovbush St, 65А/3",
+   "phone": "380506320281",
+   "mobile": true,
+   "type": "sto",
+   "address": "Oleksa Dovbush St, 65А/3",
+   "city": "Коломия",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506320281/"
+  },
+  "c380931238222": {
+   "name": "GAS Autoservice",
+   "phone": "380931238222",
+   "mobile": true,
+   "type": "sto",
+   "address": "Kyrylo Trylovskyi St, 7",
+   "city": "Коломия",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380931238222/"
+  },
+  "c380508280859": {
+   "name": "СТО V12 Service Stryi Автосервіс",
+   "phone": "380508280859",
+   "mobile": true,
+   "type": "sto",
+   "address": "Klyma Savury St, 2б",
+   "city": "Стрий",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380508280859/"
+  },
+  "c380957488268": {
+   "name": "СТО CHECK SERVICE",
+   "phone": "380957488268",
+   "mobile": true,
+   "type": "sto",
+   "address": "Drohobytska St, 102б",
+   "city": "Стрий",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380957488268/"
+  },
+  "c380633468138": {
+   "name": "M-AUTO SERVICE STRIY",
+   "phone": "380633468138",
+   "mobile": true,
+   "type": "sto",
+   "address": "Skolivska St, 19в",
+   "city": "Стрий",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380633468138/"
+  },
+  "c380934749306": {
+   "name": "Автосервіс+",
+   "phone": "380934749306",
+   "mobile": true,
+   "type": "sto",
+   "address": "Skolivska St, 11",
+   "city": "Стрий",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934749306/"
+  },
+  "c380984868868": {
+   "name": "Yevroservis",
+   "phone": "380984868868",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vokzalna St, 156",
+   "city": "Стрий",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984868868/"
+  },
+  "c380930271540": {
+   "name": "Автосервіс Neksen шиномонтаж СТО",
+   "phone": "380930271540",
+   "mobile": true,
+   "type": "sto",
+   "address": "Drohobytska St, 156",
+   "city": "Стрий",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380930271540/"
+  },
+  "c380978682789": {
+   "name": "Sto Zavedemo",
+   "phone": "380978682789",
+   "mobile": true,
+   "type": "sto",
+   "address": "Truskavetska St, 71",
+   "city": "Дрогобич",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978682789/"
+  },
+  "c380679769279": {
+   "name": "СТО АвтоСвіт",
+   "phone": "380679769279",
+   "mobile": true,
+   "type": "sto",
+   "address": "Truskavetska St, 64",
+   "city": "Дрогобич",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380679769279/"
+  },
+  "c380981889889": {
+   "name": "Автоперевірка | Перевірка авто | Дрогобич | Автопідбір | Підбір авто | Стрий | Самбір | Львів",
+   "phone": "380981889889",
+   "mobile": true,
+   "type": "sto",
+   "address": "Hranitna St",
+   "city": "Дрогобич",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380981889889/"
+  },
+  "c380982139387": {
+   "name": "СТО Самообслуговування",
+   "phone": "380982139387",
+   "mobile": true,
+   "type": "sto",
+   "address": "Sambirs'ka St, 128/1",
+   "city": "Дрогобич",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982139387/"
+  },
+  "c380638141777": {
+   "name": "MS•AUTO",
+   "phone": "380638141777",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Pivdenno-Kilʹtseva, 2в",
+   "city": "Чернівці",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380638141777/"
+  },
+  "c380501943425": {
+   "name": "СТО Fill-Service",
+   "phone": "380501943425",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Pivdenno-Kilʹtseva, 2",
+   "city": "Чернівці",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501943425/"
+  },
+  "c380506911562": {
+   "name": "Pro Sto Avto",
+   "phone": "380506911562",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Pivdenno-Kilʹtseva, 2а",
+   "city": "Чернівці",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506911562/"
+  },
+  "c380501464008": {
+   "name": "Sto Vova Bosh",
+   "phone": "380501464008",
+   "mobile": true,
+   "type": "sto",
+   "address": "Yerevans'ka St, 7АЖ",
+   "city": "Чернівці",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501464008/"
+  },
+  "c380951614272": {
+   "name": "Avtoservis Sto",
+   "phone": "380951614272",
+   "mobile": true,
+   "type": "sto",
+   "address": "Storozhynetska St, 39б",
+   "city": "Чернівці",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380951614272/"
+  },
+  "c380508808833": {
+   "name": "СТО Master Auto",
+   "phone": "380508808833",
+   "mobile": true,
+   "type": "sto",
+   "address": "вулиця Ковпака, заїзд з вулиці, Fastivs'ka St, 7",
+   "city": "Чернівці",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380508808833/"
+  },
+  "c380993288760": {
+   "name": "СТО garage_333_cv",
+   "phone": "380993288760",
+   "mobile": true,
+   "type": "sto",
+   "address": "Pivdennokil'tseva St, 48 В",
+   "city": "Чернівці",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380993288760/"
+  },
+  "c380973690464": {
+   "name": "AS Service",
+   "phone": "380973690464",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vadyma Puhachova St",
+   "city": "Кременчук",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973690464/"
+  },
+  "c380667265038": {
+   "name": "« Автосфера» – Автосервис Ремонт двигателя,ходовой, замена масла",
+   "phone": "380667265038",
+   "mobile": true,
+   "type": "sto",
+   "address": "Kyivs'ka St, 76",
+   "city": "Кременчук",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667265038/"
+  },
+  "c380961443389": {
+   "name": "Автосервис",
+   "phone": "380961443389",
+   "mobile": true,
+   "type": "sto",
+   "address": "Unnamed Road",
+   "city": "Кременчук",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961443389/"
+  },
+  "c380972419099": {
+   "name": "СТО КРЕМЕНЧУК АВТО СІТІ",
+   "phone": "380972419099",
+   "mobile": true,
+   "type": "sto",
+   "address": "вулиця Велика набережна, 2Г, вулиця 50-річчя СРСР, 2А",
+   "city": "Кременчук",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972419099/"
+  },
+  "c380675315536": {
+   "name": "СТО КРЕМЕНЧУГ",
+   "phone": "380675315536",
+   "mobile": true,
+   "type": "sto",
+   "address": "Literaturnyi Ln, 3",
+   "city": "Кременчук",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675315536/"
+  },
+  "c380668845738": {
+   "name": "СТО CarFIX",
+   "phone": "380668845738",
+   "mobile": true,
+   "type": "sto",
+   "address": "Kooperatyvna St, 2H",
+   "city": "Кременчук",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380668845738/"
+  },
+  "c380682090867": {
+   "name": "СТО Кременчуг Импульс",
+   "phone": "380682090867",
+   "mobile": true,
+   "type": "sto",
+   "address": "Leitenanta Dniprova Embankment, 30б",
+   "city": "Кременчук",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380682090867/"
+  },
+  "c380957649309": {
+   "name": "СТО Кременчук",
+   "phone": "380957649309",
+   "mobile": true,
+   "type": "sto",
+   "address": "Kyivs'ka St, 64",
+   "city": "Кременчук",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380957649309/"
+  },
+  "c380989775157": {
+   "name": "СТО L'va Tolstoho St, 61",
+   "phone": "380989775157",
+   "mobile": true,
+   "type": "sto",
+   "address": "L'va Tolstoho St, 61",
+   "city": "Біла Церква",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989775157/"
+  },
+  "c380970938358": {
+   "name": "Sto \"Avtoservis Na Skvyrsʹkomu Shose\"",
+   "phone": "380970938358",
+   "mobile": true,
+   "type": "sto",
+   "address": "Skvyrs'ke Hwy, 227",
+   "city": "Біла Церква",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970938358/"
+  },
+  "c380687229922": {
+   "name": "СТО «Наш АвтоСервіс»",
+   "phone": "380687229922",
+   "mobile": true,
+   "type": "sto",
+   "address": "Matrosova St, 50",
+   "city": "Біла Церква",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380687229922/"
+  },
+  "c380674620619": {
+   "name": "Sto Bila Tserkva",
+   "phone": "380674620619",
+   "mobile": true,
+   "type": "sto",
+   "address": "Проспект Незалежності, Prospekt Nezalezhnosti, 130",
+   "city": "Біла Церква",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674620619/"
+  },
+  "c380689658484": {
+   "name": "СТО ремонт авто Шиномонтаж AUTODRIVE",
+   "phone": "380689658484",
+   "mobile": true,
+   "type": "sto",
+   "address": "Industrial'na St, 11",
+   "city": "Умань",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689658484/"
+  },
+  "c380683394805": {
+   "name": "Sto 993",
+   "phone": "380683394805",
+   "mobile": true,
+   "type": "sto",
+   "address": "Maksyma Zaliznyaka St, 10а",
+   "city": "Умань",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683394805/"
+  },
+  "c380683934818": {
+   "name": "СТО Nezalezhnosti St, 29",
+   "phone": "380683934818",
+   "mobile": true,
+   "type": "sto",
+   "address": "Nezalezhnosti St, 29",
+   "city": "Умань",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683934818/"
+  },
+  "c380988372345": {
+   "name": "СТО Vul. Bilohrudivsʹka, 1",
+   "phone": "380988372345",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vul. Bilohrudivsʹka, 1",
+   "city": "Умань",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988372345/"
+  },
+  "c380737660090": {
+   "name": "СТО - Автомагазин \"CAR OIL\", Евакуатор 24/7",
+   "phone": "380737660090",
+   "mobile": true,
+   "type": "sto",
+   "address": "Uspenska St",
+   "city": "Умань",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380737660090/"
+  },
+  "c380674706568": {
+   "name": "Sto 100 Dorih",
+   "phone": "380674706568",
+   "mobile": true,
+   "type": "sto",
+   "address": "Maksyma Zaliznyaka St, 10а",
+   "city": "Умань",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674706568/"
+  },
+  "c380672627675": {
+   "name": "СТО Автосервис",
+   "phone": "380672627675",
+   "mobile": true,
+   "type": "sto",
+   "address": "вулиця Заводська, 2",
+   "city": "Кам'янець-Подільський",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672627675/"
+  },
+  "c380674552665": {
+   "name": "Sto Avtoservis-Plyus",
+   "phone": "380674552665",
+   "mobile": true,
+   "type": "sto",
+   "address": "Pivnichna St, 81г",
+   "city": "Кам'янець-Подільський",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674552665/"
+  },
+  "c380984723784": {
+   "name": "СТО Gruhevskiy Ave",
+   "phone": "380984723784",
+   "mobile": true,
+   "type": "sto",
+   "address": "Gruhevskiy Ave",
+   "city": "Кам'янець-Подільський",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984723784/"
+  },
+  "c380660986800": {
+   "name": "Car Service",
+   "phone": "380660986800",
+   "mobile": true,
+   "type": "sto",
+   "address": "Knyaziv Koriatovychiv St, 25/12",
+   "city": "Кам'янець-Подільський",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660986800/"
+  },
+  "c380672848150": {
+   "name": "Age auto",
+   "phone": "380672848150",
+   "mobile": true,
+   "type": "sto",
+   "address": "Pivnichna St, 90 б",
+   "city": "Кам'янець-Подільський",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672848150/"
+  },
+  "c380673295246": {
+   "name": "СТО \"Nessen Auto Service\"",
+   "phone": "380673295246",
+   "mobile": true,
+   "type": "sto",
+   "address": "Malozhytomyrska St, 13",
+   "city": "Бердичів",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673295246/"
+  },
+  "c380671224445": {
+   "name": "Sto Kolyada",
+   "phone": "380671224445",
+   "mobile": true,
+   "type": "sto",
+   "address": "Odeska St",
+   "city": "Бердичів",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380671224445/"
+  },
+  "c380977993939": {
+   "name": "СТО/Шиномонтаж/3D Розвал Сходження",
+   "phone": "380977993939",
+   "mobile": true,
+   "type": "sto",
+   "address": "Kosohors'ka St, 9б",
+   "city": "Бердичів",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977993939/"
+  },
+  "c380979541584": {
+   "name": "Автосервіс \"SATURN MOTORS\" СТО",
+   "phone": "380979541584",
+   "mobile": true,
+   "type": "sto",
+   "address": "Osypenko St, 35",
+   "city": "Бердичів",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979541584/"
+  },
+  "c380978144334": {
+   "name": "ProStoService (Простосервіс)",
+   "phone": "380978144334",
+   "mobile": true,
+   "type": "sto",
+   "address": "Chervona St, 1-в",
+   "city": "Бердичів",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978144334/"
+  },
+  "c380972676630": {
+   "name": "Sto Avtostylʹ",
+   "phone": "380972676630",
+   "mobile": true,
+   "type": "sto",
+   "address": "Korolenka St, 41П",
+   "city": "Бердичів",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972676630/"
+  },
+  "c380683054850": {
+   "name": "Автосервіс\"MASTER_CAR\"СТО",
+   "phone": "380683054850",
+   "mobile": true,
+   "type": "sto",
+   "address": "Trudova St",
+   "city": "Бердичів",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683054850/"
+  },
+  "c380970610103": {
+   "name": "Everest Avto",
+   "phone": "380970610103",
+   "mobile": true,
+   "type": "sto",
+   "address": "Hazoprovidna St, 25а",
+   "city": "Бердичів",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970610103/"
+  },
+  "c380685252323": {
+   "name": "Автосервіс СТО Ніжин",
+   "phone": "380685252323",
+   "mobile": true,
+   "type": "sto",
+   "address": "Пров. Новий, 1а",
+   "city": "Ніжин",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380685252323/"
+  },
+  "c380936091672": {
+   "name": "СТО MALIBU НІЖИН",
+   "phone": "380936091672",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Ob'yizhdzha, 41",
+   "city": "Ніжин",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380936091672/"
+  },
+  "c380965054242": {
+   "name": "СТО",
+   "phone": "380965054242",
+   "mobile": true,
+   "type": "sto",
+   "address": "",
+   "city": "Ніжин",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965054242/"
+  },
+  "c380965729780": {
+   "name": "Автоэлектрик GARAGE M",
+   "phone": "380965729780",
+   "mobile": true,
+   "type": "sto",
+   "address": "Borznyansky Shliakh St, 5а",
+   "city": "Ніжин",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965729780/"
+  },
+  "c380985241598": {
+   "name": "PRIME CAR Автосервіс",
+   "phone": "380985241598",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Berezansʹka, 159г",
+   "city": "Ніжин",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380985241598/"
+  },
+  "c380938800303": {
+   "name": "Автосервис Polo",
+   "phone": "380938800303",
+   "mobile": true,
+   "type": "sto",
+   "address": "Borznyansky Shliakh St, 5",
+   "city": "Ніжин",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380938800303/"
+  },
+  "c380777003100": {
+   "name": "СТО GARAGE Конотоп",
+   "phone": "380777003100",
+   "mobile": false,
+   "type": "sto",
+   "address": "Vyrivs'ka St, 21",
+   "city": "Конотоп",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380777003100/"
+  },
+  "c380969313878": {
+   "name": "СТО \"PitStop\"",
+   "phone": "380969313878",
+   "mobile": true,
+   "type": "sto",
+   "address": "Baturynska St, 22А",
+   "city": "Конотоп",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969313878/"
+  },
+  "c380631868627": {
+   "name": "СТО Форсаж",
+   "phone": "380631868627",
+   "mobile": true,
+   "type": "sto",
+   "address": "Poperechna St, 2",
+   "city": "Конотоп",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380631868627/"
+  },
+  "c380688088885": {
+   "name": "АВТО ДОКТОР СТО. улица Олександрівська 4.",
+   "phone": "380688088885",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Oleksandrivsʹka, 6",
+   "city": "Конотоп",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380688088885/"
+  },
+  "c380502015055": {
+   "name": "Шинний сервіс \"Люксшина\" TRUCK Force",
+   "phone": "380502015055",
+   "mobile": true,
+   "type": "sto",
+   "address": "",
+   "city": "Конотоп",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380502015055/"
+  },
+  "c380985815688": {
+   "name": "СТО Авторитет",
+   "phone": "380985815688",
+   "mobile": true,
+   "type": "sto",
+   "address": "Henerala Tkhora St, 45",
+   "city": "Конотоп",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380985815688/"
+  },
+  "c380973794123": {
+   "name": "СТО",
+   "phone": "380973794123",
+   "mobile": true,
+   "type": "sto",
+   "address": "",
+   "city": "Шостка",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973794123/"
+  },
+  "c380672586286": {
+   "name": "СТО ЕВРОПА-АВТОСЕРВИС | Ремонт ходовой, ремонт двигателя, заправка и ремонт автокондиционеров",
+   "phone": "380672586286",
+   "mobile": true,
+   "type": "sto",
+   "address": "Voronez'ka St, 25",
+   "city": "Шостка",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672586286/"
+  },
+  "c380970009076": {
+   "name": "Veddiy - Автомобильный диагностический центр - СТО",
+   "phone": "380970009076",
+   "mobile": true,
+   "type": "sto",
+   "address": "Voronez'ka St, 68",
+   "city": "Шостка",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970009076/"
+  },
+  "c380955978756": {
+   "name": "СТО шиномонтаж",
+   "phone": "380955978756",
+   "mobile": true,
+   "type": "sto",
+   "address": "База 1, Shevchenka St, 57",
+   "city": "Шостка",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955978756/"
+  },
+  "c380664434907": {
+   "name": "Avtodush",
+   "phone": "380664434907",
+   "mobile": true,
+   "type": "sto",
+   "address": "Tsentralnoi Rady St, 19",
+   "city": "Шостка",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664434907/"
+  },
+  "c380503072330": {
+   "name": "Profigas",
+   "phone": "380503072330",
+   "mobile": true,
+   "type": "sto",
+   "address": "Rodini Krivonosiv St, 1а",
+   "city": "Шостка",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503072330/"
+  },
+  "c380663233000": {
+   "name": "Sto Avtoservis",
+   "phone": "380663233000",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Instytut·sʹka, 4",
+   "city": "Лубни",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380663233000/"
+  },
+  "c380661347474": {
+   "name": "serviSMotors",
+   "phone": "380661347474",
+   "mobile": true,
+   "type": "sto",
+   "address": "Dekabrystiv St, 35/63",
+   "city": "Лубни",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380661347474/"
+  },
+  "c380501678570": {
+   "name": "СТО \"AUTOCENTER ACH\"",
+   "phone": "380501678570",
+   "mobile": true,
+   "type": "sto",
+   "address": "Drahomanova St, 33",
+   "city": "Лубни",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501678570/"
+  },
+  "c380992150749": {
+   "name": "AUTO CENTER",
+   "phone": "380992150749",
+   "mobile": true,
+   "type": "sto",
+   "address": "Kozatska St, 2",
+   "city": "Лубни",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380992150749/"
+  },
+  "c380664348338": {
+   "name": "СТО Автоцентр",
+   "phone": "380664348338",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Meteorolohichna, 35",
+   "city": "Лубни",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664348338/"
+  },
+  "c380505639300": {
+   "name": "Sto \"Alʹfatsentr\"",
+   "phone": "380505639300",
+   "mobile": true,
+   "type": "sto",
+   "address": "",
+   "city": "Лубни",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505639300/"
+  },
+  "c380676040695": {
+   "name": "СТО Lvivska St, 206б",
+   "phone": "380676040695",
+   "mobile": true,
+   "type": "sto",
+   "address": "Lvivska St, 206б",
+   "city": "Хуст",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676040695/"
+  },
+  "c380988557613": {
+   "name": "СТО Ivana Franka St, 175",
+   "phone": "380988557613",
+   "mobile": true,
+   "type": "sto",
+   "address": "Ivana Franka St, 175",
+   "city": "Хуст",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988557613/"
+  },
+  "c380979008059": {
+   "name": "СТО ГАРАЖ",
+   "phone": "380979008059",
+   "mobile": true,
+   "type": "sto",
+   "address": "Ivana Franka St, 197",
+   "city": "Хуст",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979008059/"
+  },
+  "c380676235552": {
+   "name": "Автосервіс ImperScar",
+   "phone": "380676235552",
+   "mobile": true,
+   "type": "sto",
+   "address": "Ivana Franka St, 201 ж",
+   "city": "Хуст",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676235552/"
+  },
+  "c380968128127": {
+   "name": "tire Express",
+   "phone": "380968128127",
+   "mobile": true,
+   "type": "sto",
+   "address": "Львівська, 190А",
+   "city": "Хуст",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380968128127/"
+  },
+  "c380993240545": {
+   "name": "СТО Auto-Consept",
+   "phone": "380993240545",
+   "mobile": true,
+   "type": "sto",
+   "address": "Bohdana Khmelnytskoho St, 71",
+   "city": "Калуш",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380993240545/"
+  },
+  "c380667670496": {
+   "name": "СТО New Автоплюс",
+   "phone": "380667670496",
+   "mobile": true,
+   "type": "sto",
+   "address": "Rynkova St, 13a",
+   "city": "Калуш",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667670496/"
+  },
+  "c380503735413": {
+   "name": "Sto Taras Kalush",
+   "phone": "380503735413",
+   "mobile": true,
+   "type": "sto",
+   "address": "Petra Karakaia St, 9, 9-б",
+   "city": "Калуш",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503735413/"
+  },
+  "c380676722038": {
+   "name": "СТО Rynkova St",
+   "phone": "380676722038",
+   "mobile": true,
+   "type": "sto",
+   "address": "Rynkova St",
+   "city": "Калуш",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676722038/"
+  },
+  "c380505850804": {
+   "name": "СТО «Sonatacar»",
+   "phone": "380505850804",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Dzvonarsʹka, 6",
+   "city": "Калуш",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505850804/"
+  },
+  "c380502171333": {
+   "name": "Сто АВТО help!",
+   "phone": "380502171333",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vul. Korolʹova, 41",
+   "city": "Самбір",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380502171333/"
+  },
+  "c380778885522": {
+   "name": "Sto Serbin Servis",
+   "phone": "380778885522",
+   "mobile": false,
+   "type": "sto",
+   "address": "Vulytsya Shevchenka, 55/ 16",
+   "city": "Самбір",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380778885522/"
+  },
+  "c380986776971": {
+   "name": "Car Service Sambir",
+   "phone": "380986776971",
+   "mobile": true,
+   "type": "sto",
+   "address": "G67C+GW",
+   "city": "Самбір",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986776971/"
+  },
+  "c380983075308": {
+   "name": "СТО Street Chornovil, 32",
+   "phone": "380983075308",
+   "mobile": true,
+   "type": "sto",
+   "address": "Street Chornovil, 32",
+   "city": "Самбір",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983075308/"
+  },
+  "c380679008515": {
+   "name": "Car Service \"Galich\"",
+   "phone": "380679008515",
+   "mobile": true,
+   "type": "sto",
+   "address": "",
+   "city": "Самбір",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380679008515/"
+  },
+  "c380669110010": {
+   "name": "Evakuator Sambir, Avtoservis \"Khatky\" Sambir",
+   "phone": "380669110010",
+   "mobile": true,
+   "type": "sto",
+   "address": "Урочище ШРБУ 88 буд 10",
+   "city": "Самбір",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380669110010/"
+  },
+  "c380731001271": {
+   "name": "СТО Malevycha Kazymyra St, 73",
+   "phone": "380731001271",
+   "mobile": true,
+   "type": "sto",
+   "address": "Malevycha Kazymyra St, 73",
+   "city": "Бровари",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380731001271/"
+  },
+  "c380976596667": {
+   "name": "СТО АВТОСЕРВІС OLDRIVE",
+   "phone": "380976596667",
+   "mobile": true,
+   "type": "sto",
+   "address": "Radystiv St",
+   "city": "Бровари",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976596667/"
+  },
+  "c380632326179": {
+   "name": "СТО Автосервис",
+   "phone": "380632326179",
+   "mobile": true,
+   "type": "sto",
+   "address": "с.Квітневе, Molodizhna St, 3",
+   "city": "Бровари",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380632326179/"
+  },
+  "c380681239933": {
+   "name": "Avtoservis Sto",
+   "phone": "380681239933",
+   "mobile": true,
+   "type": "sto",
+   "address": "Zhytomyrska St, 268 а",
+   "city": "Фастів",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681239933/"
+  },
+  "c380950960188": {
+   "name": "Павлоград СТО",
+   "phone": "380950960188",
+   "mobile": true,
+   "type": "sto",
+   "address": "Dniprovska St, 172а",
+   "city": "Павлоград",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380950960188/"
+  },
+  "c380664698141": {
+   "name": "СТО Автомотив Павлоград",
+   "phone": "380664698141",
+   "mobile": true,
+   "type": "sto",
+   "address": "Poltavska St, 127В",
+   "city": "Павлоград",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664698141/"
+  },
+  "c380995082116": {
+   "name": "Avtoservis Sto Malyarni Posluhy Rykhtovka Avto",
+   "phone": "380995082116",
+   "mobile": true,
+   "type": "sto",
+   "address": "Shevchenka St, 120",
+   "city": "Павлоград",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380995082116/"
+  },
+  "c380501011110": {
+   "name": "Mustang Автосервіс СТО",
+   "phone": "380501011110",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Dniprovsʹka, 8A",
+   "city": "Павлоград",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501011110/"
+  },
+  "c380982687346": {
+   "name": "Sto 4.5.0. Avtoservis U Pavlohradi",
+   "phone": "380982687346",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Ternivsʹka, 8",
+   "city": "Павлоград",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982687346/"
+  },
+  "c380504516147": {
+   "name": "СТО",
+   "phone": "380504516147",
+   "mobile": true,
+   "type": "sto",
+   "address": "",
+   "city": "Павлоград",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380504516147/"
+  },
+  "c380969879766": {
+   "name": "СТО Автосервис",
+   "phone": "380969879766",
+   "mobile": true,
+   "type": "sto",
+   "address": "Soborna St, 17",
+   "city": "Кропивницький",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969879766/"
+  },
+  "c380999697745": {
+   "name": "СТО-КРОП",
+   "phone": "380999697745",
+   "mobile": true,
+   "type": "sto",
+   "address": "Кавказька площа, 14",
+   "city": "Кропивницький",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380999697745/"
+  },
+  "c380997969428": {
+   "name": "СТО №3",
+   "phone": "380997969428",
+   "mobile": true,
+   "type": "sto",
+   "address": "Verkhnya Perms'ka St, будинок 39",
+   "city": "Кропивницький",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380997969428/"
+  },
+  "c380934828198": {
+   "name": "Avtoservis Sto",
+   "phone": "380934828198",
+   "mobile": true,
+   "type": "sto",
+   "address": "",
+   "city": "Сарни",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934828198/"
+  },
+  "c380988062867": {
+   "name": "Sto Avtorytm",
+   "phone": "380988062867",
+   "mobile": true,
+   "type": "sto",
+   "address": "Європейська, 31",
+   "city": "Сарни",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988062867/"
+  },
+  "c380988220855": {
+   "name": "Автосервіс Garage",
+   "phone": "380988220855",
+   "mobile": true,
+   "type": "sto",
+   "address": "Soborna St",
+   "city": "Сарни",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988220855/"
+  },
+  "c380991628999": {
+   "name": "M-Auto Garage",
+   "phone": "380991628999",
+   "mobile": true,
+   "type": "sto",
+   "address": "Vulytsya Haharina, 69",
+   "city": "Сарни",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380991628999/"
+  },
+  "c380983123887": {
+   "name": "Sto \"Forsazh\"",
+   "phone": "380983123887",
+   "mobile": true,
+   "type": "sto",
+   "address": "Набережна, 12",
+   "city": "Сарни",
+   "status": "new",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983123887/"
   }
  },
  "fetched": [],
  "report": [],
  "tt_done": [],
  "tt_geo": {},
- "day": "2026-11-06",
- "today": 25,
- "n_first": 109,
- "last_send": 1793962885.7585413,
+ "day": "2026-11-07",
+ "today": 8,
+ "n_first": 117,
+ "last_send": 1794038952.0461864,
  "upd": 823717487
 }

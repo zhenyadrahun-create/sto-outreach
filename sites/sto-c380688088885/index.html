@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https: data:; connect-src https:; form-action 'none'; base-uri 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#0e1116">
+<title>Автосервіс</title>
+<meta name="description" content="Автосервіс: діагностика, ремонт, обслуговування.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Unbounded:wght@500;600&display=swap">
+<style>
+:root{--accent:#f24848;--on-accent:#fff;--bg:#0e1116;--bg2:#141922;--card:#181e28;--line:#262e3a;--text:#eef1f5;--muted:#9aa6b4;--r:16px;
+ --display:"Unbounded","Onest",system-ui,sans-serif;--body:"Onest",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+:root[data-theme="light"]{--bg:#f4f5f7;--bg2:#fff;--card:#fff;--line:#dde1e6;--text:#141a21;--muted:#5b6672}
+*{box-sizing:border-box;min-width:0}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font:16px/1.6 var(--body);color:var(--text);background:var(--bg);overflow-x:hidden;overflow-wrap:break-word}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+p{margin:0}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.18;margin:0;text-wrap:balance}
+h1{font-size:clamp(28px,6.4vw,58px);letter-spacing:-.01em}
+h2{font-size:clamp(23px,4.4vw,38px)}
+h3{font-size:17px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1160px,100%);margin:0 auto;padding-inline:20px}
+section{padding:68px 0}
+.head{margin-bottom:34px;max-width:62ch}.head p{margin-top:12px;color:var(--muted)}
+.eyebrow{display:inline-block;margin-bottom:14px;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:12px;border:2px solid transparent;font:600 16px var(--body);text-decoration:none;cursor:pointer;transition:transform .2s,filter .2s,background .2s,border-color .2s;text-align:center;-webkit-tap-highlight-color:transparent}
+.btn:hover{transform:translateY(-2px)}.btn:active{transform:translateY(0) scale(.98)}
+.btn-main{background:var(--accent);color:var(--on-accent)}.btn-main:hover{filter:brightness(1.1)}
+.btn-ghost{border-color:var(--line);color:var(--text);background:transparent}.btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+/* header */
+header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:14px;min-height:68px}
+.logo{display:flex;align-items:center;gap:11px;text-decoration:none;font-family:var(--display);font-weight:600;font-size:15px;flex:1 1 auto;overflow:hidden}
+.logo i{flex:none;width:38px;height:38px;border-radius:11px;background:var(--accent);color:var(--on-accent);display:grid;place-items:center;font-style:normal;font-size:17px}
+.logo span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+nav{display:flex;gap:4px}
+nav a{text-decoration:none;color:var(--muted);padding:9px 14px;border-radius:10px;font-weight:500;font-size:15px;transition:.2s}
+nav a:hover{color:var(--text);background:var(--card)}nav a.on{color:var(--text);background:var(--card);box-shadow:inset 0 -2px 0 var(--accent)}
+.bar .btn{min-height:44px;padding:0 20px;font-size:15px;flex:none}
+.burger{display:none;flex:none;width:46px;height:46px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer;place-items:center}
+.burger svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round}
+@media(max-width:900px){nav{position:absolute;left:0;right:0;top:100%;flex-direction:column;padding:10px 20px 18px;background:var(--bg);border-bottom:1px solid var(--line);display:none}
+ nav.open{display:flex}nav a{padding:14px 12px;font-size:17px}.burger{display:grid}.bar .btn{display:none}}
+/* hero */
+.hero{position:relative;overflow:hidden;padding:64px 0 76px}
+.hero::before{content:"";position:absolute;inset:-20% -10% auto auto;width:760px;height:760px;background:radial-gradient(closest-side,color-mix(in srgb,var(--accent) 42%,transparent),transparent);opacity:.55;animation:float 14s ease-in-out infinite;pointer-events:none}
+.hero::after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:56px 56px;opacity:.28;-webkit-mask-image:linear-gradient(#000,transparent 85%);mask-image:linear-gradient(#000,transparent 85%);pointer-events:none}
+@keyframes float{50%{transform:translate(-40px,30px) scale(1.08)}}
+.hero-in{position:relative;z-index:1;display:grid;gap:44px;grid-template-columns:minmax(0,1.15fr) minmax(0,.95fr);align-items:center}
+@media(max-width:900px){.hero-in{grid-template-columns:minmax(0,1fr)}.hero{padding:40px 0 52px}}
+.lead{margin-top:20px;max-width:48ch;color:var(--muted);font-size:clamp(16px,2.2vw,19px)}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.facts{display:flex;flex-wrap:wrap;gap:10px 22px;margin:28px 0 0;padding:0;list-style:none;color:var(--muted);font-size:15px}
+.facts li::before{content:"";display:inline-block;width:8px;height:8px;margin-right:9px;border-radius:50%;background:var(--accent)}
+.picker{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 24px 60px -30px #000}
+.picker h2{font-size:20px}.picker p.sub{color:var(--muted);font-size:14px;margin-top:6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.chip{border:1px solid var(--line);background:transparent;color:var(--text);font:500 15px var(--body);padding:10px 15px;border-radius:99px;cursor:pointer;text-align:left;transition:.2s}
+.chip:hover{border-color:var(--accent)}.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.answer{margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}
+.answer small{color:var(--muted);display:block}.answer b{display:block;font-family:var(--display);font-weight:500;font-size:18px;margin:6px 0 16px}
+/* tiles & cards */
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px;transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-5px);border-color:var(--accent);box-shadow:0 18px 40px -24px var(--accent)}
+.card svg{width:44px;height:44px;stroke:var(--accent);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;margin-bottom:16px}
+.card .price{display:inline-block;margin:8px 0 10px;font-weight:600;color:var(--accent);font-size:15px}
+.card p{color:var(--muted);font-size:15px}
+.more{margin-top:26px}
+.alt{background:var(--bg2);border-block:1px solid var(--line)}
+.steps{counter-reset:s;list-style:none;margin:0;padding:0;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.steps li{counter-increment:s;position:relative;padding:24px;border-radius:var(--r);background:var(--card);border:1px solid var(--line)}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--accent);color:var(--on-accent);font-weight:700;margin-bottom:14px}
+.steps b{display:block;font-family:var(--display);font-weight:500;margin-bottom:6px}.steps span{color:var(--muted);font-size:15px}
+.marq{overflow:hidden;border-block:1px solid var(--line);padding:18px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.track{display:flex;gap:44px;width:max-content;animation:marq 38s linear infinite}
+.track span{font-family:var(--display);font-size:18px;color:var(--muted);white-space:nowrap}
+@keyframes marq{to{transform:translateX(-50%)}}
+.band{border-radius:24px;padding:clamp(28px,5vw,52px);background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 55%,#000));color:var(--on-accent);display:flex;flex-wrap:wrap;gap:22px;align-items:center;justify-content:space-between}
+.band h2{max-width:20ch}.band .btn{background:var(--on-accent);color:var(--accent)}
+.gallery{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.gallery div{aspect-ratio:4/3;border-radius:var(--r);overflow:hidden;background:var(--card);border:1px solid var(--line);display:grid;place-items:center;color:var(--muted);text-align:center;padding:14px;font-size:15px}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.gallery div:hover img{transform:scale(1.05)}
+.reviews{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.rev{padding:24px;border-radius:var(--r);background:var(--card);border:1px solid var(--line)}.rev q{display:block;quotes:none}.rev footer{margin-top:14px;color:var(--muted);font-size:14px}
+.gmap{padding:26px;border-radius:var(--r);background:var(--card);border:1px solid var(--line);display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}.gmap p{max-width:52ch;color:var(--muted)}
+details{border:1px solid var(--line);border-radius:var(--r);background:var(--card);margin-bottom:10px;transition:border-color .2s}
+details[open]{border-color:var(--accent)}summary{cursor:pointer;padding:18px 22px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:14px}
+summary::-webkit-details-marker{display:none}summary::after{content:"+";color:var(--accent);font-size:22px;line-height:1;transition:transform .2s}details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 22px 20px;color:var(--muted)}
+.contact{display:grid;gap:30px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}@media(max-width:860px){.contact{grid-template-columns:minmax(0,1fr)}}
+dl{margin:22px 0 0;display:grid;gap:14px}dl div{padding:16px 18px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+dt{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}dd{margin:4px 0 0;font-weight:600}dd a{text-decoration:none}
+.msgs{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+form{padding:26px;border-radius:20px;background:var(--card);border:1px solid var(--line);display:grid;gap:16px;align-content:start}
+label{display:grid;gap:7px;font-size:14px;font-weight:600;color:var(--muted)}
+input,textarea{width:100%;font:400 16px var(--body);color:var(--text);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:border-color .2s}
+input:focus,textarea:focus{outline:none;border-color:var(--accent)}textarea{min-height:110px;resize:vertical}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.sent{padding:14px 16px;border-radius:12px;background:color-mix(in srgb,var(--accent) 16%,transparent);font-size:15px}.sent.err{background:#5b1d1d;color:#ffd9d9}
+.foot{padding:30px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px}.foot .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+.mbar{display:none}
+@media(max-width:700px){.mbar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:40;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:var(--bg);border-top:1px solid var(--line)}.mbar .btn{min-height:48px;padding:0 10px}body{padding-bottom:76px}section{padding:48px 0}}
+/* pages + reveal */
+.page{display:none}.page.on{display:block;animation:pg .45s ease both}@keyframes pg{from{opacity:0;transform:translateY(12px)}}
+.js .rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease;transition-delay:var(--d,0s)}.js .rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="logo" href="#/" id="logo"><i id="mono">С</i><span id="logoT">СТО</span></a>
+  <nav id="nav" aria-label="Меню"><a href="#/" data-p="">Головна</a><a href="#/poslugy" data-p="poslugy">Послуги</a><a href="#/pro-nas" data-p="pro-nas">Про нас</a><a href="#/kontakty" data-p="kontakty">Контакти</a></nav>
+  <a class="btn btn-main" id="barPhone" href="#/kontakty">Зателефонувати</a>
+  <button class="burger" id="burger" type="button" aria-label="Меню" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</div></header>
+<main>
+<div class="page" data-page="">
+ <div class="hero"><div class="wrap hero-in">
+  <div><span class="eyebrow" id="eyebrow"></span><h1 id="h1"></h1><p class="lead" id="lead"></p><div class="cta" id="cta"></div><ul class="facts" id="facts"></ul></div>
+  <div class="picker"><h2>Що з вашим авто?</h2><p class="sub">Оберіть, що турбує. Підкажемо, яка послуга потрібна.</p><div class="chips" id="chips"></div><div class="answer" id="answer" aria-live="polite"></div></div>
+ </div></div>
+ <section><div class="wrap"><div class="head rv"><span class="eyebrow">Послуги</span><h2>З чим до нас приїжджають</h2></div><div class="grid" id="homeSrv"></div><p class="more rv"><a class="btn btn-ghost" href="#/poslugy">Усі послуги</a></p></div></section>
+ <div class="marq" aria-label="Марки авто"><div class="track" id="track"></div></div>
+ <section><div class="wrap"><div class="band rv"><h2>Не знаєте, що саме зламалося?</h2><a class="btn" href="#/kontakty">Залишити заявку</a></div></div></section>
+</div>
+<div class="page" data-page="poslugy">
+ <section><div class="wrap"><div class="head rv"><span class="eyebrow">Послуги</span><h2>Що ми робимо</h2><p id="srvLead"></p></div><div class="grid" id="services"></div><p class="more rv" id="priceNote" style="color:var(--muted);font-size:14px"></p></div></section>
+ <section class="alt"><div class="wrap"><div class="head rv"><h2>Як це відбувається</h2></div>
+  <ol class="steps"><li class="rv"><b>Запис</b><span>Дзвінок або повідомлення. Підберемо зручний час.</span></li><li class="rv" style="--d:.08s"><b>Огляд і діагностика</b><span>Знаходимо причину й називаємо ціну до початку робіт.</span></li><li class="rv" style="--d:.16s"><b>Ремонт</b><span>Робимо тільки те, що ви погодили.</span></li><li class="rv" style="--d:.24s"><b>Видача авто</b><span>Показуємо, що зроблено, і підказуємо, на що звернути увагу далі.</span></li></ol></div></section>
+ <section><div class="wrap"><div class="head rv"><h2>Часті питання</h2></div><div id="faqList"></div></div></section>
+</div>
+<div class="page" data-page="pro-nas">
+ <section id="foto"><div class="wrap"><div class="head rv"><span class="eyebrow">Про нас</span><h2 id="aboutT"></h2><p id="aboutP"></p></div><div class="gallery" id="gallery"></div></div></section>
+ <section class="alt"><div class="wrap"><div class="head rv"><h2>Відгуки клієнтів</h2></div><div id="reviews"></div></div></section>
+</div>
+<div class="page" data-page="kontakty">
+ <section><div class="wrap contact">
+  <div class="rv"><span class="eyebrow">Контакти</span><h2>Запишіться на огляд</h2><dl id="info"></dl><div class="msgs" id="msgs"></div></div>
+  <form id="form" class="rv" style="--d:.1s" novalidate>
+   <label>Ім'я<input id="fName" autocomplete="name" maxlength="80"></label>
+   <label>Телефон<input id="fPhone" type="tel" autocomplete="tel" inputmode="tel" maxlength="30"></label>
+   <label>Авто і що турбує<textarea id="fText" maxlength="500" placeholder="Наприклад: Skoda Octavia, стукіт у підвісці"></textarea></label>
+   <input class="hp" id="fWeb" tabindex="-1" autocomplete="off" aria-hidden="true">
+   <button class="btn btn-main" type="submit">Надіслати заявку</button>
+   <div class="sent" id="sent" role="status" hidden></div>
+  </form>
+ </div></section>
+</div>
+</main>
+<footer class="foot"><div class="wrap"><span id="fName2"></span><span id="demoNote"></span></div></footer>
+<div class="mbar" id="mbar"></div>
+
+<script>
+var C={
+  name:"СТО",city:"",address:"",phone:"",whatsapp:"",telegram:"",viber:false,email:"",open:null,accent:"#f24848",theme:"dark",mode:"viber",endpoint:"",
+  years:"",photos:[],reviews:[],demo:true,
+  brands:["Toyota","Volkswagen","Skoda","Renault","Hyundai","Kia","Ford","BMW","Mercedes","Nissan","Opel","Mazda"],
+  symptoms:[["Стукіт у підвісці","Ремонт підвіски"],["Не заводиться","Діагностика"],["Скрип гальм","Гальмівна система"],["Горить Check Engine","Діагностика"],["Пора міняти олію","Заміна оливи та фільтрів"]],
+  services:[["Діагностика","Комп'ютерна та ходової частини",null,"search"],["Заміна оливи та фільтрів","Олива, масляний і повітряний фільтри",null,"oil"],["Ремонт підвіски","Важелі, стійки, сайлентблоки",null,"susp"],["Гальмівна система","Колодки, диски, прокачування",null,"brake"],["Шиномонтаж","Зняття, балансування, встановлення",null,"tire"]],
+  faq:[["Скільки коштує ремонт?","Назвемо вартість після огляду або діагностики, до початку робіт."],["Як записатися?","Залиште заявку на сайті або зателефонуйте нам."],["Чи можна привезти свої запчастини?","Так, уточніть це під час запису."]]
+};
+Object.assign(C,{"name": "АВТО ДОКТОР СТО. улица Олександрівська 4.", "owner": "", "email": "", "city": "Конотоп", "address": "Vulytsya Oleksandrivsʹka, 6", "phone": "+380 68 808 88 85", "whatsapp": "380688088885", "telegram": "", "viber": true, "open": null, "accent": "#f24848", "mode": "viber", "reviews": [], "brands": ["Toyota", "Volkswagen", "Skoda", "Renault", "Hyundai", "Kia", "Ford", "BMW", "Mercedes", "Nissan", "Opel", "Mazda"], "symptoms": [["Стукіт у підвісці", "Ремонт підвіски"], ["Не заводиться", "Діагностика"], ["Скрип гальм", "Гальмівна система"], ["Горить Check Engine", "Діагностика"], ["Пора міняти олію", "Заміна оливи та фільтрів"]], "services": [["Діагностика", "Комп'ютерна та ходової частини", null, "search"], ["Заміна оливи та фільтрів", "Олива, масляний і повітряний фільтри", null, "oil"], ["Ремонт підвіски", "Важелі, стійки, сайлентблоки", null, "susp"], ["Гальмівна система", "Колодки, диски, прокачування", null, "brake"], ["Шиномонтаж", "Зняття, балансування, встановлення", null, "tire"]], "faq": [["Скільки коштує ремонт?", "Назвемо вартість після огляду або діагностики, до початку робіт."], ["Як записатися?", "Залиште заявку на сайті або зателефонуйте нам."], ["Чи можна привезти свої запчастини?", "Так, уточніть це під час запису."]]});
+/* ===== далі код чіпати не потрібно ===== */
+(function(){
+document.documentElement.className+=" js";
+var DEMO_PRICE={search:"від 400 грн",oil:"від 600 грн",susp:"від 500 грн",brake:"від 500 грн",tire:"від 300 грн"};
+var ICON={
+ search:'<circle cx="17" cy="17" r="9"/><path d="M24 24l10 10"/>',
+ oil:'<path d="M20 5c6 8 10 13 10 19a10 10 0 0 1-20 0c0-6 4-11 10-19z"/>',
+ susp:'<path d="M12 6h16M12 34h16M14 10l12 4-12 4 12 4-12 4 12 4"/>',
+ brake:'<circle cx="20" cy="20" r="15"/><circle cx="20" cy="20" r="5"/><path d="M20 5v5M20 30v5M5 20h5M30 20h5"/>',
+ tire:'<circle cx="20" cy="20" r="15"/><circle cx="20" cy="20" r="7"/><path d="M20 5v8M20 27v8M5 20h8M27 20h8"/>',
+ wrench:'<path d="M30 6a8 8 0 0 0-8 10L7 31a3 3 0 0 0 4 4l15-15a8 8 0 0 0 10-8l-5 5-4-1-1-4z"/>'};
+function $(i){return document.getElementById(i)}
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function digits(s){return String(s||"").replace(/\D/g,"")}
+function safeUrl(u){u=String(u||"").trim();return(/^https:\/\//i.test(u)||/^[\w.\/-]+\.(jpe?g|png|webp|avif)$/i.test(u))?u:""}
+/* тема й колір */
+var acc=/^#[0-9a-f]{6}$/i.test(C.accent||"")?C.accent:"#f24848";
+document.documentElement.style.setProperty("--accent",acc);
+var rgb=[1,3,5].map(function(i){return parseInt(acc.substr(i,2),16)}),lum=(0.299*rgb[0]+0.587*rgb[1]+0.114*rgb[2])/255;
+document.documentElement.style.setProperty("--on-accent",lum>0.62?"#10141a":"#fff");
+if(C.theme==="light")document.documentElement.setAttribute("data-theme","light");
+var city=C.city||"",phoneD=digits(C.phone),tel="tel:+"+phoneD,place=[C.address,city].filter(Boolean).join(", ");
+var hasPhone=phoneD.length>=9;
+document.title=C.name+" — СТО"+(city?", "+city:"")+": ремонт авто";
+var md=document.querySelector('meta[name="description"]');if(md)md.content=C.name+(city?", "+city:"")+": діагностика, ремонт і обслуговування авто. Запис за телефоном або через сайт.";
+$("logoT").textContent=C.name;$("mono").textContent=(C.name||"С").trim().charAt(0).toUpperCase();
+$("fName2").textContent=C.name+(place?" · "+place:"");
+var bp=$("barPhone");if(hasPhone){bp.textContent=C.phone;bp.href=tel}else{bp.textContent="Залишити заявку"}
+$("eyebrow").textContent="Автосервіс"+(city?" · "+city:"");
+$("h1").textContent="Ремонт і діагностика авто"+(city?" у місті "+city:"");
+$("lead").textContent="Знайдемо причину несправності, назвемо ціну до початку робіт і зробимо ремонт у домовлений термін.";
+function msgLinks(cls){var h="";
+ if(C.whatsapp)h+='<a class="btn '+cls+'" target="_blank" rel="noopener noreferrer" href="https://wa.me/'+digits(C.whatsapp)+'">WhatsApp</a>';
+ if(C.viber&&hasPhone)h+='<a class="btn '+cls+'" href="viber://chat?number=%2B'+phoneD+'">Viber</a>';
+ if(C.telegram)h+='<a class="btn '+cls+'" target="_blank" rel="noopener noreferrer" href="https://t.me/'+encodeURIComponent(String(C.telegram).replace(/^@/,""))+'">Telegram</a>';
+ return h}
+var callBtn=hasPhone?'<a class="btn btn-main" href="'+tel+'">Зателефонувати</a>':'';
+$("cta").innerHTML=callBtn+'<a class="btn btn-ghost" href="#/kontakty">Залишити заявку</a>';
+var facts=["Ціна до початку робіт","Робимо тільки погоджене"];if(C.years)facts.unshift("Працюємо "+C.years);
+$("facts").innerHTML=facts.map(function(f){return"<li>"+esc(f)+"</li>"}).join("");
+/* підбір послуги */
+var sel=0;
+function drawPicker(){
+ $("chips").innerHTML=C.symptoms.map(function(s,i){return'<button type="button" class="chip" aria-pressed="'+(i===sel)+'" data-i="'+i+'">'+esc(s[0])+'</button>'}).join("");
+ var s=C.symptoms[sel];if(!s)return;
+ $("answer").innerHTML='<small>Найімовірніше, вам потрібна послуга:</small><b>'+esc(s[1])+'</b><a class="btn btn-main" href="#/kontakty" data-pick="'+sel+'">Записатися</a>'}
+$("chips").addEventListener("click",function(e){var c=e.target.closest(".chip");if(!c)return;sel=+c.dataset.i;drawPicker();var n=document.querySelector('.chip[data-i="'+sel+'"]');if(n)n.focus()});
+$("answer").addEventListener("click",function(e){var a=e.target.closest("[data-pick]");if(!a)return;var s=C.symptoms[+a.dataset.pick];if(s)$("fText").value=s[0]+" ("+s[1]+")"});
+drawPicker();
+/* послуги */
+function card(s,i,short){
+ var p=s[2]||(C.demo?DEMO_PRICE[s[3]]:"")||"Ціна після огляду";
+ return'<article class="card rv" style="--d:'+((i%4)*0.07)+'s"><svg viewBox="0 0 40 40" aria-hidden="true">'+(ICON[s[3]]||ICON.wrench)+'</svg><h3>'+esc(s[0])+'</h3><span class="price">'+esc(p)+'</span>'+(short?'':'<p>'+esc(s[1])+'</p>')+'</article>'}
+$("homeSrv").innerHTML=C.services.slice(0,6).map(function(s,i){return card(s,i,false)}).join("");
+$("services").innerHTML=C.services.map(function(s,i){return card(s,i,false)}).join("");
+$("srvLead").textContent="Основні роботи, з якими до нас приїжджають.";
+$("priceNote").textContent=C.demo?"Приклад цін. На вашому сайті будуть ваші актуальні розцінки.":"Остаточну вартість називаємо після огляду, до початку робіт.";
+$("faqList").innerHTML=C.faq.map(function(f,i){return'<details class="rv"'+(i===0?" open":"")+'><summary>'+esc(f[0])+'</summary><p>'+esc(f[1])+'</p></details>'}).join("");
+/* про нас */
+$("aboutT").textContent="Наш сервіс"+(city?" у місті "+city:"");
+$("aboutP").textContent="Працюємо чесно: пояснюємо, що зламалося, і не робимо зайвого.";
+var ph=(C.photos||[]).map(safeUrl).filter(Boolean);
+if(ph.length)$("gallery").innerHTML=ph.slice(0,6).map(function(u,i){return'<div class="rv" style="--d:'+(i*0.06)+'s"><img loading="lazy" alt="Фото сервісу '+(i+1)+'" src="'+esc(u)+'"></div>'}).join("");
+else if(C.demo)$("gallery").innerHTML=[0,1,2].map(function(i){return'<div class="rv" style="--d:'+(i*0.08)+'s">Тут будуть фото вашого сервісу</div>'}).join("");
+else $("gallery").hidden=true;
+var bl=C.brands.map(function(x){return"<span>"+esc(x)+"</span>"}).join("");$("track").innerHTML=bl+bl;
+var rv=C.reviews||[];
+if(rv.length){$("reviews").className="reviews";$("reviews").innerHTML=rv.slice(0,6).map(function(r,i){var n=r.name||r[0]||"Клієнт",t=r.text||r[1]||"";return'<div class="rev rv" style="--d:'+(i*0.06)+'s"><q>'+esc(t)+'</q><footer>'+esc(n)+'</footer></div>'}).join("")}
+else{var q=encodeURIComponent([C.name,C.address,city].filter(Boolean).join(" "));
+ $("reviews").innerHTML='<div class="gmap rv"><p>Відгуки про нас можна прочитати на Google Maps. Там же видно, як до нас доїхати.</p><a class="btn btn-ghost" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query='+q+'">Відкрити на карті</a></div>'}
+/* контакти */
+var info="";if(hasPhone)info+='<div><dt>Телефон</dt><dd><a href="'+tel+'">'+esc(C.phone)+'</a></dd></div>';
+if(place)info+='<div><dt>Адреса</dt><dd>'+esc(place)+'</dd></div>';
+info+='<div><dt>Графік роботи</dt><dd>'+esc(C.open||"Уточнюйте за телефоном")+'</dd></div>';
+if(C.email)info+='<div><dt>Пошта</dt><dd>'+esc(C.email)+'</dd></div>';
+$("info").innerHTML=info;$("msgs").innerHTML=callBtn+msgLinks("btn-ghost");
+$("mbar").innerHTML=(hasPhone?'<a class="btn btn-main" href="'+tel+'">Зателефонувати</a>':'<a class="btn btn-main" href="#/kontakty">Заявка</a>')+'<a class="btn btn-ghost" href="#/kontakty">'+(hasPhone?"Заявка":"Контакти")+'</a>';
+$("demoNote").textContent=C.demo?"Демо-макет. Текст, ціни й фото буде замінено на ваші.":"";
+/* форма */
+$("form").addEventListener("submit",function(e){
+ e.preventDefault();var s=$("sent");
+ if($("fWeb").value)return;
+ var n=$("fName").value.trim(),p=$("fPhone").value.trim(),t=$("fText").value.trim();
+ s.className="sent";
+ if(digits(p).length<9){s.hidden=false;s.className="sent err";s.textContent="Вкажіть номер телефону, щоб ми могли передзвонити.";return}
+ var text="Заявка з сайту.\nІм'я: "+(n||"-")+"\nТелефон: "+p+"\nАвто і проблема: "+(t||"-");
+ function done(m){s.hidden=false;s.textContent=m}
+ if(C.endpoint){fetch(C.endpoint,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:n,phone:p,text:t})}).then(function(r){if(!r.ok)throw 0;done("Дякуємо! Заявку отримано, ми зв'яжемося з вами.");$("form").reset()}).catch(function(){s.className="sent err";done("Не вдалося надіслати. Зателефонуйте нам"+(hasPhone?": "+C.phone:"")+".")});return}
+ if(C.whatsapp){window.open("https://wa.me/"+digits(C.whatsapp)+"?text="+encodeURIComponent(text),"_blank","noopener");done("Відкрили WhatsApp із готовим повідомленням. Натисніть «Надіслати».");return}
+ if(C.viber&&hasPhone){try{navigator.clipboard.writeText(text)}catch(x){}location.href="viber://chat?number=%2B"+phoneD;done("Текст скопійовано. Вставте його в чат Viber і надішліть.");return}
+ done(hasPhone?"Зателефонуйте нам: "+C.phone+". Так швидше.":"Дякуємо! Залиште також спосіб зв'язку у повідомленні.")});
+/* сторінки (hash-роутер) і поява */
+var pages=document.querySelectorAll(".page"),links=document.querySelectorAll("nav a"),nav=$("nav"),burger=$("burger");
+var io=("IntersectionObserver" in window)?new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}})},{threshold:.12,rootMargin:"0px 0px -6% 0px"}):null;
+function route(){
+ var h=(location.hash||"").replace(/^#\/?/,""),cur=null;
+ pages.forEach(function(p){var on=p.getAttribute("data-page")===h;p.classList.toggle("on",on);if(on)cur=p});
+ if(!cur){cur=pages[0];cur.classList.add("on");h=""}
+ links.forEach(function(a){a.classList.toggle("on",a.getAttribute("data-p")===h)});
+ nav.classList.remove("open");burger.setAttribute("aria-expanded","false");
+ window.scrollTo(0,0);
+ cur.querySelectorAll(".rv:not(.in)").forEach(function(x){io?io.observe(x):x.classList.add("in")});
+}
+burger.addEventListener("click",function(){var o=nav.classList.toggle("open");burger.setAttribute("aria-expanded",o)});
+window.addEventListener("hashchange",route);route();
+setTimeout(function(){document.querySelectorAll(".page.on .rv:not(.in)").forEach(function(x){var r=x.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)x.classList.add("in")})},1500);
+})();
+</script>
+</body>
+</html>
