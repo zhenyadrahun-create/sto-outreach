@@ -292,10 +292,10 @@ def notify(cfg, st, k, l, kind, url):
     who = (f"📞 {fmt_phone(phone)}" + ("" if mob else " (стаціонарний, краще зателефонувати)")) if phone else f"✈️ @{u}"
     where = e(l.get("address") or l.get("city") or "")
     head = (f"{TITLES[kind]}: <b>{e(l['name'])}</b>\n{who}\n" + (where + "\n" if where else "")
-            + "\nТекст нижче (натисни, щоб скопіювати). Вставляй у месенджер, а потім тисни «" + DONE_BTN[kind].split(" ", 1)[1] + "».")
+            + "\nТекст нижче (натисни, щоб скопіювати). Встав у месенджер і надішли. Далі я сам нагадаю в потрібний день, тиснути «Написав» не треба.")
     rows = [kb[i:i + 2] for i in range(0, len(kb), 2)]
-    rows.append([{"text": DONE_BTN[kind], "callback_data": f"{CODE[kind]}:{k}"}])
     rows.append([{"text": "💬 Відповів", "callback_data": f"r:{k}"}, {"text": "🚫 Не цікаво", "callback_data": f"x:{k}"}])
+    rows.append([{"text": "📵 Немає месенджера", "callback_data": f"m:{k}"}])
     try:
         tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "disable_web_page_preview": True, "text": head,
             "reply_markup": {"inline_keyboard": rows}})
@@ -316,19 +316,24 @@ def kit_message(cfg):
 
 def handle_updates(cfg, st):
     if not TOKEN: return
-    try: r = http(f"https://api.telegram.org/bot{TOKEN}/getUpdates?offset={st.get('upd', 0)}&timeout=0&allowed_updates=%5B%22callback_query%22%5D", timeout=30)
+    try: r = http(f"https://api.telegram.org/bot{TOKEN}/getUpdates?offset={st.get('upd', 0)}&timeout=0&allowed_updates=%5B%22callback_query%22%2C%22message%22%5D", timeout=30)
     except Exception as ex:
         print("getUpdates:", ex); return
     now = time.time()
     for u in r.get("result", []):
         st["upd"] = u["update_id"] + 1
+        mm = u.get("message")
+        if mm and str((mm.get("from") or {}).get("id")) == str(CHAT) and (mm.get("text") or "").strip().lower().split("@")[0] in ("/stats", "/stat", "/статистика"):
+            try: tg("sendMessage", {"chat_id": CHAT, "text": stats(st, cfg)})
+            except Exception as ex: print("stats", ex)
+            continue
         cq = u.get("callback_query")
         if not cq or str(cq["from"]["id"]) != str(CHAT): continue
         act, _, k = (cq.get("data") or "").partition(":")
         l = st["leads"].get(k)
         note = "Записано"
-        if l and act in ("s", "f", "z", "r", "x"):
-            fld = {"s": "t1", "f": "t2", "z": "t3", "r": "replied", "x": "declined"}[act]
+        if l and act in ("s", "f", "z", "r", "x", "m"):
+            fld = {"s": "t1", "f": "t2", "z": "t3", "r": "replied", "x": "declined", "m": "nomsg"}[act]
             l[fld] = now
         msg = cq.get("message") or {}
         rows = [r_ for r_ in (msg.get("reply_markup") or {}).get("inline_keyboard", []) if all("url" in b for b in r_)]
@@ -341,6 +346,7 @@ def handle_updates(cfg, st):
                 try: tg("sendMessage", {"chat_id": CHAT, "parse_mode": "HTML", "text": km})
                 except Exception as ex: print("kit", ex)
         elif act == "x": rows.append([{"text": "🚫 Закрито", "callback_data": "n:"}])
+        elif act == "m": rows.append([{"text": "📵 Закрито: немає месенджера", "callback_data": "n:"}]); note = "Пропускаю цей контакт"
         else: rows = None
         try: tg("answerCallbackQuery", {"callback_query_id": cq["id"], "text": note})
         except Exception: pass
@@ -349,16 +355,21 @@ def handle_updates(cfg, st):
             except Exception: pass
 
 def due_kind(l, now):
-    if l.get("replied") or l.get("declined") or l.get("t3"): return None
+    if l.get("replied") or l.get("declined") or l.get("nomsg") or l.get("t3"): return None
     if l.get("t2"): return "final" if (now - l["t2"] >= 3 * DAY and not l.get("rz")) else None
     if l.get("t1"): return "follow" if (now - l["t1"] >= 2 * DAY and not l.get("rf")) else None
     return None
 
-def stats(st):
+def stats(st, cfg=None):
     L = list(st["leads"].values())
     c = lambda f: sum(1 for l in L if l.get(f))
-    return (f"📊 Усього: {len(L)}\nНових у черзі: {sum(1 for l in L if l['status'] == 'new')}\n"
-            f"Написав: {c('t1')}\nНагадав: {c('t2')}\nВідповіли: {c('replied')}\nНе цікаво: {c('declined')}")
+    cap = (cfg or {}).get("per_day", 100)
+    new = sum(1 for l in L if l['status'] == 'new')
+    conv = f" ({round(100 * c('replied') / c('t1'))}%)" if c('t1') else ""
+    return (f"📊 Усього: {len(L)}\nНових у черзі: {new} (≈{-(-new // max(cap, 1))} дн.)\n"
+            f"Сьогодні надіслано: {st.get('today', 0)}/{cap}\n"
+            f"Написав: {c('t1')}\nНагадав: {c('t2')}\nВідповіли: {c('replied')}{conv}\n"
+            f"Не цікаво: {c('declined')}\nНемає месенджера: {c('nomsg')}")
 
 def main():
     cfg = jload("config.json", {}); assert "ТВІЙ" not in cfg["pages_base"], "Впиши pages_base у config.json"
@@ -372,14 +383,16 @@ def main():
     gather(cfg, st); ensure_sites(cfg, st)
     now = time.time(); today = datetime.now(TZ).strftime("%Y-%m-%d")
     if st.get("day") != today: st["day"] = today; st["today"] = 0
-    cap = cfg.get("per_day", 25)
+    cap = cfg.get("per_day", 100)
     manual = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch" and os.environ.get("SOURCE", "manual") != "cron"
     if not manual and now - st.get("last_send", 0) < 600:        # запуски приходять з двох джерел, не частіше ніж раз на 10 хв
         jsave("state.json", st); return
     gap = max(1, int((now - st.get("last_send", 0)) // 900))      # якщо запуски GitHub запізнилися, надолужуємо (до 5 за раз)
-    per_run = min(max(cfg.get("per_run", 1), gap), 5)
+    per_run = min(max(cfg.get("per_run", 3), gap), 8)
     todo = [(k, due_kind(l, now)) for k, l in st["leads"].items() if due_kind(l, now)]
-    todo += [(k, "first") for k, l in st["leads"].items() if l["status"] == "new"]
+    news = [(k, l) for k, l in st["leads"].items() if l["status"] == "new"]
+    news.sort(key=lambda kl: 0 if (kl[1].get("mobile", True) or kl[1].get("tg")) else 1)   # спершу ті, кому можна написати в месенджер
+    todo += [(k, "first") for k, l in news]
     sent = 0
     try:
         for k, kind in todo:
@@ -392,13 +405,14 @@ def main():
                 if kind == "first": l["status"] = "error"; l["err"] = str(ex)[:200]
                 continue
             st["n_" + kind] = st.get("n_" + kind, 0) + 1
-            if kind == "first": l["status"] = "sent"; l["notified"] = now
-            else: l["rf" if kind == "follow" else "rz"] = now
+            if kind == "first": l["status"] = "sent"; l["notified"] = now; l["t1"] = now      # відлік нагадувань іде одразу, без кнопки
+            elif kind == "follow": l["rf"] = now; l["t2"] = now
+            else: l["rz"] = now; l["t3"] = now
             st["today"] += 1; sent += 1; st["last_send"] = now; time.sleep(1)
     finally:
         jsave("state.json", st)
     if manual:
-        tg("sendMessage", {"chat_id": CHAT, "text": stats(st) + "\n" + "\n".join(st.get("report", []))})
+        tg("sendMessage", {"chat_id": CHAT, "text": stats(st, cfg) + "\n" + "\n".join(st.get("report", []))})
     jsave("state.json", st)
 
 if __name__ == "__main__": main()
