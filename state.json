@@ -1253,7 +1253,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660780511/",
    "notified": 1794038952.0461864,
-   "t1": 1794038952.0461864
+   "t1": 1794038952.0461864,
+   "rf": 1794213066.1779778,
+   "t2": 1794213066.1779778
   },
   "c380663395652": {
    "name": "СТО Развилка",
@@ -1265,7 +1267,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380663395652/",
    "notified": 1794038952.0461864,
-   "t1": 1794038952.0461864
+   "t1": 1794038952.0461864,
+   "rf": 1794213066.1779778,
+   "t2": 1794213066.1779778
   },
   "c380937032929": {
    "name": "100 Dorih",
@@ -1277,7 +1281,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380937032929/",
    "notified": 1794038952.0461864,
-   "t1": 1794038952.0461864
+   "t1": 1794038952.0461864,
+   "rf": 1794213066.1779778,
+   "t2": 1794213066.1779778
   },
   "c380675110021": {
    "name": "Tekh-Art",
@@ -3323,9 +3329,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 35,
+ "today": 38,
  "n_first": 149,
- "last_send": 1794212147.5208478,
+ "last_send": 1794213066.1779778,
  "upd": 823717487,
- "n_follow": 3
+ "n_follow": 6
 }
