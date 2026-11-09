@@ -1942,8 +1942,10 @@
    "type": "sto",
    "address": "Oleksiia Skobli St, 7",
    "city": "Хмельницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978566223/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978566223/",
+   "notified": 1794220265.9913433,
+   "t1": 1794220265.9913433
   },
   "c380966991942": {
    "name": "Шиномонтаж Shina-temp",
@@ -1952,8 +1954,10 @@
    "type": "sto",
    "address": "Starokostiantynivske Hwy",
    "city": "Хмельницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380966991942/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380966991942/",
+   "notified": 1794220265.9913433,
+   "t1": 1794220265.9913433
   },
   "c380934830746": {
    "name": "Шиномонтажний сервіс GIS",
@@ -1962,8 +1966,10 @@
    "type": "sto",
    "address": "Vinnytske Hwy, 2/1",
    "city": "Хмельницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934830746/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934830746/",
+   "notified": 1794220265.9913433,
+   "t1": 1794220265.9913433
   },
   "c380977528436": {
    "name": "Shynomontazh (Vokzalna)",
@@ -3371,9 +3377,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 59,
- "n_first": 168,
- "last_send": 1794219346.8501523,
+ "today": 62,
+ "n_first": 171,
+ "last_send": 1794220265.9913433,
  "upd": 823717487,
  "n_follow": 8
 }
