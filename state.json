@@ -1304,8 +1304,10 @@
    "type": "sto",
    "address": "Elektronnyi Ln, 2/1",
    "city": "Миколаїв",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380957148188/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380957148188/",
+   "notified": 1794204083.0607302,
+   "t1": 1794204083.0607302
   },
   "c380632950611": {
    "name": "Balans",
@@ -1314,8 +1316,10 @@
    "type": "sto",
    "address": "Sadova St, 6",
    "city": "Миколаїв",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380632950611/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380632950611/",
+   "notified": 1794204083.0607302,
+   "t1": 1794204083.0607302
   },
   "c380952022286": {
    "name": "Шиномонтажний комплекс TIREservice",
@@ -1324,8 +1328,10 @@
    "type": "sto",
    "address": "Velyka Morska St, 121",
    "city": "Миколаїв",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380952022286/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380952022286/",
+   "notified": 1794204083.0607302,
+   "t1": 1794204083.0607302
   },
   "c380512676381": {
    "name": "Shynomontazh 24 Hodyny",
@@ -1344,8 +1350,10 @@
    "type": "sto",
    "address": "Industrialna St",
    "city": "Миколаїв",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955868620/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955868620/",
+   "notified": 1794204083.0607302,
+   "t1": 1794204083.0607302
   },
   "c380666164951": {
    "name": "АвтомастерОК",
@@ -1354,8 +1362,10 @@
    "type": "sto",
    "address": "Chornovola St, 89",
    "city": "Черкаси",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380666164951/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380666164951/",
+   "notified": 1794204083.0607302,
+   "t1": 1794204083.0607302
   },
   "c380680709756": {
    "name": "Автосервіс Час Пік",
@@ -1364,8 +1374,10 @@
    "type": "sto",
    "address": "Akademika Korolova St, 23",
    "city": "Черкаси",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380680709756/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380680709756/",
+   "notified": 1794204083.0607302,
+   "t1": 1794204083.0607302
   },
   "c380737461001": {
    "name": "СТО AutoExpert",
@@ -1374,8 +1386,10 @@
    "type": "sto",
    "address": "Rustavi St, 4",
    "city": "Черкаси",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380737461001/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380737461001/",
+   "notified": 1794204083.0607302,
+   "t1": 1794204083.0607302
   },
   "c380500570570": {
    "name": "СТО AvtoAtmosfera",
@@ -1384,8 +1398,10 @@
    "type": "sto",
    "address": "Lutsenka St, 2",
    "city": "Черкаси",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380500570570/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380500570570/",
+   "notified": 1794204083.0607302,
+   "t1": 1794204083.0607302
   },
   "c380733037070": {
    "name": "СТОhub",
@@ -3252,9 +3268,9 @@
  "report": [],
  "tt_done": [],
  "tt_geo": {},
- "day": "2026-11-07",
+ "day": "2026-11-09",
  "today": 8,
- "n_first": 117,
- "last_send": 1794038952.0461864,
+ "n_first": 125,
+ "last_send": 1794204083.0607302,
  "upd": 823717487
 }
