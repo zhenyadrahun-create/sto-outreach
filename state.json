@@ -2374,8 +2374,10 @@
    "type": "sto",
    "address": "Kyrylo Trylovskyi St, 7",
    "city": "Коломия",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380931238222/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380931238222/",
+   "notified": 1794231067.7631686,
+   "t1": 1794231067.7631686
   },
   "c380508280859": {
    "name": "СТО V12 Service Stryi Автосервіс",
@@ -2384,8 +2386,10 @@
    "type": "sto",
    "address": "Klyma Savury St, 2б",
    "city": "Стрий",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380508280859/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380508280859/",
+   "notified": 1794231067.7631686,
+   "t1": 1794231067.7631686
   },
   "c380957488268": {
    "name": "СТО CHECK SERVICE",
@@ -2394,8 +2398,10 @@
    "type": "sto",
    "address": "Drohobytska St, 102б",
    "city": "Стрий",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380957488268/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380957488268/",
+   "notified": 1794231067.7631686,
+   "t1": 1794231067.7631686
   },
   "c380633468138": {
    "name": "M-AUTO SERVICE STRIY",
@@ -3443,9 +3449,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 95,
- "n_first": 204,
- "last_send": 1794230146.8000402,
+ "today": 98,
+ "n_first": 207,
+ "last_send": 1794231067.7631686,
  "upd": 823717487,
  "n_follow": 8
 }
