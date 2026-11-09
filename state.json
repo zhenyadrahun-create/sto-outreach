@@ -1726,8 +1726,10 @@
    "type": "sto",
    "address": "Hrushevskoho Ave, 273a",
    "city": "Чернігів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675922132/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675922132/",
+   "notified": 1794214885.3039303,
+   "t1": 1794214885.3039303
   },
   "c380630656533": {
    "name": "Avtoservis Tsentralnyi Shynomontazh",
@@ -1736,8 +1738,10 @@
    "type": "sto",
    "address": "Kotsiubynskoho St, 70",
    "city": "Чернігів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380630656533/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380630656533/",
+   "notified": 1794214885.3039303,
+   "t1": 1794214885.3039303
   },
   "c380672517725": {
    "name": "Автосервіс Car Service Рівне",
@@ -1746,8 +1750,10 @@
    "type": "sto",
    "address": "Boyarka St, 28",
    "city": "Рівне",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672517725/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672517725/",
+   "notified": 1794214885.3039303,
+   "t1": 1794214885.3039303
   },
   "c380961903030": {
    "name": "Автосервіс Як Треба",
@@ -3335,9 +3341,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 41,
- "n_first": 150,
- "last_send": 1794213948.5263765,
+ "today": 44,
+ "n_first": 153,
+ "last_send": 1794214885.3039303,
  "upd": 823717487,
  "n_follow": 8
 }
