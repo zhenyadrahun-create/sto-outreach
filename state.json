@@ -2050,8 +2050,10 @@
    "type": "sto",
    "address": "Hlyboka St, 32c",
    "city": "Тернопіль",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979001003/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979001003/",
+   "notified": 1794222947.9852219,
+   "t1": 1794222947.9852219
   },
   "c380978145413": {
    "name": "Sto Avtoservis (Budnoho 1)",
@@ -2060,8 +2062,10 @@
    "type": "sto",
    "address": "Stepana Budnoho St, 1",
    "city": "Тернопіль",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978145413/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978145413/",
+   "notified": 1794222947.9852219,
+   "t1": 1794222947.9852219
   },
   "c380970604765": {
    "name": "Shynomontazh Tytan",
@@ -2070,8 +2074,10 @@
    "type": "sto",
    "address": "Haiova St",
    "city": "Тернопіль",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970604765/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970604765/",
+   "notified": 1794222947.9852219,
+   "t1": 1794222947.9852219
   },
   "c380968212997": {
    "name": "Shynomontazh Sto (Hlyboka)",
@@ -3389,9 +3395,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 68,
- "n_first": 177,
- "last_send": 1794222086.428579,
+ "today": 71,
+ "n_first": 180,
+ "last_send": 1794222947.9852219,
  "upd": 823717487,
  "n_follow": 8
 }
