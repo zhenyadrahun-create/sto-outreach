@@ -2230,8 +2230,10 @@
    "type": "sto",
    "address": "Naberezhna St, 28",
    "city": "Луцьк",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380999120869/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380999120869/",
+   "notified": 1794227469.1853497,
+   "t1": 1794227469.1853497
   },
   "c380666030442": {
    "name": "Shynomontazh Lutsk Shynolyuks",
@@ -2240,8 +2242,10 @@
    "type": "sto",
    "address": "Karpenka-Karoho St",
    "city": "Луцьк",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380666030442/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380666030442/",
+   "notified": 1794227469.1853497,
+   "t1": 1794227469.1853497
   },
   "c380996082829": {
    "name": "СТО Е58, 25",
@@ -2250,8 +2254,10 @@
    "type": "sto",
    "address": "Е58, 25",
    "city": "Мукачево",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380996082829/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380996082829/",
+   "notified": 1794227469.1853497,
+   "t1": 1794227469.1853497
   },
   "c380979015725": {
    "name": "Sto Lyuks Servis Remont Avto Shynomontazh Avtoservis Mukachevo",
@@ -3419,9 +3425,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 83,
- "n_first": 192,
- "last_send": 1794226547.7519553,
+ "today": 86,
+ "n_first": 195,
+ "last_send": 1794227469.1853497,
  "upd": 823717487,
  "n_follow": 8
 }
