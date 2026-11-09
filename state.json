@@ -2410,8 +2410,10 @@
    "type": "sto",
    "address": "Skolivska St, 19в",
    "city": "Стрий",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380633468138/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380633468138/",
+   "notified": 1794231946.3130147,
+   "t1": 1794231946.3130147
   },
   "c380934749306": {
    "name": "Автосервіс+",
@@ -2420,8 +2422,10 @@
    "type": "sto",
    "address": "Skolivska St, 11",
    "city": "Стрий",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934749306/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934749306/",
+   "notified": 1794231946.3130147,
+   "t1": 1794231946.3130147
   },
   "c380984868868": {
    "name": "Yevroservis",
@@ -3449,9 +3453,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 98,
- "n_first": 207,
- "last_send": 1794231067.7631686,
+ "today": 100,
+ "n_first": 209,
+ "last_send": 1794231946.3130147,
  "upd": 823717487,
  "n_follow": 8
 }
