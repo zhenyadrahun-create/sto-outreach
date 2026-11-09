@@ -2338,8 +2338,10 @@
    "type": "sto",
    "address": "вулиця Йосипа Сліпого, 4, Коломия",
    "city": "Коломия",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977242500/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977242500/",
+   "notified": 1794230146.8000402,
+   "t1": 1794230146.8000402
   },
   "c380986172510": {
    "name": "Harazhservis",
@@ -2348,8 +2350,10 @@
    "type": "sto",
    "address": "Ivan Maidanskyi St, 8",
    "city": "Коломия",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986172510/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986172510/",
+   "notified": 1794230146.8000402,
+   "t1": 1794230146.8000402
   },
   "c380506320281": {
    "name": "СТО Oleksa Dovbush St, 65А/3",
@@ -2358,8 +2362,10 @@
    "type": "sto",
    "address": "Oleksa Dovbush St, 65А/3",
    "city": "Коломия",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506320281/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506320281/",
+   "notified": 1794230146.8000402,
+   "t1": 1794230146.8000402
   },
   "c380931238222": {
    "name": "GAS Autoservice",
@@ -3437,9 +3443,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 92,
- "n_first": 201,
- "last_send": 1794229284.9102545,
+ "today": 95,
+ "n_first": 204,
+ "last_send": 1794230146.8000402,
  "upd": 823717487,
  "n_follow": 8
 }
