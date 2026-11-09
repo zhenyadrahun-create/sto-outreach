@@ -2086,8 +2086,10 @@
    "type": "sto",
    "address": "Hlyboka St, 22",
    "city": "Тернопіль",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380968212997/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380968212997/",
+   "notified": 1794223866.9160283,
+   "t1": 1794223866.9160283
   },
   "c380967476387": {
    "name": "Шинний Майстер",
@@ -2096,8 +2098,10 @@
    "type": "sto",
    "address": "Stepana Budnoho St, 1y",
    "city": "Тернопіль",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380967476387/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380967476387/",
+   "notified": 1794223866.9160283,
+   "t1": 1794223866.9160283
   },
   "c380961273957": {
    "name": "Shynomontazh (Protasevycha)",
@@ -2106,8 +2110,10 @@
    "type": "sto",
    "address": "Protasevycha St",
    "city": "Тернопіль",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961273957/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961273957/",
+   "notified": 1794223866.9160283,
+   "t1": 1794223866.9160283
   },
   "c380965050708": {
    "name": "Fast Шиномонтаж",
@@ -3395,9 +3401,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 71,
- "n_first": 180,
- "last_send": 1794222947.9852219,
+ "today": 74,
+ "n_first": 183,
+ "last_send": 1794223866.9160283,
  "upd": 823717487,
  "n_follow": 8
 }
