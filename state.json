@@ -1978,8 +1978,10 @@
    "type": "sto",
    "address": "Vokzalna St, 129",
    "city": "Хмельницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977528436/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977528436/",
+   "notified": 1794221146.7831037,
+   "t1": 1794221146.7831037
   },
   "c380986766993": {
    "name": "Автосервіс SV Auto",
@@ -1988,8 +1990,10 @@
    "type": "sto",
    "address": "Protasevycha St, 11a",
    "city": "Тернопіль",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986766993/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986766993/",
+   "notified": 1794221146.7831037,
+   "t1": 1794221146.7831037
   },
   "c380975550126": {
    "name": "СТО Crocodile Autoservice",
@@ -1998,8 +2002,10 @@
    "type": "sto",
    "address": "Haiova St, 52",
    "city": "Тернопіль",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380975550126/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380975550126/",
+   "notified": 1794221146.7831037,
+   "t1": 1794221146.7831037
   },
   "c380978203087": {
    "name": "Avtoservis.sto.ternopil",
@@ -3377,9 +3383,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 62,
- "n_first": 171,
- "last_send": 1794220265.9913433,
+ "today": 65,
+ "n_first": 174,
+ "last_send": 1794221146.7831037,
  "upd": 823717487,
  "n_follow": 8
 }
