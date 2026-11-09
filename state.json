@@ -1590,8 +1590,10 @@
    "type": "sto",
    "address": "Chekhova St, 1",
    "city": "Житомир",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989650853/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989650853/",
+   "notified": 1794209466.3313332,
+   "t1": 1794209466.3313332
   },
   "c380639689133": {
    "name": "Avtozapchastyny Sto Chernihiv",
@@ -1600,8 +1602,10 @@
    "type": "sto",
    "address": "Kyivska St, 59",
    "city": "Чернігів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380639689133/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380639689133/",
+   "notified": 1794209466.3313332,
+   "t1": 1794209466.3313332
   },
   "c380970660606": {
    "name": "Автосервіс Lucky Motors",
@@ -1610,8 +1614,10 @@
    "type": "sto",
    "address": "Kozatska St, 60",
    "city": "Чернігів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970660606/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970660606/",
+   "notified": 1794209466.3313332,
+   "t1": 1794209466.3313332
   },
   "c380503007921": {
    "name": "СТО Адамант Моторс",
@@ -3299,8 +3305,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 23,
- "n_first": 140,
- "last_send": 1794208548.1968381,
+ "today": 26,
+ "n_first": 143,
+ "last_send": 1794209466.3313332,
  "upd": 823717487
 }
