@@ -2266,8 +2266,10 @@
    "type": "sto",
    "address": "Sorocha St, 194",
    "city": "Мукачево",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979015725/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979015725/",
+   "notified": 1794228351.6047862,
+   "t1": 1794228351.6047862
   },
   "c380950230123": {
    "name": "Sto23",
@@ -2276,8 +2278,10 @@
    "type": "sto",
    "address": "Bohomol'tsya St, 19а",
    "city": "Ужгород",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380950230123/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380950230123/",
+   "notified": 1794228351.6047862,
+   "t1": 1794228351.6047862
   },
   "c380992238990": {
    "name": "СТО QUALITY SERVICE & SHOP",
@@ -2286,8 +2290,10 @@
    "type": "sto",
    "address": "Kapushanska St, 141",
    "city": "Ужгород",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380992238990/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380992238990/",
+   "notified": 1794228351.6047862,
+   "t1": 1794228351.6047862
   },
   "c380990764630": {
    "name": "Sto Pp Olenchuk T.m.",
@@ -3425,9 +3431,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 86,
- "n_first": 195,
- "last_send": 1794227469.1853497,
+ "today": 89,
+ "n_first": 198,
+ "last_send": 1794228351.6047862,
  "upd": 823717487,
  "n_follow": 8
 }
