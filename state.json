@@ -1906,8 +1906,10 @@
    "type": "sto",
    "address": "",
    "city": "Хмельницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380678873907/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380678873907/",
+   "notified": 1794219346.8501523,
+   "t1": 1794219346.8501523
   },
   "c380972991789": {
    "name": "СТО AUTOLUX SERVICE",
@@ -1916,8 +1918,10 @@
    "type": "sto",
    "address": "",
    "city": "Хмельницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972991789/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972991789/",
+   "notified": 1794219346.8501523,
+   "t1": 1794219346.8501523
   },
   "c380986512122": {
    "name": "Шинний сервіс RECRAFT",
@@ -1926,8 +1930,10 @@
    "type": "sto",
    "address": "Khorobroho St, 12",
    "city": "Хмельницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986512122/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986512122/",
+   "notified": 1794219346.8501523,
+   "t1": 1794219346.8501523
   },
   "c380978566223": {
    "name": "Shynnyy Servis",
@@ -3365,9 +3371,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 56,
- "n_first": 165,
- "last_send": 1794218486.430045,
+ "today": 59,
+ "n_first": 168,
+ "last_send": 1794219346.8501523,
  "upd": 823717487,
  "n_follow": 8
 }
