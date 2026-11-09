@@ -1762,8 +1762,10 @@
    "type": "sto",
    "address": "Zakhysnykiv Mariupolia St, 25",
    "city": "Рівне",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961903030/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961903030/",
+   "notified": 1794215747.7088025,
+   "t1": 1794215747.7088025
   },
   "c380680015661": {
    "name": "Автосервіс Рівне Car repair service",
@@ -1772,8 +1774,10 @@
    "type": "sto",
    "address": "Budivelnykiv St, 4",
    "city": "Рівне",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380680015661/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380680015661/",
+   "notified": 1794215747.7088025,
+   "t1": 1794215747.7088025
   },
   "c380984496586": {
    "name": "Sto Avtoservis (Rivne)",
@@ -1782,8 +1786,10 @@
    "type": "sto",
    "address": "",
    "city": "Рівне",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984496586/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984496586/",
+   "notified": 1794215747.7088025,
+   "t1": 1794215747.7088025
   },
   "c380965760586": {
    "name": "Sto (Khasevycha)",
@@ -3341,9 +3347,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 44,
- "n_first": 153,
- "last_send": 1794214885.3039303,
+ "today": 47,
+ "n_first": 156,
+ "last_send": 1794215747.7088025,
  "upd": 823717487,
  "n_follow": 8
 }
