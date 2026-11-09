@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """Контакти з leads.csv -> нагадування у Telegram (по кілька на день) + повтор через 2 дні. Нічого не шле клієнтам сам."""
 import json, os, re, random, html, time, urllib.request, urllib.parse, urllib.error
@@ -247,6 +248,19 @@ def site_for(cfg, k, l):
     if not l.get("site"): l["site"] = make_site(cfg, k, l)
     return l["site"]
 
+def regen_sites(cfg, st):
+    """Якщо template.html змінився, перебудовує всі вже створені демо-сайти за новим шаблоном."""
+    import hashlib
+    h = hashlib.md5(open("template.html", "rb").read()).hexdigest()
+    if st.get("tpl") == h: return
+    n = 0
+    for k, l in st["leads"].items():
+        if l.get("site") and l.get("type") != "generic":
+            try: make_site(cfg, k, l); n += 1
+            except Exception as ex: print("regen", k, ex)
+    st["tpl"] = h
+    st.setdefault("report", []).append(f"♻️ Демо-сайтів оновлено за новим шаблоном: {n}")
+
 def ensure_sites(cfg, st):
     for k, l in st["leads"].items():
         if l.get("status") in ("new", "planned") and l.get("type") != "generic" and not l.get("site"):
@@ -380,7 +394,7 @@ def main():
     handle_updates(cfg, st)
     if os.environ.get("SOURCE") == "poll":                      # швидка перевірка: лише обробити натиснуті кнопки
         jsave("state.json", st); return
-    gather(cfg, st); ensure_sites(cfg, st)
+    gather(cfg, st); regen_sites(cfg, st); ensure_sites(cfg, st)
     now = time.time(); today = datetime.now(TZ).strftime("%Y-%m-%d")
     if st.get("day") != today: st["day"] = today; st["today"] = 0
     cap = cfg.get("per_day", 100)
