@@ -1446,8 +1446,10 @@
    "type": "sto",
    "address": "Nadpilna St, 218",
    "city": "Черкаси",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380637228333/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380637228333/",
+   "notified": 1794205866.6728349,
+   "t1": 1794205866.6728349
   },
   "c380989190911": {
    "name": "Шиномонтаж (Korolova)",
@@ -1456,8 +1458,10 @@
    "type": "sto",
    "address": "Akademika Korolova St, 5",
    "city": "Черкаси",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989190911/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989190911/",
+   "notified": 1794205866.6728349,
+   "t1": 1794205866.6728349
   },
   "c380671418529": {
    "name": "Sto Shynomontazh U Oleha",
@@ -1466,8 +1470,10 @@
    "type": "sto",
    "address": "Oboronna St, 14",
    "city": "Черкаси",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380671418529/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380671418529/",
+   "notified": 1794205866.6728349,
+   "t1": 1794205866.6728349
   },
   "c380509015357": {
    "name": "СТО Milestone",
@@ -3275,8 +3281,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 11,
- "n_first": 128,
- "last_send": 1794204948.584408,
+ "today": 14,
+ "n_first": 131,
+ "last_send": 1794205866.6728349,
  "upd": 823717487
 }
