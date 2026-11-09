@@ -1834,8 +1834,10 @@
    "type": "sto",
    "address": "Mlynivska St, 30",
    "city": "Рівне",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689697806/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689697806/",
+   "notified": 1794217545.1729684,
+   "t1": 1794217545.1729684
   },
   "c380981885588": {
    "name": "Mservice Автосервіс",
@@ -1844,8 +1846,10 @@
    "type": "sto",
    "address": "Bolokhivska St",
    "city": "Хмельницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380981885588/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380981885588/",
+   "notified": 1794217545.1729684,
+   "t1": 1794217545.1729684
   },
   "c380984525817": {
    "name": "СТО Автосервіс (Starokostiantynivske)",
@@ -1854,8 +1858,10 @@
    "type": "sto",
    "address": "Starokostiantynivske Hwy, 13",
    "city": "Хмельницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984525817/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984525817/",
+   "notified": 1794217545.1729684,
+   "t1": 1794217545.1729684
   },
   "c380671002088": {
    "name": "Avtoservis (Mazepy)",
@@ -3353,9 +3359,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 50,
- "n_first": 159,
- "last_send": 1794216665.1870844,
+ "today": 53,
+ "n_first": 162,
+ "last_send": 1794217545.1729684,
  "upd": 823717487,
  "n_follow": 8
 }
