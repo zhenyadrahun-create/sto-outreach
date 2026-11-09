@@ -1518,8 +1518,10 @@
    "type": "sto",
    "address": "Vilskyi Shliakh St, 24a",
    "city": "Житомир",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681989848/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681989848/",
+   "notified": 1794207685.139948,
+   "t1": 1794207685.139948
   },
   "c380930100307": {
    "name": "Sto Proharazh",
@@ -1528,8 +1530,10 @@
    "type": "sto",
    "address": "Feshchenka-Chopivskoho St",
    "city": "Житомир",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380930100307/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380930100307/",
+   "notified": 1794207685.139948,
+   "t1": 1794207685.139948
   },
   "c380961665677": {
    "name": "СТО та Шиномонтаж на Малованці",
@@ -1538,8 +1542,10 @@
    "type": "sto",
    "address": "Troianivskyi Ln, 1/9",
    "city": "Житомир",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961665677/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961665677/",
+   "notified": 1794207685.139948,
+   "t1": 1794207685.139948
   },
   "c380930434340": {
    "name": "Shynomontazh Zhytomyr (Zhuika)",
@@ -3287,8 +3293,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 17,
- "n_first": 134,
- "last_send": 1794206745.6034908,
+ "today": 20,
+ "n_first": 137,
+ "last_send": 1794207685.139948,
  "upd": 823717487
 }
