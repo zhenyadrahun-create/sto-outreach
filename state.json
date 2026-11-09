@@ -1662,8 +1662,10 @@
    "type": "sto",
    "address": "Instrumentalna St, 7",
    "city": "Чернігів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380932159737/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380932159737/",
+   "notified": 1794211284.2375975,
+   "t1": 1794211284.2375975
   },
   "c380667888984": {
    "name": "СТО шиномонтаж GUMA",
@@ -1672,8 +1674,10 @@
    "type": "sto",
    "address": "Oleksandra Dovzhenka St, 15",
    "city": "Чернігів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667888984/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667888984/",
+   "notified": 1794211284.2375975,
+   "t1": 1794211284.2375975
   },
   "c380939337066": {
    "name": "Шиномонтаж СТО ТЕХАС",
@@ -1682,8 +1686,10 @@
    "type": "sto",
    "address": "Liubomyra Bodnaruka St, 28",
    "city": "Чернігів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380939337066/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380939337066/",
+   "notified": 1794211284.2375975,
+   "t1": 1794211284.2375975
   },
   "c380636796696": {
    "name": "Шиномонтаж SpectrShin",
@@ -3311,8 +3317,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 29,
- "n_first": 146,
- "last_send": 1794210347.2057834,
+ "today": 32,
+ "n_first": 149,
+ "last_send": 1794211284.2375975,
  "upd": 823717487
 }
