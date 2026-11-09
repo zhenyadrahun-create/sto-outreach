@@ -2302,8 +2302,10 @@
    "type": "sto",
    "address": "Bazilovycha St, 3а",
    "city": "Ужгород",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380990764630/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380990764630/",
+   "notified": 1794229284.9102545,
+   "t1": 1794229284.9102545
   },
   "c380505279900": {
    "name": "СТО \"МЕХАНІК\"",
@@ -2312,8 +2314,10 @@
    "type": "sto",
    "address": "Kapushanska St, 106а",
    "city": "Ужгород",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505279900/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505279900/",
+   "notified": 1794229284.9102545,
+   "t1": 1794229284.9102545
   },
   "c380960620282": {
    "name": "Автосервис",
@@ -2322,8 +2326,10 @@
    "type": "sto",
    "address": "Denysa Sichynskoho St, 64-68",
    "city": "Коломия",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380960620282/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380960620282/",
+   "notified": 1794229284.9102545,
+   "t1": 1794229284.9102545
   },
   "c380977242500": {
    "name": "Avto Star class,Автомагазин, Автосервіс, Вулканізація, Розвал-сходження",
@@ -3431,9 +3437,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 89,
- "n_first": 198,
- "last_send": 1794228351.6047862,
+ "today": 92,
+ "n_first": 201,
+ "last_send": 1794229284.9102545,
  "upd": 823717487,
  "n_follow": 8
 }
