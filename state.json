@@ -1482,8 +1482,10 @@
    "type": "sto",
    "address": "Tarasa Bulby-Borovtsia St, 36B",
    "city": "Житомир",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509015357/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509015357/",
+   "notified": 1794206745.6034908,
+   "t1": 1794206745.6034908
   },
   "c380967252503": {
    "name": "TOV Auto Glass Service",
@@ -1492,8 +1494,10 @@
    "type": "sto",
    "address": "Malynska St, 10",
    "city": "Житомир",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380967252503/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380967252503/",
+   "notified": 1794206745.6034908,
+   "t1": 1794206745.6034908
   },
   "c380630486677": {
    "name": "СТО DosAvtoService",
@@ -1502,8 +1506,10 @@
    "type": "sto",
    "address": "Nezalezhnosti Ave, 57",
    "city": "Житомир",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380630486677/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380630486677/",
+   "notified": 1794206745.6034908,
+   "t1": 1794206745.6034908
   },
   "c380681989848": {
    "name": "СТО Автопартнер",
@@ -3281,8 +3287,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 14,
- "n_first": 131,
- "last_send": 1794205866.6728349,
+ "today": 17,
+ "n_first": 134,
+ "last_send": 1794206745.6034908,
  "upd": 823717487
 }
