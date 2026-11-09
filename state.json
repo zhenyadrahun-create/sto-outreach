@@ -1295,7 +1295,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675110021/",
    "notified": 1794038952.0461864,
-   "t1": 1794038952.0461864
+   "t1": 1794038952.0461864,
+   "rf": 1794213948.5263765,
+   "t2": 1794213948.5263765
   },
   "c380939950277": {
    "name": "АП-СЕРВІС (AP-Service)",
@@ -1307,7 +1309,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380939950277/",
    "notified": 1794038952.0461864,
-   "t1": 1794038952.0461864
+   "t1": 1794038952.0461864,
+   "rf": 1794213948.5263765,
+   "t2": 1794213948.5263765
   },
   "c380957148188": {
    "name": "СТО АВТОритет Сервіс",
@@ -1710,8 +1714,10 @@
    "type": "sto",
    "address": "Ivana Bohuna St, 55",
    "city": "Чернігів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380636796696/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380636796696/",
+   "notified": 1794213948.5263765,
+   "t1": 1794213948.5263765
   },
   "c380675922132": {
    "name": "Shynomontazh v Chernihovi",
@@ -3329,9 +3335,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 38,
- "n_first": 149,
- "last_send": 1794213066.1779778,
+ "today": 41,
+ "n_first": 150,
+ "last_send": 1794213948.5263765,
  "upd": 823717487,
- "n_follow": 6
+ "n_follow": 8
 }
