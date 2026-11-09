@@ -1554,8 +1554,10 @@
    "type": "sto",
    "address": "Zhuika St, 43",
    "city": "Житомир",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380930434340/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380930434340/",
+   "notified": 1794208548.1968381,
+   "t1": 1794208548.1968381
   },
   "c380988898293": {
    "name": "Shynomontazh (Pokrovska)",
@@ -1564,8 +1566,10 @@
    "type": "sto",
    "address": "Pokrovska St, 41",
    "city": "Житомир",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988898293/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988898293/",
+   "notified": 1794208548.1968381,
+   "t1": 1794208548.1968381
   },
   "c380975083111": {
    "name": "Шиномонтаж ШинШина",
@@ -1574,8 +1578,10 @@
    "type": "sto",
    "address": "Myru Ave, 19a",
    "city": "Житомир",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380975083111/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380975083111/",
+   "notified": 1794208548.1968381,
+   "t1": 1794208548.1968381
   },
   "c380989650853": {
    "name": "Шиномонтаж СТО (Chekhova)",
@@ -3293,8 +3299,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 20,
- "n_first": 137,
- "last_send": 1794207685.139948,
+ "today": 23,
+ "n_first": 140,
+ "last_send": 1794208548.1968381,
  "upd": 823717487
 }
