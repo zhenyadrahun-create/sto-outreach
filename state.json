@@ -2194,8 +2194,10 @@
    "type": "sto",
    "address": "Striletska St, 71a",
    "city": "Луцьк",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673612277/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673612277/",
+   "notified": 1794226547.7519553,
+   "t1": 1794226547.7519553
   },
   "c380963204267": {
    "name": "Шиномонтаж Луцьк 22 Дюйма",
@@ -2204,8 +2206,10 @@
    "type": "sto",
    "address": "Yershova St, 11a",
    "city": "Луцьк",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380963204267/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380963204267/",
+   "notified": 1794226547.7519553,
+   "t1": 1794226547.7519553
   },
   "c380973242121": {
    "name": "Shynomontazh (Karpenka-Karoho)",
@@ -2214,8 +2218,10 @@
    "type": "sto",
    "address": "Karpenka-Karoho St, 3b",
    "city": "Луцьк",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973242121/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973242121/",
+   "notified": 1794226547.7519553,
+   "t1": 1794226547.7519553
   },
   "c380999120869": {
    "name": "Shynomontazh Naberezhna Lutsk",
@@ -3413,9 +3419,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 80,
- "n_first": 189,
- "last_send": 1794225680.0258555,
+ "today": 83,
+ "n_first": 192,
+ "last_send": 1794226547.7519553,
  "upd": 823717487,
  "n_follow": 8
 }
