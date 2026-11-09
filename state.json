@@ -1410,8 +1410,10 @@
    "type": "sto",
    "address": "Oleny Telihy St",
    "city": "Черкаси",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733037070/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733037070/",
+   "notified": 1794204948.584408,
+   "t1": 1794204948.584408
   },
   "c380965942643": {
    "name": "СТО Автоелектрик",
@@ -1420,8 +1422,10 @@
    "type": "sto",
    "address": "Rustavi St, 4",
    "city": "Черкаси",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965942643/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965942643/",
+   "notified": 1794204948.584408,
+   "t1": 1794204948.584408
   },
   "c380730731033": {
    "name": "NDC Service",
@@ -1430,8 +1434,10 @@
    "type": "sto",
    "address": "Rustavi St, 4, box 69",
    "city": "Черкаси",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380730731033/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380730731033/",
+   "notified": 1794204948.584408,
+   "t1": 1794204948.584408
   },
   "c380637228333": {
    "name": "Шиномонтаж (Nadpilna)",
@@ -3269,8 +3275,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 8,
- "n_first": 125,
- "last_send": 1794204083.0607302,
+ "today": 11,
+ "n_first": 128,
+ "last_send": 1794204948.584408,
  "upd": 823717487
 }
