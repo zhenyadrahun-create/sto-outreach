@@ -1798,8 +1798,10 @@
    "type": "sto",
    "address": "Nila Khasevycha St, 3",
    "city": "Рівне",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965760586/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965760586/",
+   "notified": 1794216665.1870844,
+   "t1": 1794216665.1870844
   },
   "c380984116366": {
    "name": "Шиномонтаж Kovshyna (Stelmakh)",
@@ -1808,8 +1810,10 @@
    "type": "sto",
    "address": "Volodymyr Stelmakh St, 18e",
    "city": "Рівне",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984116366/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984116366/",
+   "notified": 1794216665.1870844,
+   "t1": 1794216665.1870844
   },
   "c380958454876": {
    "name": "Шиномонтаж Рівне Цілодобово",
@@ -1818,8 +1822,10 @@
    "type": "sto",
    "address": "Kulyka i Hudacheka St, 24",
    "city": "Рівне",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380958454876/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380958454876/",
+   "notified": 1794216665.1870844,
+   "t1": 1794216665.1870844
   },
   "c380689697806": {
    "name": "Шиномонтаж Kovshyna (Mlynivska)",
@@ -3347,9 +3353,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 47,
- "n_first": 156,
- "last_send": 1794215747.7088025,
+ "today": 50,
+ "n_first": 159,
+ "last_send": 1794216665.1870844,
  "upd": 823717487,
  "n_follow": 8
 }
