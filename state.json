@@ -2014,8 +2014,10 @@
    "type": "sto",
    "address": "Polkovnyka Morozenka St, 1a",
    "city": "Тернопіль",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978203087/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978203087/",
+   "notified": 1794222086.428579,
+   "t1": 1794222086.428579
   },
   "c380965208750": {
    "name": "Sto Interavtoservis",
@@ -2024,8 +2026,10 @@
    "type": "sto",
    "address": "Tekstylna St, 28",
    "city": "Тернопіль",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965208750/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965208750/",
+   "notified": 1794222086.428579,
+   "t1": 1794222086.428579
   },
   "c380731788080": {
    "name": "Бош Авто Сервіс Автодром",
@@ -2034,8 +2038,10 @@
    "type": "sto",
    "address": "Stepana Budnoho St, 24",
    "city": "Тернопіль",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380731788080/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380731788080/",
+   "notified": 1794222086.428579,
+   "t1": 1794222086.428579
   },
   "c380979001003": {
    "name": "Sto (Velyki Hai)",
@@ -3383,9 +3389,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 65,
- "n_first": 174,
- "last_send": 1794221146.7831037,
+ "today": 68,
+ "n_first": 177,
+ "last_send": 1794222086.428579,
  "upd": 823717487,
  "n_follow": 8
 }
