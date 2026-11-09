@@ -1626,8 +1626,10 @@
    "type": "sto",
    "address": "Remzavodska St, 4",
    "city": "Чернігів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503007921/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503007921/",
+   "notified": 1794210347.2057834,
+   "t1": 1794210347.2057834
   },
   "c380673882484": {
    "name": "СТО ГранТоріно",
@@ -1636,8 +1638,10 @@
    "type": "sto",
    "address": "Shyroka St, 2",
    "city": "Чернігів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673882484/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673882484/",
+   "notified": 1794210347.2057834,
+   "t1": 1794210347.2057834
   },
   "c380661439993": {
    "name": "CentrAvto",
@@ -1646,8 +1650,10 @@
    "type": "sto",
    "address": "Instrumentalna St, 3a",
    "city": "Чернігів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380661439993/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380661439993/",
+   "notified": 1794210347.2057834,
+   "t1": 1794210347.2057834
   },
   "c380932159737": {
    "name": "Rs avto СТО",
@@ -3305,8 +3311,8 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-09",
- "today": 26,
- "n_first": 143,
- "last_send": 1794209466.3313332,
+ "today": 29,
+ "n_first": 146,
+ "last_send": 1794210347.2057834,
  "upd": 823717487
 }
