@@ -2926,8 +2926,10 @@
    "type": "sto",
    "address": "Korolenka St, 41П",
    "city": "Бердичів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972676630/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972676630/",
+   "notified": 1794301284.0257132,
+   "t1": 1794301284.0257132
   },
   "c380683054850": {
    "name": "Автосервіс\"MASTER_CAR\"СТО",
@@ -2936,8 +2938,10 @@
    "type": "sto",
    "address": "Trudova St",
    "city": "Бердичів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683054850/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683054850/",
+   "notified": 1794301284.0257132,
+   "t1": 1794301284.0257132
   },
   "c380970610103": {
    "name": "Everest Avto",
@@ -2946,8 +2950,10 @@
    "type": "sto",
    "address": "Hazoprovidna St, 25а",
    "city": "Бердичів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970610103/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970610103/",
+   "notified": 1794301284.0257132,
+   "t1": 1794301284.0257132
   },
   "c380685252323": {
    "name": "Автосервіс СТО Ніжин",
@@ -3535,9 +3541,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 41,
- "n_first": 250,
- "last_send": 1794300348.5193932,
+ "today": 44,
+ "n_first": 253,
+ "last_send": 1794301284.0257132,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
