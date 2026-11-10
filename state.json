@@ -2746,8 +2746,10 @@
    "type": "sto",
    "address": "Maksyma Zaliznyaka St, 10а",
    "city": "Умань",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683394805/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683394805/",
+   "notified": 1794296746.3700976,
+   "t1": 1794296746.3700976
   },
   "c380683934818": {
    "name": "СТО Nezalezhnosti St, 29",
@@ -2756,8 +2758,10 @@
    "type": "sto",
    "address": "Nezalezhnosti St, 29",
    "city": "Умань",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683934818/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683934818/",
+   "notified": 1794296746.3700976,
+   "t1": 1794296746.3700976
   },
   "c380988372345": {
    "name": "СТО Vul. Bilohrudivsʹka, 1",
@@ -2766,8 +2770,10 @@
    "type": "sto",
    "address": "Vul. Bilohrudivsʹka, 1",
    "city": "Умань",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988372345/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988372345/",
+   "notified": 1794296746.3700976,
+   "t1": 1794296746.3700976
   },
   "c380737660090": {
    "name": "СТО - Автомагазин \"CAR OIL\", Евакуатор 24/7",
@@ -3505,9 +3511,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 26,
- "n_first": 235,
- "last_send": 1794295865.2994049,
+ "today": 29,
+ "n_first": 238,
+ "last_send": 1794296746.3700976,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
