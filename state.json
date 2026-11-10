@@ -3296,8 +3296,10 @@
    "type": "sto",
    "address": "Львівська, 190А",
    "city": "Хуст",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380968128127/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380968128127/",
+   "notified": 1794310268.7474077,
+   "t1": 1794310268.7474077
   },
   "c380993240545": {
    "name": "СТО Auto-Consept",
@@ -3306,8 +3308,10 @@
    "type": "sto",
    "address": "Bohdana Khmelnytskoho St, 71",
    "city": "Калуш",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380993240545/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380993240545/",
+   "notified": 1794310268.7474077,
+   "t1": 1794310268.7474077
   },
   "c380667670496": {
    "name": "СТО New Автоплюс",
@@ -3316,8 +3320,10 @@
    "type": "sto",
    "address": "Rynkova St, 13a",
    "city": "Калуш",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667670496/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667670496/",
+   "notified": 1794310268.7474077,
+   "t1": 1794310268.7474077
   },
   "c380503735413": {
    "name": "Sto Taras Kalush",
@@ -3595,9 +3601,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 71,
- "n_first": 280,
- "last_send": 1794309348.8635647,
+ "today": 74,
+ "n_first": 283,
+ "last_send": 1794310268.7474077,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
