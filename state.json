@@ -3332,8 +3332,10 @@
    "type": "sto",
    "address": "Petra Karakaia St, 9, 9-б",
    "city": "Калуш",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503735413/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503735413/",
+   "notified": 1794311151.1990104,
+   "t1": 1794311151.1990104
   },
   "c380676722038": {
    "name": "СТО Rynkova St",
@@ -3342,8 +3344,10 @@
    "type": "sto",
    "address": "Rynkova St",
    "city": "Калуш",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676722038/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676722038/",
+   "notified": 1794311151.1990104,
+   "t1": 1794311151.1990104
   },
   "c380505850804": {
    "name": "СТО «Sonatacar»",
@@ -3352,8 +3356,10 @@
    "type": "sto",
    "address": "Vulytsya Dzvonarsʹka, 6",
    "city": "Калуш",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505850804/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505850804/",
+   "notified": 1794311151.1990104,
+   "t1": 1794311151.1990104
   },
   "c380502171333": {
    "name": "Сто АВТО help!",
@@ -3601,9 +3607,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 74,
- "n_first": 283,
- "last_send": 1794310268.7474077,
+ "today": 77,
+ "n_first": 286,
+ "last_send": 1794311151.1990104,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
