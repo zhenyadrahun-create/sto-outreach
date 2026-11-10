@@ -3260,8 +3260,10 @@
    "type": "sto",
    "address": "Ivana Franka St, 175",
    "city": "Хуст",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988557613/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988557613/",
+   "notified": 1794309348.8635647,
+   "t1": 1794309348.8635647
   },
   "c380979008059": {
    "name": "СТО ГАРАЖ",
@@ -3270,8 +3272,10 @@
    "type": "sto",
    "address": "Ivana Franka St, 197",
    "city": "Хуст",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979008059/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979008059/",
+   "notified": 1794309348.8635647,
+   "t1": 1794309348.8635647
   },
   "c380676235552": {
    "name": "Автосервіс ImperScar",
@@ -3280,8 +3284,10 @@
    "type": "sto",
    "address": "Ivana Franka St, 201 ж",
    "city": "Хуст",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676235552/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676235552/",
+   "notified": 1794309348.8635647,
+   "t1": 1794309348.8635647
   },
   "c380968128127": {
    "name": "tire Express",
@@ -3589,9 +3595,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 68,
- "n_first": 277,
- "last_send": 1794308487.821516,
+ "today": 71,
+ "n_first": 280,
+ "last_send": 1794309348.8635647,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
