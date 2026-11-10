@@ -3368,8 +3368,10 @@
    "type": "sto",
    "address": "Vul. Korolʹova, 41",
    "city": "Самбір",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380502171333/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380502171333/",
+   "notified": 1794312083.3210223,
+   "t1": 1794312083.3210223
   },
   "c380778885522": {
    "name": "Sto Serbin Servis",
@@ -3388,8 +3390,10 @@
    "type": "sto",
    "address": "G67C+GW",
    "city": "Самбір",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986776971/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986776971/",
+   "notified": 1794312083.3210223,
+   "t1": 1794312083.3210223
   },
   "c380983075308": {
    "name": "СТО Street Chornovil, 32",
@@ -3398,8 +3402,10 @@
    "type": "sto",
    "address": "Street Chornovil, 32",
    "city": "Самбір",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983075308/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983075308/",
+   "notified": 1794312083.3210223,
+   "t1": 1794312083.3210223
   },
   "c380679008515": {
    "name": "Car Service \"Galich\"",
@@ -3607,9 +3613,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 77,
- "n_first": 286,
- "last_send": 1794311151.1990104,
+ "today": 80,
+ "n_first": 289,
+ "last_send": 1794312083.3210223,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
