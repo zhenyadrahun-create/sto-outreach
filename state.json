@@ -2962,8 +2962,10 @@
    "type": "sto",
    "address": "Пров. Новий, 1а",
    "city": "Ніжин",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380685252323/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380685252323/",
+   "notified": 1794302147.4882562,
+   "t1": 1794302147.4882562
   },
   "c380936091672": {
    "name": "СТО MALIBU НІЖИН",
@@ -2972,8 +2974,10 @@
    "type": "sto",
    "address": "Vulytsya Ob'yizhdzha, 41",
    "city": "Ніжин",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380936091672/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380936091672/",
+   "notified": 1794302147.4882562,
+   "t1": 1794302147.4882562
   },
   "c380965054242": {
    "name": "СТО",
@@ -2982,8 +2986,10 @@
    "type": "sto",
    "address": "",
    "city": "Ніжин",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965054242/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965054242/",
+   "notified": 1794302147.4882562,
+   "t1": 1794302147.4882562
   },
   "c380965729780": {
    "name": "Автоэлектрик GARAGE M",
@@ -3541,9 +3547,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 44,
- "n_first": 253,
- "last_send": 1794301284.0257132,
+ "today": 47,
+ "n_first": 256,
+ "last_send": 1794302147.4882562,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
