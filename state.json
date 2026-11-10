@@ -2530,8 +2530,10 @@
    "type": "sto",
    "address": "Vulytsya Pivdenno-Kilʹtseva, 2а",
    "city": "Чернівці",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506911562/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506911562/",
+   "notified": 1794291344.7530205,
+   "t1": 1794291344.7530205
   },
   "c380501464008": {
    "name": "Sto Vova Bosh",
@@ -2540,8 +2542,10 @@
    "type": "sto",
    "address": "Yerevans'ka St, 7АЖ",
    "city": "Чернівці",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501464008/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501464008/",
+   "notified": 1794291344.7530205,
+   "t1": 1794291344.7530205
   },
   "c380951614272": {
    "name": "Avtoservis Sto",
@@ -2550,8 +2554,10 @@
    "type": "sto",
    "address": "Storozhynetska St, 39б",
    "city": "Чернівці",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380951614272/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380951614272/",
+   "notified": 1794291344.7530205,
+   "t1": 1794291344.7530205
   },
   "c380508808833": {
    "name": "СТО Master Auto",
@@ -3469,9 +3475,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 8,
- "n_first": 217,
- "last_send": 1794290479.9896903,
+ "today": 11,
+ "n_first": 220,
+ "last_send": 1794291344.7530205,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
