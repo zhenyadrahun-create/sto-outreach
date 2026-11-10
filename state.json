@@ -3558,8 +3558,10 @@
    "type": "sto",
    "address": "Soborna St, 17",
    "city": "Кропивницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969879766/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969879766/",
+   "notified": 1794316551.476037,
+   "t1": 1794316551.476037
   },
   "c380999697745": {
    "name": "СТО-КРОП",
@@ -3568,8 +3570,10 @@
    "type": "sto",
    "address": "Кавказька площа, 14",
    "city": "Кропивницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380999697745/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380999697745/",
+   "notified": 1794316551.476037,
+   "t1": 1794316551.476037
   },
   "c380997969428": {
    "name": "СТО №3",
@@ -3578,8 +3582,10 @@
    "type": "sto",
    "address": "Verkhnya Perms'ka St, будинок 39",
    "city": "Кропивницький",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380997969428/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380997969428/",
+   "notified": 1794316551.476037,
+   "t1": 1794316551.476037
   },
   "c380934828198": {
    "name": "Avtoservis Sto",
@@ -3637,9 +3643,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 92,
- "n_first": 301,
- "last_send": 1794315685.06931,
+ "today": 95,
+ "n_first": 304,
+ "last_send": 1794316551.476037,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
