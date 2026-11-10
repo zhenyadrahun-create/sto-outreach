@@ -3080,8 +3080,10 @@
    "type": "sto",
    "address": "",
    "city": "Конотоп",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380502015055/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380502015055/",
+   "notified": 1794304880.2298052,
+   "t1": 1794304880.2298052
   },
   "c380985815688": {
    "name": "СТО Авторитет",
@@ -3090,8 +3092,10 @@
    "type": "sto",
    "address": "Henerala Tkhora St, 45",
    "city": "Конотоп",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380985815688/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380985815688/",
+   "notified": 1794304880.2298052,
+   "t1": 1794304880.2298052
   },
   "c380973794123": {
    "name": "СТО",
@@ -3100,8 +3104,10 @@
    "type": "sto",
    "address": "",
    "city": "Шостка",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973794123/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973794123/",
+   "notified": 1794304880.2298052,
+   "t1": 1794304880.2298052
   },
   "c380672586286": {
    "name": "СТО ЕВРОПА-АВТОСЕРВИС | Ремонт ходовой, ремонт двигателя, заправка и ремонт автокондиционеров",
@@ -3559,9 +3565,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 53,
- "n_first": 262,
- "last_send": 1794303954.1755238,
+ "today": 56,
+ "n_first": 265,
+ "last_send": 1794304880.2298052,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
