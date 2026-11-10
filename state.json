@@ -3450,8 +3450,10 @@
    "type": "sto",
    "address": "Radystiv St",
    "city": "Бровари",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976596667/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976596667/",
+   "notified": 1794313865.9196393,
+   "t1": 1794313865.9196393
   },
   "c380632326179": {
    "name": "СТО Автосервис",
@@ -3460,8 +3462,10 @@
    "type": "sto",
    "address": "с.Квітневе, Molodizhna St, 3",
    "city": "Бровари",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380632326179/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380632326179/",
+   "notified": 1794313865.9196393,
+   "t1": 1794313865.9196393
   },
   "c380681239933": {
    "name": "Avtoservis Sto",
@@ -3470,8 +3474,10 @@
    "type": "sto",
    "address": "Zhytomyrska St, 268 а",
    "city": "Фастів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681239933/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681239933/",
+   "notified": 1794313865.9196393,
+   "t1": 1794313865.9196393
   },
   "c380950960188": {
    "name": "Павлоград СТО",
@@ -3619,9 +3625,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 83,
- "n_first": 292,
- "last_send": 1794312948.1503198,
+ "today": 86,
+ "n_first": 295,
+ "last_send": 1794313865.9196393,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
