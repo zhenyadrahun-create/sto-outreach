@@ -3224,8 +3224,10 @@
    "type": "sto",
    "address": "Vulytsya Meteorolohichna, 35",
    "city": "Лубни",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664348338/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664348338/",
+   "notified": 1794308487.821516,
+   "t1": 1794308487.821516
   },
   "c380505639300": {
    "name": "Sto \"Alʹfatsentr\"",
@@ -3234,8 +3236,10 @@
    "type": "sto",
    "address": "",
    "city": "Лубни",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505639300/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505639300/",
+   "notified": 1794308487.821516,
+   "t1": 1794308487.821516
   },
   "c380676040695": {
    "name": "СТО Lvivska St, 206б",
@@ -3244,8 +3248,10 @@
    "type": "sto",
    "address": "Lvivska St, 206б",
    "city": "Хуст",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676040695/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676040695/",
+   "notified": 1794308487.821516,
+   "t1": 1794308487.821516
   },
   "c380988557613": {
    "name": "СТО Ivana Franka St, 175",
@@ -3583,9 +3589,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 65,
- "n_first": 274,
- "last_send": 1794307547.5906286,
+ "today": 68,
+ "n_first": 277,
+ "last_send": 1794308487.821516,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
