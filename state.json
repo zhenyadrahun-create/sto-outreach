@@ -3594,8 +3594,10 @@
    "type": "sto",
    "address": "",
    "city": "Сарни",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934828198/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934828198/",
+   "notified": 1794317469.8288207,
+   "t1": 1794317469.8288207
   },
   "c380988062867": {
    "name": "Sto Avtorytm",
@@ -3604,8 +3606,10 @@
    "type": "sto",
    "address": "Європейська, 31",
    "city": "Сарни",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988062867/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988062867/",
+   "notified": 1794317469.8288207,
+   "t1": 1794317469.8288207
   },
   "c380988220855": {
    "name": "Автосервіс Garage",
@@ -3614,8 +3618,10 @@
    "type": "sto",
    "address": "Soborna St",
    "city": "Сарни",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988220855/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988220855/",
+   "notified": 1794317469.8288207,
+   "t1": 1794317469.8288207
   },
   "c380991628999": {
    "name": "M-Auto Garage",
@@ -3643,9 +3649,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 95,
- "n_first": 304,
- "last_send": 1794316551.476037,
+ "today": 98,
+ "n_first": 307,
+ "last_send": 1794317469.8288207,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
