@@ -2566,8 +2566,10 @@
    "type": "sto",
    "address": "вулиця Ковпака, заїзд з вулиці, Fastivs'ka St, 7",
    "city": "Чернівці",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380508808833/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380508808833/",
+   "notified": 1794292265.9422312,
+   "t1": 1794292265.9422312
   },
   "c380993288760": {
    "name": "СТО garage_333_cv",
@@ -2576,8 +2578,10 @@
    "type": "sto",
    "address": "Pivdennokil'tseva St, 48 В",
    "city": "Чернівці",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380993288760/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380993288760/",
+   "notified": 1794292265.9422312,
+   "t1": 1794292265.9422312
   },
   "c380973690464": {
    "name": "AS Service",
@@ -2586,8 +2590,10 @@
    "type": "sto",
    "address": "Vadyma Puhachova St",
    "city": "Кременчук",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973690464/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973690464/",
+   "notified": 1794292265.9422312,
+   "t1": 1794292265.9422312
   },
   "c380667265038": {
    "name": "« Автосфера» – Автосервис Ремонт двигателя,ходовой, замена масла",
@@ -3475,9 +3481,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 11,
- "n_first": 220,
- "last_send": 1794291344.7530205,
+ "today": 14,
+ "n_first": 223,
+ "last_send": 1794292265.9422312,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
