@@ -3486,8 +3486,10 @@
    "type": "sto",
    "address": "Dniprovska St, 172а",
    "city": "Павлоград",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380950960188/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380950960188/",
+   "notified": 1794314753.2973127,
+   "t1": 1794314753.2973127
   },
   "c380664698141": {
    "name": "СТО Автомотив Павлоград",
@@ -3496,8 +3498,10 @@
    "type": "sto",
    "address": "Poltavska St, 127В",
    "city": "Павлоград",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664698141/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664698141/",
+   "notified": 1794314753.2973127,
+   "t1": 1794314753.2973127
   },
   "c380995082116": {
    "name": "Avtoservis Sto Malyarni Posluhy Rykhtovka Avto",
@@ -3506,8 +3510,10 @@
    "type": "sto",
    "address": "Shevchenka St, 120",
    "city": "Павлоград",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380995082116/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380995082116/",
+   "notified": 1794314753.2973127,
+   "t1": 1794314753.2973127
   },
   "c380501011110": {
    "name": "Mustang Автосервіс СТО",
@@ -3625,9 +3631,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 86,
- "n_first": 295,
- "last_send": 1794313865.9196393,
+ "today": 89,
+ "n_first": 298,
+ "last_send": 1794314753.2973127,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
