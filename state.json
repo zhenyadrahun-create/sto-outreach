@@ -2854,8 +2854,10 @@
    "type": "sto",
    "address": "Pivnichna St, 90 б",
    "city": "Кам'янець-Подільський",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672848150/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672848150/",
+   "notified": 1794299469.4483047,
+   "t1": 1794299469.4483047
   },
   "c380673295246": {
    "name": "СТО \"Nessen Auto Service\"",
@@ -2864,8 +2866,10 @@
    "type": "sto",
    "address": "Malozhytomyrska St, 13",
    "city": "Бердичів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673295246/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673295246/",
+   "notified": 1794299469.4483047,
+   "t1": 1794299469.4483047
   },
   "c380671224445": {
    "name": "Sto Kolyada",
@@ -2874,8 +2878,10 @@
    "type": "sto",
    "address": "Odeska St",
    "city": "Бердичів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380671224445/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380671224445/",
+   "notified": 1794299469.4483047,
+   "t1": 1794299469.4483047
   },
   "c380977993939": {
    "name": "СТО/Шиномонтаж/3D Розвал Сходження",
@@ -3523,9 +3529,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 35,
- "n_first": 244,
- "last_send": 1794298547.2754471,
+ "today": 38,
+ "n_first": 247,
+ "last_send": 1794299469.4483047,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
