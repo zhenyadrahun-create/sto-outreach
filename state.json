@@ -2674,8 +2674,10 @@
    "type": "sto",
    "address": "Kyivs'ka St, 64",
    "city": "Кременчук",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380957649309/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380957649309/",
+   "notified": 1794294945.2745843,
+   "t1": 1794294945.2745843
   },
   "c380989775157": {
    "name": "СТО L'va Tolstoho St, 61",
@@ -2684,8 +2686,10 @@
    "type": "sto",
    "address": "L'va Tolstoho St, 61",
    "city": "Біла Церква",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989775157/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989775157/",
+   "notified": 1794294945.2745843,
+   "t1": 1794294945.2745843
   },
   "c380970938358": {
    "name": "Sto \"Avtoservis Na Skvyrsʹkomu Shose\"",
@@ -2694,8 +2698,10 @@
    "type": "sto",
    "address": "Skvyrs'ke Hwy, 227",
    "city": "Біла Церква",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970938358/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970938358/",
+   "notified": 1794294945.2745843,
+   "t1": 1794294945.2745843
   },
   "c380687229922": {
    "name": "СТО «Наш АвтоСервіс»",
@@ -3493,9 +3499,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 20,
- "n_first": 229,
- "last_send": 1794294081.039575,
+ "today": 23,
+ "n_first": 232,
+ "last_send": 1794294945.2745843,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
