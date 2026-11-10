@@ -3152,8 +3152,10 @@
    "type": "sto",
    "address": "Tsentralnoi Rady St, 19",
    "city": "Шостка",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664434907/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664434907/",
+   "notified": 1794306667.2225738,
+   "t1": 1794306667.2225738
   },
   "c380503072330": {
    "name": "Profigas",
@@ -3162,8 +3164,10 @@
    "type": "sto",
    "address": "Rodini Krivonosiv St, 1а",
    "city": "Шостка",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503072330/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503072330/",
+   "notified": 1794306667.2225738,
+   "t1": 1794306667.2225738
   },
   "c380663233000": {
    "name": "Sto Avtoservis",
@@ -3172,8 +3176,10 @@
    "type": "sto",
    "address": "Vulytsya Instytut·sʹka, 4",
    "city": "Лубни",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380663233000/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380663233000/",
+   "notified": 1794306667.2225738,
+   "t1": 1794306667.2225738
   },
   "c380661347474": {
    "name": "serviSMotors",
@@ -3571,9 +3577,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 59,
- "n_first": 268,
- "last_send": 1794305747.0294993,
+ "today": 62,
+ "n_first": 271,
+ "last_send": 1794306667.2225738,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
