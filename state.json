@@ -3630,8 +3630,10 @@
    "type": "sto",
    "address": "Vulytsya Haharina, 69",
    "city": "Сарни",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380991628999/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380991628999/",
+   "notified": 1794318348.847163,
+   "t1": 1794318348.847163
   },
   "c380983123887": {
    "name": "Sto \"Forsazh\"",
@@ -3640,8 +3642,10 @@
    "type": "sto",
    "address": "Набережна, 12",
    "city": "Сарни",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983123887/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983123887/",
+   "notified": 1794318348.847163,
+   "t1": 1794318348.847163
   }
  },
  "fetched": [],
@@ -3649,9 +3653,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 98,
- "n_first": 307,
- "last_send": 1794317469.8288207,
+ "today": 100,
+ "n_first": 309,
+ "last_send": 1794318348.847163,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
