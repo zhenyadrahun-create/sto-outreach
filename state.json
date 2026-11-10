@@ -3188,8 +3188,10 @@
    "type": "sto",
    "address": "Dekabrystiv St, 35/63",
    "city": "Лубни",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380661347474/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380661347474/",
+   "notified": 1794307547.5906286,
+   "t1": 1794307547.5906286
   },
   "c380501678570": {
    "name": "СТО \"AUTOCENTER ACH\"",
@@ -3198,8 +3200,10 @@
    "type": "sto",
    "address": "Drahomanova St, 33",
    "city": "Лубни",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501678570/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501678570/",
+   "notified": 1794307547.5906286,
+   "t1": 1794307547.5906286
   },
   "c380992150749": {
    "name": "AUTO CENTER",
@@ -3208,8 +3212,10 @@
    "type": "sto",
    "address": "Kozatska St, 2",
    "city": "Лубни",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380992150749/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380992150749/",
+   "notified": 1794307547.5906286,
+   "t1": 1794307547.5906286
   },
   "c380664348338": {
    "name": "СТО Автоцентр",
@@ -3577,9 +3583,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 62,
- "n_first": 271,
- "last_send": 1794306667.2225738,
+ "today": 65,
+ "n_first": 274,
+ "last_send": 1794307547.5906286,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
