@@ -2890,8 +2890,10 @@
    "type": "sto",
    "address": "Kosohors'ka St, 9б",
    "city": "Бердичів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977993939/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977993939/",
+   "notified": 1794300348.5193932,
+   "t1": 1794300348.5193932
   },
   "c380979541584": {
    "name": "Автосервіс \"SATURN MOTORS\" СТО",
@@ -2900,8 +2902,10 @@
    "type": "sto",
    "address": "Osypenko St, 35",
    "city": "Бердичів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979541584/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979541584/",
+   "notified": 1794300348.5193932,
+   "t1": 1794300348.5193932
   },
   "c380978144334": {
    "name": "ProStoService (Простосервіс)",
@@ -2910,8 +2914,10 @@
    "type": "sto",
    "address": "Chervona St, 1-в",
    "city": "Бердичів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978144334/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978144334/",
+   "notified": 1794300348.5193932,
+   "t1": 1794300348.5193932
   },
   "c380972676630": {
    "name": "Sto Avtostylʹ",
@@ -3529,9 +3535,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 38,
- "n_first": 247,
- "last_send": 1794299469.4483047,
+ "today": 41,
+ "n_first": 250,
+ "last_send": 1794300348.5193932,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
