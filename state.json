@@ -3522,8 +3522,10 @@
    "type": "sto",
    "address": "Vulytsya Dniprovsʹka, 8A",
    "city": "Павлоград",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501011110/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501011110/",
+   "notified": 1794315685.06931,
+   "t1": 1794315685.06931
   },
   "c380982687346": {
    "name": "Sto 4.5.0. Avtoservis U Pavlohradi",
@@ -3532,8 +3534,10 @@
    "type": "sto",
    "address": "Vulytsya Ternivsʹka, 8",
    "city": "Павлоград",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982687346/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982687346/",
+   "notified": 1794315685.06931,
+   "t1": 1794315685.06931
   },
   "c380504516147": {
    "name": "СТО",
@@ -3542,8 +3546,10 @@
    "type": "sto",
    "address": "",
    "city": "Павлоград",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380504516147/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380504516147/",
+   "notified": 1794315685.06931,
+   "t1": 1794315685.06931
   },
   "c380969879766": {
    "name": "СТО Автосервис",
@@ -3631,9 +3637,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 89,
- "n_first": 298,
- "last_send": 1794314753.2973127,
+ "today": 92,
+ "n_first": 301,
+ "last_send": 1794315685.06931,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
