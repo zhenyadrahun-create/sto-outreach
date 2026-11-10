@@ -2818,8 +2818,10 @@
    "type": "sto",
    "address": "Pivnichna St, 81г",
    "city": "Кам'янець-Подільський",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674552665/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674552665/",
+   "notified": 1794298547.2754471,
+   "t1": 1794298547.2754471
   },
   "c380984723784": {
    "name": "СТО Gruhevskiy Ave",
@@ -2828,8 +2830,10 @@
    "type": "sto",
    "address": "Gruhevskiy Ave",
    "city": "Кам'янець-Подільський",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984723784/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984723784/",
+   "notified": 1794298547.2754471,
+   "t1": 1794298547.2754471
   },
   "c380660986800": {
    "name": "Car Service",
@@ -2838,8 +2842,10 @@
    "type": "sto",
    "address": "Knyaziv Koriatovychiv St, 25/12",
    "city": "Кам'янець-Подільський",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660986800/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660986800/",
+   "notified": 1794298547.2754471,
+   "t1": 1794298547.2754471
   },
   "c380672848150": {
    "name": "Age auto",
@@ -3517,9 +3523,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 32,
- "n_first": 241,
- "last_send": 1794297683.3267014,
+ "today": 35,
+ "n_first": 244,
+ "last_send": 1794298547.2754471,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
