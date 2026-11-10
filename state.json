@@ -3044,8 +3044,10 @@
    "type": "sto",
    "address": "Baturynska St, 22А",
    "city": "Конотоп",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969313878/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969313878/",
+   "notified": 1794303954.1755238,
+   "t1": 1794303954.1755238
   },
   "c380631868627": {
    "name": "СТО Форсаж",
@@ -3054,8 +3056,10 @@
    "type": "sto",
    "address": "Poperechna St, 2",
    "city": "Конотоп",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380631868627/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380631868627/",
+   "notified": 1794303954.1755238,
+   "t1": 1794303954.1755238
   },
   "c380688088885": {
    "name": "АВТО ДОКТОР СТО. улица Олександрівська 4.",
@@ -3064,8 +3068,10 @@
    "type": "sto",
    "address": "Vulytsya Oleksandrivsʹka, 6",
    "city": "Конотоп",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380688088885/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380688088885/",
+   "notified": 1794303954.1755238,
+   "t1": 1794303954.1755238
   },
   "c380502015055": {
    "name": "Шинний сервіс \"Люксшина\" TRUCK Force",
@@ -3553,9 +3559,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 50,
- "n_first": 259,
- "last_send": 1794303065.4500825,
+ "today": 53,
+ "n_first": 262,
+ "last_send": 1794303954.1755238,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
