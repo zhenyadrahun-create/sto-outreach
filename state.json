@@ -2998,8 +2998,10 @@
    "type": "sto",
    "address": "Borznyansky Shliakh St, 5а",
    "city": "Ніжин",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965729780/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965729780/",
+   "notified": 1794303065.4500825,
+   "t1": 1794303065.4500825
   },
   "c380985241598": {
    "name": "PRIME CAR Автосервіс",
@@ -3008,8 +3010,10 @@
    "type": "sto",
    "address": "Vulytsya Berezansʹka, 159г",
    "city": "Ніжин",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380985241598/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380985241598/",
+   "notified": 1794303065.4500825,
+   "t1": 1794303065.4500825
   },
   "c380938800303": {
    "name": "Автосервис Polo",
@@ -3018,8 +3022,10 @@
    "type": "sto",
    "address": "Borznyansky Shliakh St, 5",
    "city": "Ніжин",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380938800303/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380938800303/",
+   "notified": 1794303065.4500825,
+   "t1": 1794303065.4500825
   },
   "c380777003100": {
    "name": "СТО GARAGE Конотоп",
@@ -3547,9 +3553,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 47,
- "n_first": 256,
- "last_send": 1794302147.4882562,
+ "today": 50,
+ "n_first": 259,
+ "last_send": 1794303065.4500825,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
