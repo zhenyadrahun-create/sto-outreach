@@ -2602,8 +2602,10 @@
    "type": "sto",
    "address": "Kyivs'ka St, 76",
    "city": "Кременчук",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667265038/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667265038/",
+   "notified": 1794293146.4994266,
+   "t1": 1794293146.4994266
   },
   "c380961443389": {
    "name": "Автосервис",
@@ -2612,8 +2614,10 @@
    "type": "sto",
    "address": "Unnamed Road",
    "city": "Кременчук",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961443389/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961443389/",
+   "notified": 1794293146.4994266,
+   "t1": 1794293146.4994266
   },
   "c380972419099": {
    "name": "СТО КРЕМЕНЧУК АВТО СІТІ",
@@ -2622,8 +2626,10 @@
    "type": "sto",
    "address": "вулиця Велика набережна, 2Г, вулиця 50-річчя СРСР, 2А",
    "city": "Кременчук",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972419099/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972419099/",
+   "notified": 1794293146.4994266,
+   "t1": 1794293146.4994266
   },
   "c380675315536": {
    "name": "СТО КРЕМЕНЧУГ",
@@ -3481,9 +3487,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 14,
- "n_first": 223,
- "last_send": 1794292265.9422312,
+ "today": 17,
+ "n_first": 226,
+ "last_send": 1794293146.4994266,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
