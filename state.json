@@ -2782,8 +2782,10 @@
    "type": "sto",
    "address": "Uspenska St",
    "city": "Умань",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380737660090/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380737660090/",
+   "notified": 1794297683.3267014,
+   "t1": 1794297683.3267014
   },
   "c380674706568": {
    "name": "Sto 100 Dorih",
@@ -2792,8 +2794,10 @@
    "type": "sto",
    "address": "Maksyma Zaliznyaka St, 10а",
    "city": "Умань",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674706568/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674706568/",
+   "notified": 1794297683.3267014,
+   "t1": 1794297683.3267014
   },
   "c380672627675": {
    "name": "СТО Автосервис",
@@ -2802,8 +2806,10 @@
    "type": "sto",
    "address": "вулиця Заводська, 2",
    "city": "Кам'янець-Подільський",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672627675/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672627675/",
+   "notified": 1794297683.3267014,
+   "t1": 1794297683.3267014
   },
   "c380674552665": {
    "name": "Sto Avtoservis-Plyus",
@@ -3511,9 +3517,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 29,
- "n_first": 238,
- "last_send": 1794296746.3700976,
+ "today": 32,
+ "n_first": 241,
+ "last_send": 1794297683.3267014,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
