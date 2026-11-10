@@ -2638,8 +2638,10 @@
    "type": "sto",
    "address": "Literaturnyi Ln, 3",
    "city": "Кременчук",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675315536/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675315536/",
+   "notified": 1794294081.039575,
+   "t1": 1794294081.039575
   },
   "c380668845738": {
    "name": "СТО CarFIX",
@@ -2648,8 +2650,10 @@
    "type": "sto",
    "address": "Kooperatyvna St, 2H",
    "city": "Кременчук",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380668845738/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380668845738/",
+   "notified": 1794294081.039575,
+   "t1": 1794294081.039575
   },
   "c380682090867": {
    "name": "СТО Кременчуг Импульс",
@@ -2658,8 +2662,10 @@
    "type": "sto",
    "address": "Leitenanta Dniprova Embankment, 30б",
    "city": "Кременчук",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380682090867/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380682090867/",
+   "notified": 1794294081.039575,
+   "t1": 1794294081.039575
   },
   "c380957649309": {
    "name": "СТО Кременчук",
@@ -3487,9 +3493,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 17,
- "n_first": 226,
- "last_send": 1794293146.4994266,
+ "today": 20,
+ "n_first": 229,
+ "last_send": 1794294081.039575,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
