@@ -3414,8 +3414,10 @@
    "type": "sto",
    "address": "",
    "city": "Самбір",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380679008515/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380679008515/",
+   "notified": 1794312948.1503198,
+   "t1": 1794312948.1503198
   },
   "c380669110010": {
    "name": "Evakuator Sambir, Avtoservis \"Khatky\" Sambir",
@@ -3424,8 +3426,10 @@
    "type": "sto",
    "address": "Урочище ШРБУ 88 буд 10",
    "city": "Самбір",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380669110010/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380669110010/",
+   "notified": 1794312948.1503198,
+   "t1": 1794312948.1503198
   },
   "c380731001271": {
    "name": "СТО Malevycha Kazymyra St, 73",
@@ -3434,8 +3438,10 @@
    "type": "sto",
    "address": "Malevycha Kazymyra St, 73",
    "city": "Бровари",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380731001271/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380731001271/",
+   "notified": 1794312948.1503198,
+   "t1": 1794312948.1503198
   },
   "c380976596667": {
    "name": "СТО АВТОСЕРВІС OLDRIVE",
@@ -3613,9 +3619,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 80,
- "n_first": 289,
- "last_send": 1794312083.3210223,
+ "today": 83,
+ "n_first": 292,
+ "last_send": 1794312948.1503198,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
