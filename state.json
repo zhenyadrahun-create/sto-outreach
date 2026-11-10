@@ -3116,8 +3116,10 @@
    "type": "sto",
    "address": "Voronez'ka St, 25",
    "city": "Шостка",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672586286/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672586286/",
+   "notified": 1794305747.0294993,
+   "t1": 1794305747.0294993
   },
   "c380970009076": {
    "name": "Veddiy - Автомобильный диагностический центр - СТО",
@@ -3126,8 +3128,10 @@
    "type": "sto",
    "address": "Voronez'ka St, 68",
    "city": "Шостка",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970009076/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970009076/",
+   "notified": 1794305747.0294993,
+   "t1": 1794305747.0294993
   },
   "c380955978756": {
    "name": "СТО шиномонтаж",
@@ -3136,8 +3140,10 @@
    "type": "sto",
    "address": "База 1, Shevchenka St, 57",
    "city": "Шостка",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955978756/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955978756/",
+   "notified": 1794305747.0294993,
+   "t1": 1794305747.0294993
   },
   "c380664434907": {
    "name": "Avtodush",
@@ -3565,9 +3571,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-10",
- "today": 56,
- "n_first": 265,
- "last_send": 1794304880.2298052,
+ "today": 59,
+ "n_first": 268,
+ "last_send": 1794305747.0294993,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
