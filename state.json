@@ -1419,7 +1419,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380737461001/",
    "notified": 1794204083.0607302,
-   "t1": 1794204083.0607302
+   "t1": 1794204083.0607302,
+   "rf": 1794379546.5977883,
+   "t2": 1794379546.5977883
   },
   "c380500570570": {
    "name": "СТО AvtoAtmosfera",
@@ -1431,7 +1433,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380500570570/",
    "notified": 1794204083.0607302,
-   "t1": 1794204083.0607302
+   "t1": 1794204083.0607302,
+   "rf": 1794379546.5977883,
+   "t2": 1794379546.5977883
   },
   "c380733037070": {
    "name": "СТОhub",
@@ -1443,7 +1447,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733037070/",
    "notified": 1794204948.584408,
-   "t1": 1794204948.584408
+   "t1": 1794204948.584408,
+   "rf": 1794379546.5977883,
+   "t2": 1794379546.5977883
   },
   "c380965942643": {
    "name": "СТО Автоелектрик",
@@ -3671,10 +3677,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 9,
+ "today": 12,
  "n_first": 312,
- "last_send": 1794378666.6564722,
+ "last_send": 1794379546.5977883,
  "upd": 823717487,
- "n_follow": 14,
+ "n_follow": 17,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
