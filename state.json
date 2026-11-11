@@ -1965,7 +1965,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380671002088/",
    "notified": 1794218486.430045,
-   "t1": 1794218486.430045
+   "t1": 1794218486.430045,
+   "rf": 1794392145.1864717,
+   "t2": 1794392145.1864717
   },
   "c380976309247": {
    "name": "СТО Garage 26 Autoservice",
@@ -1977,7 +1979,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976309247/",
    "notified": 1794218486.430045,
-   "t1": 1794218486.430045
+   "t1": 1794218486.430045,
+   "rf": 1794392145.1864717,
+   "t2": 1794392145.1864717
   },
   "c380687124580": {
    "name": "Avtoservis Mustanh",
@@ -1989,7 +1993,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380687124580/",
    "notified": 1794218486.430045,
-   "t1": 1794218486.430045
+   "t1": 1794218486.430045,
+   "rf": 1794392145.1864717,
+   "t2": 1794392145.1864717
   },
   "c380678873907": {
    "name": "СТО Drive For Life",
@@ -3749,10 +3755,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 48,
+ "today": 51,
  "n_first": 312,
- "last_send": 1794391276.0024116,
+ "last_send": 1794392145.1864717,
  "upd": 823717487,
- "n_follow": 53,
+ "n_follow": 56,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
