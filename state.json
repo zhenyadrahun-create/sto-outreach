@@ -2259,7 +2259,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965050708/",
    "notified": 1794224746.6552474,
-   "t1": 1794224746.6552474
+   "t1": 1794224746.6552474,
+   "rf": 1794398482.6901822,
+   "t2": 1794398482.6901822
   },
   "c380997583817": {
    "name": "BIZON автосервіс",
@@ -2271,7 +2273,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380997583817/",
    "notified": 1794224746.6552474,
-   "t1": 1794224746.6552474
+   "t1": 1794224746.6552474,
+   "rf": 1794398482.6901822,
+   "t2": 1794398482.6901822
   },
   "c380953986353": {
    "name": "UkrCar СТО Яровиця",
@@ -2283,7 +2287,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380953986353/",
    "notified": 1794224746.6552474,
-   "t1": 1794224746.6552474
+   "t1": 1794224746.6552474,
+   "rf": 1794398482.6901822,
+   "t2": 1794398482.6901822
   },
   "c380673321730": {
    "name": "ПРОФЕСІОНАЛ СТО",
@@ -3791,10 +3797,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 69,
+ "today": 72,
  "n_first": 312,
- "last_send": 1794397544.9127443,
+ "last_send": 1794398482.6901822,
  "upd": 823717487,
- "n_follow": 74,
+ "n_follow": 77,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
