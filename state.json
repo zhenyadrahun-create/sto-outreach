@@ -1545,7 +1545,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380967252503/",
    "notified": 1794206745.6034908,
-   "t1": 1794206745.6034908
+   "t1": 1794206745.6034908,
+   "rf": 1794382262.9988616,
+   "t2": 1794382262.9988616
   },
   "c380630486677": {
    "name": "СТО DosAvtoService",
@@ -1557,7 +1559,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380630486677/",
    "notified": 1794206745.6034908,
-   "t1": 1794206745.6034908
+   "t1": 1794206745.6034908,
+   "rf": 1794382262.9988616,
+   "t2": 1794382262.9988616
   },
   "c380681989848": {
    "name": "СТО Автопартнер",
@@ -1569,7 +1573,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681989848/",
    "notified": 1794207685.139948,
-   "t1": 1794207685.139948
+   "t1": 1794207685.139948,
+   "rf": 1794382262.9988616,
+   "t2": 1794382262.9988616
   },
   "c380930100307": {
    "name": "Sto Proharazh",
@@ -3689,10 +3695,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 18,
+ "today": 21,
  "n_first": 312,
- "last_send": 1794381345.884041,
+ "last_send": 1794382262.9988616,
  "upd": 823717487,
- "n_follow": 23,
+ "n_follow": 26,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
