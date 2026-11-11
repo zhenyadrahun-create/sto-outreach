@@ -1587,7 +1587,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380930100307/",
    "notified": 1794207685.139948,
-   "t1": 1794207685.139948
+   "t1": 1794207685.139948,
+   "rf": 1794383153.2884252,
+   "t2": 1794383153.2884252
   },
   "c380961665677": {
    "name": "СТО та Шиномонтаж на Малованці",
@@ -1599,7 +1601,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961665677/",
    "notified": 1794207685.139948,
-   "t1": 1794207685.139948
+   "t1": 1794207685.139948,
+   "rf": 1794383153.2884252,
+   "t2": 1794383153.2884252
   },
   "c380930434340": {
    "name": "Shynomontazh Zhytomyr (Zhuika)",
@@ -1611,7 +1615,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380930434340/",
    "notified": 1794208548.1968381,
-   "t1": 1794208548.1968381
+   "t1": 1794208548.1968381,
+   "rf": 1794383153.2884252,
+   "t2": 1794383153.2884252
   },
   "c380988898293": {
    "name": "Shynomontazh (Pokrovska)",
@@ -3695,10 +3701,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 21,
+ "today": 24,
  "n_first": 312,
- "last_send": 1794382262.9988616,
+ "last_send": 1794383153.2884252,
  "upd": 823717487,
- "n_follow": 26,
+ "n_follow": 29,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
