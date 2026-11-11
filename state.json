@@ -1923,7 +1923,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689697806/",
    "notified": 1794217545.1729684,
-   "t1": 1794217545.1729684
+   "t1": 1794217545.1729684,
+   "rf": 1794391276.0024116,
+   "t2": 1794391276.0024116
   },
   "c380981885588": {
    "name": "Mservice Автосервіс",
@@ -1935,7 +1937,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380981885588/",
    "notified": 1794217545.1729684,
-   "t1": 1794217545.1729684
+   "t1": 1794217545.1729684,
+   "rf": 1794391276.0024116,
+   "t2": 1794391276.0024116
   },
   "c380984525817": {
    "name": "СТО Автосервіс (Starokostiantynivske)",
@@ -1947,7 +1951,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984525817/",
    "notified": 1794217545.1729684,
-   "t1": 1794217545.1729684
+   "t1": 1794217545.1729684,
+   "rf": 1794391276.0024116,
+   "t2": 1794391276.0024116
   },
   "c380671002088": {
    "name": "Avtoservis (Mazepy)",
@@ -3743,10 +3749,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 45,
+ "today": 48,
  "n_first": 312,
- "last_send": 1794390345.2157555,
+ "last_send": 1794391276.0024116,
  "upd": 823717487,
- "n_follow": 50,
+ "n_follow": 53,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
