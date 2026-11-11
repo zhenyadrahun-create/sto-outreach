@@ -2133,7 +2133,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978203087/",
    "notified": 1794222086.428579,
-   "t1": 1794222086.428579
+   "t1": 1794222086.428579,
+   "rf": 1794395747.3695743,
+   "t2": 1794395747.3695743
   },
   "c380965208750": {
    "name": "Sto Interavtoservis",
@@ -2145,7 +2147,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965208750/",
    "notified": 1794222086.428579,
-   "t1": 1794222086.428579
+   "t1": 1794222086.428579,
+   "rf": 1794395747.3695743,
+   "t2": 1794395747.3695743
   },
   "c380731788080": {
    "name": "Бош Авто Сервіс Автодром",
@@ -2157,7 +2161,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380731788080/",
    "notified": 1794222086.428579,
-   "t1": 1794222086.428579
+   "t1": 1794222086.428579,
+   "rf": 1794395747.3695743,
+   "t2": 1794395747.3695743
   },
   "c380979001003": {
    "name": "Sto (Velyki Hai)",
@@ -3773,10 +3779,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 60,
+ "today": 63,
  "n_first": 312,
- "last_send": 1794394879.6665277,
+ "last_send": 1794395747.3695743,
  "upd": 823717487,
- "n_follow": 65,
+ "n_follow": 68,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
