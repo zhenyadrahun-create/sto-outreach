@@ -2301,7 +2301,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673321730/",
    "notified": 1794225680.0258555,
-   "t1": 1794225680.0258555
+   "t1": 1794225680.0258555,
+   "rf": 1794399344.2384007,
+   "t2": 1794399344.2384007
   },
   "c380509778780": {
    "name": "UkrCarServiseLutsk СТО",
@@ -2313,7 +2315,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509778780/",
    "notified": 1794225680.0258555,
-   "t1": 1794225680.0258555
+   "t1": 1794225680.0258555,
+   "rf": 1794399344.2384007,
+   "t2": 1794399344.2384007
   },
   "c380981615677": {
    "name": "СТО Автосервіс DTS",
@@ -2325,7 +2329,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380981615677/",
    "notified": 1794225680.0258555,
-   "t1": 1794225680.0258555
+   "t1": 1794225680.0258555,
+   "rf": 1794399344.2384007,
+   "t2": 1794399344.2384007
   },
   "c380673612277": {
    "name": "ШИНА СЕРВІС",
@@ -3797,10 +3803,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 72,
+ "today": 75,
  "n_first": 312,
- "last_send": 1794398482.6901822,
+ "last_send": 1794399344.2384007,
  "upd": 823717487,
- "n_follow": 77,
+ "n_follow": 80,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
