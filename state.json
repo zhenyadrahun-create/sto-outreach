@@ -1797,7 +1797,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675922132/",
    "notified": 1794214885.3039303,
-   "t1": 1794214885.3039303
+   "t1": 1794214885.3039303,
+   "rf": 1794388544.2877252,
+   "t2": 1794388544.2877252
   },
   "c380630656533": {
    "name": "Avtoservis Tsentralnyi Shynomontazh",
@@ -1809,7 +1811,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380630656533/",
    "notified": 1794214885.3039303,
-   "t1": 1794214885.3039303
+   "t1": 1794214885.3039303,
+   "rf": 1794388544.2877252,
+   "t2": 1794388544.2877252
   },
   "c380672517725": {
    "name": "Автосервіс Car Service Рівне",
@@ -1821,7 +1825,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672517725/",
    "notified": 1794214885.3039303,
-   "t1": 1794214885.3039303
+   "t1": 1794214885.3039303,
+   "rf": 1794388544.2877252,
+   "t2": 1794388544.2877252
   },
   "c380961903030": {
    "name": "Автосервіс Як Треба",
@@ -3725,10 +3731,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 36,
+ "today": 39,
  "n_first": 312,
- "last_send": 1794387681.735429,
+ "last_send": 1794388544.2877252,
  "upd": 823717487,
- "n_follow": 41,
+ "n_follow": 44,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
