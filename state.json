@@ -1839,7 +1839,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961903030/",
    "notified": 1794215747.7088025,
-   "t1": 1794215747.7088025
+   "t1": 1794215747.7088025,
+   "rf": 1794389464.2832875,
+   "t2": 1794389464.2832875
   },
   "c380680015661": {
    "name": "Автосервіс Рівне Car repair service",
@@ -1851,7 +1853,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380680015661/",
    "notified": 1794215747.7088025,
-   "t1": 1794215747.7088025
+   "t1": 1794215747.7088025,
+   "rf": 1794389464.2832875,
+   "t2": 1794389464.2832875
   },
   "c380984496586": {
    "name": "Sto Avtoservis (Rivne)",
@@ -1863,7 +1867,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984496586/",
    "notified": 1794215747.7088025,
-   "t1": 1794215747.7088025
+   "t1": 1794215747.7088025,
+   "rf": 1794389464.2832875,
+   "t2": 1794389464.2832875
   },
   "c380965760586": {
    "name": "Sto (Khasevycha)",
@@ -3731,10 +3737,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 39,
+ "today": 42,
  "n_first": 312,
- "last_send": 1794388544.2877252,
+ "last_send": 1794389464.2832875,
  "upd": 823717487,
- "n_follow": 44,
+ "n_follow": 47,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
