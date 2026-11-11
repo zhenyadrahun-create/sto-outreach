@@ -1671,7 +1671,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380639689133/",
    "notified": 1794209466.3313332,
-   "t1": 1794209466.3313332
+   "t1": 1794209466.3313332,
+   "rf": 1794384944.9793127,
+   "t2": 1794384944.9793127
   },
   "c380970660606": {
    "name": "Автосервіс Lucky Motors",
@@ -1683,7 +1685,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970660606/",
    "notified": 1794209466.3313332,
-   "t1": 1794209466.3313332
+   "t1": 1794209466.3313332,
+   "rf": 1794384944.9793127,
+   "t2": 1794384944.9793127
   },
   "c380503007921": {
    "name": "СТО Адамант Моторс",
@@ -1695,7 +1699,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503007921/",
    "notified": 1794210347.2057834,
-   "t1": 1794210347.2057834
+   "t1": 1794210347.2057834,
+   "rf": 1794384944.9793127,
+   "t2": 1794384944.9793127
   },
   "c380673882484": {
    "name": "СТО ГранТоріно",
@@ -3707,10 +3713,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 27,
+ "today": 30,
  "n_first": 312,
- "last_send": 1794384077.4492297,
+ "last_send": 1794384944.9793127,
  "upd": 823717487,
- "n_follow": 32,
+ "n_follow": 35,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
