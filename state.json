@@ -2091,7 +2091,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977528436/",
    "notified": 1794221146.7831037,
-   "t1": 1794221146.7831037
+   "t1": 1794221146.7831037,
+   "rf": 1794394879.6665277,
+   "t2": 1794394879.6665277
   },
   "c380986766993": {
    "name": "Автосервіс SV Auto",
@@ -2103,7 +2105,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986766993/",
    "notified": 1794221146.7831037,
-   "t1": 1794221146.7831037
+   "t1": 1794221146.7831037,
+   "rf": 1794394879.6665277,
+   "t2": 1794394879.6665277
   },
   "c380975550126": {
    "name": "СТО Crocodile Autoservice",
@@ -2115,7 +2119,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380975550126/",
    "notified": 1794221146.7831037,
-   "t1": 1794221146.7831037
+   "t1": 1794221146.7831037,
+   "rf": 1794394879.6665277,
+   "t2": 1794394879.6665277
   },
   "c380978203087": {
    "name": "Avtoservis.sto.ternopil",
@@ -3767,10 +3773,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 57,
+ "today": 60,
  "n_first": 312,
- "last_send": 1794393943.6801636,
+ "last_send": 1794394879.6665277,
  "upd": 823717487,
- "n_follow": 62,
+ "n_follow": 65,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
