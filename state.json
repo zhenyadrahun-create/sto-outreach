@@ -1755,7 +1755,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667888984/",
    "notified": 1794211284.2375975,
-   "t1": 1794211284.2375975
+   "t1": 1794211284.2375975,
+   "rf": 1794386744.078305,
+   "t2": 1794386744.078305
   },
   "c380939337066": {
    "name": "Шиномонтаж СТО ТЕХАС",
@@ -1767,7 +1769,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380939337066/",
    "notified": 1794211284.2375975,
-   "t1": 1794211284.2375975
+   "t1": 1794211284.2375975,
+   "rf": 1794386744.078305,
+   "t2": 1794386744.078305
   },
   "c380636796696": {
    "name": "Шиномонтаж SpectrShin",
@@ -3719,10 +3723,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 33,
+ "today": 35,
  "n_first": 312,
- "last_send": 1794385863.241907,
+ "last_send": 1794386744.078305,
  "upd": 823717487,
- "n_follow": 38,
+ "n_follow": 40,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
