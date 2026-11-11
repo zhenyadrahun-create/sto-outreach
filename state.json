@@ -2427,7 +2427,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979015725/",
    "notified": 1794228351.6047862,
-   "t1": 1794228351.6047862
+   "t1": 1794228351.6047862,
+   "rf": 1794402078.619501,
+   "t2": 1794402078.619501
   },
   "c380950230123": {
    "name": "Sto23",
@@ -2439,7 +2441,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380950230123/",
    "notified": 1794228351.6047862,
-   "t1": 1794228351.6047862
+   "t1": 1794228351.6047862,
+   "rf": 1794402078.619501,
+   "t2": 1794402078.619501
   },
   "c380992238990": {
    "name": "СТО QUALITY SERVICE & SHOP",
@@ -2451,7 +2455,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380992238990/",
    "notified": 1794228351.6047862,
-   "t1": 1794228351.6047862
+   "t1": 1794228351.6047862,
+   "rf": 1794402078.619501,
+   "t2": 1794402078.619501
   },
   "c380990764630": {
    "name": "Sto Pp Olenchuk T.m.",
@@ -3815,10 +3821,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 81,
+ "today": 84,
  "n_first": 312,
- "last_send": 1794401145.975381,
+ "last_send": 1794402078.619501,
  "upd": 823717487,
- "n_follow": 86,
+ "n_follow": 89,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
