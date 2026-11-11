@@ -1881,7 +1881,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965760586/",
    "notified": 1794216665.1870844,
-   "t1": 1794216665.1870844
+   "t1": 1794216665.1870844,
+   "rf": 1794390345.2157555,
+   "t2": 1794390345.2157555
   },
   "c380984116366": {
    "name": "Шиномонтаж Kovshyna (Stelmakh)",
@@ -1893,7 +1895,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984116366/",
    "notified": 1794216665.1870844,
-   "t1": 1794216665.1870844
+   "t1": 1794216665.1870844,
+   "rf": 1794390345.2157555,
+   "t2": 1794390345.2157555
   },
   "c380958454876": {
    "name": "Шиномонтаж Рівне Цілодобово",
@@ -1905,7 +1909,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380958454876/",
    "notified": 1794216665.1870844,
-   "t1": 1794216665.1870844
+   "t1": 1794216665.1870844,
+   "rf": 1794390345.2157555,
+   "t2": 1794390345.2157555
   },
   "c380689697806": {
    "name": "Шиномонтаж Kovshyna (Mlynivska)",
@@ -3737,10 +3743,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 42,
+ "today": 45,
  "n_first": 312,
- "last_send": 1794389464.2832875,
+ "last_send": 1794390345.2157555,
  "upd": 823717487,
- "n_follow": 47,
+ "n_follow": 50,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
