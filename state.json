@@ -2595,7 +2595,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380633468138/",
    "notified": 1794231946.3130147,
-   "t1": 1794231946.3130147
+   "t1": 1794231946.3130147,
+   "rf": 1794405679.5544362,
+   "t2": 1794405679.5544362
   },
   "c380934749306": {
    "name": "Автосервіс+",
@@ -2607,7 +2609,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934749306/",
    "notified": 1794231946.3130147,
-   "t1": 1794231946.3130147
+   "t1": 1794231946.3130147,
+   "rf": 1794405679.5544362,
+   "t2": 1794405679.5544362
   },
   "c380984868868": {
    "name": "Yevroservis",
@@ -3839,10 +3843,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 93,
+ "today": 95,
  "n_first": 312,
- "last_send": 1794404745.9297955,
+ "last_send": 1794405679.5544362,
  "upd": 823717487,
- "n_follow": 98,
+ "n_follow": 100,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
