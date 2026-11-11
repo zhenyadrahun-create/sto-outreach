@@ -1377,7 +1377,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955868620/",
    "notified": 1794204083.0607302,
-   "t1": 1794204083.0607302
+   "t1": 1794204083.0607302,
+   "rf": 1794378666.6564722,
+   "t2": 1794378666.6564722
   },
   "c380666164951": {
    "name": "АвтомастерОК",
@@ -1389,7 +1391,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380666164951/",
    "notified": 1794204083.0607302,
-   "t1": 1794204083.0607302
+   "t1": 1794204083.0607302,
+   "rf": 1794378666.6564722,
+   "t2": 1794378666.6564722
   },
   "c380680709756": {
    "name": "Автосервіс Час Пік",
@@ -1401,7 +1405,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380680709756/",
    "notified": 1794204083.0607302,
-   "t1": 1794204083.0607302
+   "t1": 1794204083.0607302,
+   "rf": 1794378666.6564722,
+   "t2": 1794378666.6564722
   },
   "c380737461001": {
    "name": "СТО AutoExpert",
@@ -3665,10 +3671,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 6,
+ "today": 9,
  "n_first": 312,
- "last_send": 1794377748.5792,
+ "last_send": 1794378666.6564722,
  "upd": 823717487,
- "n_follow": 11,
+ "n_follow": 14,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
