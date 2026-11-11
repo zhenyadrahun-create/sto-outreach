@@ -2511,7 +2511,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977242500/",
    "notified": 1794230146.8000402,
-   "t1": 1794230146.8000402
+   "t1": 1794230146.8000402,
+   "rf": 1794403865.0877018,
+   "t2": 1794403865.0877018
   },
   "c380986172510": {
    "name": "Harazhservis",
@@ -2523,7 +2525,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986172510/",
    "notified": 1794230146.8000402,
-   "t1": 1794230146.8000402
+   "t1": 1794230146.8000402,
+   "rf": 1794403865.0877018,
+   "t2": 1794403865.0877018
   },
   "c380506320281": {
    "name": "СТО Oleksa Dovbush St, 65А/3",
@@ -2535,7 +2539,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506320281/",
    "notified": 1794230146.8000402,
-   "t1": 1794230146.8000402
+   "t1": 1794230146.8000402,
+   "rf": 1794403865.0877018,
+   "t2": 1794403865.0877018
   },
   "c380931238222": {
    "name": "GAS Autoservice",
@@ -3827,10 +3833,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 87,
+ "today": 90,
  "n_first": 312,
- "last_send": 1794402947.1396904,
+ "last_send": 1794403865.0877018,
  "upd": 823717487,
- "n_follow": 92,
+ "n_follow": 95,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
