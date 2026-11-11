@@ -1356,8 +1356,10 @@
    "type": "sto",
    "address": "Bohoiavlenskyi Ave, 43a",
    "city": "Миколаїв",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380512676381/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380512676381/",
+   "notified": 1794376881.5487657,
+   "t1": 1794376881.5487657
   },
   "c380955868620": {
    "name": "Shynomontazh (Industrialna)",
@@ -3034,8 +3036,10 @@
    "type": "sto",
    "address": "Vyrivs'ka St, 21",
    "city": "Конотоп",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380777003100/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380777003100/",
+   "notified": 1794376881.5487657,
+   "t1": 1794376881.5487657
   },
   "c380969313878": {
    "name": "СТО \"PitStop\"",
@@ -3380,8 +3384,10 @@
    "type": "sto",
    "address": "Vulytsya Shevchenka, 55/ 16",
    "city": "Самбір",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380778885522/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380778885522/",
+   "notified": 1794376881.5487657,
+   "t1": 1794376881.5487657
   },
   "c380986776971": {
    "name": "Car Service Sambir",
@@ -3652,10 +3658,10 @@
  "report": [],
  "tt_done": [],
  "tt_geo": {},
- "day": "2026-11-10",
- "today": 100,
- "n_first": 309,
- "last_send": 1794318348.847163,
+ "day": "2026-11-11",
+ "today": 3,
+ "n_first": 312,
+ "last_send": 1794376881.5487657,
  "upd": 823717487,
  "n_follow": 8,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
