@@ -2217,7 +2217,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380968212997/",
    "notified": 1794223866.9160283,
-   "t1": 1794223866.9160283
+   "t1": 1794223866.9160283,
+   "rf": 1794397544.9127443,
+   "t2": 1794397544.9127443
   },
   "c380967476387": {
    "name": "Шинний Майстер",
@@ -2229,7 +2231,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380967476387/",
    "notified": 1794223866.9160283,
-   "t1": 1794223866.9160283
+   "t1": 1794223866.9160283,
+   "rf": 1794397544.9127443,
+   "t2": 1794397544.9127443
   },
   "c380961273957": {
    "name": "Shynomontazh (Protasevycha)",
@@ -2241,7 +2245,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961273957/",
    "notified": 1794223866.9160283,
-   "t1": 1794223866.9160283
+   "t1": 1794223866.9160283,
+   "rf": 1794397544.9127443,
+   "t2": 1794397544.9127443
   },
   "c380965050708": {
    "name": "Fast Шиномонтаж",
@@ -3785,10 +3791,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 66,
+ "today": 69,
  "n_first": 312,
- "last_send": 1794396663.5119472,
+ "last_send": 1794397544.9127443,
  "upd": 823717487,
- "n_follow": 71,
+ "n_follow": 74,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
