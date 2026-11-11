@@ -2385,7 +2385,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380999120869/",
    "notified": 1794227469.1853497,
-   "t1": 1794227469.1853497
+   "t1": 1794227469.1853497,
+   "rf": 1794401145.975381,
+   "t2": 1794401145.975381
   },
   "c380666030442": {
    "name": "Shynomontazh Lutsk Shynolyuks",
@@ -2397,7 +2399,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380666030442/",
    "notified": 1794227469.1853497,
-   "t1": 1794227469.1853497
+   "t1": 1794227469.1853497,
+   "rf": 1794401145.975381,
+   "t2": 1794401145.975381
   },
   "c380996082829": {
    "name": "СТО Е58, 25",
@@ -2409,7 +2413,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380996082829/",
    "notified": 1794227469.1853497,
-   "t1": 1794227469.1853497
+   "t1": 1794227469.1853497,
+   "rf": 1794401145.975381,
+   "t2": 1794401145.975381
   },
   "c380979015725": {
    "name": "Sto Lyuks Servis Remont Avto Shynomontazh Avtoservis Mukachevo",
@@ -3809,10 +3815,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 78,
+ "today": 81,
  "n_first": 312,
- "last_send": 1794400265.460329,
+ "last_send": 1794401145.975381,
  "upd": 823717487,
- "n_follow": 83,
+ "n_follow": 86,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
