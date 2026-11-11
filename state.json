@@ -1461,7 +1461,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965942643/",
    "notified": 1794204948.584408,
-   "t1": 1794204948.584408
+   "t1": 1794204948.584408,
+   "rf": 1794380480.9588544,
+   "t2": 1794380480.9588544
   },
   "c380730731033": {
    "name": "NDC Service",
@@ -1473,7 +1475,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380730731033/",
    "notified": 1794204948.584408,
-   "t1": 1794204948.584408
+   "t1": 1794204948.584408,
+   "rf": 1794380480.9588544,
+   "t2": 1794380480.9588544
   },
   "c380637228333": {
    "name": "Шиномонтаж (Nadpilna)",
@@ -1485,7 +1489,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380637228333/",
    "notified": 1794205866.6728349,
-   "t1": 1794205866.6728349
+   "t1": 1794205866.6728349,
+   "rf": 1794380480.9588544,
+   "t2": 1794380480.9588544
   },
   "c380989190911": {
    "name": "Шиномонтаж (Korolova)",
@@ -3677,10 +3683,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 12,
+ "today": 15,
  "n_first": 312,
- "last_send": 1794379546.5977883,
+ "last_send": 1794380480.9588544,
  "upd": 823717487,
- "n_follow": 17,
+ "n_follow": 20,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
