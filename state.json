@@ -1629,7 +1629,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988898293/",
    "notified": 1794208548.1968381,
-   "t1": 1794208548.1968381
+   "t1": 1794208548.1968381,
+   "rf": 1794384077.4492297,
+   "t2": 1794384077.4492297
   },
   "c380975083111": {
    "name": "Шиномонтаж ШинШина",
@@ -1641,7 +1643,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380975083111/",
    "notified": 1794208548.1968381,
-   "t1": 1794208548.1968381
+   "t1": 1794208548.1968381,
+   "rf": 1794384077.4492297,
+   "t2": 1794384077.4492297
   },
   "c380989650853": {
    "name": "Шиномонтаж СТО (Chekhova)",
@@ -1653,7 +1657,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989650853/",
    "notified": 1794209466.3313332,
-   "t1": 1794209466.3313332
+   "t1": 1794209466.3313332,
+   "rf": 1794384077.4492297,
+   "t2": 1794384077.4492297
   },
   "c380639689133": {
    "name": "Avtozapchastyny Sto Chernihiv",
@@ -3701,10 +3707,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 24,
+ "today": 27,
  "n_first": 312,
- "last_send": 1794383153.2884252,
+ "last_send": 1794384077.4492297,
  "upd": 823717487,
- "n_follow": 29,
+ "n_follow": 32,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
