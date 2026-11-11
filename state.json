@@ -2343,7 +2343,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673612277/",
    "notified": 1794226547.7519553,
-   "t1": 1794226547.7519553
+   "t1": 1794226547.7519553,
+   "rf": 1794400265.460329,
+   "t2": 1794400265.460329
   },
   "c380963204267": {
    "name": "Шиномонтаж Луцьк 22 Дюйма",
@@ -2355,7 +2357,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380963204267/",
    "notified": 1794226547.7519553,
-   "t1": 1794226547.7519553
+   "t1": 1794226547.7519553,
+   "rf": 1794400265.460329,
+   "t2": 1794400265.460329
   },
   "c380973242121": {
    "name": "Shynomontazh (Karpenka-Karoho)",
@@ -2367,7 +2371,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380973242121/",
    "notified": 1794226547.7519553,
-   "t1": 1794226547.7519553
+   "t1": 1794226547.7519553,
+   "rf": 1794400265.460329,
+   "t2": 1794400265.460329
   },
   "c380999120869": {
    "name": "Shynomontazh Naberezhna Lutsk",
@@ -3803,10 +3809,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 75,
+ "today": 78,
  "n_first": 312,
- "last_send": 1794399344.2384007,
+ "last_send": 1794400265.460329,
  "upd": 823717487,
- "n_follow": 80,
+ "n_follow": 83,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
