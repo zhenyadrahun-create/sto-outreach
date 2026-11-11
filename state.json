@@ -2175,7 +2175,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979001003/",
    "notified": 1794222947.9852219,
-   "t1": 1794222947.9852219
+   "t1": 1794222947.9852219,
+   "rf": 1794396663.5119472,
+   "t2": 1794396663.5119472
   },
   "c380978145413": {
    "name": "Sto Avtoservis (Budnoho 1)",
@@ -2187,7 +2189,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978145413/",
    "notified": 1794222947.9852219,
-   "t1": 1794222947.9852219
+   "t1": 1794222947.9852219,
+   "rf": 1794396663.5119472,
+   "t2": 1794396663.5119472
   },
   "c380970604765": {
    "name": "Shynomontazh Tytan",
@@ -2199,7 +2203,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970604765/",
    "notified": 1794222947.9852219,
-   "t1": 1794222947.9852219
+   "t1": 1794222947.9852219,
+   "rf": 1794396663.5119472,
+   "t2": 1794396663.5119472
   },
   "c380968212997": {
    "name": "Shynomontazh Sto (Hlyboka)",
@@ -3779,10 +3785,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 63,
+ "today": 66,
  "n_first": 312,
- "last_send": 1794395747.3695743,
+ "last_send": 1794396663.5119472,
  "upd": 823717487,
- "n_follow": 68,
+ "n_follow": 71,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
