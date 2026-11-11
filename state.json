@@ -1323,7 +1323,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380957148188/",
    "notified": 1794204083.0607302,
-   "t1": 1794204083.0607302
+   "t1": 1794204083.0607302,
+   "rf": 1794377748.5792,
+   "t2": 1794377748.5792
   },
   "c380632950611": {
    "name": "Balans",
@@ -1335,7 +1337,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380632950611/",
    "notified": 1794204083.0607302,
-   "t1": 1794204083.0607302
+   "t1": 1794204083.0607302,
+   "rf": 1794377748.5792,
+   "t2": 1794377748.5792
   },
   "c380952022286": {
    "name": "Шиномонтажний комплекс TIREservice",
@@ -1347,7 +1351,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380952022286/",
    "notified": 1794204083.0607302,
-   "t1": 1794204083.0607302
+   "t1": 1794204083.0607302,
+   "rf": 1794377748.5792,
+   "t2": 1794377748.5792
   },
   "c380512676381": {
    "name": "Shynomontazh 24 Hodyny",
@@ -3659,10 +3665,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 3,
+ "today": 6,
  "n_first": 312,
- "last_send": 1794376881.5487657,
+ "last_send": 1794377748.5792,
  "upd": 823717487,
- "n_follow": 8,
+ "n_follow": 11,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
