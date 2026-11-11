@@ -1713,7 +1713,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673882484/",
    "notified": 1794210347.2057834,
-   "t1": 1794210347.2057834
+   "t1": 1794210347.2057834,
+   "rf": 1794385863.241907,
+   "t2": 1794385863.241907
   },
   "c380661439993": {
    "name": "CentrAvto",
@@ -1725,7 +1727,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380661439993/",
    "notified": 1794210347.2057834,
-   "t1": 1794210347.2057834
+   "t1": 1794210347.2057834,
+   "rf": 1794385863.241907,
+   "t2": 1794385863.241907
   },
   "c380932159737": {
    "name": "Rs avto СТО",
@@ -1737,7 +1741,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380932159737/",
    "notified": 1794211284.2375975,
-   "t1": 1794211284.2375975
+   "t1": 1794211284.2375975,
+   "rf": 1794385863.241907,
+   "t2": 1794385863.241907
   },
   "c380667888984": {
    "name": "СТО шиномонтаж GUMA",
@@ -3713,10 +3719,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 30,
+ "today": 33,
  "n_first": 312,
- "last_send": 1794384944.9793127,
+ "last_send": 1794385863.241907,
  "upd": 823717487,
- "n_follow": 35,
+ "n_follow": 38,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
