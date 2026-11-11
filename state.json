@@ -2049,7 +2049,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978566223/",
    "notified": 1794220265.9913433,
-   "t1": 1794220265.9913433
+   "t1": 1794220265.9913433,
+   "rf": 1794393943.6801636,
+   "t2": 1794393943.6801636
   },
   "c380966991942": {
    "name": "Шиномонтаж Shina-temp",
@@ -2061,7 +2063,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380966991942/",
    "notified": 1794220265.9913433,
-   "t1": 1794220265.9913433
+   "t1": 1794220265.9913433,
+   "rf": 1794393943.6801636,
+   "t2": 1794393943.6801636
   },
   "c380934830746": {
    "name": "Шиномонтажний сервіс GIS",
@@ -2073,7 +2077,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934830746/",
    "notified": 1794220265.9913433,
-   "t1": 1794220265.9913433
+   "t1": 1794220265.9913433,
+   "rf": 1794393943.6801636,
+   "t2": 1794393943.6801636
   },
   "c380977528436": {
    "name": "Shynomontazh (Vokzalna)",
@@ -3761,10 +3767,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 54,
+ "today": 57,
  "n_first": 312,
- "last_send": 1794393067.815441,
+ "last_send": 1794393943.6801636,
  "upd": 823717487,
- "n_follow": 59,
+ "n_follow": 62,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
