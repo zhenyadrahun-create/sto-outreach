@@ -2553,7 +2553,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380931238222/",
    "notified": 1794231067.7631686,
-   "t1": 1794231067.7631686
+   "t1": 1794231067.7631686,
+   "rf": 1794404745.9297955,
+   "t2": 1794404745.9297955
   },
   "c380508280859": {
    "name": "СТО V12 Service Stryi Автосервіс",
@@ -2565,7 +2567,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380508280859/",
    "notified": 1794231067.7631686,
-   "t1": 1794231067.7631686
+   "t1": 1794231067.7631686,
+   "rf": 1794404745.9297955,
+   "t2": 1794404745.9297955
   },
   "c380957488268": {
    "name": "СТО CHECK SERVICE",
@@ -2577,7 +2581,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380957488268/",
    "notified": 1794231067.7631686,
-   "t1": 1794231067.7631686
+   "t1": 1794231067.7631686,
+   "rf": 1794404745.9297955,
+   "t2": 1794404745.9297955
   },
   "c380633468138": {
    "name": "M-AUTO SERVICE STRIY",
@@ -3833,10 +3839,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 90,
+ "today": 93,
  "n_first": 312,
- "last_send": 1794403865.0877018,
+ "last_send": 1794404745.9297955,
  "upd": 823717487,
- "n_follow": 95,
+ "n_follow": 98,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
