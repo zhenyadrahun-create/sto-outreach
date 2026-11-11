@@ -1503,7 +1503,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989190911/",
    "notified": 1794205866.6728349,
-   "t1": 1794205866.6728349
+   "t1": 1794205866.6728349,
+   "rf": 1794381345.884041,
+   "t2": 1794381345.884041
   },
   "c380671418529": {
    "name": "Sto Shynomontazh U Oleha",
@@ -1515,7 +1517,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380671418529/",
    "notified": 1794205866.6728349,
-   "t1": 1794205866.6728349
+   "t1": 1794205866.6728349,
+   "rf": 1794381345.884041,
+   "t2": 1794381345.884041
   },
   "c380509015357": {
    "name": "СТО Milestone",
@@ -1527,7 +1531,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509015357/",
    "notified": 1794206745.6034908,
-   "t1": 1794206745.6034908
+   "t1": 1794206745.6034908,
+   "rf": 1794381345.884041,
+   "t2": 1794381345.884041
   },
   "c380967252503": {
    "name": "TOV Auto Glass Service",
@@ -3683,10 +3689,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-11",
- "today": 15,
+ "today": 18,
  "n_first": 312,
- "last_send": 1794380480.9588544,
+ "last_send": 1794381345.884041,
  "upd": 823717487,
- "n_follow": 20,
+ "n_follow": 23,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
