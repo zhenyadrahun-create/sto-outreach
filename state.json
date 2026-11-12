@@ -3143,7 +3143,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673295246/",
    "notified": 1794299469.4483047,
-   "t1": 1794299469.4483047
+   "t1": 1794299469.4483047,
+   "rf": 1794475860.6090183,
+   "t2": 1794475860.6090183
   },
   "c380671224445": {
    "name": "Sto Kolyada",
@@ -3155,7 +3157,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380671224445/",
    "notified": 1794299469.4483047,
-   "t1": 1794299469.4483047
+   "t1": 1794299469.4483047,
+   "rf": 1794475860.6090183,
+   "t2": 1794475860.6090183
   },
   "c380977993939": {
    "name": "СТО/Шиномонтаж/3D Розвал Сходження",
@@ -3167,7 +3171,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977993939/",
    "notified": 1794300348.5193932,
-   "t1": 1794300348.5193932
+   "t1": 1794300348.5193932,
+   "rf": 1794475860.6090183,
+   "t2": 1794475860.6090183
   },
   "c380979541584": {
    "name": "Автосервіс \"SATURN MOTORS\" СТО",
@@ -3931,11 +3937,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 44,
+ "today": 47,
  "n_first": 312,
- "last_send": 1794474944.8344665,
+ "last_send": 1794475860.6090183,
  "upd": 823717487,
- "n_follow": 136,
+ "n_follow": 139,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
