@@ -3491,7 +3491,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503072330/",
    "notified": 1794306667.2225738,
-   "t1": 1794306667.2225738
+   "t1": 1794306667.2225738,
+   "rf": 1794483062.1035256,
+   "t2": 1794483062.1035256
   },
   "c380663233000": {
    "name": "Sto Avtoservis",
@@ -3503,7 +3505,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380663233000/",
    "notified": 1794306667.2225738,
-   "t1": 1794306667.2225738
+   "t1": 1794306667.2225738,
+   "rf": 1794483062.1035256,
+   "t2": 1794483062.1035256
   },
   "c380661347474": {
    "name": "serviSMotors",
@@ -3515,7 +3519,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380661347474/",
    "notified": 1794307547.5906286,
-   "t1": 1794307547.5906286
+   "t1": 1794307547.5906286,
+   "rf": 1794483062.1035256,
+   "t2": 1794483062.1035256
   },
   "c380501678570": {
    "name": "СТО \"AUTOCENTER ACH\"",
@@ -3979,11 +3985,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 68,
+ "today": 71,
  "n_first": 312,
- "last_send": 1794482144.7005591,
+ "last_send": 1794483062.1035256,
  "upd": 823717487,
- "n_follow": 160,
+ "n_follow": 163,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
