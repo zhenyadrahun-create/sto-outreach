@@ -3311,7 +3311,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380985241598/",
    "notified": 1794303065.4500825,
-   "t1": 1794303065.4500825
+   "t1": 1794303065.4500825,
+   "rf": 1794479465.9240584,
+   "t2": 1794479465.9240584
   },
   "c380938800303": {
    "name": "Автосервис Polo",
@@ -3323,7 +3325,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380938800303/",
    "notified": 1794303065.4500825,
-   "t1": 1794303065.4500825
+   "t1": 1794303065.4500825,
+   "rf": 1794479465.9240584,
+   "t2": 1794479465.9240584
   },
   "c380777003100": {
    "name": "СТО GARAGE Конотоп",
@@ -3347,7 +3351,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969313878/",
    "notified": 1794303954.1755238,
-   "t1": 1794303954.1755238
+   "t1": 1794303954.1755238,
+   "rf": 1794479465.9240584,
+   "t2": 1794479465.9240584
   },
   "c380631868627": {
    "name": "СТО Форсаж",
@@ -3955,11 +3961,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 56,
+ "today": 59,
  "n_first": 312,
- "last_send": 1794478545.8259864,
+ "last_send": 1794479465.9240584,
  "upd": 823717487,
- "n_follow": 148,
+ "n_follow": 151,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
