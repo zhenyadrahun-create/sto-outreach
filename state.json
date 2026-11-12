@@ -3029,7 +3029,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380737660090/",
    "notified": 1794297683.3267014,
-   "t1": 1794297683.3267014
+   "t1": 1794297683.3267014,
+   "rf": 1794471343.7939546,
+   "t2": 1794471343.7939546
   },
   "c380674706568": {
    "name": "Sto 100 Dorih",
@@ -3041,7 +3043,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674706568/",
    "notified": 1794297683.3267014,
-   "t1": 1794297683.3267014
+   "t1": 1794297683.3267014,
+   "rf": 1794471343.7939546,
+   "t2": 1794471343.7939546
   },
   "c380672627675": {
    "name": "СТО Автосервис",
@@ -3053,7 +3057,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672627675/",
    "notified": 1794297683.3267014,
-   "t1": 1794297683.3267014
+   "t1": 1794297683.3267014,
+   "rf": 1794471343.7939546,
+   "t2": 1794471343.7939546
   },
   "c380674552665": {
    "name": "Sto Avtoservis-Plyus",
@@ -3901,10 +3907,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 29,
+ "today": 32,
  "n_first": 312,
- "last_send": 1794470482.8834202,
+ "last_send": 1794471343.7939546,
  "upd": 823717487,
- "n_follow": 129,
+ "n_follow": 132,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
