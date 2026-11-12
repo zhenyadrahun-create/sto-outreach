@@ -2861,7 +2861,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675315536/",
    "notified": 1794294081.039575,
-   "t1": 1794294081.039575
+   "t1": 1794294081.039575,
+   "rf": 1794467744.4812276,
+   "t2": 1794467744.4812276
   },
   "c380668845738": {
    "name": "СТО CarFIX",
@@ -2873,7 +2875,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380668845738/",
    "notified": 1794294081.039575,
-   "t1": 1794294081.039575
+   "t1": 1794294081.039575,
+   "rf": 1794467744.4812276,
+   "t2": 1794467744.4812276
   },
   "c380682090867": {
    "name": "СТО Кременчуг Импульс",
@@ -2885,7 +2889,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380682090867/",
    "notified": 1794294081.039575,
-   "t1": 1794294081.039575
+   "t1": 1794294081.039575,
+   "rf": 1794467744.4812276,
+   "t2": 1794467744.4812276
   },
   "c380957649309": {
    "name": "СТО Кременчук",
@@ -3877,10 +3883,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 17,
+ "today": 20,
  "n_first": 312,
- "last_send": 1794466880.863369,
+ "last_send": 1794467744.4812276,
  "upd": 823717487,
- "n_follow": 117,
+ "n_follow": 120,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
