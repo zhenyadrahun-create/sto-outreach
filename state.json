@@ -2623,7 +2623,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984868868/",
    "notified": 1794290479.9896903,
-   "t1": 1794290479.9896903
+   "t1": 1794290479.9896903,
+   "rf": 1794463280.715249,
+   "t2": 1794463280.715249
   },
   "c380930271540": {
    "name": "Автосервіс Neksen шиномонтаж СТО",
@@ -2635,7 +2637,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380930271540/",
    "notified": 1794290479.9896903,
-   "t1": 1794290479.9896903
+   "t1": 1794290479.9896903,
+   "rf": 1794463280.715249,
+   "t2": 1794463280.715249
   },
   "c380978682789": {
    "name": "Sto Zavedemo",
@@ -2647,7 +2651,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978682789/",
    "notified": 1794290479.9896903,
-   "t1": 1794290479.9896903
+   "t1": 1794290479.9896903,
+   "rf": 1794463280.715249,
+   "t2": 1794463280.715249
   },
   "c380679769279": {
    "name": "СТО АвтоСвіт",
@@ -2659,7 +2665,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380679769279/",
    "notified": 1794290479.9896903,
-   "t1": 1794290479.9896903
+   "t1": 1794290479.9896903,
+   "rf": 1794463280.715249,
+   "t2": 1794463280.715249
   },
   "c380981889889": {
    "name": "Автоперевірка | Перевірка авто | Дрогобич | Автопідбір | Підбір авто | Стрий | Самбір | Львів",
@@ -2671,7 +2679,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380981889889/",
    "notified": 1794290479.9896903,
-   "t1": 1794290479.9896903
+   "t1": 1794290479.9896903,
+   "rf": 1794463280.715249,
+   "t2": 1794463280.715249
   },
   "c380982139387": {
    "name": "СТО Самообслуговування",
@@ -2683,7 +2693,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982139387/",
    "notified": 1794290479.9896903,
-   "t1": 1794290479.9896903
+   "t1": 1794290479.9896903,
+   "rf": 1794463280.715249,
+   "t2": 1794463280.715249
   },
   "c380638141777": {
    "name": "MS•AUTO",
@@ -2695,7 +2707,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380638141777/",
    "notified": 1794290479.9896903,
-   "t1": 1794290479.9896903
+   "t1": 1794290479.9896903,
+   "rf": 1794463280.715249,
+   "t2": 1794463280.715249
   },
   "c380501943425": {
    "name": "СТО Fill-Service",
@@ -2707,7 +2721,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501943425/",
    "notified": 1794290479.9896903,
-   "t1": 1794290479.9896903
+   "t1": 1794290479.9896903,
+   "rf": 1794463280.715249,
+   "t2": 1794463280.715249
   },
   "c380506911562": {
    "name": "Pro Sto Avto",
@@ -3842,11 +3858,11 @@
  "report": [],
  "tt_done": [],
  "tt_geo": {},
- "day": "2026-11-11",
- "today": 95,
+ "day": "2026-11-12",
+ "today": 8,
  "n_first": 312,
- "last_send": 1794405679.5544362,
+ "last_send": 1794463280.715249,
  "upd": 823717487,
- "n_follow": 100,
+ "n_follow": 108,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
