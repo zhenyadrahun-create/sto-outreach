@@ -2945,7 +2945,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380687229922/",
    "notified": 1794295865.2994049,
-   "t1": 1794295865.2994049
+   "t1": 1794295865.2994049,
+   "rf": 1794469543.364217,
+   "t2": 1794469543.364217
   },
   "c380674620619": {
    "name": "Sto Bila Tserkva",
@@ -2957,7 +2959,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674620619/",
    "notified": 1794295865.2994049,
-   "t1": 1794295865.2994049
+   "t1": 1794295865.2994049,
+   "rf": 1794469543.364217,
+   "t2": 1794469543.364217
   },
   "c380689658484": {
    "name": "СТО ремонт авто Шиномонтаж AUTODRIVE",
@@ -2969,7 +2973,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380689658484/",
    "notified": 1794295865.2994049,
-   "t1": 1794295865.2994049
+   "t1": 1794295865.2994049,
+   "rf": 1794469543.364217,
+   "t2": 1794469543.364217
   },
   "c380683394805": {
    "name": "Sto 993",
@@ -3889,10 +3895,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 23,
+ "today": 26,
  "n_first": 312,
- "last_send": 1794468659.889655,
+ "last_send": 1794469543.364217,
  "upd": 823717487,
- "n_follow": 123,
+ "n_follow": 126,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
