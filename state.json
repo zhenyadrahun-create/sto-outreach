@@ -2735,7 +2735,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506911562/",
    "notified": 1794291344.7530205,
-   "t1": 1794291344.7530205
+   "t1": 1794291344.7530205,
+   "rf": 1794464145.2431364,
+   "t2": 1794464145.2431364
   },
   "c380501464008": {
    "name": "Sto Vova Bosh",
@@ -2747,7 +2749,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501464008/",
    "notified": 1794291344.7530205,
-   "t1": 1794291344.7530205
+   "t1": 1794291344.7530205,
+   "rf": 1794464145.2431364,
+   "t2": 1794464145.2431364
   },
   "c380951614272": {
    "name": "Avtoservis Sto",
@@ -2759,7 +2763,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380951614272/",
    "notified": 1794291344.7530205,
-   "t1": 1794291344.7530205
+   "t1": 1794291344.7530205,
+   "rf": 1794464145.2431364,
+   "t2": 1794464145.2431364
   },
   "c380508808833": {
    "name": "СТО Master Auto",
@@ -3859,10 +3865,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 8,
+ "today": 11,
  "n_first": 312,
- "last_send": 1794463280.715249,
+ "last_send": 1794464145.2431364,
  "upd": 823717487,
- "n_follow": 108,
+ "n_follow": 111,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
