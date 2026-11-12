@@ -3923,7 +3923,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982687346/",
    "notified": 1794315685.06931,
-   "t1": 1794315685.06931
+   "t1": 1794315685.06931,
+   "rf": 1794492076.929349,
+   "t2": 1794492076.929349
   },
   "c380504516147": {
    "name": "СТО",
@@ -3935,7 +3937,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380504516147/",
    "notified": 1794315685.06931,
-   "t1": 1794315685.06931
+   "t1": 1794315685.06931,
+   "rf": 1794492076.929349,
+   "t2": 1794492076.929349
   },
   "c380969879766": {
    "name": "СТО Автосервис",
@@ -4039,11 +4043,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 98,
+ "today": 100,
  "n_first": 312,
- "last_send": 1794491144.5323443,
+ "last_send": 1794492076.929349,
  "upd": 823717487,
- "n_follow": 190,
+ "n_follow": 192,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
