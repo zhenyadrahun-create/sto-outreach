@@ -3755,7 +3755,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380986776971/",
    "notified": 1794312083.3210223,
-   "t1": 1794312083.3210223
+   "t1": 1794312083.3210223,
+   "rf": 1794488479.4894152,
+   "t2": 1794488479.4894152
   },
   "c380983075308": {
    "name": "СТО Street Chornovil, 32",
@@ -3767,7 +3769,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983075308/",
    "notified": 1794312083.3210223,
-   "t1": 1794312083.3210223
+   "t1": 1794312083.3210223,
+   "rf": 1794488479.4894152,
+   "t2": 1794488479.4894152
   },
   "c380679008515": {
    "name": "Car Service \"Galich\"",
@@ -3779,7 +3783,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380679008515/",
    "notified": 1794312948.1503198,
-   "t1": 1794312948.1503198
+   "t1": 1794312948.1503198,
+   "rf": 1794488479.4894152,
+   "t2": 1794488479.4894152
   },
   "c380669110010": {
    "name": "Evakuator Sambir, Avtoservis \"Khatky\" Sambir",
@@ -4015,11 +4021,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 86,
+ "today": 89,
  "n_first": 312,
- "last_send": 1794487544.7267547,
+ "last_send": 1794488479.4894152,
  "upd": 823717487,
- "n_follow": 178,
+ "n_follow": 181,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
