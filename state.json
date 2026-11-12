@@ -3533,7 +3533,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501678570/",
    "notified": 1794307547.5906286,
-   "t1": 1794307547.5906286
+   "t1": 1794307547.5906286,
+   "rf": 1794483943.4961364,
+   "t2": 1794483943.4961364
   },
   "c380992150749": {
    "name": "AUTO CENTER",
@@ -3545,7 +3547,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380992150749/",
    "notified": 1794307547.5906286,
-   "t1": 1794307547.5906286
+   "t1": 1794307547.5906286,
+   "rf": 1794483943.4961364,
+   "t2": 1794483943.4961364
   },
   "c380664348338": {
    "name": "СТО Автоцентр",
@@ -3557,7 +3561,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664348338/",
    "notified": 1794308487.821516,
-   "t1": 1794308487.821516
+   "t1": 1794308487.821516,
+   "rf": 1794483943.4961364,
+   "t2": 1794483943.4961364
   },
   "c380505639300": {
    "name": "Sto \"Alʹfatsentr\"",
@@ -3985,11 +3991,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 71,
+ "today": 74,
  "n_first": 312,
- "last_send": 1794483062.1035256,
+ "last_send": 1794483943.4961364,
  "upd": 823717487,
- "n_follow": 163,
+ "n_follow": 166,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
