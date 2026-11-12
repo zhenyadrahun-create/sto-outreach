@@ -3881,7 +3881,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664698141/",
    "notified": 1794314753.2973127,
-   "t1": 1794314753.2973127
+   "t1": 1794314753.2973127,
+   "rf": 1794491144.5323443,
+   "t2": 1794491144.5323443
   },
   "c380995082116": {
    "name": "Avtoservis Sto Malyarni Posluhy Rykhtovka Avto",
@@ -3893,7 +3895,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380995082116/",
    "notified": 1794314753.2973127,
-   "t1": 1794314753.2973127
+   "t1": 1794314753.2973127,
+   "rf": 1794491144.5323443,
+   "t2": 1794491144.5323443
   },
   "c380501011110": {
    "name": "Mustang Автосервіс СТО",
@@ -3905,7 +3909,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501011110/",
    "notified": 1794315685.06931,
-   "t1": 1794315685.06931
+   "t1": 1794315685.06931,
+   "rf": 1794491144.5323443,
+   "t2": 1794491144.5323443
   },
   "c380982687346": {
    "name": "Sto 4.5.0. Avtoservis U Pavlohradi",
@@ -4033,11 +4039,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 95,
+ "today": 98,
  "n_first": 312,
- "last_send": 1794490263.728767,
+ "last_send": 1794491144.5323443,
  "upd": 823717487,
- "n_follow": 187,
+ "n_follow": 190,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
