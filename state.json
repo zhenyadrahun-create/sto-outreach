@@ -3659,7 +3659,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380993240545/",
    "notified": 1794310268.7474077,
-   "t1": 1794310268.7474077
+   "t1": 1794310268.7474077,
+   "rf": 1794486663.4646153,
+   "t2": 1794486663.4646153
   },
   "c380667670496": {
    "name": "СТО New Автоплюс",
@@ -3671,7 +3673,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380667670496/",
    "notified": 1794310268.7474077,
-   "t1": 1794310268.7474077
+   "t1": 1794310268.7474077,
+   "rf": 1794486663.4646153,
+   "t2": 1794486663.4646153
   },
   "c380503735413": {
    "name": "Sto Taras Kalush",
@@ -3683,7 +3687,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380503735413/",
    "notified": 1794311151.1990104,
-   "t1": 1794311151.1990104
+   "t1": 1794311151.1990104,
+   "rf": 1794486663.4646153,
+   "t2": 1794486663.4646153
   },
   "c380676722038": {
    "name": "СТО Rynkova St",
@@ -4003,11 +4009,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 80,
+ "today": 83,
  "n_first": 312,
- "last_send": 1794485744.9883592,
+ "last_send": 1794486663.4646153,
  "upd": 823717487,
- "n_follow": 172,
+ "n_follow": 175,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
