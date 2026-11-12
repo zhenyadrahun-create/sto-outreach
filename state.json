@@ -3617,7 +3617,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979008059/",
    "notified": 1794309348.8635647,
-   "t1": 1794309348.8635647
+   "t1": 1794309348.8635647,
+   "rf": 1794485744.9883592,
+   "t2": 1794485744.9883592
   },
   "c380676235552": {
    "name": "Автосервіс ImperScar",
@@ -3629,7 +3631,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676235552/",
    "notified": 1794309348.8635647,
-   "t1": 1794309348.8635647
+   "t1": 1794309348.8635647,
+   "rf": 1794485744.9883592,
+   "t2": 1794485744.9883592
   },
   "c380968128127": {
    "name": "tire Express",
@@ -3641,7 +3645,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380968128127/",
    "notified": 1794310268.7474077,
-   "t1": 1794310268.7474077
+   "t1": 1794310268.7474077,
+   "rf": 1794485744.9883592,
+   "t2": 1794485744.9883592
   },
   "c380993240545": {
    "name": "СТО Auto-Consept",
@@ -3997,11 +4003,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 77,
+ "today": 80,
  "n_first": 312,
- "last_send": 1794484878.7130857,
+ "last_send": 1794485744.9883592,
  "upd": 823717487,
- "n_follow": 169,
+ "n_follow": 172,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
