@@ -3449,7 +3449,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970009076/",
    "notified": 1794305747.0294993,
-   "t1": 1794305747.0294993
+   "t1": 1794305747.0294993,
+   "rf": 1794482144.7005591,
+   "t2": 1794482144.7005591
   },
   "c380955978756": {
    "name": "СТО шиномонтаж",
@@ -3461,7 +3463,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955978756/",
    "notified": 1794305747.0294993,
-   "t1": 1794305747.0294993
+   "t1": 1794305747.0294993,
+   "rf": 1794482144.7005591,
+   "t2": 1794482144.7005591
   },
   "c380664434907": {
    "name": "Avtodush",
@@ -3473,7 +3477,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380664434907/",
    "notified": 1794306667.2225738,
-   "t1": 1794306667.2225738
+   "t1": 1794306667.2225738,
+   "rf": 1794482144.7005591,
+   "t2": 1794482144.7005591
   },
   "c380503072330": {
    "name": "Profigas",
@@ -3973,11 +3979,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 65,
+ "today": 68,
  "n_first": 312,
- "last_send": 1794481277.5276544,
+ "last_send": 1794482144.7005591,
  "upd": 823717487,
- "n_follow": 157,
+ "n_follow": 160,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
