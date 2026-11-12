@@ -3701,7 +3701,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380676722038/",
    "notified": 1794311151.1990104,
-   "t1": 1794311151.1990104
+   "t1": 1794311151.1990104,
+   "rf": 1794487544.7267547,
+   "t2": 1794487544.7267547
   },
   "c380505850804": {
    "name": "СТО «Sonatacar»",
@@ -3713,7 +3715,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380505850804/",
    "notified": 1794311151.1990104,
-   "t1": 1794311151.1990104
+   "t1": 1794311151.1990104,
+   "rf": 1794487544.7267547,
+   "t2": 1794487544.7267547
   },
   "c380502171333": {
    "name": "Сто АВТО help!",
@@ -3725,7 +3729,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380502171333/",
    "notified": 1794312083.3210223,
-   "t1": 1794312083.3210223
+   "t1": 1794312083.3210223,
+   "rf": 1794487544.7267547,
+   "t2": 1794487544.7267547
   },
   "c380778885522": {
    "name": "Sto Serbin Servis",
@@ -4009,11 +4015,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 83,
+ "today": 86,
  "n_first": 312,
- "last_send": 1794486663.4646153,
+ "last_send": 1794487544.7267547,
  "upd": 823717487,
- "n_follow": 175,
+ "n_follow": 178,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
