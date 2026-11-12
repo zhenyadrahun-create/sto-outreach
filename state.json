@@ -3101,7 +3101,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380984723784/",
    "notified": 1794298547.2754471,
-   "t1": 1794298547.2754471
+   "t1": 1794298547.2754471,
+   "rf": 1794474944.8344665,
+   "t2": 1794474944.8344665
   },
   "c380660986800": {
    "name": "Car Service",
@@ -3113,7 +3115,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660986800/",
    "notified": 1794298547.2754471,
-   "t1": 1794298547.2754471
+   "t1": 1794298547.2754471,
+   "rf": 1794474944.8344665,
+   "t2": 1794474944.8344665
   },
   "c380672848150": {
    "name": "Age auto",
@@ -3125,7 +3129,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380672848150/",
    "notified": 1794299469.4483047,
-   "t1": 1794299469.4483047
+   "t1": 1794299469.4483047,
+   "rf": 1794474944.8344665,
+   "t2": 1794474944.8344665
   },
   "c380673295246": {
    "name": "СТО \"Nessen Auto Service\"",
@@ -3925,11 +3931,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 41,
+ "today": 44,
  "n_first": 312,
- "last_send": 1794474079.7931693,
+ "last_send": 1794474944.8344665,
  "upd": 823717487,
- "n_follow": 133,
+ "n_follow": 136,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
