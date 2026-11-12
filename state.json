@@ -3797,7 +3797,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380669110010/",
    "notified": 1794312948.1503198,
-   "t1": 1794312948.1503198
+   "t1": 1794312948.1503198,
+   "rf": 1794489347.0685499,
+   "t2": 1794489347.0685499
   },
   "c380731001271": {
    "name": "СТО Malevycha Kazymyra St, 73",
@@ -3809,7 +3811,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380731001271/",
    "notified": 1794312948.1503198,
-   "t1": 1794312948.1503198
+   "t1": 1794312948.1503198,
+   "rf": 1794489347.0685499,
+   "t2": 1794489347.0685499
   },
   "c380976596667": {
    "name": "СТО АВТОСЕРВІС OLDRIVE",
@@ -3821,7 +3825,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976596667/",
    "notified": 1794313865.9196393,
-   "t1": 1794313865.9196393
+   "t1": 1794313865.9196393,
+   "rf": 1794489347.0685499,
+   "t2": 1794489347.0685499
   },
   "c380632326179": {
    "name": "СТО Автосервис",
@@ -4021,11 +4027,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 89,
+ "today": 92,
  "n_first": 312,
- "last_send": 1794488479.4894152,
+ "last_send": 1794489347.0685499,
  "upd": 823717487,
- "n_follow": 181,
+ "n_follow": 184,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
