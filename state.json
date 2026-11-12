@@ -3839,7 +3839,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380632326179/",
    "notified": 1794313865.9196393,
-   "t1": 1794313865.9196393
+   "t1": 1794313865.9196393,
+   "rf": 1794490263.728767,
+   "t2": 1794490263.728767
   },
   "c380681239933": {
    "name": "Avtoservis Sto",
@@ -3851,7 +3853,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681239933/",
    "notified": 1794313865.9196393,
-   "t1": 1794313865.9196393
+   "t1": 1794313865.9196393,
+   "rf": 1794490263.728767,
+   "t2": 1794490263.728767
   },
   "c380950960188": {
    "name": "Павлоград СТО",
@@ -3863,7 +3867,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380950960188/",
    "notified": 1794314753.2973127,
-   "t1": 1794314753.2973127
+   "t1": 1794314753.2973127,
+   "rf": 1794490263.728767,
+   "t2": 1794490263.728767
   },
   "c380664698141": {
    "name": "СТО Автомотив Павлоград",
@@ -4027,11 +4033,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 92,
+ "today": 95,
  "n_first": 312,
- "last_send": 1794489347.0685499,
+ "last_send": 1794490263.728767,
  "upd": 823717487,
- "n_follow": 184,
+ "n_follow": 187,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
