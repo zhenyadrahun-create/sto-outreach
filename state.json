@@ -2987,7 +2987,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683394805/",
    "notified": 1794296746.3700976,
-   "t1": 1794296746.3700976
+   "t1": 1794296746.3700976,
+   "rf": 1794470482.8834202,
+   "t2": 1794470482.8834202
   },
   "c380683934818": {
    "name": "СТО Nezalezhnosti St, 29",
@@ -2999,7 +3001,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683934818/",
    "notified": 1794296746.3700976,
-   "t1": 1794296746.3700976
+   "t1": 1794296746.3700976,
+   "rf": 1794470482.8834202,
+   "t2": 1794470482.8834202
   },
   "c380988372345": {
    "name": "СТО Vul. Bilohrudivsʹka, 1",
@@ -3011,7 +3015,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988372345/",
    "notified": 1794296746.3700976,
-   "t1": 1794296746.3700976
+   "t1": 1794296746.3700976,
+   "rf": 1794470482.8834202,
+   "t2": 1794470482.8834202
   },
   "c380737660090": {
    "name": "СТО - Автомагазин \"CAR OIL\", Евакуатор 24/7",
@@ -3895,10 +3901,10 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 26,
+ "today": 29,
  "n_first": 312,
- "last_send": 1794469543.364217,
+ "last_send": 1794470482.8834202,
  "upd": 823717487,
- "n_follow": 126,
+ "n_follow": 129,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0"
 }
