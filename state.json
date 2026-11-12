@@ -3185,7 +3185,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979541584/",
    "notified": 1794300348.5193932,
-   "t1": 1794300348.5193932
+   "t1": 1794300348.5193932,
+   "rf": 1794476744.2807498,
+   "t2": 1794476744.2807498
   },
   "c380978144334": {
    "name": "ProStoService (Простосервіс)",
@@ -3197,7 +3199,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978144334/",
    "notified": 1794300348.5193932,
-   "t1": 1794300348.5193932
+   "t1": 1794300348.5193932,
+   "rf": 1794476744.2807498,
+   "t2": 1794476744.2807498
   },
   "c380972676630": {
    "name": "Sto Avtostylʹ",
@@ -3209,7 +3213,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972676630/",
    "notified": 1794301284.0257132,
-   "t1": 1794301284.0257132
+   "t1": 1794301284.0257132,
+   "rf": 1794476744.2807498,
+   "t2": 1794476744.2807498
   },
   "c380683054850": {
    "name": "Автосервіс\"MASTER_CAR\"СТО",
@@ -3937,11 +3943,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 47,
+ "today": 50,
  "n_first": 312,
- "last_send": 1794475860.6090183,
+ "last_send": 1794476744.2807498,
  "upd": 823717487,
- "n_follow": 139,
+ "n_follow": 142,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
