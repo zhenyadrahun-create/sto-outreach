@@ -3227,7 +3227,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380683054850/",
    "notified": 1794301284.0257132,
-   "t1": 1794301284.0257132
+   "t1": 1794301284.0257132,
+   "rf": 1794477678.4216943,
+   "t2": 1794477678.4216943
   },
   "c380970610103": {
    "name": "Everest Avto",
@@ -3239,7 +3241,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970610103/",
    "notified": 1794301284.0257132,
-   "t1": 1794301284.0257132
+   "t1": 1794301284.0257132,
+   "rf": 1794477678.4216943,
+   "t2": 1794477678.4216943
   },
   "c380685252323": {
    "name": "Автосервіс СТО Ніжин",
@@ -3251,7 +3255,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380685252323/",
    "notified": 1794302147.4882562,
-   "t1": 1794302147.4882562
+   "t1": 1794302147.4882562,
+   "rf": 1794477678.4216943,
+   "t2": 1794477678.4216943
   },
   "c380936091672": {
    "name": "СТО MALIBU НІЖИН",
@@ -3943,11 +3949,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-12",
- "today": 50,
+ "today": 53,
  "n_first": 312,
- "last_send": 1794476744.2807498,
+ "last_send": 1794477678.4216943,
  "upd": 823717487,
- "n_follow": 142,
+ "n_follow": 145,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
