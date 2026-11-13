@@ -1381,7 +1381,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380512676381/",
    "notified": 1794376881.5487657,
-   "t1": 1794376881.5487657
+   "t1": 1794376881.5487657,
+   "rf": 1794550542.821785,
+   "t2": 1794550542.821785
   },
   "c380955868620": {
    "name": "Shynomontazh (Industrialna)",
@@ -3339,7 +3341,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380777003100/",
    "notified": 1794376881.5487657,
-   "t1": 1794376881.5487657
+   "t1": 1794376881.5487657,
+   "rf": 1794550542.821785,
+   "t2": 1794550542.821785
   },
   "c380969313878": {
    "name": "СТО \"PitStop\"",
@@ -3743,7 +3747,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380778885522/",
    "notified": 1794376881.5487657,
-   "t1": 1794376881.5487657
+   "t1": 1794376881.5487657,
+   "rf": 1794550542.821785,
+   "t2": 1794550542.821785
   },
   "c380986776971": {
    "name": "Car Service Sambir",
@@ -4059,11 +4065,11 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-13",
- "today": 8,
+ "today": 11,
  "n_first": 312,
- "last_send": 1794549675.5018785,
+ "last_send": 1794550542.821785,
  "upd": 823717487,
- "n_follow": 200,
+ "n_follow": 203,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
