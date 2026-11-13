@@ -3951,7 +3951,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969879766/",
    "notified": 1794316551.476037,
-   "t1": 1794316551.476037
+   "t1": 1794316551.476037,
+   "rf": 1794549675.5018785,
+   "t2": 1794549675.5018785
   },
   "c380999697745": {
    "name": "СТО-КРОП",
@@ -3963,7 +3965,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380999697745/",
    "notified": 1794316551.476037,
-   "t1": 1794316551.476037
+   "t1": 1794316551.476037,
+   "rf": 1794549675.5018785,
+   "t2": 1794549675.5018785
   },
   "c380997969428": {
    "name": "СТО №3",
@@ -3975,7 +3979,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380997969428/",
    "notified": 1794316551.476037,
-   "t1": 1794316551.476037
+   "t1": 1794316551.476037,
+   "rf": 1794549675.5018785,
+   "t2": 1794549675.5018785
   },
   "c380934828198": {
    "name": "Avtoservis Sto",
@@ -3987,7 +3993,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934828198/",
    "notified": 1794317469.8288207,
-   "t1": 1794317469.8288207
+   "t1": 1794317469.8288207,
+   "rf": 1794549675.5018785,
+   "t2": 1794549675.5018785
   },
   "c380988062867": {
    "name": "Sto Avtorytm",
@@ -3999,7 +4007,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988062867/",
    "notified": 1794317469.8288207,
-   "t1": 1794317469.8288207
+   "t1": 1794317469.8288207,
+   "rf": 1794549675.5018785,
+   "t2": 1794549675.5018785
   },
   "c380988220855": {
    "name": "Автосервіс Garage",
@@ -4011,7 +4021,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988220855/",
    "notified": 1794317469.8288207,
-   "t1": 1794317469.8288207
+   "t1": 1794317469.8288207,
+   "rf": 1794549675.5018785,
+   "t2": 1794549675.5018785
   },
   "c380991628999": {
    "name": "M-Auto Garage",
@@ -4023,7 +4035,9 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380991628999/",
    "notified": 1794318348.847163,
-   "t1": 1794318348.847163
+   "t1": 1794318348.847163,
+   "rf": 1794549675.5018785,
+   "t2": 1794549675.5018785
   },
   "c380983123887": {
    "name": "Sto \"Forsazh\"",
@@ -4035,19 +4049,21 @@
    "status": "sent",
    "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380983123887/",
    "notified": 1794318348.847163,
-   "t1": 1794318348.847163
+   "t1": 1794318348.847163,
+   "rf": 1794549675.5018785,
+   "t2": 1794549675.5018785
   }
  },
  "fetched": [],
  "report": [],
  "tt_done": [],
  "tt_geo": {},
- "day": "2026-11-12",
- "today": 100,
+ "day": "2026-11-13",
+ "today": 8,
  "n_first": 312,
- "last_send": 1794492076.929349,
+ "last_send": 1794549675.5018785,
  "upd": 823717487,
- "n_follow": 192,
+ "n_follow": 200,
  "tpl": "be4c0eb54fc1d809f0b0ea08db1bf6d0",
  "n_final": 8
 }
