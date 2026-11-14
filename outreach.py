@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """Контакти з leads.csv -> нагадування у Telegram (по кілька на день) + повтор через 2 дні. Нічого не шле клієнтам сам."""
 import json, os, re, random, html, time, urllib.request, urllib.parse, urllib.error
@@ -222,13 +221,8 @@ def make_site(cfg, lid, l):
     data = {"name": l["name"], "owner": "", "email": "", "city": l["city"], "address": l["address"],
         "phone": fmt_phone(l["phone"]), "whatsapp": l["phone"] if l.get("mobile", True) else "", "telegram": "", "viber": l.get("mobile", True),
         "open": None, "accent": cfg.get("accent", "#f24848"), "mode": cfg.get("form_mode", "viber") if l.get("mobile", True) else "endpoint",
-        "reviews": [], "brands": ["Toyota","Volkswagen","Skoda","Renault","Hyundai","Kia","Ford","BMW","Mercedes","Nissan","Opel","Mazda"],
-        "symptoms": [["Стукіт у підвісці","Ремонт підвіски"],["Не заводиться","Діагностика"],["Скрип гальм","Гальмівна система"],["Горить Check Engine","Діагностика"],["Пора міняти олію","Заміна оливи та фільтрів"]],
-        "services": [["Діагностика","Комп'ютерна та ходової частини",None,"search"],["Заміна оливи та фільтрів","Олива, масляний і повітряний фільтри",None,"oil"],
-            ["Ремонт підвіски","Важелі, стійки, сайлентблоки",None,"susp"],["Гальмівна система","Колодки, диски, прокачування",None,"brake"],["Шиномонтаж","Зняття, балансування, встановлення",None,"tire"]],
-        "faq": [["Скільки коштує ремонт?","Назвемо вартість після огляду або діагностики, до початку робіт."],["Як записатися?","Залиште заявку на сайті або зателефонуйте нам."],["Чи можна привезти свої запчастини?","Так, уточніть це під час запису."]]}
+        "reviews": []}
     js = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
-    tpl = tpl.replace('" — СТО, "+C.city', '" — СТО"+(C.city?", "+C.city:"")').replace('", "+C.city+": ремонт', '(C.city?", "+C.city:"")+": ремонт')
     page = tpl.replace(MARK, "Object.assign(C," + js + ");\n" + MARK, 1)
     slug = "sto-" + lid
     os.makedirs(f"sites/{slug}", exist_ok=True)
