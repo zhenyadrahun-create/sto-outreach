@@ -4576,8 +4576,10 @@
    "type": "sto",
    "address": "Stebnyts'ka St, 59d",
    "city": "Трускавець",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380971286002/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380971286002/",
+   "notified": 1794920479.289804,
+   "t1": 1794920479.289804
   },
   "c380665489991": {
    "name": "СТО Stebnyts'ka St, 73д",
@@ -4586,8 +4588,10 @@
    "type": "sto",
    "address": "Stebnyts'ka St, 73д",
    "city": "Трускавець",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380665489991/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380665489991/",
+   "notified": 1794920479.289804,
+   "t1": 1794920479.289804
   },
   "c380673703274": {
    "name": "СТО, Аргон, Заправка кондиционера, Техогляд",
@@ -4596,8 +4600,10 @@
    "type": "sto",
    "address": "Ivana Mazepy St, 23А",
    "city": "Трускавець",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673703274/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673703274/",
+   "notified": 1794920479.289804,
+   "t1": 1794920479.289804
   },
   "c380989374001": {
    "name": "Sto-Avtomyyka",
@@ -5375,9 +5381,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-17",
- "today": 97,
- "n_first": 322,
- "last_send": 1794919545.4987857,
+ "today": 100,
+ "n_first": 325,
+ "last_send": 1794920479.289804,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "2255c60b2d9d7c309353408223ab3f9c",
