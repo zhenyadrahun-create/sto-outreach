@@ -397,7 +397,7 @@ def main():
         jsave("state.json", st); return
     gap = max(1, int((now - st.get("last_send", 0)) // 900))      # якщо запуски GitHub запізнилися, надолужуємо (до 5 за раз)
     per_run = min(max(cfg.get("per_run", 3), gap), 8)
-    todo = [(k, due_kind(l, now)) for k, l in st["leads"].items() if due_kind(l, now)]
+    todo = [(k, due_kind(l, now)) for k, l in st["leads"].items() if due_kind(l, now) and (cfg.get("reminders", True) or due_kind(l, now) == "first")]
     news = [(k, l) for k, l in st["leads"].items() if l["status"] == "new"]
     news.sort(key=lambda kl: 0 if (kl[1].get("mobile", True) or kl[1].get("tg")) else 1)   # спершу ті, кому можна написати в месенджер
     todo += [(k, "first") for k, l in news]
