@@ -4540,8 +4540,10 @@
    "type": "sto",
    "address": "Vulytsya Ivasyuka, 16А",
    "city": "Борислав",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978569217/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978569217/",
+   "notified": 1794919545.4987857,
+   "t1": 1794919545.4987857
   },
   "c380969503990": {
    "name": "Автосервіс Kaprun",
@@ -4550,8 +4552,10 @@
    "type": "sto",
    "address": "Truskavets'ka St, 90В",
    "city": "Борислав",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969503990/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380969503990/",
+   "notified": 1794919545.4987857,
+   "t1": 1794919545.4987857
   },
   "c380956685636": {
    "name": "Avtoservis",
@@ -4560,8 +4564,10 @@
    "type": "sto",
    "address": "Ivana Mazepy St, 21Є",
    "city": "Трускавець",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380956685636/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380956685636/",
+   "notified": 1794919545.4987857,
+   "t1": 1794919545.4987857
   },
   "c380971286002": {
    "name": "Sto Avtoservis Avtozapchastyny",
@@ -5369,9 +5375,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-17",
- "today": 94,
- "n_first": 319,
- "last_send": 1794918674.1450102,
+ "today": 97,
+ "n_first": 322,
+ "last_send": 1794919545.4987857,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "2255c60b2d9d7c309353408223ab3f9c",
