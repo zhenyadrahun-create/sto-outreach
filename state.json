@@ -4468,8 +4468,10 @@
    "type": "sto",
    "address": "Vulytsya V'yacheslava Lypynsʹkoho, 30",
    "city": "Дубно",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380665384140/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380665384140/",
+   "notified": 1794917752.9957287,
+   "t1": 1794917752.9957287
   },
   "c380733737347": {
    "name": "STD Service СТО",
@@ -4478,8 +4480,10 @@
    "type": "sto",
    "address": "Vulytsya Mykhayla Hrushevsʹkoho, 55а",
    "city": "Дубно",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733737347/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380733737347/",
+   "notified": 1794917752.9957287,
+   "t1": 1794917752.9957287
   },
   "c380668177825": {
    "name": "СТО Stara St, 65",
@@ -4488,8 +4492,10 @@
    "type": "sto",
    "address": "Stara St, 65",
    "city": "Дубно",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380668177825/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380668177825/",
+   "notified": 1794917752.9957287,
+   "t1": 1794917752.9957287
   },
   "c380996590914": {
    "name": "Autolider СТО",
@@ -5357,9 +5363,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-17",
- "today": 88,
- "n_first": 313,
- "last_send": 1794916888.276923,
+ "today": 91,
+ "n_first": 316,
+ "last_send": 1794917752.9957287,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "2255c60b2d9d7c309353408223ab3f9c",
