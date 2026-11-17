@@ -4504,8 +4504,10 @@
    "type": "sto",
    "address": "Vulytsya Pidbortsi",
    "city": "Дубно",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380996590914/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380996590914/",
+   "notified": 1794918674.1450102,
+   "t1": 1794918674.1450102
   },
   "c380501942949": {
    "name": "СТО Віраж Авто",
@@ -4514,8 +4516,10 @@
    "type": "sto",
    "address": "Vulytsya Mykhayla Hrushevsʹkoho",
    "city": "Дубно",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501942949/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380501942949/",
+   "notified": 1794918674.1450102,
+   "t1": 1794918674.1450102
   },
   "c380962592746": {
    "name": "СТО \" Дунець АвтоСервіс\"",
@@ -4524,8 +4528,10 @@
    "type": "sto",
    "address": "Sanatoriina St, 2",
    "city": "Кременець",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380962592746/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380962592746/",
+   "notified": 1794918674.1450102,
+   "t1": 1794918674.1450102
   },
   "c380978569217": {
    "name": "СТО та автозапчастини, ремонт автомобілів,автосервіс",
@@ -5363,9 +5369,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-17",
- "today": 91,
- "n_first": 316,
- "last_send": 1794917752.9957287,
+ "today": 94,
+ "n_first": 319,
+ "last_send": 1794918674.1450102,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "2255c60b2d9d7c309353408223ab3f9c",
