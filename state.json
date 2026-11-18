@@ -4768,8 +4768,10 @@
    "type": "sto",
    "address": "Khmel'nyts'koho str, 14А",
    "city": "Чортків",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380355223786/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380355223786/",
+   "notified": 1795002345.2685907,
+   "t1": 1795002345.2685907
   },
   "c380675475566": {
    "name": "Avtomaysternya Prosto",
@@ -5366,8 +5368,10 @@
    "type": "sto",
    "address": "Mokra St",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380443344499/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380443344499/",
+   "notified": 1795002345.2685907,
+   "t1": 1795002345.2685907
   },
   "c380637017172": {
    "name": "Автомийка \"Clean Car\"",
@@ -5520,8 +5524,10 @@
    "type": "sto",
    "address": "Merefyans'ke Hwy",
    "city": "Харків",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380997778702/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380997778702/",
+   "notified": 1795002345.2685907,
+   "t1": 1795002345.2685907
   }
  },
  "fetched": [],
@@ -5529,9 +5535,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 74,
- "n_first": 399,
- "last_send": 1795001464.776873,
+ "today": 77,
+ "n_first": 402,
+ "last_send": 1795002345.2685907,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
