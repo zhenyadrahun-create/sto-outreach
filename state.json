@@ -5114,8 +5114,10 @@
    "type": "sto",
    "address": "вул. Гуци, 228",
    "city": "Берегове",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955565470/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955565470/",
+   "notified": 1794992480.7945302,
+   "t1": 1794992480.7945302
   },
   "c380934294044": {
    "name": "Шиномонтаж та автомийка",
@@ -5124,8 +5126,10 @@
    "type": "sto",
    "address": "вул. Сечені, 71",
    "city": "Берегове",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934294044/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380934294044/",
+   "notified": 1794992480.7945302,
+   "t1": 1794992480.7945302
   },
   "c380663326700": {
    "name": "Шиномонтаж Мукачівська",
@@ -5134,8 +5138,10 @@
    "type": "sto",
    "address": "вул. Мукачівська, 190",
    "city": "Берегове",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380663326700/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380663326700/",
+   "notified": 1794992480.7945302,
+   "t1": 1794992480.7945302
   },
   "c380970633007": {
    "name": "West Auto Service",
@@ -5463,9 +5469,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 41,
- "n_first": 366,
- "last_send": 1794991544.2705226,
+ "today": 44,
+ "n_first": 369,
+ "last_send": 1794992480.7945302,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
