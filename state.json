@@ -4898,8 +4898,10 @@
    "type": "sto",
    "address": "вул. Вокзальна",
    "city": "Надвірна",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977118673/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977118673/",
+   "notified": 1794987062.0533714,
+   "t1": 1794987062.0533714
   },
   "c380671958202": {
    "name": "Автосервіс Вокзальна",
@@ -4908,8 +4910,10 @@
    "type": "sto",
    "address": "вул. Вокзальна",
    "city": "Надвірна",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380671958202/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380671958202/",
+   "notified": 1794987062.0533714,
+   "t1": 1794987062.0533714
   },
   "c380979559655": {
    "name": "STO Smart Harazh",
@@ -4918,8 +4922,10 @@
    "type": "sto",
    "address": "",
    "city": "Долина",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979559655/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979559655/",
+   "notified": 1794987062.0533714,
+   "t1": 1794987062.0533714
   },
   "c380965451196": {
    "name": "Сервіс Шина+",
@@ -5427,9 +5433,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 23,
- "n_first": 348,
- "last_send": 1794986145.452602,
+ "today": 26,
+ "n_first": 351,
+ "last_send": 1794987062.0533714,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
