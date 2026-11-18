@@ -4708,8 +4708,10 @@
    "type": "sto",
    "address": "Vulytsya Sheptytsʹkoho, 46",
    "city": "Броди",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681308072/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380681308072/",
+   "notified": 1794982545.25536,
+   "t1": 1794982545.25536
   },
   "c380977035081": {
    "name": "Автосервіс «Heal Auto»",
@@ -4718,8 +4720,10 @@
    "type": "sto",
    "address": "Vul. Yozefa Rota",
    "city": "Броди",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977035081/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380977035081/",
+   "notified": 1794982545.25536,
+   "t1": 1794982545.25536
   },
   "c380730003937": {
    "name": "Шиномонтаж 24/7 Евакуатор",
@@ -4728,8 +4732,10 @@
    "type": "sto",
    "address": "Vulytsya Yevreysʹka",
    "city": "Броди",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380730003937/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380730003937/",
+   "notified": 1794982545.25536,
+   "t1": 1794982545.25536
   },
   "c380979151642": {
    "name": "Sto Avtomayster",
@@ -5393,15 +5399,13 @@
   }
  },
  "fetched": [],
- "report": [
-  "♻️ Демо-сайтів оновлено за новим шаблоном: 402"
- ],
+ "report": [],
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 8,
- "n_first": 333,
- "last_send": 1794981676.1286986,
+ "today": 11,
+ "n_first": 336,
+ "last_send": 1794982545.25536,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
