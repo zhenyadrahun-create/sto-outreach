@@ -5006,8 +5006,10 @@
    "type": "sto",
    "address": "вул. Вакарова",
    "city": "Виноградів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380962481848/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380962481848/",
+   "notified": 1794989744.9911218,
+   "t1": 1794989744.9911218
   },
   "c380506723886": {
    "name": "Автосервіс Гінцака",
@@ -5016,8 +5018,10 @@
    "type": "sto",
    "address": "вул. Гінцака, 23А",
    "city": "Виноградів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506723886/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506723886/",
+   "notified": 1794989744.9911218,
+   "t1": 1794989744.9911218
   },
   "c380673126900": {
    "name": "VKT",
@@ -5026,8 +5030,10 @@
    "type": "sto",
    "address": "вул. Франка, 118",
    "city": "Виноградів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673126900/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673126900/",
+   "notified": 1794989744.9911218,
+   "t1": 1794989744.9911218
   },
   "c380978056835": {
    "name": "СТО У ПАШІ",
@@ -5445,9 +5451,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 32,
- "n_first": 357,
- "last_send": 1794988879.3542624,
+ "today": 35,
+ "n_first": 360,
+ "last_send": 1794989744.9911218,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
