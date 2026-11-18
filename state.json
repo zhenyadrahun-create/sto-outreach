@@ -5294,8 +5294,10 @@
    "type": "sto",
    "address": "Gnata Khotkevycha St",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380975977375/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380975977375/",
+   "notified": 1794996943.9974127,
+   "t1": 1794996943.9974127
   },
   "c380632211520": {
    "name": "Dolphin",
@@ -5304,8 +5306,10 @@
    "type": "sto",
    "address": "Vernadskoho St",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380632211520/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380632211520/",
+   "notified": 1794996943.9974127,
+   "t1": 1794996943.9974127
   },
   "c380982196466": {
    "name": "Avtomyyka - Shynomontazh \"Blik\"",
@@ -5314,8 +5318,10 @@
    "type": "sto",
    "address": "Raisy Okipnoi St",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982196466/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982196466/",
+   "notified": 1794996943.9974127,
+   "t1": 1794996943.9974127
   },
   "c380634525203": {
    "name": "Шиномонтаж garage",
@@ -5493,9 +5499,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 56,
- "n_first": 381,
- "last_send": 1794996086.4751997,
+ "today": 59,
+ "n_first": 384,
+ "last_send": 1794996943.9974127,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
