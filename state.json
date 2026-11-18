@@ -5078,8 +5078,10 @@
    "type": "sto",
    "address": "вул. Тюльпанів, 74",
    "city": "Виноградів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673406908/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673406908/",
+   "notified": 1794991544.2705226,
+   "t1": 1794991544.2705226
   },
   "c380507692983": {
    "name": "WEST AUTO SERVICE",
@@ -5088,8 +5090,10 @@
    "type": "sto",
    "address": "вул. Мужайська, 95",
    "city": "Берегове",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380507692983/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380507692983/",
+   "notified": 1794991544.2705226,
+   "t1": 1794991544.2705226
   },
   "c380502644247": {
    "name": "Дизель Сервіс",
@@ -5098,8 +5102,10 @@
    "type": "sto",
    "address": "вул. Дейдовська, 1",
    "city": "Берегове",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380502644247/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380502644247/",
+   "notified": 1794991544.2705226,
+   "t1": 1794991544.2705226
   },
   "c380955565470": {
    "name": "UaGaragebox",
@@ -5457,9 +5463,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 38,
- "n_first": 363,
- "last_send": 1794990663.3162768,
+ "today": 41,
+ "n_first": 366,
+ "last_send": 1794991544.2705226,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
