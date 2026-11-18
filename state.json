@@ -4934,8 +4934,10 @@
    "type": "sto",
    "address": "вул. Б. Хмельницького, 67а",
    "city": "Долина",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965451196/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965451196/",
+   "notified": 1794987944.423902,
+   "t1": 1794987944.423902
   },
   "c380660448889": {
    "name": "СТО Долина",
@@ -4944,8 +4946,10 @@
    "type": "sto",
    "address": "вул. Б. Хмельницького",
    "city": "Долина",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660448889/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380660448889/",
+   "notified": 1794987944.423902,
+   "t1": 1794987944.423902
   },
   "c380506353237": {
    "name": "ТОВ Долина Автосервіс",
@@ -4954,8 +4958,10 @@
    "type": "sto",
    "address": "вул. Крушельницької, 8",
    "city": "Долина",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506353237/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380506353237/",
+   "notified": 1794987944.423902,
+   "t1": 1794987944.423902
   },
   "c380996144471": {
    "name": "СТО Автосервіс",
@@ -5433,9 +5439,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 26,
- "n_first": 351,
- "last_send": 1794987062.0533714,
+ "today": 29,
+ "n_first": 354,
+ "last_send": 1794987944.423902,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
