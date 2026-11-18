@@ -5222,8 +5222,10 @@
    "type": "sto",
    "address": "вул. Федорова",
    "city": "Іршава",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961242529/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961242529/",
+   "notified": 1794995145.7691834,
+   "t1": 1794995145.7691834
   },
   "c380637191887": {
    "name": "Рахів автосервіс",
@@ -5232,8 +5234,10 @@
    "type": "sto",
    "address": "вул. Київська, 94А",
    "city": "Рахів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380637191887/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380637191887/",
+   "notified": 1794995145.7691834,
+   "t1": 1794995145.7691834
   },
   "c380965503501": {
    "name": "Shynomontazh Tsilodobovo",
@@ -5242,8 +5246,10 @@
    "type": "sto",
    "address": "с. Сокільники",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965503501/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380965503501/",
+   "notified": 1794995145.7691834,
+   "t1": 1794995145.7691834
   },
   "c380980157587": {
    "name": "Автомийка Fresh CARWASH",
@@ -5481,9 +5487,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 50,
- "n_first": 375,
- "last_send": 1794994272.0866063,
+ "today": 53,
+ "n_first": 378,
+ "last_send": 1794995145.7691834,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
