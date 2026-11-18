@@ -5376,8 +5376,10 @@
    "type": "sto",
    "address": "в'їзд у підземний паркінг для автомобілів",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380637017172/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380637017172/",
+   "notified": 1794998743.8691773,
+   "t1": 1794998743.8691773
   },
   "c380675356630": {
    "name": "Автомийка Clean Auto Гетьмана",
@@ -5386,8 +5388,10 @@
    "type": "sto",
    "address": "Vadyma Hetmana St",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675356630/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675356630/",
+   "notified": 1794998743.8691773,
+   "t1": 1794998743.8691773
   },
   "c380686565225": {
    "name": "Автомийка «CleanCar»",
@@ -5396,8 +5400,10 @@
    "type": "sto",
    "address": "Henerala Shapovala St",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380686565225/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380686565225/",
+   "notified": 1794998743.8691773,
+   "t1": 1794998743.8691773
   },
   "c380730000130": {
    "name": "LAB13 детейлинг центр: оклейка пленками, тюнинг, химчистка, автомойка",
@@ -5505,9 +5511,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 62,
- "n_first": 387,
- "last_send": 1794997863.7711403,
+ "today": 65,
+ "n_first": 390,
+ "last_send": 1794998743.8691773,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
