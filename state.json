@@ -5448,8 +5448,10 @@
    "type": "sto",
    "address": "Sviatoslava Khorobroho St",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989946178/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989946178/",
+   "notified": 1795000545.283242,
+   "t1": 1795000545.283242
   },
   "c380949969577": {
    "name": "Шиномонтаж Паскаль 24 часа",
@@ -5458,8 +5460,10 @@
    "type": "sto",
    "address": "Люстдорфська дорога",
    "city": "Одеса",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380949969577/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380949969577/",
+   "notified": 1795000545.283242,
+   "t1": 1795000545.283242
   },
   "c380739691229": {
    "name": "Мобильный (Выездной) Шиномонтаж Tomas Tire Service",
@@ -5468,8 +5472,10 @@
    "type": "sto",
    "address": "Sakharova Street",
    "city": "Одеса",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380739691229/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380739691229/",
+   "notified": 1795000545.283242,
+   "t1": 1795000545.283242
   },
   "c380678412275": {
    "name": "Shynomontazh U Ihorya",
@@ -5517,9 +5523,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 68,
- "n_first": 393,
- "last_send": 1794999680.888137,
+ "today": 71,
+ "n_first": 396,
+ "last_send": 1795000545.283242,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
