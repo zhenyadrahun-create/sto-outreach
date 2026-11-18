@@ -5484,8 +5484,10 @@
    "type": "sto",
    "address": "Inhlezi St",
    "city": "Одеса",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380678412275/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380678412275/",
+   "notified": 1795001464.776873,
+   "t1": 1795001464.776873
   },
   "c380686113184": {
    "name": "Автомийка",
@@ -5494,8 +5496,10 @@
    "type": "sto",
    "address": "Korolenka St",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380686113184/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380686113184/",
+   "notified": 1795001464.776873,
+   "t1": 1795001464.776873
   },
   "c380737709077": {
    "name": "Автомойка круглосуточная",
@@ -5504,8 +5508,10 @@
    "type": "sto",
    "address": "Yevhena Chykalenka St",
    "city": "Дніпро",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380737709077/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380737709077/",
+   "notified": 1795001464.776873,
+   "t1": 1795001464.776873
   },
   "c380997778702": {
    "name": "Huma Kharkiv",
@@ -5523,9 +5529,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 71,
- "n_first": 396,
- "last_send": 1795000545.283242,
+ "today": 74,
+ "n_first": 399,
+ "last_send": 1795001464.776873,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
