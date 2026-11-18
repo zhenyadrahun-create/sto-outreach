@@ -4612,8 +4612,10 @@
    "type": "sto",
    "address": "Sichovykh Striltsiv St, 16",
    "city": "Яворів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989374001/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989374001/",
+   "notified": 1794981676.1286986,
+   "t1": 1794981676.1286986
   },
   "c380979660996": {
    "name": "Avto Sto Shynomontazh",
@@ -4622,8 +4624,10 @@
    "type": "sto",
    "address": "Vulytsya Makoveya, 30",
    "city": "Яворів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979660996/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979660996/",
+   "notified": 1794981676.1286986,
+   "t1": 1794981676.1286986
   },
   "c380987796576": {
    "name": "Автосервіс, СТО Arcada.service",
@@ -4632,8 +4636,10 @@
    "type": "sto",
    "address": "Vul. Levada, 3",
    "city": "Яворів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380987796576/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380987796576/",
+   "notified": 1794981676.1286986,
+   "t1": 1794981676.1286986
   },
   "c380967018786": {
    "name": "Автосервіс. \"TechServiceAutowelt\"",
@@ -4642,8 +4648,10 @@
    "type": "sto",
    "address": "Lesi Ukrainky St",
    "city": "Золочів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380967018786/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380967018786/",
+   "notified": 1794981676.1286986,
+   "t1": 1794981676.1286986
   },
   "c380982052274": {
    "name": "Автосервіс Redbox",
@@ -4652,8 +4660,10 @@
    "type": "sto",
    "address": "Brodivs'ka St, 19",
    "city": "Золочів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982052274/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982052274/",
+   "notified": 1794981676.1286986,
+   "t1": 1794981676.1286986
   },
   "c380686411086": {
    "name": "Servis Avtolyuks",
@@ -4662,8 +4672,10 @@
    "type": "sto",
    "address": "Lesi Ukrainky St, 20",
    "city": "Золочів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380686411086/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380686411086/",
+   "notified": 1794981676.1286986,
+   "t1": 1794981676.1286986
   },
   "c380673080308": {
    "name": "Avtokomanda",
@@ -4672,8 +4684,10 @@
    "type": "sto",
    "address": "Vulytsya Lʹvivsʹka, 50",
    "city": "Золочів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673080308/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673080308/",
+   "notified": 1794981676.1286986,
+   "t1": 1794981676.1286986
   },
   "c380963733343": {
    "name": "PRO-SERVISE",
@@ -4682,8 +4696,10 @@
    "type": "sto",
    "address": "Vulytsya Sheptytsʹkoho, 24 а",
    "city": "Броди",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380963733343/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380963733343/",
+   "notified": 1794981676.1286986,
+   "t1": 1794981676.1286986
   },
   "c380681308072": {
    "name": "Fop Vosinsʹkyy\"Avtoservis\"",
@@ -5377,15 +5393,17 @@
   }
  },
  "fetched": [],
- "report": [],
+ "report": [
+  "♻️ Демо-сайтів оновлено за новим шаблоном: 402"
+ ],
  "tt_done": [],
  "tt_geo": {},
- "day": "2026-11-17",
- "today": 100,
- "n_first": 325,
- "last_send": 1794920479.289804,
+ "day": "2026-11-18",
+ "today": 8,
+ "n_first": 333,
+ "last_send": 1794981676.1286986,
  "upd": 823717487,
  "n_follow": 203,
- "tpl": "2255c60b2d9d7c309353408223ab3f9c",
+ "tpl": "d9e1e239c9379004a3b4113a20f374aa",
  "n_final": 203
 }
