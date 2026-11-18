@@ -4862,8 +4862,10 @@
    "type": "sto",
    "address": "вул. Сонячна, 12",
    "city": "Городенка",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989186917/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380989186917/",
+   "notified": 1794986145.452602,
+   "t1": 1794986145.452602
   },
   "c380502781552": {
    "name": "СТО Автоspa",
@@ -4872,8 +4874,10 @@
    "type": "sto",
    "address": "вул. Ломоносова",
    "city": "Надвірна",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380502781552/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380502781552/",
+   "notified": 1794986145.452602,
+   "t1": 1794986145.452602
   },
   "c380509204300": {
    "name": "Avto Servis",
@@ -4882,8 +4886,10 @@
    "type": "sto",
    "address": "вул. Майданська, 5А",
    "city": "Надвірна",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509204300/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380509204300/",
+   "notified": 1794986145.452602,
+   "t1": 1794986145.452602
   },
   "c380977118673": {
    "name": "Avtodoktor STO+",
@@ -5421,9 +5427,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 20,
- "n_first": 345,
- "last_send": 1794985277.304875,
+ "today": 23,
+ "n_first": 348,
+ "last_send": 1794986145.452602,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
