@@ -5412,8 +5412,10 @@
    "type": "sto",
    "address": "Stolychne Hwy",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380730000130/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380730000130/",
+   "notified": 1794999680.888137,
+   "t1": 1794999680.888137
   },
   "c380674466878": {
    "name": "ars-detailing",
@@ -5422,8 +5424,10 @@
    "type": "sto",
    "address": "Yevropeiskoho Soiuzu Ave",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674466878/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380674466878/",
+   "notified": 1794999680.888137,
+   "t1": 1794999680.888137
   },
   "c380933876564": {
    "name": "SpaCARS",
@@ -5432,8 +5436,10 @@
    "type": "sto",
    "address": "Nauky Ave",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380933876564/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380933876564/",
+   "notified": 1794999680.888137,
+   "t1": 1794999680.888137
   },
   "c380989946178": {
    "name": "Детейлінг центр 4К - Хімчистка, Полірування, Реставрація фар (детейлінг)",
@@ -5511,9 +5517,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 65,
- "n_first": 390,
- "last_send": 1794998743.8691773,
+ "today": 68,
+ "n_first": 393,
+ "last_send": 1794999680.888137,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
