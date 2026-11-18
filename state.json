@@ -5150,8 +5150,10 @@
    "type": "sto",
    "address": "вул. Коріатовича",
    "city": "Тячів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970633007/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380970633007/",
+   "notified": 1794993353.216222,
+   "t1": 1794993353.216222
   },
   "c380673100361": {
    "name": "SALWIL Avto",
@@ -5160,8 +5162,10 @@
    "type": "sto",
    "address": "вул. Армійська, 126",
    "city": "Тячів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673100361/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380673100361/",
+   "notified": 1794993353.216222,
+   "t1": 1794993353.216222
   },
   "c380979003910": {
    "name": "СТО Іршава",
@@ -5170,8 +5174,10 @@
    "type": "sto",
    "address": "вул. Шевченка",
    "city": "Іршава",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979003910/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979003910/",
+   "notified": 1794993353.216222,
+   "t1": 1794993353.216222
   },
   "c380982379010": {
    "name": "СТО Іршава 2",
@@ -5469,9 +5475,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 44,
- "n_first": 369,
- "last_send": 1794992480.7945302,
+ "today": 47,
+ "n_first": 372,
+ "last_send": 1794993353.216222,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
