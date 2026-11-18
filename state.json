@@ -4744,8 +4744,10 @@
    "type": "sto",
    "address": "Vul. Nezalezhnosti, 113",
    "city": "Чортків",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979151642/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979151642/",
+   "notified": 1794983464.1442297,
+   "t1": 1794983464.1442297
   },
   "c380972710752": {
    "name": "СТО \"ГАРАЖ\"",
@@ -4754,8 +4756,10 @@
    "type": "sto",
    "address": "Vulytsya Stepana Bandery, 56В",
    "city": "Чортків",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972710752/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380972710752/",
+   "notified": 1794983464.1442297,
+   "t1": 1794983464.1442297
   },
   "c380355223786": {
    "name": "СТО Khmel'nyts'koho str, 14А",
@@ -4774,8 +4778,10 @@
    "type": "sto",
    "address": "Vulytsya Zaliznychna, 87",
    "city": "Чортків",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675475566/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675475566/",
+   "notified": 1794983464.1442297,
+   "t1": 1794983464.1442297
   },
   "c380979682673": {
    "name": "Auto Repair Andrew",
@@ -5403,9 +5409,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 11,
- "n_first": 336,
- "last_send": 1794982545.25536,
+ "today": 14,
+ "n_first": 339,
+ "last_send": 1794983464.1442297,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
