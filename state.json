@@ -5258,8 +5258,10 @@
    "type": "sto",
    "address": "Pasichna St",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380980157587/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380980157587/",
+   "notified": 1794996086.4751997,
+   "t1": 1794996086.4751997
   },
   "c380678016574": {
    "name": "Prestyzh",
@@ -5268,8 +5270,10 @@
    "type": "sto",
    "address": "Chervonoyi Kalyny Ave",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380678016574/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380678016574/",
+   "notified": 1794996086.4751997,
+   "t1": 1794996086.4751997
   },
   "c380988610061": {
    "name": "Avtomyyka, Lviv",
@@ -5278,8 +5282,10 @@
    "type": "sto",
    "address": "Vynnytsya St",
    "city": "Львів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988610061/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380988610061/",
+   "notified": 1794996086.4751997,
+   "t1": 1794996086.4751997
   },
   "c380975977375": {
    "name": "Lux Wash",
@@ -5487,9 +5493,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 53,
- "n_first": 378,
- "last_send": 1794995145.7691834,
+ "today": 56,
+ "n_first": 381,
+ "last_send": 1794996086.4751997,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
