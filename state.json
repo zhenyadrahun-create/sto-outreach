@@ -5186,8 +5186,10 @@
    "type": "sto",
    "address": "вул. Федорова, 29а",
    "city": "Іршава",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982379010/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982379010/",
+   "notified": 1794994272.0866063,
+   "t1": 1794994272.0866063
   },
   "c380677595644": {
    "name": "СТО Будівельна",
@@ -5196,8 +5198,10 @@
    "type": "sto",
    "address": "вул. Будівельна, 4",
    "city": "Іршава",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677595644/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380677595644/",
+   "notified": 1794994272.0866063,
+   "t1": 1794994272.0866063
   },
   "c380979147955": {
    "name": "Autohub Service",
@@ -5206,8 +5210,10 @@
    "type": "sto",
    "address": "вул. Конституції, 62",
    "city": "Іршава",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979147955/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979147955/",
+   "notified": 1794994272.0866063,
+   "t1": 1794994272.0866063
   },
   "c380961242529": {
    "name": "СТО У Русина",
@@ -5475,9 +5481,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 47,
- "n_first": 372,
- "last_send": 1794993353.216222,
+ "today": 50,
+ "n_first": 375,
+ "last_send": 1794994272.0866063,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
