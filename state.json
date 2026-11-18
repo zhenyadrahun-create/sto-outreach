@@ -5042,8 +5042,10 @@
    "type": "sto",
    "address": "вул. Меліоративна",
    "city": "Виноградів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978056835/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380978056835/",
+   "notified": 1794990663.3162768,
+   "t1": 1794990663.3162768
   },
   "c380995005556": {
    "name": "СТО ГЛОБАЛ",
@@ -5052,8 +5054,10 @@
    "type": "sto",
    "address": "вул. Меліоративна, 1",
    "city": "Виноградів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380995005556/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380995005556/",
+   "notified": 1794990663.3162768,
+   "t1": 1794990663.3162768
   },
   "c380976889900": {
    "name": "СТО Копанська",
@@ -5062,8 +5066,10 @@
    "type": "sto",
    "address": "вул. Копанська, 256-Ж",
    "city": "Виноградів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976889900/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380976889900/",
+   "notified": 1794990663.3162768,
+   "t1": 1794990663.3162768
   },
   "c380673406908": {
    "name": "EGR Service автоелектрик",
@@ -5451,9 +5457,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 35,
- "n_first": 360,
- "last_send": 1794989744.9911218,
+ "today": 38,
+ "n_first": 363,
+ "last_send": 1794990663.3162768,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
