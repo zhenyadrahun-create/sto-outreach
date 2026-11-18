@@ -5330,8 +5330,10 @@
    "type": "sto",
    "address": "Rostyslavska St",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380634525203/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380634525203/",
+   "notified": 1794997863.7711403,
+   "t1": 1794997863.7711403
   },
   "c380675451177": {
    "name": "Мобильный шиномонтаж \"ТОП ГРАЦИЯ\"",
@@ -5340,8 +5342,10 @@
    "type": "sto",
    "address": "Kozatska St",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675451177/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380675451177/",
+   "notified": 1794997863.7711403,
+   "t1": 1794997863.7711403
   },
   "c380955732676": {
    "name": "Автомийка LUX",
@@ -5350,8 +5354,10 @@
    "type": "sto",
    "address": "Poltavska St",
    "city": "Київ",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955732676/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380955732676/",
+   "notified": 1794997863.7711403,
+   "t1": 1794997863.7711403
   },
   "c380443344499": {
    "name": "Автомийка-Детейлінг \"Home Wash Detailing \"",
@@ -5499,9 +5505,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 59,
- "n_first": 384,
- "last_send": 1794996943.9974127,
+ "today": 62,
+ "n_first": 387,
+ "last_send": 1794997863.7711403,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
