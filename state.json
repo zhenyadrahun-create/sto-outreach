@@ -4790,8 +4790,10 @@
    "type": "sto",
    "address": "ремонт авто Андрій",
    "city": "Золочів",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979682673/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979682673/",
+   "notified": 1794984342.8388352,
+   "t1": 1794984342.8388352
   },
   "c380961327630": {
    "name": "СТО вул. Шевченка",
@@ -4800,8 +4802,10 @@
    "type": "sto",
    "address": "вул. Шевченка",
    "city": "Бережани",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961327630/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380961327630/",
+   "notified": 1794984342.8388352,
+   "t1": 1794984342.8388352
   },
   "c380982952088": {
    "name": "СТО 49.4491087, 24.9209260",
@@ -4810,8 +4814,10 @@
    "type": "sto",
    "address": "49.4491087, 24.9209260",
    "city": "Бережани",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982952088/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380982952088/",
+   "notified": 1794984342.8388352,
+   "t1": 1794984342.8388352
   },
   "c380964654528": {
    "name": "Bs servise",
@@ -5409,9 +5415,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 14,
- "n_first": 339,
- "last_send": 1794983464.1442297,
+ "today": 17,
+ "n_first": 342,
+ "last_send": 1794984342.8388352,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
