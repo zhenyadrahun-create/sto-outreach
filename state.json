@@ -4826,8 +4826,10 @@
    "type": "sto",
    "address": "Vul. Ternopilʹsʹka, 21",
    "city": "Бережани",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380964654528/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380964654528/",
+   "notified": 1794985277.304875,
+   "t1": 1794985277.304875
   },
   "c380963904565": {
    "name": "Avto-Servis",
@@ -4836,8 +4838,10 @@
    "type": "sto",
    "address": "вул. Височана, 1",
    "city": "Городенка",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380963904565/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380963904565/",
+   "notified": 1794985277.304875,
+   "t1": 1794985277.304875
   },
   "c380979673923": {
    "name": "Автосервіс Mercedes Benz",
@@ -4846,8 +4850,10 @@
    "type": "sto",
    "address": "",
    "city": "Городенка",
-   "status": "new",
-   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979673923/"
+   "status": "sent",
+   "site": "https://zhenyadrahun-create.github.io/sto-outreach/sites/sto-c380979673923/",
+   "notified": 1794985277.304875,
+   "t1": 1794985277.304875
   },
   "c380989186917": {
    "name": "Шиномонтаж, розвал-сходження, евакуатор",
@@ -5415,9 +5421,9 @@
  "tt_done": [],
  "tt_geo": {},
  "day": "2026-11-18",
- "today": 17,
- "n_first": 342,
- "last_send": 1794984342.8388352,
+ "today": 20,
+ "n_first": 345,
+ "last_send": 1794985277.304875,
  "upd": 823717487,
  "n_follow": 203,
  "tpl": "d9e1e239c9379004a3b4113a20f374aa",
