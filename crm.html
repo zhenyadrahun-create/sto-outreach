@@ -133,17 +133,17 @@ nav button[aria-current="page"]{background:var(--btn);color:var(--on-btn)}
 "use strict";
 var KEY="work-crm-v3",DAY=864e5;
 var SEED="";
-var DEMO="https://zhenyadrahun-create.github.io/sto-outreach/sites/dental-demo.html";
+var DEMO="https://zhenyadrahun-create.github.io/sto-outreach/sites/dental-demo.html",SITES="https://zhenyadrahun-create.github.io/sto-outreach/sites/";
 var DEF_TPL={
  uk:{
-  first:["Добрий день! Це {me}. Побачив {name} на Google Maps і не знайшов сайту з онлайн-записом. Зробив для вас приклад, подивіться: {link}","Вітаю! Мене звати {me}. Для {name} підготував приклад сайту з онлайн-записом пацієнтів: {link} Якщо цікаво, підлаштую під вашу клініку.","Добрий день! Я розробляю сайти для клінік. Для {name} зробив приклад сторінки із записом онлайн: {link} Можу коротко розповісти, як це працює?"],
+  first:["Добрий день! Це {me}. Знайшов {name} в інтернеті, але не побачив сайту з онлайн-записом. Зробив для вас приклад, подивіться: {link}","Вітаю! Мене звати {me}. Для {name} підготував приклад сайту з онлайн-записом пацієнтів: {link} Якщо цікаво, підлаштую під вашу клініку.","Добрий день! Я розробляю сайти для клінік. Для {name} зробив приклад сторінки із записом онлайн: {link} Можу коротко розповісти, як це працює?"],
   site:["Добрий день! Це {me}. Для {name} зробив приклад сайту з онлайн-записом: {link} Подивіться, будь ласка, коли буде хвилинка."],
   video:["Добрий день! Це {me}. Для {name} зробив приклад сайту з онлайн-записом: {link} Подивіться, будь ласка, коли буде хвилинка."],
   follow:["Добрий день! Це {me}, нагадаю про приклад сайту для {name}: {link} Якщо не на часі, скажіть, і я не турбуватиму.","Вітаю! Чи встигли подивитись приклад для {name}? {link} Із радістю відповім на запитання."],
   final:["Не буду набридати. Якщо сайт для {name} стане актуальним, мій номер у вас є. Гарного тижня!"],
   price:["Сайт із онлайн-записом: {price} грн одноразово, без щомісячної плати. Адресу, ціни та фото підлаштовую під вашу клініку. Оплата після того, як ви затвердите готовий сайт."]},
  ru:{
-  first:["Добрый день! Это {me}. Увидел {name} на Google Maps и не нашёл сайта с онлайн-записью. Сделал для вас пример, посмотрите: {link}","Здравствуйте! Меня зовут {me}. Для {name} подготовил пример сайта с онлайн-записью пациентов: {link} Если интересно, подстрою под вашу клинику.","Добрый день! Я делаю сайты для клиник. Для {name} сделал пример страницы с записью онлайн: {link} Могу коротко рассказать, как это работает?"],
+  first:["Добрый день! Это {me}. Нашёл {name} в интернете, но не увидел сайта с онлайн-записью. Сделал для вас пример, посмотрите: {link}","Здравствуйте! Меня зовут {me}. Для {name} подготовил пример сайта с онлайн-записью пациентов: {link} Если интересно, подстрою под вашу клинику.","Добрый день! Я делаю сайты для клиник. Для {name} сделал пример страницы с записью онлайн: {link} Могу коротко рассказать, как это работает?"],
   site:["Добрый день! Это {me}. Для {name} сделал пример сайта с онлайн-записью: {link} Посмотрите, пожалуйста, когда будет минутка."],
   video:["Добрый день! Это {me}. Для {name} сделал пример сайта с онлайн-записью: {link} Посмотрите, пожалуйста, когда будет минутка."],
   follow:["Добрый день! Это {me}, напомню о примере сайта для {name}: {link} Если не ко времени, скажите, и я не буду беспокоить.","Здравствуйте! Успели посмотреть пример для {name}? {link} С радостью отвечу на вопросы."],
@@ -167,12 +167,12 @@ function dk(t){var d=new Date(t||Date.now());return d.getFullYear()+"-"+String(d
 function fmt(n){return Math.round(n).toLocaleString("uk-UA").replace(/ /g," ")}
 function fmtPhone(p){var d=digits(p);return d.length===12?"+"+d.slice(0,2)+" "+d.slice(2,5)+" "+d.slice(5,8)+" "+d.slice(8,10)+" "+d.slice(10):"+"+d}
 /* ---- імпорт CSV: name;phone;address;city;type ---- */
-function importCsv(text,s){s=s||S;var have={};s.contacts.forEach(function(c){have[c.phone.slice(-9)]=1});var n=0;
- String(text).split(/\r?\n/).forEach(function(line){var p=line.split(";");if(p.length<2)return;var ph=digits(p[1]);if(ph.length<9)return;if(ph.length===10)ph="38"+ph;var k=ph.slice(-9);if(have[k])return;have[k]=1;
-  s.contacts.push({id:uid(),name:(p[0]||"").trim(),phone:ph,address:(p[2]||"").trim(),city:(p[3]||"").trim(),status:"new",stage:0,t:{},note:"",added:Date.now()});n++});return n}
+function importCsv(text,s){s=s||S;var have={};s.contacts.forEach(function(c){have[c.phone.slice(-9)]=c});var n=0;
+ String(text).split(/\r?\n/).forEach(function(line){var p=line.split(";");if(p.length<2)return;var ph=digits(p[1]);if(ph.length<9)return;if(ph.length===10)ph="38"+ph;var k=ph.slice(-9);if(have[k]){if(p[5]&&!have[k].slug)have[k].slug=p[5].trim();return}have[k]={};
+  s.contacts.push({id:uid(),name:(p[0]||"").trim(),phone:ph,address:(p[2]||"").trim(),city:(p[3]||"").trim(),slug:(p[5]||"").trim(),status:"new",stage:0,t:{},note:"",added:Date.now()});n++});return n}
 /* ---- тексти ---- */
 function tpls(kind){var L=S.set.lang;return((S.tpl[L]||DEF_TPL[L])[kind]||[""])}
-function fill(t,c){var L=c?DEMO+"?n="+encodeURIComponent(c.name)+"&city="+encodeURIComponent(c.city||"")+"&tel="+encodeURIComponent("+"+c.phone)+"&addr="+encodeURIComponent(c.address||""):DEMO;return String(t).replace(/\{link\}/g,L).replace(/\{name\}/g,c?c.name:"").replace(/\{me\}/g,S.set.me).replace(/\{price\}/g,S.set.price)}
+function fill(t,c){var L=!c?DEMO:c.slug?SITES+c.slug+".html":DEMO+"?n="+encodeURIComponent(c.name)+"&city="+encodeURIComponent(c.city||"")+"&tel="+encodeURIComponent("+"+c.phone)+(c.address?"&addr="+encodeURIComponent(c.address):"");return String(t).replace(/\{link\}/g,L).replace(/\{name\}/g,c?c.name:"").replace(/\{me\}/g,S.set.me).replace(/\{price\}/g,S.set.price)}
 function kindOf(c){if(c.stage===0)return"first";if(c.stage===1)return"follow";return"final"}
 var KL={first:"Сайт + видео",site:"Сайт",video:"Видео",follow:"Напомнить",final:"Последнее",price:"Цена"};
 var kindSel={};
@@ -236,7 +236,7 @@ function vContacts(){var fl=[["all","Все"],["new","Новые"],["due","На�
  var h='<div class="top"><div><div class="mono">база · '+S.contacts.length+'</div><h1>Контакты</h1></div><button class="btn sm p" data-act="add">+ Добавить</button></div>'
  +'<input id="q" type="search" placeholder="Поиск по названию, городу, номеру" value="'+esc(q)+'" aria-label="Поиск">'
  +'<div class="chips">'+fl.map(function(f){return'<button type="button" class="chip" data-f="'+f[0]+'" aria-pressed="'+(filter===f[0])+'">'+f[1]+'</button>'}).join("")+'</div><div class="list" id="lst"></div>'
- +'<div class="card stack" style="margin-top:16px"><div><h3>Импорт контактов</h3><p class="hint">Файл leads.csv (name;phone;address;city;dental). Дубли по номеру пропускаются. Если страница лежит в том же репозитории, новые контакты подтягиваются сами.</p></div><div class="row"><label class="btn" style="cursor:pointer">Выбрать файл CSV<input id="csv" type="file" accept=".csv,text/csv,text/plain" hidden></label><button class="btn" data-act="gh">Обновить из GitHub</button></div></div>';return h}
+ +'<div class="card stack" style="margin-top:16px"><div><h3>Импорт контактов</h3><p class="hint">Файл leads.csv (name;phone;address;city;dental;slug). Дубли по номеру пропускаются. Если страница лежит в том же репозитории, новые контакты подтягиваются сами.</p></div><div class="row"><label class="btn" style="cursor:pointer">Выбрать файл CSV<input id="csv" type="file" accept=".csv,text/csv,text/plain" hidden></label><button class="btn" data-act="gh">Обновить из GitHub</button></div></div>';return h}
 function drawList(){var Q=q.trim().toLowerCase(),a=S.contacts.filter(function(c){
   if(filter==="due"&&!dueNow(c))return false;if(["new","written","replied","shown","client","declined"].indexOf(filter)>-1&&c.status!==filter)return false;
   if(Q&&(c.name+" "+c.city+" "+c.phone).toLowerCase().indexOf(Q)<0)return false;return true});
