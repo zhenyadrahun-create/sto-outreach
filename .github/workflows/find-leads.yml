@@ -1,0 +1,50 @@
+name: Find leads
+on:
+  workflow_dispatch:
+    inputs:
+      city:
+        description: "Місто українською"
+        required: true
+        default: "Львів"
+      districts:
+        description: "Райони через кому (необов'язково)"
+        required: false
+        default: ""
+      source:
+        description: "Джерело"
+        type: choice
+        options: [osm, google]
+        default: osm
+      max_reviews:
+        description: "Максимум відгуків (для google)"
+        required: false
+        default: "100"
+      reset:
+        description: "Почати базу з нуля"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Find clinics
+        env:
+          CITY: ${{ inputs.city }}
+          DISTRICTS: ${{ inputs.districts }}
+          SOURCE: ${{ inputs.source }}
+          MAX_REVIEWS: ${{ inputs.max_reviews }}
+          RESET: ${{ inputs.reset }}
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: python scripts/find_leads.py
+      - name: Commit leads.csv
+        run: |
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add leads.csv
+          git diff --cached --quiet || (git commit -m "leads update" && git push)
