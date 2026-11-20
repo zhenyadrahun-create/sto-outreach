@@ -2,7 +2,11 @@
 """Збирає стоматології без сайту в leads.csv (формат CRM: name;phone;address;city;dental).
 Джерела: google (Places API New, потрібен ключ) або osm (безкоштовно, без ключа, дані неповні).
 Параметри беруться зі змінних оточення (їх задає workflow): CITY, DISTRICTS, SOURCE, MAX_REVIEWS, RESET."""
-import csv, io, json, os, re, sys, time, urllib.request, urllib.error
+import json, os, re, socket, sys, time, urllib.request, urllib.error
+
+# GitHub-раннери часто не мають IPv6: використовуємо лише IPv4 (інакше "Network is unreachable")
+_gai = socket.getaddrinfo
+socket.getaddrinfo = lambda *a, **k: [x for x in _gai(*a, **k) if x[0] == socket.AF_INET] or _gai(*a, **k)
 
 CITY = os.environ.get("CITY", "Львів").strip()
 DISTRICTS = [d.strip() for d in os.environ.get("DISTRICTS", "").split(",") if d.strip()]
@@ -26,11 +30,14 @@ def clean(t): return re.sub(r"[;\r\n]+", " ", (t or "")).strip()
 def has_real_site(url): return bool(url) and not SOCIAL.search(url)
 
 def post(url, data, headers, timeout=60):
+    headers = dict(headers); headers.setdefault("User-Agent", "sto-outreach-leadfinder/1.0 (github actions)")
     req = urllib.request.Request(url, data=data, headers=headers, method="POST")
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r: return json.loads(r.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
-        sys.exit("HTTP %s: %s" % (e.code, e.read().decode("utf-8", "ignore")[:400]))
+        raise RuntimeError("HTTP %s: %s" % (e.code, e.read().decode("utf-8", "ignore")[:300]))
+    except Exception as e:
+        raise RuntimeError(str(e))
 
 def parse_google(pl):
     """Повертає (name, phone, address) або None, якщо клініка не підходить."""
@@ -53,7 +60,8 @@ def google():
         for _ in range(3):
             body = {"textQuery": q, "languageCode": "uk", "regionCode": "UA", "pageSize": 20}
             if token: body["pageToken"] = token
-            res = post("https://places.googleapis.com/v1/places:searchText", json.dumps(body).encode(), hdr)
+            try: res = post("https://places.googleapis.com/v1/places:searchText", json.dumps(body).encode(), hdr)
+            except RuntimeError as e: sys.exit("Google API: %s" % e)
             for pl in res.get("places", []):
                 seen += 1
                 r = parse_google(pl)
@@ -67,8 +75,18 @@ def google():
 def osm():
     q = ('[out:json][timeout:90];area["name"="%s"]["boundary"="administrative"]->.a;'
          '(nwr["amenity"="dentist"](area.a);nwr["healthcare"="dentist"](area.a););out center tags;') % CITY.replace('"', "")
-    res = post("https://overpass-api.de/api/interpreter", ("data=" + urllib.request.quote(q)).encode(),
-               {"Content-Type": "application/x-www-form-urlencoded"}, 120)
+    MIRRORS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter",
+               "https://overpass.openstreetmap.fr/api/interpreter", "https://maps.mail.ru/osm/tools/overpass/api/interpreter"]
+    res = None
+    for url in MIRRORS:
+        for attempt in range(2):
+            try:
+                res = post(url, ("data=" + urllib.request.quote(q)).encode(), {"Content-Type": "application/x-www-form-urlencoded"}, 120)
+                break
+            except RuntimeError as e:
+                print("OSM %s: %s" % (url.split("/")[2], e)); time.sleep(3)
+        if res: break
+    if not res: sys.exit("Не вдалося підключитися до жодного сервера OSM. Спробуйте запустити ще раз за кілька хвилин.")
     found, seen = [], 0
     for el in res.get("elements", []):
         t = el.get("tags", {}); seen += 1
