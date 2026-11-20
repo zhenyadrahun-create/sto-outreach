@@ -1,13 +1,15 @@
 name: Find leads
 on:
+  schedule:
+    - cron: "0 5 * * 1"
   workflow_dispatch:
     inputs:
       city:
-        description: "Місто українською"
-        required: true
+        description: "Місто або кілька через кому. Порожньо = усі з cities.txt"
+        required: false
         default: "Львів"
       districts:
-        description: "Райони через кому (необов'язково)"
+        description: "Райони через кому (тільки для google)"
         required: false
         default: ""
       source:
@@ -16,7 +18,7 @@ on:
         options: [osm, google]
         default: osm
       max_reviews:
-        description: "Максимум відгуків (для google)"
+        description: "Максимум відгуків (тільки для google)"
         required: false
         default: "100"
       reset:
@@ -25,9 +27,13 @@ on:
         default: false
 permissions:
   contents: write
+concurrency:
+  group: find-leads
+  cancel-in-progress: false
 jobs:
   find:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,14 +43,17 @@ jobs:
         env:
           CITY: ${{ inputs.city }}
           DISTRICTS: ${{ inputs.districts }}
-          SOURCE: ${{ inputs.source }}
-          MAX_REVIEWS: ${{ inputs.max_reviews }}
-          RESET: ${{ inputs.reset }}
+          SOURCE: ${{ inputs.source || 'osm' }}
+          MAX_REVIEWS: ${{ inputs.max_reviews || '100' }}
+          RESET: ${{ inputs.reset || 'false' }}
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: python scripts/find_leads.py
-      - name: Commit leads.csv
+      - name: Commit results
         run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
-          git add leads.csv
-          git diff --cached --quiet || (git commit -m "leads update" && git push)
+          git add leads.csv sites
+          git diff --cached --quiet && exit 0
+          git commit -m "leads update"
+          git pull --rebase origin main
+          git push
