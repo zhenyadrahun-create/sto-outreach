@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
 <meta name="theme-color" content="#0a1422">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%230a1422%27/%3E%3Cpath d=%27M16 8c-2 0-3 1.2-5.4 1.2C8 9.2 6.800 11.300 6.800 14.500c0 3 1.100 5.500 2 8.300.9 2.800 1 6.600 3.300 6.600 2 0 1.700-5.400 4.600-5.400s2.600 5.400 4.600 5.400c2.200 0 2.300-3.800 3.200-6.600.9-2.800 2-5.300 2-8.300 0-3.200-1.200-5.300-3.800-5.300-2.400 0-3.400-1.200-5.400-1.200z%27 transform=%27translate(0 -4)%27 fill=%27%23eaf1f9%27/%3E%3C/svg%3E">
 <style>
 :root{--ink:#0e1418;--mut:#65727a;--line:#dfe5e9;--bg:#fff;--alt:#f3f6f8;--sky:#dfe9f3;--acc:#1c6fe0;--f:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;--d:"Inter Tight","Inter",system-ui,sans-serif;--r:26px}
 *{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -111,6 +112,16 @@ summary{font:600 18px/1.35 var(--f)}.stats b{font-weight:600;letter-spacing:-.04
 .tk i{font:600 40px/1 var(--f);font-style:normal;letter-spacing:-.04em}
 .mq div{font:500 20px var(--f);font-style:normal}.hero p.l{font-size:18px}
 @media(max-width:900px){.mq div{font-size:17px}}
+.skip{position:absolute;left:-999px;top:8px;z-index:100;background:#fff;color:#0a1422;padding:10px 16px;border-radius:10px}.skip:focus{left:12px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.tabs{display:inline-flex;gap:4px;padding:4px;border-radius:99px;background:#fff;border:1px solid var(--line);margin-bottom:28px;max-width:100%;overflow-x:auto}
+.tabs button{border:0;background:transparent;font:600 15px var(--f);padding:11px 22px;border-radius:99px;cursor:pointer;color:var(--mut);min-height:44px;white-space:nowrap;transition:.2s}
+.tabs button[aria-selected=true]{background:var(--ink);color:#fff}
+.tpn{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:40px}
+.tpn h3{font-size:26px;margin-bottom:12px}.tpn p{color:var(--mut);margin:0 0 24px}.tpn .ck{margin:0}
+.urg{padding:0 12px}.urg .w{display:flex;justify-content:space-between;align-items:center;gap:28px;background:linear-gradient(120deg,#12263c,#1b3b5e);color:#fff;border-radius:34px;padding:44px 48px;max-width:1136px}
+.urg h2{font-size:clamp(28px,4vw,40px);margin-bottom:8px}.urg p{margin:0;color:#b9c9db;max-width:520px}.urg .btn{background:#eaf1f9;color:#0a1422;border-color:#eaf1f9;flex:none}
+@media(max-width:900px){.tpn{grid-template-columns:minmax(0,1fr);gap:24px;padding:26px}.urg .w{flex-direction:column;align-items:flex-start;padding:32px 24px;border-radius:28px}.urg .btn{width:100%}.tabs{display:flex}.tabs button{flex:1}}
 @media(prefers-reduced-motion:reduce){.sp .wd>span{transform:none!important}.mq div{animation:none}}
 </style></head>
 <body>
@@ -133,7 +144,8 @@ summary{font:600 18px/1.35 var(--f)}.stats b{font-weight:600;letter-spacing:-.04
 <rect x="-70" y="0" width="46" height="240" fill="url(#sw)" transform="skewX(-16)"><animateTransform attributeName="transform" type="translate" values="-120 0;300 0;300 0" keyTimes="0;.55;1" dur="7s" repeatCount="indefinite" additive="sum"/></rect></g>
 <use href="#tp" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="1.6"/></symbol>
 <symbol id="sp" viewBox="0 0 24 24"><path d="M12 0c.8 6 2 10 12 12-10 2-11.2 6-12 12-.8-6-2-10-12-12 10-2 11.2-6 12-12z"/></symbol></defs></svg>
-<header id="h"><div class="bar"><a class="logo" href="#top"><svg viewBox="0 0 24 26" fill="none" stroke="currentColor" stroke-width="1.6"><use href="#t"/></svg><span data-b="name">Клініка</span></a>
+<a class="skip" href="#book">Перейти до запису</a>
+<header id="h"><div class="bar"><a class="logo" href="#top" aria-label="На початок"><svg viewBox="0 0 24 26" fill="none" stroke="currentColor" stroke-width="1.6"><use href="#t"/></svg><span data-b="name">Клініка</span></a>
 <nav><a href="#services">Послуги</a><a href="#about">Про клініку</a><a href="#how">Візит</a><a href="#faq">Питання</a><a href="#book">Контакти</a></nav>
 <a class="btn" href="#book">Записатись</a><button class="mb" id="mb" aria-label="Меню"><i></i><i></i></button></div></header>
 <main id="top">
@@ -160,6 +172,10 @@ summary{font:600 18px/1.35 var(--f)}.stats b{font-weight:600;letter-spacing:-.04
 <div class="rv"><div class="eyebrow">Про клініку</div><h2>Спокійний підхід і <b>чесні ціни</b></h2>
 <ul class="ck"><li>Лікар пояснює, що бачить, і показує знімок</li><li>Письмовий план лікування з вартістю до початку</li><li>Одноразові інструменти та стерилізація за стандартами</li><li>Гарантія на виконані роботи та нагадування про повторні візити</li></ul><a class="btn a" href="#book">Обрати час візиту</a></div></div></section>
 
+<section id="who" class="alt"><div class="w"><div class="hd rv"><div><div class="eyebrow">Для кого</div><h2>Підходимо <b>кожному</b></h2></div><p>Оберіть, хто прийде на візит, і подивіться, що ми пропонуємо.</p></div>
+<div class="tabs rv" role="tablist" aria-label="Для кого"><button role="tab" aria-selected="true" aria-controls="tp" data-t="0">Дорослим</button><button role="tab" aria-selected="false" aria-controls="tp" data-t="1">Підліткам</button><button role="tab" aria-selected="false" aria-controls="tp" data-t="2">Дітям</button></div>
+<div class="tpn rv" id="tp" role="tabpanel"><div><h3 id="tt"></h3><p id="td"></p><a class="btn a" href="#book">Записатись</a></div><ul class="ck" id="tl"></ul></div></div></section>
+<section class="urg"><div class="w"><div><h2>Болить зуб?</h2><p>Напишіть або зателефонуйте. Підберемо найближчий вільний час, а лікар пояснить, що робити до візиту.</p></div><a class="btn" data-b="tel" href="#">Зателефонувати</a></div></section>
 <section id="tech"><div class="w"><div class="hd rv"><div><div class="eyebrow">Технології</div><h2>Точність, яку <b>не помітно</b></h2></div><p>Сучасне обладнання скорочує час візиту і робить лікування передбачуваним.</p></div>
 <div class="tech"><div class="tk rv"><i>01</i><h3>3D-діагностика</h3><p>Об’ємний знімок допомагає точно спланувати лікування та імплантацію.</p></div><div class="tk rv"><i>02</i><h3>Цифровий сканер</h3><p>Замість незручних зліпків ми швидко скануємо зуби та показує результат на екрані.</p></div><div class="tk rv"><i>03</i><h3>Стерильність</h3><p>Одноразові матеріали, багатоступенева стерилізація та прозорі протоколи.</p></div></div></div></section>
 <section id="how" class="alt"><div class="w"><div class="hd rv"><div><div class="eyebrow">Як це працює</div><h2>Ваш візит <b>крок за кроком</b></h2></div></div>
@@ -182,7 +198,7 @@ summary{font:600 18px/1.35 var(--f)}.stats b{font-weight:600;letter-spacing:-.04
 <p style="margin:26px 0 0"><a class="btn o" id="map" target="_blank" rel="noopener" href="#">Відкрити на карті</a></p></div>
 <form class="fm rv" id="fm" novalidate><h3>Запис на прийом</h3><p>Адміністратор підтвердить запис.</p>
 <div class="days" id="days" role="group" aria-label="День"></div><div class="slots" id="slots" role="group" aria-label="Час"></div>
-<input id="nm" placeholder="Ім’я" autocomplete="name" required><input id="ph" placeholder="Телефон" type="tel" autocomplete="tel" inputmode="tel" required>
+<label class="sr" for="nm">Ім’я</label><input id="nm" placeholder="Ім’я" autocomplete="name" required><label class="sr" for="ph">Телефон</label><input id="ph" placeholder="Телефон" type="tel" autocomplete="tel" inputmode="tel" required>
 <button class="btn" type="submit">Записатись</button><p class="hint">Надсилаючи форму, ви погоджуєтесь на обробку даних для запису на прийом.</p><div class="ok" id="ok" role="status"></div></form></div></section>
 </main>
 <footer><div class="w"><span>© <span data-b="name"></span></span><span>Дані з форми використовуються лише для запису на прийом.</span></div></footer>
@@ -214,6 +230,9 @@ ok.textContent=nm.value.trim()+", дякуємо! Запис на "+pD.getDate()
 })();
 </script><script>
 (function(){"use strict";var Q=new URLSearchParams(location.search),NS=document.querySelectorAll("[data-n]");if(Q.get("exp"))NS[0].dataset.n=Q.get("exp");if(Q.get("pat"))NS[1].dataset.n=Q.get("pat");if(Q.get("st")==="0"){var SB=document.getElementById("stats");SB.parentNode.style.display="none"}
+var TD=[["Для дорослих","Консультація, план лікування і чесна вартість до початку роботи.",["Лікування та профілактика","Гігієна, відбілювання, естетика","Імплантація та протезування","Зручний запис у вільний час"]],["Для підлітків","Пояснюємо спокійно і без нотацій, показуємо, що робимо і навіщо.",["Брекети та елайнери","Гігієна та догляд вдома","Лікування без паніки","Запис онлайн без дзвінків"]],["Для дітей","Знайомимо дитину з лікарем у грі, щоб візит не лякав.",["Ігрове знайомство з кабінетом","Профілактика та герметизація","Лікування молочних зубів","Поради батькам про догляд"]]];
+var tb=document.querySelectorAll(".tabs button");function tab(i){tb.forEach(function(b,k){b.setAttribute("aria-selected",k===i)});document.getElementById("tt").textContent=TD[i][0];document.getElementById("td").textContent=TD[i][1];document.getElementById("tl").innerHTML=TD[i][2].map(function(x){return"<li>"+x+"</li>"}).join("")}
+tb.forEach(function(b,k){b.onclick=function(){tab(k)}});tab(0);
 var rm=matchMedia("(prefers-reduced-motion:reduce)").matches,i;
 function sp(el){i=0;(function w(n){[].slice.call(n.childNodes).forEach(function(c){if(c.nodeType===3){var f=document.createDocumentFragment();c.textContent.split(/(\s+)/).forEach(function(t){if(!t)return;if(/^\s+$/.test(t)){f.appendChild(document.createTextNode(" "));return}var a=document.createElement("span"),b=document.createElement("span");a.className="wd";b.textContent=t;b.style.setProperty("--i",i++);a.appendChild(b);f.appendChild(a)});n.replaceChild(f,c)}else if(c.nodeType===1)w(c)})})(el);el.classList.add("sp")}
 var hs=[].slice.call(document.querySelectorAll("h1,h2"));hs.forEach(sp);
