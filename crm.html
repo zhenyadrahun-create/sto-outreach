@@ -50,7 +50,7 @@ label{display:grid;gap:6px}
 .next h3{font-size:24px;letter-spacing:-.03em;margin:6px 0 2px;overflow-wrap:anywhere}
 .meta{color:var(--muted);font-size:14px;overflow-wrap:anywhere}
 .msg{margin-top:14px;background:var(--s2);border:1px solid var(--line);border-radius:16px;padding:14px;font-size:15px;white-space:pre-wrap;overflow-wrap:anywhere}
-.chan{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:12px}
+.chan{display:grid;grid-template-columns:repeat(auto-fit,minmax(104px,1fr));gap:8px}
 .chan .btn{padding:0 8px;min-height:46px}
 .done{color:var(--ok)}
 /* списки */
@@ -148,6 +148,7 @@ var SEED="";
 var DEMO="https://zhenyadrahun-create.github.io/sto-outreach/sites/dental-demo.html",SITES="https://zhenyadrahun-create.github.io/sto-outreach/sites/";
 var DEF_TPL={
  uk:{
+  audit:["Добрий день! Це {me}. Переглянув сайт {name}: {issues}. Зробив для вас сучасний варіант із онлайн-записом, подивіться:\n\n{link}"],
   first:["Добрий день! Це {me}. Знайшов {name} в інтернеті, але не побачив сайту з онлайн-записом. Зробив для вас приклад, подивіться: {link}","Вітаю! Мене звати {me}. Для {name} підготував приклад сайту з онлайн-записом пацієнтів: {link}\n\nЯкщо цікаво, підлаштую під вашу клініку.","Добрий день! Я розробляю сайти для клінік. Для {name} зробив приклад сторінки із записом онлайн: {link}\n\nМожу коротко розповісти, як це працює?"],
   site:["Добрий день! Це {me}. Для {name} зробив приклад сайту з онлайн-записом: {link}\n\nПодивіться, будь ласка, коли буде хвилинка."],
   video:["Добрий день! Це {me}. Для {name} зробив приклад сайту з онлайн-записом: {link}\n\nПодивіться, будь ласка, коли буде хвилинка."],
@@ -155,6 +156,7 @@ var DEF_TPL={
   final:["Не буду набридати. Якщо сайт для {name} стане актуальним, мій номер у вас є. Гарного тижня!"],
   price:["Сайт із онлайн-записом: {price} грн одноразово, без щомісячної плати. Адресу, ціни та фото підлаштовую під вашу клініку. Оплата після того, як ви затвердите готовий сайт."]},
  ru:{
+  audit:["Добрый день! Это {me}. Посмотрел сайт {name}: {issues}. Сделал для вас современный вариант с онлайн-записью, посмотрите:\n\n{link}"],
   first:["Добрый день! Это {me}. Нашёл {name} в интернете, но не увидел сайта с онлайн-записью. Сделал для вас пример, посмотрите: {link}","Здравствуйте! Меня зовут {me}. Для {name} подготовил пример сайта с онлайн-записью пациентов: {link}\n\nЕсли интересно, подстрою под вашу клинику.","Добрый день! Я делаю сайты для клиник. Для {name} сделал пример страницы с записью онлайн: {link}\n\nМогу коротко рассказать, как это работает?"],
   site:["Добрый день! Это {me}. Для {name} сделал пример сайта с онлайн-записью: {link}\n\nПосмотрите, пожалуйста, когда будет минутка."],
   video:["Добрый день! Это {me}. Для {name} сделал пример сайта с онлайн-записью: {link}\n\nПосмотрите, пожалуйста, когда будет минутка."],
@@ -169,7 +171,7 @@ var S=load();
 function load(){var s=null;try{s=JSON.parse(localStorage.getItem(KEY)||"null")}catch(e){}
  if(!s||!s.contacts){s={contacts:[],deals:[],money:[],tpl:JSON.parse(JSON.stringify(DEF_TPL)),set:{goal:50,lang:"uk",me:"Женя",price:4000}};importCsv(SEED,s)}
  s.set=s.set||{};s.set.goal=s.set.goal||50;s.set.lang=s.set.lang||"uk";s.set.me=s.set.me||"Женя";s.set.price=s.set.price||4000;
- if(s.tplv!==3){s.tpl=JSON.parse(JSON.stringify(DEF_TPL));s.tplv=3;s.set.goal=20}else s.tpl=s.tpl||JSON.parse(JSON.stringify(DEF_TPL));s.deals=s.deals||[];s.money=s.money||[];s.log=s.log||{};return s}
+ if(s.tplv!==4){s.tpl=JSON.parse(JSON.stringify(DEF_TPL));s.tplv=4;s.set.goal=20}else s.tpl=s.tpl||JSON.parse(JSON.stringify(DEF_TPL));s.deals=s.deals||[];s.money=s.money||[];s.log=s.log||{};return s}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
 function $(i){return document.getElementById(i)}
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
@@ -177,33 +179,39 @@ function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2
 function digits(s){return String(s||"").replace(/\D/g,"")}
 function dk(t){var d=new Date(t||Date.now());return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
 function fmt(n){return Math.round(n).toLocaleString("uk-UA").replace(/ /g," ")}
-function fmtPhone(p){var d=digits(p);return d.length===12?"+"+d.slice(0,2)+" "+d.slice(2,5)+" "+d.slice(5,8)+" "+d.slice(8,10)+" "+d.slice(10):"+"+d}
+function fmtPhone(p){var d=digits(p);if(!d)return"без телефону";return d.length===12?"+"+d.slice(0,2)+" "+d.slice(2,5)+" "+d.slice(5,8)+" "+d.slice(8,10)+" "+d.slice(10):"+"+d}
 /* ---- імпорт CSV: name;phone;address;city;type ---- */
-function importCsv(text,s){s=s||S;var have={};s.contacts.forEach(function(c){have[c.phone.slice(-9)]=c});var n=0;
- String(text).split(/\r?\n/).forEach(function(line){var p=line.split(";");if(p.length<2)return;var ph=digits(p[1]);if(ph.length<9)return;if(ph.length===10)ph="38"+ph;var k=ph.slice(-9);if(have[k]){if(p[5]&&!have[k].slug)have[k].slug=p[5].trim();return}have[k]={};
-  s.contacts.push({id:uid(),name:(p[0]||"").trim(),phone:ph,address:(p[2]||"").trim(),city:(p[3]||"").trim(),slug:(p[5]||"").trim(),status:"new",stage:0,t:{},note:"",added:Date.now()});n++});return n}
+function kfor(c){return c.phone?c.phone.slice(-9):"u:"+(c.slug||c.name)}
+function importCsv(text,s){s=s||S;var have={};s.contacts.forEach(function(c){have[kfor(c)]=c});var n=0;
+ String(text).split(/\r?\n/).forEach(function(line){var p=line.split(";");if(p.length<2)return;var ph=digits(p[1]);if(ph.length<9)ph="";if(ph.length===10)ph="38"+ph;
+  var c={name:(p[0]||"").trim(),phone:ph,address:(p[2]||"").trim(),city:(p[3]||"").trim(),slug:(p[5]||"").trim(),social:(p[6]||"").trim(),email:(p[7]||"").trim(),site:(p[8]||"").trim(),audit:(p[9]||"").trim()};
+  if(!c.name||c.name==="name"||(!ph&&!c.social&&!c.email))return;var k=kfor(c);
+  if(have[k]){var h=have[k];["slug","social","email","site","audit"].forEach(function(f){if(c[f]&&!h[f])h[f]=c[f]});return}
+  c.id=uid();c.status="new";c.stage=0;c.t={};c.note="";c.added=Date.now();have[k]=c;s.contacts.push(c);n++});return n}
 /* ---- тексти ---- */
 function tpls(kind){var L=S.set.lang;return((S.tpl[L]||DEF_TPL[L])[kind]||[""])}
-function fill(t,c){var L=!c?DEMO:c.slug?SITES+c.slug+".html":DEMO+"?n="+encodeURIComponent(c.name)+"&city="+encodeURIComponent(c.city||"")+"&tel="+encodeURIComponent("+"+c.phone)+(c.address?"&addr="+encodeURIComponent(c.address):"");return String(t).replace(/\{link\}/g,L).replace(/\{name\}/g,c?c.name:"").replace(/\{me\}/g,S.set.me).replace(/\{price\}/g,S.set.price)}
+function fill(t,c){var L=!c?DEMO:c.slug?SITES+c.slug+".html":DEMO+"?n="+encodeURIComponent(c.name)+"&city="+encodeURIComponent(c.city||"")+"&tel="+encodeURIComponent("+"+c.phone)+(c.address?"&addr="+encodeURIComponent(c.address):"");return String(t).replace(/\{link\}/g,L).replace(/\{name\}/g,c?c.name:"").replace(/\{issues\}/g,c&&c.audit?c.audit:"є що покращити").replace(/\{me\}/g,S.set.me).replace(/\{price\}/g,S.set.price)}
 function kindOf(c){if(c.stage===0)return"first";if(c.stage===1)return"follow";return"final"}
 var KL={first:"Первое",follow:"Напомнить",final:"Последнее",price:"Цена"};
 var kindSel={};
 function dueNow(c){if(["replied","shown","client","declined","nomsg"].indexOf(c.status)>-1)return false;
  if(c.stage===1&&c.t[1]&&Date.now()-c.t[1]>=2*DAY)return true;if(c.stage===2&&c.t[2]&&Date.now()-c.t[2]>=3*DAY)return true;return false}
-function msgFor(c,kind,i){var a=tpls(kind);var idx=(i==null?(parseInt(c.id.slice(-3),36)||0):i)%a.length;return fill(a[idx],c)}
+function msgFor(c,kind,i){var a=tpls(kind==="first"&&c.audit&&tpls("audit").length?"audit":kind);var idx=(i==null?(parseInt(c.id.slice(-3),36)||0):i)%a.length;return fill(a[idx],c)}
 /* ---- буфер, посилання ---- */
 function copy(text){return new Promise(function(res){
  function fb(){var t=document.createElement("textarea");t.value=text;t.style.cssText="position:fixed;opacity:0";document.body.appendChild(t);t.select();try{document.execCommand("copy")}catch(e){}document.body.removeChild(t);res()}
  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(text).then(res,fb);else fb()})}
 var tt;function toast(m){var t=$("toast");t.textContent=m;t.classList.add("on");clearTimeout(tt);tt=setTimeout(function(){t.classList.remove("on")},2200)}
-function chanLinks(c,text){var p=digits(c.phone);return'<div class="chan">'
- +'<a class="btn" data-copy="'+esc(text)+'" target="_blank" rel="noopener noreferrer" href="https://wa.me/'+p+'?text='+encodeURIComponent(text)+'">WhatsApp</a>'
- +'<a class="btn" data-copy="'+esc(text)+'" href="viber://chat?number=%2B'+p+'">Viber</a>'
- +'<a class="btn" data-copy="'+esc(text)+'" target="_blank" rel="noopener noreferrer" href="https://t.me/+'+p+'">Telegram</a></div>'}
+function chanLinks(c,text){var p=digits(c.phone),cp='data-copy="'+esc(text)+'"',h='<div class="chan">';
+ if(p)h+='<a class="btn" '+cp+' target="_blank" rel="noopener noreferrer" href="https://wa.me/'+p+'?text='+encodeURIComponent(text)+'">WhatsApp</a><a class="btn" '+cp+' href="viber://chat?number=%2B'+p+'">Viber</a><a class="btn" '+cp+' target="_blank" rel="noopener noreferrer" href="https://t.me/+'+p+'">Telegram</a>';
+ if(c.social)h+='<a class="btn" '+cp+' target="_blank" rel="noopener noreferrer" href="'+esc(c.social)+'">'+(/instagram/.test(c.social)?"Instagram":/facebook/.test(c.social)?"Facebook":"Соцмережа")+'</a>';
+ if(c.email)h+='<a class="btn" '+cp+' href="mailto:'+esc(c.email)+'?subject='+encodeURIComponent("Сайт для "+c.name)+'&body='+encodeURIComponent(text)+'">Email</a>';
+ if(c.site)h+='<a class="btn" '+cp+' target="_blank" rel="noopener noreferrer" href="'+esc(c.site)+'">Сайт клініки</a>';
+ return h+'</div>'}
 document.addEventListener("click",function(e){var a=e.target.closest("[data-copy]");if(a){copy(a.getAttribute("data-copy")).then(function(){toast("Текст скопирован. Вставьте в чат")})}});
 /* ---- навігація ---- */
 var TABS=[["today","Сегодня",'<path d="M4 13l8-9 8 9M6 11v9h12v-9"/>'],["contacts","Контакты",'<circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.5 3-6 6-6s6 2.5 6 6M17 5.5a3.5 3.5 0 0 1 0 6M21 20c0-2.5-1.5-4.5-3.5-5.3"/>'],["deals","Клиенты",'<rect x="3" y="7" width="18" height="13" rx="3"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>'],["money","Деньги",'<path d="M4 18V9m6 9V5m6 13v-7m4 7H3"/>'],["texts","Тексты",'<path d="M5 5h14v11H9l-4 3z"/>']];
-var tab="today",filter="all",q="",cityF="",sortF="new",addrF=false,limit=60;
+var tab="today",filter="all",q="",cityF="",sortF="new",addrF=false,siteF=false,limit=60;
 function nav(){$("nav").innerHTML=TABS.map(function(t){return'<button type="button" data-tab="'+t[0]+'"'+(t[0]===tab?' aria-current="page"':"")+'><svg viewBox="0 0 24 24" aria-hidden="true">'+t[2]+'</svg>'+t[1]+'</button>'}).join("")}
 $("nav").addEventListener("click",function(e){var b=e.target.closest("[data-tab]");if(!b)return;tab=b.dataset.tab;window.scrollTo(0,0);render()});
 function brand(){return'<div class="brandbar"><div class="logo"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="10"/><path d="M12 3.2c-1.7 0-2.6 1-4.6 1C5 4.2 3.5 6 3.5 8.8c0 2.6 1 4.8 1.8 7.2.8 2.4.9 6 2.8 6 1.7 0 1.4-4.6 3.9-4.6s2.2 4.6 3.9 4.6c1.9 0 2-3.6 2.8-6 .8-2.4 1.8-4.6 1.8-7.2 0-2.8-1.5-4.6-3.9-4.6-2 0-2.9-1-4.6-1z" transform="translate(7.4 5.6) scale(.7)"/></svg><div><b>Женя</b><span>studio</span></div></div><button class="theme" type="button" id="th" aria-label="Сменить тему"><svg viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg></button></div>'}
@@ -255,16 +263,16 @@ function tilesHtml(){var T=[["Всего",S.contacts.length,""],["Новые",cn
 function ctrlHtml(){var m={};S.contacts.forEach(function(c){if(c.city)m[c.city]=(m[c.city]||0)+1});var cs=Object.keys(m).sort(function(a,b){return m[b]-m[a]});
  var so=[["new","Сначала новые"],["old","Сначала старые"],["az","По алфавиту"],["city","По городу"]];
  return'<div class="flt"><select id="cityF" aria-label="Город"><option value="">Все города</option>'+cs.map(function(c){return'<option value="'+esc(c)+'"'+(c===cityF?" selected":"")+'>'+esc(c)+' ('+m[c]+')</option>'}).join("")+'</select><select id="sortF" aria-label="Сортировка">'+so.map(function(o){return'<option value="'+o[0]+'"'+(o[0]===sortF?" selected":"")+'>'+o[1]+'</option>'}).join("")+'</select></div>'
- +'<div class="chips"><button type="button" class="fchip" id="adrF" aria-pressed="'+addrF+'">С адресом</button><button type="button" class="fchip" id="rstF" aria-pressed="false">Сбросить фильтры</button></div>'}
+ +'<div class="chips"><button type="button" class="fchip" id="stF" aria-pressed="'+siteF+'">Слабкий сайт</button><button type="button" class="fchip" id="adrF" aria-pressed="'+addrF+'">С адресом</button><button type="button" class="fchip" id="rstF" aria-pressed="false">Сбросить фильтры</button></div>'}
 function sortList(a){var f={new:function(x,y){return(y.added||0)-(x.added||0)},old:function(x,y){return(x.added||0)-(y.added||0)},az:function(x,y){return x.name.localeCompare(y.name,"uk")},city:function(x,y){return(x.city||"").localeCompare(y.city||"","uk")||x.name.localeCompare(y.name,"uk")}}[sortF];if(f)a.sort(f)}
 function exportCsv(){var t=S.contacts.map(function(c){return[c.name,c.phone,c.address||"",c.city||"",ST[c.status]||c.status,c.slug||""].map(function(x){return String(x).replace(/[;\r\n]+/g," ")}).join(";")}).join("\n");var a=document.createElement("a");a.href=URL.createObjectURL(new Blob(["\ufeff"+t],{type:"text/csv"}));a.download="contacts.csv";document.body.appendChild(a);a.click();a.remove();toast("Экспортировано: "+S.contacts.length)}
 function drawList(){var Q=q.trim().toLowerCase(),a=S.contacts.filter(function(c){
   if(filter==="due"&&!dueNow(c))return false;if(["new","written","replied","shown","client","declined"].indexOf(filter)>-1&&c.status!==filter)return false;
-  if(Q&&(c.name+" "+c.city+" "+c.phone).toLowerCase().indexOf(Q)<0)return false;if(cityF&&c.city!==cityF)return false;if(addrF&&!c.address)return false;return true});sortList(a);
+  if(Q&&(c.name+" "+c.city+" "+c.phone).toLowerCase().indexOf(Q)<0)return false;if(cityF&&c.city!==cityF)return false;if(addrF&&!c.address)return false;if(siteF&&!c.audit)return false;return true});sortList(a);
  var h=a.slice(0,limit).map(function(c,i){return'<button type="button" class="item" data-id="'+c.id+'" style="--d:'+Math.min(i,10)*.03+'s"><b>'+esc(c.name)+'</b><span class="pill'+(dueNow(c)?" warn":(c.status==="client"?" ok":""))+'">'+(dueNow(c)?"напомнить":ST[c.status])+'</span><span class="meta">'+esc(c.city)+" · "+esc(fmtPhone(c.phone))+'</span><span></span>'+(c.address?'<span class="adr">'+esc(c.address)+'</span>':"")+'</button>'}).join("");
  if(a.length>limit)h+='<button type="button" class="btn sm" data-more="1" style="justify-self:center">Показать ещё ('+(a.length-limit)+')</button>';$("cnt").textContent="Найдено: "+a.length;
  $("lst").innerHTML=h||'<div class="empty">Ничего не найдено.</div>'}
-function bContacts(){drawList();$("cityF").onchange=function(){cityF=this.value;limit=60;drawList()};$("sortF").onchange=function(){sortF=this.value;drawList()};$("adrF").onclick=function(){addrF=!addrF;this.setAttribute("aria-pressed",addrF);limit=60;drawList()};$("rstF").onclick=function(){cityF="";sortF="new";addrF=false;filter="all";q="";limit=60;render()};
+function bContacts(){drawList();$("cityF").onchange=function(){cityF=this.value;limit=60;drawList()};$("sortF").onchange=function(){sortF=this.value;drawList()};$("stF").onclick=function(){siteF=!siteF;this.setAttribute("aria-pressed",siteF);limit=60;drawList()};$("adrF").onclick=function(){addrF=!addrF;this.setAttribute("aria-pressed",addrF);limit=60;drawList()};$("rstF").onclick=function(){cityF="";sortF="new";addrF=false;siteF=false;filter="all";q="";limit=60;render()};
  $("q").addEventListener("input",function(){q=this.value;drawList()});
  document.querySelector(".chips").addEventListener("click",function(e){var b=e.target.closest("[data-f]");if(!b)return;filter=b.dataset.f;document.querySelectorAll(".chip").forEach(function(x){x.setAttribute("aria-pressed",x.dataset.f===filter)});drawList()});
  $("lst").addEventListener("click",function(e){if(e.target.closest("[data-more]")){limit+=60;drawList();return}var b=e.target.closest("[data-id]");if(b)openContact(b.dataset.id)});
@@ -280,7 +288,7 @@ function openContact(id){var c=S.contacts.find(function(x){return x.id===id});if
  var kinds=[["first","Первое"],["follow","Напомнить"],["final","Последнее"],["price","Цена"]],kind=kindOf(c);
  function body(){var text=msgFor(c,kind);
   return'<div class="stack"><div><div class="mono">'+esc(ST[c.status])+(c.stage?" · отправлено "+c.stage+" из 3":"")+'</div><h2 style="margin-top:6px;overflow-wrap:anywhere">'+esc(c.name)+'</h2><p class="meta">'+esc([c.city,c.address].filter(Boolean).join(", "))+'</p>'
-  +'<p style="margin-top:6px"><a href="tel:+'+digits(c.phone)+'" style="color:inherit">'+esc(fmtPhone(c.phone))+'</a></p></div>'
+  +'<p style="margin-top:6px">'+(c.phone?'<a href="tel:+'+digits(c.phone)+'" style="color:inherit">'+esc(fmtPhone(c.phone))+'</a>':esc(fmtPhone(c.phone)))+'</p>'+(c.audit?'<p class="meta" style="margin-top:6px">Сайт клініки: '+esc(c.audit)+'</p>':"")+'</div>'
   +'<div class="chips" style="margin:0">'+kinds.map(function(k){return'<button type="button" class="chip" data-k="'+k[0]+'" aria-pressed="'+(kind===k[0])+'">'+k[1]+'</button>'}).join("")+'</div>'
   +'<div class="msg" style="margin-top:0">'+esc(text)+'</div>'+chanLinks(c,text)
   +'<div class="row"><button class="btn p" data-s="sent" style="flex:1 1 120px">Написал ✓</button><button class="btn" data-copy="'+esc(text)+'">Копировать</button></div>'
@@ -332,7 +340,7 @@ function vMoney(){var m=dk().slice(0,7),mm=monthMoney(m);
 function bMoney(){$("mf").addEventListener("submit",function(e){e.preventDefault();var a=+$("am").value;if(!a)return;S.money.unshift({id:uid(),type:mtype,amount:a,cat:$("ct").value,note:$("mn").value.trim(),date:dk()});save();render();toast("Записано")});
  $("view").onclick=function(e){var b=e.target.closest("[data-t]");if(b){mtype=b.dataset.t;render();return}b=e.target.closest("[data-del]");if(b){S.money=S.money.filter(function(r){return r.id!==b.dataset.del});save();render()}}}
 /* ---- тексти й дані ---- */
-function vTexts(){var L=S.set.lang,T=S.tpl[L];var blocks=[["first","Первое сообщение"],["follow","Напоминание (шаблон для себя)"],["final","Последнее сообщение"],["price","Ответ про цену"]];
+function vTexts(){var L=S.set.lang,T=S.tpl[L];var blocks=[["first","Первое сообщение"],["audit","Первое: слабкий сайт клиники"],["follow","Напоминание (шаблон для себя)"],["final","Последнее сообщение"],["price","Ответ про цену"]];
  var h='<div class="top"><div><div class="mono">шаблоны</div><h1>Тексты</h1></div></div><div class="stack"><div class="seg"><button type="button" data-l="uk" aria-pressed="'+(L==="uk")+'">Українська</button><button type="button" data-l="ru" aria-pressed="'+(L==="ru")+'">Русский</button></div>'
  +'<p class="hint">Переменные: {name} подставит название, {me} ваше имя, {price} цену сайта. Каждый вариант с новой строки, чередуются сами.</p>';
  blocks.forEach(function(b){h+='<label class="card"><span class="mono">'+b[1]+'</span><textarea data-tp="'+b[0]+'" style="margin-top:8px;min-height:150px">'+esc((T[b[0]]||[]).join("\n\n"))+'</textarea></label>'});
