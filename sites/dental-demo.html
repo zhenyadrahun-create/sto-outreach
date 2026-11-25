@@ -211,7 +211,7 @@ var C={name:"Назва клініки",city:"",tel:"+380000000000",addr:"вул
 var q=new URLSearchParams(location.search);["n","city","tel","addr","hours"].forEach(function(k){if(q.get(k))C[k==="n"?"name":k]=q.get(k)});
 C.cityline=C.city?"Стоматологія · "+C.city:"Сучасна стоматологія";
 document.title=C.name+" — стоматологія"+(C.city?", "+C.city:"");
-document.querySelectorAll("[data-b]").forEach(function(e){var k=e.dataset.b;if(k==="tel"){e.href="tel:"+C.tel.replace(/[^+\d]/g,"");if(!e.textContent.trim())e.textContent=C.tel}else e.textContent=C[k]});
+document.querySelectorAll("[data-b]").forEach(function(e){var k=e.dataset.b;if(k==="tel"){if(!C.tel){e.style.display="none";return}e.href="tel:"+C.tel.replace(/[^+\d]/g,"");if(!e.textContent.trim())e.textContent=C.tel}else e.textContent=C[k]});
 document.getElementById("map").href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(C.name+" "+C.addr+" "+C.city);
 document.getElementById("ld").textContent=JSON.stringify({"@context":"https://schema.org","@type":"Dentist",name:C.name,telephone:C.tel,address:C.addr,openingHours:C.hours});
 var H=document.getElementById("h");document.getElementById("mb").onclick=function(){H.classList.toggle("open")};document.querySelectorAll("nav a").forEach(function(a){a.onclick=function(){H.classList.remove("open")}});
